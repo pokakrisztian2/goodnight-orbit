@@ -1,0 +1,47 @@
+Pictures are grids of numbers. Games have scores. But what about words?
+
+Words are strange things, for a machine. The word cat is just three letters. There's nothing in those letters that looks like a cat, or sounds like a cat, or tells you that a cat is more like a dog than it is like a teapot. To a computer, cat and dog and teapot are equally different. Just different strings of letters.
+
+So how could a machine ever come to understand that some words are close in meaning, and others are far apart?
+
+The answer, when it came, was beautiful. Turn every word into a place on a map.
+
+Imagine a very large map. Not of countries or cities, but of meaning. And every word has its own spot on it. Cat sits somewhere. And very near it, dog, and kitten, and puppy. A little further off, horse and cow. Further still, in a different neighbourhood altogether, teapot, and kettle, and cup. And far away, over the hills, the words for weather. Rain, and cloud, and drizzle.
+
+Words that are used in similar ways end up living near each other. That's the whole idea.
+
+These places on the map are called embeddings. And the wonderful thing is that nobody draws the map by hand. The machine works it out by reading.
+
+Here's roughly how. There's an old saying among people who study language, that you can know a word by the company it keeps. If you see the sentence, the cat sat on the warm windowsill, and then, the dog sat on the warm windowsill, you begin to suspect that cats and dogs have something in common. They sit in the same places, in sentences. They keep the same company.
+
+So you give the machine a huge amount of text. And you ask it to play a guessing game, over and over. Here are some words. Guess the missing one. And every time it guesses wrong, it adjusts, of course, by turning its knobs. Some of those knobs are the positions of the words on the map. Nudge cat a little closer to dog. Nudge teapot a little further away. Walk downhill in the fog, as always.
+
+After reading enough, the map settles into shape.
+
+The idea of learning maps of words with neural networks goes back to around the year two thousand, to work by Yoshua Bengio and his colleagues in Montreal. But it really took hold in two thousand and thirteen, when a team at Google, including Tomas Mikolov, found a very quick way to do it. Their method was called word two vec, meaning word to vector, and it could learn a high-quality map from one point six billion words of text in less than a day.
+
+And then they noticed something that seemed almost magical.
+
+The map didn't only put similar words near each other. It also captured relationships. Directions.
+
+Here's the most famous example. Start at the word king. Now take away the idea of man, and add the idea of woman. Just move across the map in those directions, like following steps on a treasure map. And where do you end up?
+
+Very close to the word queen.
+
+King, minus man, plus woman, is roughly queen.
+
+It works for places too. Start at Madrid. Take away Spain. Add France. And you arrive, near enough, at Paris.
+
+Nobody taught the machine about kings and queens, or capital cities. It just read, and guessed, and adjusted its map, until the shape of the map itself held these patterns. The direction from man to woman, and the direction from king to queen, pointed the same way. The step from a country to its capital was the same kind of step, wherever you were on the map.
+
+Google's own machine learning guide gives a gentle, farmyard version. On a good map of words, the distance from cow to bull is much the same as the distance from ewe, a female sheep, to ram, a male sheep.
+
+Now, this map isn't flat like a paper map. It doesn't just have north and south, east and west. It has hundreds of directions. Some of them might loosely mean things like, is this alive? Is this big or small? Is this a feeling, or a thing you can hold? Many of them don't mean anything a person could easily name. We can't picture a space like that. But the machine can move through it easily.
+
+I think of the view out of my window, sometimes, when I think about these maps. At night, the Earth below is dark, except for the lights. And you can see the shape of things, just from the lights. The bright clusters where the cities are. The thin lines of light along the coasts, and the roads between them. You can't see a single house. But the patterns of where people live are there, glowing, all at once.
+
+A word map is something like that. You can't see any single meaning. But from far enough away, the shape of language itself begins to glow.
+
+There was still something missing, though. On a map, each word has one place. But real words change their meaning depending on the words around them. A bank can be a place for money, or the edge of a river. A light can be a lamp, or not heavy. To really understand a sentence, a machine would need to look at each word, and at all its neighbours, at the same time.
+
+It would need to pay attention.

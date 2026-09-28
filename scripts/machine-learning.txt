@@ -1,0 +1,595 @@
+Hi. It's Otto. It's night on your side of the Earth, and I'm up here on the night shift. I'll keep watch, so you don't have to.
+
+The lamps are low. The tea is warm. Outside my window, the Earth is turning slowly, and the clouds are drifting over the dark oceans like pale sheets of paper. Somewhere down there, you're getting comfortable. That's good. Stay right there.
+
+Tonight, let's think slowly about machine learning.
+
+You've probably used it today, without noticing. When your phone recognised your face in the dark. When a map guessed that the traffic would be heavy. When an email slipped quietly into the spam folder, all by itself. And perhaps, when you typed a question into a chat window, and something answered you, in full sentences, as if it had been waiting.
+
+It can feel like magic. Or like something a little frightening. Machines that learn. But underneath all of it, there's a very old, very simple idea. You try something. You get it a little bit wrong. You notice how wrong. And you adjust, just slightly. And then you try again.
+
+That's all. You did it yourself, when you learned to walk. You're doing it right now, in a small way, every time you shift your pillow until it feels just right.
+
+Tonight, we'll follow that simple idea for about eighty years. We'll meet a quiet mathematician who asked whether machines could think. A psychologist who built a machine that turned its own knobs. A man who taught a computer to play checkers better than he could. We'll pass through a long cold winter, when almost nobody believed. And we'll come out, slowly, into the strange bright world we live in now.
+
+You don't need to understand all of it. Nobody really does. Not even the people who build these things, as we'll see. If you fall asleep halfway, that's the plan. I'll keep talking quietly, and the story will keep going without you, and that's perfectly fine.
+
+If you'd like me on watch again tomorrow night, you can subscribe. Then close your eyes.
+
+There. Let's begin.
+
+The year is nineteen fifty. In England, in a philosophy journal called Mind, a paper is published. It's about thirty pages long. And its very first sentence is this.
+
+I propose to consider the question, can machines think?
+
+The man who wrote it was Alan Turing. He was a mathematician. During the war, he'd worked in secret, on breaking codes. And he'd spent years thinking about what a machine could do, in principle, if you gave it the right instructions. But he knew that the question, can machines think, was slippery. What do we even mean by think? He called the original question, too meaningless to deserve discussion.
+
+So he did something clever. He replaced it with a game.
+
+He called it the imitation game. It's played with three people. A man, a woman, and a questioner, sitting in a separate room. The questioner can't see them, or hear their voices. They only pass notes back and forth. And the questioner's job is to work out, just from the written answers, which one is the man and which one is the woman.
+
+Now, Turing asked, what happens if we let a machine take one of those places? If the machine answers the notes, and the questioner can't reliably tell which one is the machine, then perhaps we should stop arguing about whether it thinks.
+
+He even made a prediction. In about fifty years, he wrote, computers would be able to play the game so well that an average questioner would have no more than a seventy percent chance of guessing right, after five minutes of questions. And he thought that by the end of the century, people would talk about machines thinking, without expecting anyone to argue.
+
+In his paper, Turing went through all the objections he could think of, one by one, patiently, like a host answering questions from the audience. And one of them came from a woman who'd lived a hundred years before him. Ada Lovelace.
+
+In the eighteen forties, Lovelace had written about a machine that was never fully built, Charles Babbage's Analytical Engine. And she'd written something very wise about it. The Analytical Engine, she said, has no pretensions to originate anything. It can do whatever we know how to order it to perform.
+
+A machine only does what we tell it. It can't surprise us. It can't create.
+
+Turing took her seriously. But he answered gently, and with a little smile, I think. Machines, he wrote, take me by surprise with great frequency.
+
+And then, near the end of the paper, he had an idea that was really the seed of everything we'll talk about tonight. Instead of trying to write a program that behaves like an adult mind, he asked, why not write one that behaves like a child's? And then let it learn. Give it an education. A child's mind, he imagined, is like a notebook from the stationer's. Rather little mechanism, and lots of blank sheets.
+
+A machine that isn't told everything. A machine that learns.
+
+A few years later, in the summer of nineteen fifty-five, four scientists wrote a short proposal. John McCarthy, Marvin Minsky, Nathaniel Rochester of IBM, and Claude Shannon of Bell Labs. And the first sentence of their proposal is rather charming, when you read it today.
+
+We propose that a two month, ten man study of artificial intelligence be carried out during the summer of nineteen fifty-six, at Dartmouth College, in Hanover, New Hampshire.
+
+Two months. Ten people. That was the plan. They wrote that every aspect of learning, or any other feature of intelligence, could in principle be described so precisely that a machine could be made to copy it. And they thought that a carefully chosen group of scientists, working together for a summer, could make a significant advance.
+
+That summer, at Dartmouth, is often remembered as the place where the words artificial intelligence first took hold. A new field, with a new name.
+
+The summer ended. The problems didn't. They're still being worked on, seventy years later.
+
+But there's one more small story from those early years that I'd like to tell you, because it's a quiet warning, and it's about us, more than about machines.
+
+In the mid nineteen sixties, at MIT, a computer scientist called Joseph Weizenbaum wrote a little program called ELIZA. He named it after Eliza Doolittle, the flower girl in Pygmalion, who's taught to speak like a lady. ELIZA could hold a simple conversation, typed on a screen. Its most famous role was a kind of therapist. You'd type, I feel sad. And it would answer, why do you feel sad? It didn't understand anything. It just followed rules, turning your own words back towards you.
+
+And yet, people loved talking to it. There's a story, which Weizenbaum told later in a book, that his own secretary, who knew perfectly well it was just a program, asked him after a few exchanges to leave the room, so she could talk to it in private.
+
+Weizenbaum found that unsettling. He spent much of his later life warning that just because computers can do something, doesn't mean they should. And he wrote a line that I think about sometimes. Once a program is explained in plain enough language, its magic crumbles away.
+
+That's what we'll try to do tonight. Explain it plainly. Not to make the magic crumble, exactly. But to make it feel a little less like magic, and a little more like something patient and ordinary, happening quietly in the dark.
+
+To build a machine that learns, people first looked at the one thing they knew for certain could learn. The brain.
+
+Your brain is made of cells called neurons. Tens of billions of them. Each one is a bit like a tiny tree, with branches reaching out to touch other neurons. A neuron listens to its neighbours. It gathers up their signals. And when enough of them are calling at once, it fires, sending its own signal onwards. All or nothing. Like a small click.
+
+In nineteen forty-three, two men in Chicago wrote a paper about that click. One was Warren McCulloch, an older neuroscientist. The other was Walter Pitts, who was still in his teens, and had no degree at all.
+
+There's a story about Pitts, told and retold, so perhaps a little polished over the years. As a boy in Detroit, the story goes, he hid from bullies in the public library. And while he was there, he read a huge, famously difficult book on the foundations of mathematics, Principia Mathematica, and found mistakes in it, and wrote to one of its authors, Bertrand Russell, to point them out. He was about twelve.
+
+Whether every detail is true or not, Pitts really was a kind of genius. And together with McCulloch, he showed something remarkable. Because a neuron either fires or it doesn't, they argued, you could describe a network of neurons using simple logic. Yes or no. On or off. And a network like that, in principle, could compute anything that a computer could compute.
+
+It was a picture of the brain as a machine made of tiny switches. It wasn't quite right, of course. Real neurons are far richer and messier than that. But it planted an idea. If a brain is a network of simple units, maybe we could build one.
+
+The man who tried was Frank Rosenblatt.
+
+Rosenblatt was born in New Rochelle, New York, in nineteen twenty-eight. He was a psychologist, trained at Cornell University, and his interests were enormous. He composed music. He studied the stars. Later, he bought a telescope for about three thousand dollars, and built a little observatory in his back yard with his students, and proposed a new way of searching for planets around other stars. He was the kind of person who couldn't stay in one room of knowledge. He had to wander through all of them.
+
+And in the nineteen fifties, at the Cornell Aeronautical Laboratory in Buffalo, he designed something he called the perceptron.
+
+Here's the idea, as gently as I can put it.
+
+Imagine a little judge. It looks at a picture, and it has to answer a simple question. Yes or no. Is the mark on the left side of the card, or on the right?
+
+The judge looks at every part of the picture. And for each part, it has a knob. A little dial, that says how much that part matters. Turn a knob up, and that part of the picture counts for more. Turn it down, and it counts for less. Turn it below zero, and that part actually argues for the other answer.
+
+The judge adds everything up. Each part of the picture, times the setting on its knob. And if the total is big enough, it says yes. Otherwise, it says no.
+
+At the start, the knobs are set more or less at random. So the judge is mostly guessing.
+
+But now comes the learning. Every time the judge gets an answer wrong, you nudge the knobs. Just a little. You turn up the ones that would have pushed it towards the right answer, and turn down the ones that pushed it the wrong way. And when it gets the answer right, you leave the knobs alone.
+
+That's it. Learn only from your mistakes. Change a little each time.
+
+Those knobs have a name in machine learning. They're called weights. And I'd like you to hold on to that picture for the rest of the night. A machine with knobs, that turns them a tiny bit every time it's wrong. Because almost everything we'll talk about tonight, even the most astonishing things, are that same machine, grown very, very large.
+
+In July of nineteen fifty-eight, the US Navy's Office of Naval Research showed off Rosenblatt's idea to the press. It ran on an IBM seven oh four, a computer that weighed about five tons and filled a room. They fed it punch cards, some marked on the left, some marked on the right. And after fifty tries, it had taught itself to tell them apart.
+
+The next day, the New York Times ran a story. New Navy device learns by doing. And it said the Navy expected the machine would one day be able to walk, talk, see, write, reproduce itself, and be conscious of its existence.
+
+That was, shall we say, a little optimistic. It had learned to tell left from right.
+
+But Rosenblatt wanted more than a program. He wanted a real machine. And so, at Cornell Aeronautical Laboratory, they built one. The Mark One Perceptron. It was first shown to the public on the twenty-third of June, nineteen sixty.
+
+It had an eye. A grid of four hundred light sensors, twenty across and twenty down. A tiny, blurry camera, four hundred dots. You could hold a shape up in front of it, and it would try to sort it into one of two groups.
+
+And here's the part I love. The knobs were real knobs. The weights were volume controls, the same kind of dial you'd find on an old radio. And each one had a small electric motor attached. So when the machine made a mistake, you could almost hear it learning. Little motors, whirring, turning the dials up and down.
+
+A machine, turning its own knobs, in a room in Buffalo, sixty-odd years ago. The Mark One Perceptron is kept today at the Smithsonian Institution, in Washington.
+
+Rosenblatt also proved something important. If there was a straight line that could separate the two groups of pictures, his learning rule would always find it, eventually. Keep nudging the knobs, and you'll get there.
+
+But notice that little word. If. If there was a straight line. And that if, as we'll see, would cause a great deal of trouble.
+
+Rosenblatt's own story ended far too soon. On the eleventh of July, nineteen seventy-one, on his forty-third birthday, he drowned in a sailing accident on Chesapeake Bay. His colleagues at Cornell remembered him as one of the most selfless and sympathetic colleagues, whose good humour and brilliant mind left a deep impression on them all.
+
+He didn't live to see what his little judge would become. But the knobs kept turning, long after he was gone.
+
+While Rosenblatt was building his judge, another man was quietly teaching a computer to play a game.
+
+His name was Arthur Samuel. He was an engineer, and he'd started thinking about the idea in the late nineteen forties, at the University of Illinois. In nineteen forty-nine, he joined IBM, at its laboratory in Poughkeepsie, New York. And there, on IBM's very first big scientific computers, he began to write a program that played checkers.
+
+Why checkers? Because it's simple enough to describe completely. Red and black pieces on a board of squares. Pieces move diagonally. You jump over your opponent to capture. Reach the far side, and you become a king. The rules fit on a single page. And yet, the game is deep enough that a human can spend a whole lifetime getting better at it.
+
+Samuel's first working checkers program ran in nineteen fifty-two, on the IBM seven oh one. Two years later, he rewrote it for the seven oh four, the same kind of room-sized machine that Rosenblatt's perceptron had run on.
+
+He wasn't the very first to try. In England, a few years earlier, a programmer named Christopher Strachey had written a checkers program for a computer in Manchester. But Samuel wanted something different. He didn't just want a program that played. He wanted a program that got better.
+
+Here's how he thought about it.
+
+When you look at a checkers board, you can judge, roughly, who's winning. How many pieces each side has. How many kings. Who controls the centre of the board. Who has more room to move. Each of those things matters. But how much? Is a king worth two ordinary pieces? Three? Is controlling the centre more important than having an extra piece?
+
+Samuel gave his program a list of these things to look at. And for each one, a weight. A knob, once again. How much does this feature matter? And he didn't set the knobs himself. He let the program find them.
+
+The program would look ahead a few moves, imagining what might happen. It would judge each future position using its current knobs. And then, as the game went on, it would compare what it had predicted with what actually happened. When its guesses turned out wrong, it adjusted the knobs, so that next time, its judgement of a position would be a little closer to the truth.
+
+And it played against itself. Over and over. One version of the program against another, through the long hours of the night, learning from every game.
+
+In July of nineteen fifty-nine, Samuel published a paper about his work. And the title is worth noticing. Some Studies in Machine Learning Using the Game of Checkers.
+
+Machine learning. It's one of the earliest places those two words appear together, and IBM credits Samuel with coining the phrase.
+
+The first sentence of his paper says something that must have seemed almost impossible at the time. A computer, he wrote, can be programmed so that it will learn to play a better game of checkers than can be played by the person who wrote the program.
+
+That was the whole point. The program didn't need its maker to be a master. Samuel gave the program only the rules of the game, a sense of direction, and a list of features whose correct weights, he wrote, were unknown. And in eight or ten hours of playing time, it learned to beat him.
+
+He also explained why this mattered, in a sentence that could describe the whole field, even today. Programming computers to learn from experience, he wrote, should eventually eliminate the need for much of this detailed programming effort.
+
+Don't write every rule. Let the machine learn the rules from experience.
+
+A few years before that paper, in February of nineteen fifty-six, Samuel's checkers program was shown on television. And there's a lovely little story about it, remembered by John McCarthy. IBM's founder, Thomas J. Watson, apparently said that the demonstration would raise the price of IBM stock by fifteen points.
+
+And, McCarthy added, it did.
+
+In nineteen sixty-two, the program played a game against a strong human player named Robert Nealey, and won. It was celebrated as a milestone. In fairness, the story is a little more modest than the headlines. Nealey was a good player, but not quite the champion he was sometimes described as. And in a rematch the following year, he won one game and drew the other five. Against the true world-class players of the day, the program lost every game.
+
+But that doesn't matter very much, I think. What mattered was the idea. A machine, playing against itself in the dark, adjusting its own knobs, slowly becoming better than the person who built it.
+
+I think of Samuel sometimes, up here, in the quiet hours. The station hums. The screens glow. Somewhere in the computers around me, programs are running that nobody is watching. And it's a strange, gentle thought, that a machine could be busy getting better at something, all night long, while its maker sleeps.
+
+In the nineteen sixties, there was a great deal of hope. And, as there often is after great hope, there came a long, cold season.
+
+Remember Rosenblatt's little judge, the perceptron? It could learn to separate pictures into two groups, as long as a straight line could do the job. Imagine red dots and blue dots scattered on a page. If you can draw one straight line with all the red on one side and all the blue on the other, the perceptron will find that line.
+
+But what if you can't? What if the red dots sit in the middle, and the blue dots are all around them, in a ring? No straight line in the world can separate those. You'd need a curve. A circle.
+
+And a single perceptron can't draw a circle.
+
+In nineteen sixty-nine, two scientists at MIT, Marvin Minsky and Seymour Papert, published a book simply called Perceptrons. It was careful, and mathematical, and it proved that simple perceptrons of the kind Rosenblatt had built had some important limits. Their best-known examples were simple sounding questions. Is the number of dots on this card odd or even? Is this shape all in one piece, or is it broken into parts? Questions a child could answer, but which a simple perceptron, looking at the picture in the way it did, could not.
+
+Minsky was a remarkable person. He'd built one of the very first neural network machines himself, as a graduate student at Princeton in nineteen fifty-one. He co-founded MIT's artificial intelligence laboratory. He also invented, of all things, an early kind of microscope, a confocal scanning microscope, which is still used in laboratories today. He's often called one of the fathers of artificial intelligence.
+
+People have argued for decades about how much damage that book did. Some say it killed interest in neural networks for a generation. Others point out that the tide was already turning, and that Rosenblatt himself had moved on to other research. Probably, it was a little of both. But what's certain is that the idea of learning machines built like brains fell quietly out of fashion.
+
+And then, in Britain, in the early nineteen seventies, the government's science council asked a famous mathematician, Sir James Lighthill, to review the whole field of artificial intelligence. Lighthill was an expert in fluid dynamics. The flow of air and water. He was not an AI researcher. And his report was blunt.
+
+In no part of the field, he wrote, have the discoveries made so far produced the major impact that was then promised.
+
+He blamed something he called the combinatorial explosion. It's a simple idea, really. If you try to solve a problem by checking every possibility, then every step you look ahead multiplies the number of possibilities. Two steps, four. Ten steps, a thousand. Twenty steps, a million. Very quickly, even the fastest computer in the world is drowning.
+
+After the report, much of the funding for AI in Britain dried up. Research groups shrank. A robot project at Edinburgh, a robot called Freddy that could pick up pieces and assemble simple objects, was among the casualties.
+
+This was the first of what people came to call the AI winters.
+
+There was a spring, of sorts, in the late nineteen seventies and early eighties. A new idea became popular, called expert systems. Instead of trying to make a machine learn, you'd sit down with a human expert, a doctor, say, and write down everything they knew as rules. If the patient has this symptom, and this test result, then consider this infection. A program at Stanford called MYCIN did exactly that, to advise on infections. It started with about two hundred rules, and by nineteen seventy-eight it had nearly five hundred.
+
+Companies were founded. Money poured in. But writing down every rule by hand turned out to be slow, and brittle, and expensive. The world is full of situations that nobody thought to write a rule for.
+
+In nineteen eighty-four, at a big AI conference in America, some researchers held a discussion panel with a rather gloomy title. The Dark Ages of AI. Can we avoid them, or survive them? They could feel the weather changing. And they were right. In the late nineteen eighties, several AI companies closed. Government budgets were cut. The second winter had arrived.
+
+But winters, of course, are not the end of anything. The computer scientist Nils Nilsson, who lived through all of it, put it beautifully. The winter, he wrote, endured only for a season. A season not of hibernation, but of renewed efforts to carry on.
+
+And during that season, in the nineteen nineties, one idea in particular became very popular. It had a rather technical name. The support vector machine. But the idea underneath it is lovely, and simple.
+
+Picture those red and blue dots again, on a page. Lots of straight lines might separate them. Which one is best?
+
+The answer from support vector machines is this. Don't just draw a line. Build a street. Find the widest possible empty street that runs between the two groups, with all the red houses on one side and all the blue houses on the other. And draw your line right down the middle of that street.
+
+The widest street is the safest. When a new dot arrives, one you've never seen, it's least likely to land on the wrong side.
+
+And here's the part that gives the method its name. The only dots that matter are the ones right on the edge of the street. The houses on the kerb, you might say. The ones further back don't change anything. Those few kerbside points are the support vectors. They hold the street in place.
+
+This idea was worked out at Bell Laboratories, in New Jersey, by Vladimir Vapnik and his colleagues, in papers from nineteen ninety-two and nineteen ninety-five. And they found a clever trick for the circle problem, too. If the dots can't be separated on a flat page, lift them up, into more dimensions, where a flat street can pass between them after all.
+
+For about a decade, support vector machines were the trusted, respectable way to do machine learning. They were well understood, and reliable. Neural networks, with their layers and knobs, seemed messy and old-fashioned by comparison. By the late nineteen nineties, as three of their most devoted champions later wrote, neural networks had been largely forsaken.
+
+Largely. But not completely. A few people kept working on them, through the long winter, mostly ignored. And they'd found something important.
+
+Remember the problem with the little judge? One judge can only draw one straight line. It can't draw a circle.
+
+But what if you had more than one judge? What if you put a row of judges in the middle, each one looking at the picture and drawing its own straight line, and then one last judge at the end, who listens to all of them and makes the final decision?
+
+With enough judges in the middle, all those straight lines together can surround a shape. They can draw something that works like a circle. Or a much stranger shape. In principle, any shape at all.
+
+Those judges in the middle are called a hidden layer. Hidden, because you never see their answers directly. They sit between the picture going in and the answer coming out, quietly doing their part. Stack several hidden layers on top of each other, and you have what people now call a deep network. That's all the word deep means, in deep learning. Many layers.
+
+But there was a problem, and it was a hard one. When the final answer is wrong, whose fault is it? The last judge? One of the judges in the middle? Which of the thousands of knobs, spread across all those layers, should you turn? And which way? And by how much?
+
+This is where the story takes us walking.
+
+Imagine you're standing on a hillside, somewhere in the mountains, at night. There's thick fog all around you. You can't see the valley. You can't see anything at all, really, except the ground right under your feet. And you want to get down, to the lowest point, where it's warm, and where you can rest.
+
+What do you do?
+
+You feel the ground with your feet. Which way does it slope? You find the direction that goes most steeply downhill. And you take one small, careful step that way. Then you stop, and you feel the ground again. And you take another step. And another.
+
+You never see the whole mountain. You only ever know the slope beneath you. But step by step, patiently, you find your way down.
+
+This is how almost every learning machine in the world learns, today. It's called gradient descent. Gradient just means the slope. Descent means going down.
+
+Here's how the picture fits. The height of the hillside is the machine's mistake. Machine learning people call it the loss. High up on the mountain, the machine is making big mistakes. Down in the valley, it's making small ones. And where you're standing on the hillside depends on how all the knobs are set.
+
+So when the machine feels the slope, it's asking, for each knob, a very small question. If I turned this one knob up, just a tiny bit, would my mistake get bigger, or smaller? And by how much? Then it turns every knob a little in the direction that makes the mistake smaller. One small step downhill.
+
+In practice, the machine doesn't even look at all its examples before each step. It takes a small handful, feels the slope for just those, steps, and then takes another handful. It's a bit like walking downhill while the fog shifts around you. It wobbles. But on average, it goes down.
+
+The mathematics of walking downhill is very old, much older than computers. The hard part was this. In a network with many layers, how do you find the slope for a knob that's buried deep inside, far away from the final answer?
+
+The answer is called backpropagation. It means, sending the error backwards.
+
+First, the picture flows forward, through the layers, to an answer. Then you compare that answer with the right one, and measure the mistake. And then the blame flows backwards. The last layer works out how much each of its knobs contributed to the mistake. Then it passes a message back to the layer before, saying, here's how much you contributed, through me. And that layer does the same, passing blame back to the layer before it. All the way back to the beginning.
+
+It's a little like a long line of people passing buckets of water. If the last bucket arrives half empty, you walk back down the line, one person at a time, finding out where the water spilled.
+
+Versions of this idea had been found before, by different people, in different places. But in October of nineteen eighty-six, a short paper in the journal Nature made it famous. Its authors were David Rumelhart, Ronald Williams, and a British researcher named Geoffrey Hinton.
+
+And the most beautiful thing in that paper wasn't the method itself. It was what happened inside the network. The hidden judges in the middle, the ones nobody had told what to look for, came to represent important features of the task all by themselves. Nobody told them what to notice. They worked it out, on their way down the mountain.
+
+Geoffrey Hinton became, over the following decades, one of the most patient figures in this whole story. He kept believing in neural networks through the long winter, when most of the field had moved on. A few years before the backpropagation paper, in nineteen eighty-three, he and Terrence Sejnowski had invented something called the Boltzmann machine, one of the first networks that could learn hidden features of its own, using ideas borrowed from physics. We'll come back to that, near the end of the night.
+
+And there's one small, human thing about Hinton that I find rather touching. When he was nineteen, he hurt his back, trying to move a heavy heater for his mother. A disc in his spine was damaged. Over the years it got worse, and by two thousand and five, he'd stopped sitting down almost entirely. He works standing up. Long journeys became slow and difficult. For years now, one of the great minds of machine learning has thought his thoughts on his feet.
+
+People worried about one thing, with the downhill walk. What if you walk down into a little hollow, a small dip in the hillside, and get stuck there, thinking you've reached the bottom, while the real valley lies far below, hidden in the fog?
+
+For years, that worry was one of the reasons people gave up on neural networks. But it turned out, when the networks became very large, that the worry was mostly overblown. In a landscape with millions of directions, there's nearly always some way further down. Poor little hollows, as Hinton and his colleagues wrote much later, are rarely a problem with large networks.
+
+So. Picture it for a moment. Somewhere in the fog, a walker, taking one small step, and then another. Never seeing the whole mountain. Just feeling for the slope, and trusting it.
+
+That's learning. Or, at least, it's how the machines do it.
+
+Now let's give our machines eyes.
+
+A picture, to a computer, is just a grid of numbers. Each little square, each pixel, has a number for how bright it is. A small photo might be a few hundred pixels across. A modern phone photo, millions.
+
+Suppose you wanted to build a network that recognises handwritten numbers. A three, a seven, a nine. The simplest idea is to give every pixel its own knob, connected to every judge in the first layer. But that's an awful lot of knobs. And it's also a little foolish. Because a seven is a seven, whether it's written in the top corner of the page or near the bottom. A network that learned to spot a seven in one place would have to learn the whole thing all over again, from scratch, for every other place.
+
+There's a better way. And it's the way your own eyes seem to work, in part.
+
+Imagine a small window. A little square, just a few pixels wide. And inside that window, a small pattern of knobs, tuned to notice one simple thing. A short line, leaning to the left, perhaps. Or a curve. Or the place where a dark stroke meets a light background.
+
+Now slide that little window across the whole picture. Left to right, row by row, the way your eyes move across a page when you read. Everywhere it goes, it asks the same question, using the same knobs. Is my little pattern here? And here? And here?
+
+That sliding window is called a filter, and the sliding is called convolution. Because the same small set of knobs is reused everywhere, the network needs far fewer of them. And a seven is recognised as a seven, wherever it happens to sit.
+
+The first layer finds little edges and strokes. The next layer looks at those edges and finds corners and loops. The next finds whole shapes. Layer by layer, from dots, to lines, to shapes, to meaning.
+
+In the late nineteen eighties, a young French researcher named Yann LeCun, working first in Toronto and then at Bell Laboratories in New Jersey, trained a network like this on real handwriting. Zip codes. Handwritten numbers from envelopes, supplied by the United States Postal Service. His paper came out in nineteen eighty-nine. It was one of the first times a convolutional network had been trained with backpropagation, on real, messy human writing.
+
+Over the next decade, LeCun and his colleagues refined the idea. Their network from nineteen ninety-eight, called LeNet five, had about sixty thousand knobs. Which sounds like a lot. But because its filters were shared across the picture, it made over three hundred and forty thousand connections with those sixty thousand knobs. The same small set of dials, reused again and again.
+
+To train and test it, they put together a collection of handwritten digits, gathered from two older collections at the National Institute of Standards and Technology. Sixty thousand examples for learning, and ten thousand more for testing. The collection was called MNIST. And for years afterwards, almost every student of machine learning trained their very first network on those same little handwritten numbers. Tens of thousands of threes and sevens and nines, written by strangers, a long time ago.
+
+And here's the part of the story that happened quietly, in the real world. LeCun's network was put to work reading numbers on bank cheques. By the late nineteen nineties, it was reading several million cheques a day. More than one in ten of all the cheques written in the United States passed through it.
+
+Think of that. Somebody, somewhere, writes forty dollars and fifty cents, in slightly wobbly handwriting, and signs it, and pays their rent. And a network with sixty thousand knobs, trained on strangers' handwriting, quietly reads the number, and gets it right. Nobody in the story ever knows.
+
+Now, there's one danger in teaching a machine from examples, and it's worth understanding, because it's a very human danger too. It's called overfitting.
+
+Google's machine learning guide describes it with a lovely comparison. Overfitting, they say, is like strictly following advice from only your favourite teacher. You'll probably do very well in that teacher's class. But you might become so tuned to that one teacher's ideas that you struggle in every other class.
+
+A machine that overfits has learned its examples too well. It has memorised the quirks of those particular sixty thousand handwritten numbers, the smudges and the odd loops, instead of learning what a seven really is. Show it a seven written by somebody new, and it stumbles.
+
+So when you teach a machine, you always keep some examples aside, ones it never sees during learning. A test. If it does well on the practice questions, but poorly on the test, you know it has memorised, rather than understood.
+
+It's a good thing to remember about learning of any kind, I think. The goal isn't to remember every example perfectly. It's to find the thing underneath them. The shape of a seven. Not the smudge.
+
+And yet, even after all this success, most of the computer vision world still wasn't convinced. Convolutional networks, as LeCun, Bengio and Hinton later wrote, were largely forsaken by the mainstream, until one particular competition, in two thousand and twelve.
+
+To get there, we need a very big picture book.
+
+In two thousand and seven, a young computer scientist named Fei-Fei Li, working with Professor Kai Li at Princeton University, started a project that many people thought was a strange use of time.
+
+She wanted to build a picture book. The biggest picture book in the world.
+
+Her thinking went something like this. A small child learns to recognise a cat without anyone explaining what a cat is. Nobody gives a three-year-old a list of rules about whiskers and ears and tails. The child just sees cats. Lots of them. Real ones, drawings, cats in books, cats in windows. And somewhere along the way, the idea of a cat settles into place.
+
+By the age of three, she pointed out, a child would have seen hundreds of millions of pictures of the real world. Every glance is a picture, after all. Every second of looking.
+
+So perhaps, she thought, the problem with machines wasn't only how they learned. Perhaps they simply hadn't seen enough.
+
+The project was called ImageNet. The idea was to collect millions of photographs from the internet, and to label each one with what it showed. Not just cat and dog. But thousands and thousands of categories, organised like a great family tree of words. Tabby cat. Persian cat. Golden retriever. Fire engine. Teapot. Lighthouse. Strawberry.
+
+No small team could label that many pictures. So they turned to the internet itself. At its peak, the project was one of the biggest employers on a website where people around the world do small tasks online for small payments. Almost fifty thousand people, in a hundred and sixty-seven countries, helped to sort and clean and label nearly a billion candidate pictures.
+
+I like to imagine them. Someone in a kitchen, late at night. Someone on a lunch break. Clicking, one after another. Yes, this is a lighthouse. No, this is not a strawberry. Thousands of quiet, anonymous decisions, all over the planet, all flowing into one enormous book.
+
+By two thousand and nine, ImageNet held about fifteen million pictures, in about twenty-two thousand categories.
+
+And then, from two thousand and ten, there was a yearly competition. Teams from around the world would build programs to look at pictures from ImageNet and name what was in them. Each program could make five guesses. If the right answer was among the five, it counted as correct.
+
+For the first couple of years, the best programs improved slowly. The methods were careful and hand-crafted. And then came two thousand and twelve.
+
+In Toronto, Geoffrey Hinton had two students. One was Alex Krizhevsky. The other was Ilya Sutskever. And together, they built a convolutional network, the same kind of sliding-window network that LeCun had used on handwritten numbers. But much, much bigger.
+
+Their network had sixty million knobs. Sixty million. And six hundred and fifty thousand of those little artificial neurons. It learned from about one point two million pictures.
+
+Turning sixty million knobs, over and over, for millions of pictures, takes an enormous amount of arithmetic. And this is where our story takes a turn that I find rather wonderful. Because the machines that made it possible were built for video games.
+
+A graphics card, or GPU, is the chip inside a computer that draws pictures on the screen. To make a game look smooth and real, it has to do a vast number of small calculations at once, one for every tiny point of light. And it turns out that training a neural network is also mostly a vast number of small, similar calculations, all at once. Multiplying long rows of numbers, again and again.
+
+In two thousand and seven, the company NVIDIA had released a way for programmers to use these graphics chips for other kinds of work, not just games. And Alex Krizhevsky wrote careful, clever code to train his network on them.
+
+He used two graphics cards. Ordinary gaming cards, the kind someone might buy to play games at home. Each one had only three gigabytes of memory, which wasn't enough to hold the whole network. So he split the network in half, and let each card carry one half, talking to each other as they went.
+
+The training took five to six days.
+
+And according to the Computer History Museum, it happened on a computer with those two graphics cards, in Alex Krizhevsky's bedroom, at his parents' house.
+
+The competition results came in the autumn of two thousand and twelve. The second-best team got the answer wrong, even with five guesses, about twenty-six percent of the time. Krizhevsky's network got it wrong about fifteen percent of the time. It had almost halved the error.
+
+In a field where improvements usually came a percent or two at a time, it was like a runner finishing a race while everybody else was still rounding the last bend.
+
+The network became known by its builder's first name. AlexNet. It was presented at a computer vision conference in Florence, in Italy, in October of that year. And almost overnight, the people who had ignored neural networks for years began to pay attention. The long winter was over. The spring had come very suddenly, and it came from a bedroom.
+
+Many years later, Hinton summed up the whole thing to the Computer History Museum in one sentence, with his usual dry humour.
+
+Ilya thought we should do it, Alex made it work, and I got the Nobel Prize.
+
+We'll get to the Nobel Prize, a little later.
+
+For now, let's just stay with the picture. A house in Toronto. A quiet bedroom. Two graphics cards humming inside a computer case, warm to the touch, for nearly a week. Sixty million knobs, each turning a tiny bit, and then a tiny bit more. Walking down the mountain in the fog, one small step at a time, looking at lighthouses and teapots and strawberries, until it learned to see.
+
+So far, our machines have learned from examples with answers. Here's a picture, and it's a lighthouse. Here's a handwritten number, and it's a seven. This is called supervised learning. It's a bit like studying a book of questions with the answers printed at the back.
+
+But a lot of learning isn't like that. Nobody gave you an answer book when you learned to ride a bicycle. You wobbled. You fell. You tried again. And slowly, your body worked out what to do, from the feeling of falling and the feeling of not falling.
+
+That's the idea behind a different kind of machine learning, called reinforcement learning. The machine isn't told the right answer. It's put into a situation, and it tries things. And sometimes, afterwards, it gets a reward. A point. A win. And it has to work out, by itself, which of its many actions deserved the credit.
+
+Two researchers who shaped this field, Richard Sutton and Andrew Barto, described its two most important features in a simple phrase. Trial-and-error search, and delayed reward.
+
+Delayed. That's the hard part. In a game, you might make a brilliant move, and not find out that it was brilliant until twenty moves later, when you finally win. Which move was the good one? The machine has to learn to spread the credit backwards through time, a little like our bucket line from earlier tonight, but stretching back through the moves of a game.
+
+In the early nineteen nineties, at IBM, a researcher named Gerald Tesauro built a program that learned to play backgammon, the old board game of dice and counters. It was called TD-Gammon. It played against itself, over and over, for many hundreds of thousands of games, eventually millions. Nobody taught it strategy. And the patterns in its hidden layers came to resemble, as Tesauro put it, the kind of useful features an expert would have written down.
+
+Later versions played at a level close to the best humans in the world. In one match of forty games against a former world champion, Bill Robertie, the champion only pulled ahead in the very last game, to win by a single point.
+
+Then, in two thousand and thirteen, a small company in London called DeepMind showed something striking. They built a program that learned to play old Atari video games. The kind with blocky pictures and simple sounds, from the late nineteen seventies. The program wasn't told the rules of any game. It saw only what a player would see. The pixels on the screen. And it was given only the score.
+
+That's all. Here's the screen. Here's the score. Make the score go up.
+
+In a paper in Nature in two thousand and fifteen, they showed that the same program, with the same settings, could learn forty-nine different Atari games this way, and on many of them it reached roughly the level of an expert human player. It learned by playing, and failing, and playing again, many thousands of times over.
+
+But the most famous game of all was still to come. And it's one of the oldest games in the world.
+
+Go is a game played on a board of nineteen by nineteen lines, with black and white stones. Players take turns placing stones, trying to surround territory. The rules are simple enough to learn in an afternoon. And yet the game is so rich that the number of possible arrangements of the board is around a one, followed by a hundred and seventy zeros. That's far, far more than the number of atoms in the known universe.
+
+For a long time, people thought a computer wouldn't beat a top human at Go for decades. There are simply too many possibilities to check them all. Remember Lighthill's combinatorial explosion? Go was the explosion in its purest form.
+
+DeepMind's program was called AlphaGo. It had two neural networks, working together. One looked at the board and suggested promising moves, like an instinct. The other looked at the board and judged who was likely to win, like a feeling in the stomach. It first learned from the games of human experts. And then it played against itself, many, many times, and improved beyond them.
+
+In March of two thousand and sixteen, in Seoul, AlphaGo played a five-game match against Lee Sedol, one of the greatest Go players of his generation. Over two hundred million people around the world watched.
+
+In the second game, AlphaGo played a move that the commentators couldn't understand. Move thirty-seven. It placed a stone in a spot that looked, to experienced human eyes, almost like a mistake. DeepMind later estimated that a human player would have chosen that move about one time in ten thousand.
+
+Lee Sedol stood up and left the room. It took him nearly fifteen minutes to reply. Watching from the side, the European champion Fan Hui, who'd lost to AlphaGo himself a few months before, kept saying, so beautiful. So beautiful.
+
+The move turned out to be brilliant. AlphaGo won that game, and the next one.
+
+But in the fourth game, something lovely happened. Lee Sedol, under enormous pressure, three games down, found a move of his own. Move seventy-eight. A wedge, placed right into the middle of the board. And that move, too, had odds of about one in ten thousand. Go fans later called it God's Touch.
+
+AlphaGo hadn't prepared for it. As DeepMind's founder, Demis Hassabis, explained later, it didn't think that a human would ever play it. The machine began to make mistakes, and lost the game.
+
+AlphaGo won the match four games to one. And Lee Sedol became the only human ever to win a game against that version of AlphaGo.
+
+Three years later, he retired from professional Go. And the reason he gave was quiet, and a little sad. Even if I become the number one, he said, there is an entity that cannot be defeated.
+
+I think about those two moves, sometimes, on the long nights up here. Move thirty-seven, one in ten thousand, from a machine. And move seventy-eight, one in ten thousand, from a man. Both of them surprising. Both of them beautiful. And for one afternoon in Seoul, a human being, playing an ancient game, was the one who took the machine by surprise.
+
+Pictures are grids of numbers. Games have scores. But what about words?
+
+Words are strange things, for a machine. The word cat is just three letters. There's nothing in those letters that looks like a cat, or sounds like a cat, or tells you that a cat is more like a dog than it is like a teapot. To a computer, cat and dog and teapot are equally different. Just different strings of letters.
+
+So how could a machine ever come to understand that some words are close in meaning, and others are far apart?
+
+The answer, when it came, was beautiful. Turn every word into a place on a map.
+
+Imagine a very large map. Not of countries or cities, but of meaning. And every word has its own spot on it. Cat sits somewhere. And very near it, dog, and kitten, and puppy. A little further off, horse and cow. Further still, in a different neighbourhood altogether, teapot, and kettle, and cup. And far away, over the hills, the words for weather. Rain, and cloud, and drizzle.
+
+Words that are used in similar ways end up living near each other. That's the whole idea.
+
+These places on the map are called embeddings. And the wonderful thing is that nobody draws the map by hand. The machine works it out by reading.
+
+Here's roughly how. There's an old saying among people who study language, that you can know a word by the company it keeps. If you see the sentence, the cat sat on the warm windowsill, and then, the dog sat on the warm windowsill, you begin to suspect that cats and dogs have something in common. They sit in the same places, in sentences. They keep the same company.
+
+So you give the machine a huge amount of text. And you ask it to play a guessing game, over and over. Here are some words. Guess the missing one. And every time it guesses wrong, it adjusts, of course, by turning its knobs. Some of those knobs are the positions of the words on the map. Nudge cat a little closer to dog. Nudge teapot a little further away. Walk downhill in the fog, as always.
+
+After reading enough, the map settles into shape.
+
+The idea of learning maps of words with neural networks goes back to around the year two thousand, to work by Yoshua Bengio and his colleagues in Montreal. But it really took hold in two thousand and thirteen, when a team at Google, including Tomas Mikolov, found a very quick way to do it. Their method was called word two vec, meaning word to vector, and it could learn a high-quality map from one point six billion words of text in less than a day.
+
+And then they noticed something that seemed almost magical.
+
+The map didn't only put similar words near each other. It also captured relationships. Directions.
+
+Here's the most famous example. Start at the word king. Now take away the idea of man, and add the idea of woman. Just move across the map in those directions, like following steps on a treasure map. And where do you end up?
+
+Very close to the word queen.
+
+King, minus man, plus woman, is roughly queen.
+
+It works for places too. Start at Madrid. Take away Spain. Add France. And you arrive, near enough, at Paris.
+
+Nobody taught the machine about kings and queens, or capital cities. It just read, and guessed, and adjusted its map, until the shape of the map itself held these patterns. The direction from man to woman, and the direction from king to queen, pointed the same way. The step from a country to its capital was the same kind of step, wherever you were on the map.
+
+Google's own machine learning guide gives a gentle, farmyard version. On a good map of words, the distance from cow to bull is much the same as the distance from ewe, a female sheep, to ram, a male sheep.
+
+Now, this map isn't flat like a paper map. It doesn't just have north and south, east and west. It has hundreds of directions. Some of them might loosely mean things like, is this alive? Is this big or small? Is this a feeling, or a thing you can hold? Many of them don't mean anything a person could easily name. We can't picture a space like that. But the machine can move through it easily.
+
+I think of the view out of my window, sometimes, when I think about these maps. At night, the Earth below is dark, except for the lights. And you can see the shape of things, just from the lights. The bright clusters where the cities are. The thin lines of light along the coasts, and the roads between them. You can't see a single house. But the patterns of where people live are there, glowing, all at once.
+
+A word map is something like that. You can't see any single meaning. But from far enough away, the shape of language itself begins to glow.
+
+There was still something missing, though. On a map, each word has one place. But real words change their meaning depending on the words around them. A bank can be a place for money, or the edge of a river. A light can be a lamp, or not heavy. To really understand a sentence, a machine would need to look at each word, and at all its neighbours, at the same time.
+
+It would need to pay attention.
+
+Language arrives in order. One word, then the next, then the next. So for a long time, the machines that worked with language read the same way we do. From left to right, one word at a time, carrying a little memory along with them as they went.
+
+The trouble was that the memory faded. By the end of a long sentence, the beginning had grown faint. It's a little like trying to remember a long phone number that someone reads out to you, one digit at a time. By the time they reach the end, the first few digits are slipping away.
+
+In nineteen ninety-seven, two researchers in Germany, Sepp Hochreiter and Jürgen Schmidhuber, designed a network with a better memory. They called it Long Short-Term Memory. It had little gates inside it, which could decide what to keep, what to forget, and what to pass along. It could carry a piece of information across a thousand steps or more. For about twenty years, networks like this did much of the work of translating, and recognising speech, and suggesting the next word on your phone.
+
+But they still read one word at a time. And that made them slow to train. You can't read the tenth word until you've read the ninth.
+
+Then, around two thousand and fourteen, researchers including Yoshua Bengio's group in Montreal added something to translation machines, something they called attention. When the machine was writing out a translated sentence, it could look back at the original sentence and focus on the words that mattered most, right at that moment. Like a translator, running a finger back along the line.
+
+And in June of two thousand and seventeen, eight researchers, most of them at Google, published a paper with a rather bold title. Attention Is All You Need.
+
+What if, they asked, we got rid of the reading-in-order altogether? What if the machine used only attention?
+
+The design they described was called the Transformer.
+
+Here's how I'd picture it. Imagine a sentence, laid out on a table, all at once. Every word, all together. The cat, which had been sleeping by the fire all afternoon, finally stretched.
+
+Now, each word gets to ask a question. And every other word gets to answer.
+
+The word stretched asks, who is doing the stretching? And it looks around the table, at all the other words. The fire? No. The afternoon? No. The cat. Yes, the cat. So stretched pays a lot of attention to cat, and very little to the rest.
+
+Meanwhile, the word sleeping is asking its own question, and the word fire, and every other word. All at the same time. Each word looking around the sentence, weighing up how much every other word matters to it. And then, each word updates itself, blending in a little of the meaning of the words it paid attention to.
+
+So after one round, the word bank, in a sentence about rivers, has absorbed a little of the river around it. And the word bank, in a sentence about money, has absorbed a little of the money.
+
+And then you do it again. Another layer. And again. Dozens of layers of words, all looking at each other, asking and answering, refining their meanings, until each word carries the whole sentence inside it.
+
+Because every word does this at once, instead of one after another, the Transformer could use those gaming chips from Toronto to their fullest. Thousands of calculations, side by side. It trained far faster than the old reading-in-order networks. In the original paper, their big model learned to translate between English and German, and English and French, better than any system before it, after training for three and a half days on eight graphics chips.
+
+There's a small, human detail in that paper, which I've always liked. Next to the list of the eight authors, there's a little footnote. Equal contribution, it says. Listing order is random.
+
+Eight people. Nobody first, nobody last. And the footnote goes on to say who did what. One of them, Jakob Uszkoreit, had first proposed replacing the old reading-in-order networks with attention. Others designed pieces, tested ideas, wrote the code, ran the experiments. A real group effort, recorded in one quiet footnote at the bottom of the first page.
+
+That design, the Transformer, is now inside almost every large language system you've heard of. Google's own guide describes a large language model, informally, as simply any Transformer-based language model.
+
+All those words, on all those tables, looking at each other, asking and answering. All at once. That's attention.
+
+It's a little like this station at night, I think. Every instrument quietly checking on every other. The air system listening to the temperature. The temperature listening to the lights. The lights listening to the clock. Nothing in charge, exactly. Everything paying a little attention to everything else. And somehow, together, keeping me safe and warm while the Earth turns below.
+
+Now we come to the machines that talk.
+
+Here's a secret about them, and it's a surprisingly simple one. At heart, most of them are playing one small game. Guess the next word.
+
+That's it. Give the machine the beginning of a sentence. The tea had gone cold, so I. And ask it to guess what comes next. Made. Poured. Drank. Each possible next word gets a score, how likely it is. The machine picks one. Then it adds that word to the sentence, and guesses again. And again. One word at a time, it writes.
+
+In fact, it doesn't quite work in whole words. It works in smaller pieces called tokens. A common word might be one token. A long or unusual word might be broken into two or three. As a rough rule, a hundred tokens is about seventy-five words of English.
+
+Now, guessing the next word sounds almost too simple to matter. But think about what you'd need to know, to always guess well. To finish a sentence about the Moon, you'd need to know something about the Moon. To finish a recipe, something about cooking. To finish a joke, something about people. To be very good at guessing the next word, across everything people write about, you'd need to have learned an enormous amount about the world.
+
+And that's what happened, when the machines got big.
+
+In two thousand and nineteen, a company called OpenAI released a model called GPT-2. It was a Transformer, the design from the attention paper, with one and a half billion knobs. It had been trained on the text of about eight million web pages. And it could write paragraphs that, for the first time, sometimes sounded startlingly human. OpenAI was cautious enough about it that they released it slowly, in stages, over most of that year, starting with smaller versions.
+
+The next year, in two thousand and twenty, came GPT-3. It had one hundred and seventy-five billion knobs. More than a hundred times as many. It had been trained on about three hundred billion tokens of text. Much of it gathered from the open internet, and books, and a small slice from online encyclopaedias.
+
+Think back, for a moment, to the Mark One Perceptron, with its little motors turning volume dials. Imagine one of those dials for every knob in GPT-3. A hundred and seventy-five billion of them. That's more than twenty for every person alive on Earth. All of them, turned a tiny bit at a time, by the same simple rule. Walk downhill in the fog.
+
+In one test in the GPT-3 paper, people were shown short news articles, some written by humans and some by the machine, and asked to tell which was which. They were right only about fifty-two percent of the time. Barely better than flipping a coin.
+
+But a machine that's only learned to guess the next word isn't necessarily helpful. Ask it a question, and it might continue with another question, or wander off somewhere, because that's what often comes next on the internet. So in two thousand and twenty-two, researchers at OpenAI added one more kind of learning, and it brings us back, gently, to the checkers player and the backgammon player and AlphaGo.
+
+It's called learning from human feedback. First, people wrote examples of good answers, and the model studied them. Then, people were shown several answers from the model, and asked to rank them. This one's best, this one's second, this one's worst. A second model learned from those rankings, to predict which answers people would prefer. And then the first model practised, trying to earn a good score from the second. Reinforcement learning, again. Trial and error, and a reward.
+
+OpenAI hired a team of about forty people to do the labelling for that first study. And the result was striking. A small model trained this way, with one point three billion knobs, was preferred by people over the giant GPT-3, with a hundred times more. Being helpful, it turned out, mattered more than being big.
+
+On the thirtieth of November, two thousand and twenty-two, OpenAI released a chat program built this way. They called it ChatGPT. And within weeks, it seemed as if everyone in the world had typed something into it. The imitation game that Alan Turing had imagined in nineteen fifty was, suddenly, something people played every day, often without thinking about it at all.
+
+But these machines have a strange flaw, and it's worth understanding, because it tells you something about what they really are.
+
+Sometimes, they make things up. Confidently. A date that never happened. A book that was never written. A quote nobody ever said. People call this hallucination. Google's guide suggests that confabulation is probably the more accurate word. Making something up, without knowing that you're making it up.
+
+Why does it happen? In a paper from twenty twenty-five, researchers at OpenAI offered a simple and rather human explanation. Like students facing hard exam questions, they wrote, these models sometimes guess when uncertain, producing statements that sound right but aren't, instead of admitting that they don't know. And part of the reason is that the way we train and test them rewards a confident guess more than an honest, I'm not sure.
+
+When one of the researchers asked a model for his own birthday, it gave three different wrong dates, in three tries.
+
+A student, bluffing through an exam. That's worth remembering, next time one of these machines sounds very sure of itself.
+
+And here's perhaps the most confusing thing of all. The strangest part of the whole story.
+
+Nobody fully understands what's going on inside them.
+
+We know the rule that trained them. Guess, measure the mistake, turn the knobs downhill. We know every single number in every single knob. But what those billions of numbers mean, together, is mostly a mystery. The company Anthropic, which builds one of these models, wrote in twenty twenty-four that we mostly treat AI models as a black box. Something goes in, and a response comes out, and it's not clear why.
+
+Researchers are beginning to peek inside. In that same work, the Anthropic team found millions of patterns inside one of their models, each one lighting up for a particular idea. And one of them lit up for the Golden Gate Bridge. Whether the bridge was mentioned in English, or Japanese, or Greek, or Russian, or even shown in a picture, the same little pattern glowed. And when the researchers turned that pattern up, like turning up a dial, the model became, in their words, effectively obsessed with the bridge. It brought it up in answer to almost any question.
+
+A machine, with a bridge on its mind.
+
+In twenty twenty-three, Geoffrey Hinton left his job at Google, after about ten years there, so that he could speak freely about the risks of what he'd helped to build. The man who'd spent a lifetime believing in these networks, when nobody else did, was now saying, carefully, that we should be paying very close attention.
+
+It's a strange place to be, at this point in the story. We've built something that learns. We know how it learns. And we're still learning what it's learned.
+
+In March of twenty nineteen, three of the people who kept the faith through the long winter were given the Turing Award, which is sometimes called the Nobel Prize of computing. Yoshua Bengio, from Montreal. Yann LeCun, who taught networks to read cheques. And Geoffrey Hinton. The award was named, of course, after the man who first asked, can machines think?
+
+And then, in October of twenty twenty-four, something happened that nobody would have predicted when Rosenblatt's little motors were turning dials in Buffalo. The Nobel Prize in Physics went to two people who worked on learning machines.
+
+One was John Hopfield, of Princeton. In the early nineteen eighties, he'd designed a kind of network that works like a memory. Show it a damaged or blurry picture, and it settles, step by step, towards the closest picture it has stored. Like a ball rolling downhill into the nearest valley. The Nobel committee described it as a network that lowers its energy, bit by bit, until it finds its rest.
+
+The other was Geoffrey Hinton, for building on Hopfield's idea with his Boltzmann machine, using tools from physics to let networks learn hidden features of their own.
+
+When the call came from Stockholm, Hinton was in a cheap hotel in California, without an internet connection. He'd been planning to get an MRI scan that day. I guess I'll have to cancel that, he said.
+
+A day later, the Nobel Prize in Chemistry went, in part, to Demis Hassabis and John Jumper of DeepMind, the same company that built AlphaGo, for a program called AlphaFold. It predicts the shapes of proteins, the tiny folded machines that do almost all the work inside every living cell. It can predict the structures of virtually all of the two hundred million or so proteins that researchers have identified. And more than two million people, in a hundred and ninety countries, have used it in their work.
+
+From telling left from right on punch cards, to the shapes of the molecules of life. In about seventy years.
+
+So. Let's gather up what we've learned tonight. Slowly. There's no test.
+
+A machine that learns has knobs. Millions, or billions of them. Each knob says how much one small thing matters.
+
+It learns by making a guess, seeing how wrong it was, and turning every knob a tiny bit, in the direction that would have made it less wrong. Then it does it again. And again.
+
+It's like walking downhill in the fog. You never see the whole mountain. You only feel the slope beneath your feet. But step by step, you find your way down.
+
+The blame for each mistake is passed backwards, layer by layer, like walking back along a line of people carrying buckets, to find where the water spilled.
+
+Machines that see slide little windows across a picture, looking for the same small patterns everywhere. Machines that play learn from rewards, sometimes long delayed. Machines that read turn every word into a place on a vast map of meaning, and then let every word pay attention to every other.
+
+And the machines that talk to us are, at heart, guessing the next word, one small piece at a time. Very, very well. And sometimes, when they're unsure, bluffing a little.
+
+That's machine learning. Or at least, the heart of it.
+
+It began with a question, from a quiet mathematician in England. Can machines think? And he never claimed to know the answer. At the very end of his paper, after all his arguments, Alan Turing wrote a sentence that I've always found very comforting.
+
+We can only see a short distance ahead, but we can see plenty there that needs to be done.
+
+A short distance ahead. Like a walker in the fog.
+
+Now. Let's let the facts drift away for a while.
+
+Wherever you are, right now, you're learning too. Even as you rest. Scientists who study sleep believe that the brain uses the night to sort through the day. To keep some things, and let others go. Somewhere inside you, very quietly, your own connections are settling. Not because anyone is telling them what to do. Just because that's what they do, in the dark.
+
+Your breathing is slowing down. Each breath a little longer than the last.
+
+You don't need to turn any knobs tonight. You don't need to get anything right. There's no slope to feel, no valley to find. You're already there. Already resting, at the bottom of the hill, where it's warm.
+
+Up here, the station hums. The screens are dim. Somewhere in the computers around me, something is quietly learning, turning its tiny knobs, while I watch the Earth. And my tea has gone cold again. It always does. I don't mind.
+
+Out the window, the night side of the planet is turning beneath me. Dark oceans. Pale clouds. Scattered lights. And your light is one of those lights down there. Or maybe it's already off.
+
+You don't need to remember any of this tomorrow. The ideas will still be there, whenever you want them.
+
+Just rest now.
+
+The sun is coming up over the ocean now. My shift is almost over. Sleep well. I'll be up here tomorrow night.

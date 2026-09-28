@@ -1,0 +1,51 @@
+Now we come to the machines that talk.
+
+Here's a secret about them, and it's a surprisingly simple one. At heart, most of them are playing one small game. Guess the next word.
+
+That's it. Give the machine the beginning of a sentence. The tea had gone cold, so I. And ask it to guess what comes next. Made. Poured. Drank. Each possible next word gets a score, how likely it is. The machine picks one. Then it adds that word to the sentence, and guesses again. And again. One word at a time, it writes.
+
+In fact, it doesn't quite work in whole words. It works in smaller pieces called tokens. A common word might be one token. A long or unusual word might be broken into two or three. As a rough rule, a hundred tokens is about seventy-five words of English.
+
+Now, guessing the next word sounds almost too simple to matter. But think about what you'd need to know, to always guess well. To finish a sentence about the Moon, you'd need to know something about the Moon. To finish a recipe, something about cooking. To finish a joke, something about people. To be very good at guessing the next word, across everything people write about, you'd need to have learned an enormous amount about the world.
+
+And that's what happened, when the machines got big.
+
+In two thousand and nineteen, a company called OpenAI released a model called GPT-2. It was a Transformer, the design from the attention paper, with one and a half billion knobs. It had been trained on the text of about eight million web pages. And it could write paragraphs that, for the first time, sometimes sounded startlingly human. OpenAI was cautious enough about it that they released it slowly, in stages, over most of that year, starting with smaller versions.
+
+The next year, in two thousand and twenty, came GPT-3. It had one hundred and seventy-five billion knobs. More than a hundred times as many. It had been trained on about three hundred billion tokens of text. Much of it gathered from the open internet, and books, and a small slice from online encyclopaedias.
+
+Think back, for a moment, to the Mark One Perceptron, with its little motors turning volume dials. Imagine one of those dials for every knob in GPT-3. A hundred and seventy-five billion of them. That's more than twenty for every person alive on Earth. All of them, turned a tiny bit at a time, by the same simple rule. Walk downhill in the fog.
+
+In one test in the GPT-3 paper, people were shown short news articles, some written by humans and some by the machine, and asked to tell which was which. They were right only about fifty-two percent of the time. Barely better than flipping a coin.
+
+But a machine that's only learned to guess the next word isn't necessarily helpful. Ask it a question, and it might continue with another question, or wander off somewhere, because that's what often comes next on the internet. So in two thousand and twenty-two, researchers at OpenAI added one more kind of learning, and it brings us back, gently, to the checkers player and the backgammon player and AlphaGo.
+
+It's called learning from human feedback. First, people wrote examples of good answers, and the model studied them. Then, people were shown several answers from the model, and asked to rank them. This one's best, this one's second, this one's worst. A second model learned from those rankings, to predict which answers people would prefer. And then the first model practised, trying to earn a good score from the second. Reinforcement learning, again. Trial and error, and a reward.
+
+OpenAI hired a team of about forty people to do the labelling for that first study. And the result was striking. A small model trained this way, with one point three billion knobs, was preferred by people over the giant GPT-3, with a hundred times more. Being helpful, it turned out, mattered more than being big.
+
+On the thirtieth of November, two thousand and twenty-two, OpenAI released a chat program built this way. They called it ChatGPT. And within weeks, it seemed as if everyone in the world had typed something into it. The imitation game that Alan Turing had imagined in nineteen fifty was, suddenly, something people played every day, often without thinking about it at all.
+
+But these machines have a strange flaw, and it's worth understanding, because it tells you something about what they really are.
+
+Sometimes, they make things up. Confidently. A date that never happened. A book that was never written. A quote nobody ever said. People call this hallucination. Google's guide suggests that confabulation is probably the more accurate word. Making something up, without knowing that you're making it up.
+
+Why does it happen? In a paper from twenty twenty-five, researchers at OpenAI offered a simple and rather human explanation. Like students facing hard exam questions, they wrote, these models sometimes guess when uncertain, producing statements that sound right but aren't, instead of admitting that they don't know. And part of the reason is that the way we train and test them rewards a confident guess more than an honest, I'm not sure.
+
+When one of the researchers asked a model for his own birthday, it gave three different wrong dates, in three tries.
+
+A student, bluffing through an exam. That's worth remembering, next time one of these machines sounds very sure of itself.
+
+And here's perhaps the most confusing thing of all. The strangest part of the whole story.
+
+Nobody fully understands what's going on inside them.
+
+We know the rule that trained them. Guess, measure the mistake, turn the knobs downhill. We know every single number in every single knob. But what those billions of numbers mean, together, is mostly a mystery. The company Anthropic, which builds one of these models, wrote in twenty twenty-four that we mostly treat AI models as a black box. Something goes in, and a response comes out, and it's not clear why.
+
+Researchers are beginning to peek inside. In that same work, the Anthropic team found millions of patterns inside one of their models, each one lighting up for a particular idea. And one of them lit up for the Golden Gate Bridge. Whether the bridge was mentioned in English, or Japanese, or Greek, or Russian, or even shown in a picture, the same little pattern glowed. And when the researchers turned that pattern up, like turning up a dial, the model became, in their words, effectively obsessed with the bridge. It brought it up in answer to almost any question.
+
+A machine, with a bridge on its mind.
+
+In twenty twenty-three, Geoffrey Hinton left his job at Google, after about ten years there, so that he could speak freely about the risks of what he'd helped to build. The man who'd spent a lifetime believing in these networks, when nobody else did, was now saying, carefully, that we should be paying very close attention.
+
+It's a strange place to be, at this point in the story. We've built something that learns. We know how it learns. And we're still learning what it's learned.

@@ -1,0 +1,57 @@
+Fall asleep while Otto, an astronaut on the night shift, slowly explains the most confusing parts of machine learning: neural networks, gradient descent, backpropagation, deep learning, AlphaGo, transformers, and how ChatGPT guesses the next word.
+
+From Alan Turing's question "Can machines think?" to a perceptron that turned its own knobs with little motors, from the long AI winters to AlexNet trained in a bedroom, and why nobody fully understands what's inside today's AI.
+
+You don't need to understand all of it. If you fall asleep halfway, that's the plan.
+
+🌙 New sleep video every night. Subscribe if you'd like Otto on watch again tomorrow.
+
+Chapters
+0:00 Goodnight from Orbit
+2:54 Can a Machine Think?
+10:24 A Machine That Turns Its Own Knobs
+19:35 The Checkers Player
+26:28 The Long Winter
+35:24 Walking Downhill in the Fog
+44:42 Eyes for Machines
+51:59 The Big Picture Book
+59:59 Learning by Playing
+1:08:32 Words as Points on a Map
+1:16:05 Paying Attention
+1:22:48 The Next Word
+1:32:38 A Short Distance Ahead
+
+Resources
+Every fact in this video comes from these sources:
+• Computing Machinery and Intelligence (Turing, 1950, full text) — https://courses.cs.umbc.edu/471/papers/turing.pdf
+• A Proposal for the Dartmouth Summer Research Project on AI (1955) — http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html
+• Artificial Intelligence Coined at Dartmouth — https://home.dartmouth.edu/about/artificial-intelligence-ai-coined-dartmouth
+• The Man Who Tried to Redeem the World with Logic (Walter Pitts) — https://nautil.us/the-man-who-tried-to-redeem-the-world-with-logic-235253
+• Professor's perceptron paved the way for AI – 60 years too soon — https://news.cornell.edu/stories/2019/09/professors-perceptron-paved-way-ai-60-years-too-soon
+• Some Studies in Machine Learning Using the Game of Checkers (Samuel, 1959) — https://people.csail.mit.edu/brooks/idocs/Samuel.pdf
+• Early computer games at IBM (Samuel's checkers) — https://www.ibm.com/history/early-games
+• Arthur Samuel's Legacy — https://webdocs.cs.ualberta.ca/~chinook/project/legacy.html
+• The Quest for Artificial Intelligence (Nils Nilsson, free book) — https://ai.stanford.edu/~nilsson/QAI/qai.pdf
+• Marvin Minsky, "father of artificial intelligence," dies at 88 — https://news.mit.edu/2016/marvin-minsky-obituary-0125
+• The Lighthill Report — http://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm
+• Learning representations by back-propagating errors (1986) — https://www.nature.com/articles/323533a0
+• Deep learning (LeCun, Bengio & Hinton, 2015 review) — https://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf
+• Fei-Fei Li: How we're teaching computers to understand pictures — https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures/transcript
+• ImageNet Classification with Deep Convolutional Neural Networks (AlexNet, 2012) — https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf
+• CHM Releases AlexNet Source Code — https://computerhistory.org/blog/chm-releases-alexnet-source-code/
+• Human-level control through deep reinforcement learning (Atari, 2015) — https://www.nature.com/articles/nature14236
+• Mastering the game of Go with deep neural networks and tree search (2016) — https://www.nature.com/articles/nature16961
+• AlphaGo — https://deepmind.google/research/alphago/
+• Efficient Estimation of Word Representations in Vector Space (word2vec) — https://arxiv.org/abs/1301.3781
+• Attention Is All You Need (2017) — https://arxiv.org/abs/1706.03762
+• Language Models are Few-Shot Learners (GPT-3, 2020) — https://arxiv.org/abs/2005.14165
+• Training language models to follow instructions with human feedback (InstructGPT) — https://arxiv.org/abs/2203.02155
+• Mapping the Mind of a Large Language Model — https://www.anthropic.com/research/mapping-mind-language-model
+• The Nobel Prize in Physics 2024 — https://www.nobelprize.org/prizes/physics/2024/press-release/
+
+Books: Melanie Mitchell, Artificial Intelligence: A Guide for Thinking Humans (2019); Cade Metz, Genius Makers (2021); Nils J. Nilsson, The Quest for Artificial Intelligence (2010, free PDF above); Richard Sutton & Andrew Barto, Reinforcement Learning: An Introduction (2nd ed., 2018, free at incompleteideas.net).
+
+About this video
+Educational science for relaxation and sleep. Narration and pictures are made with AI tools; the script is researched and written for this channel and checked against the sources above.
+
+#machinelearning #sleep #ai

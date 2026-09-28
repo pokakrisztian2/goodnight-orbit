@@ -1,0 +1,65 @@
+Hi. It's Otto. It's night on your side of the Earth, and I'm up here on the night shift. I'll keep watch, so you don't have to.
+
+The lamps are low. The tea is warm. Outside my window, the Earth is turning slowly, and the clouds are drifting over the dark oceans like pale sheets of paper. Somewhere down there, you're getting comfortable. That's good. Stay right there.
+
+Tonight, let's think slowly about machine learning.
+
+You've probably used it today, without noticing. When your phone recognised your face in the dark. When a map guessed that the traffic would be heavy. When an email slipped quietly into the spam folder, all by itself. And perhaps, when you typed a question into a chat window, and something answered you, in full sentences, as if it had been waiting.
+
+It can feel like magic. Or like something a little frightening. Machines that learn. But underneath all of it, there's a very old, very simple idea. You try something. You get it a little bit wrong. You notice how wrong. And you adjust, just slightly. And then you try again.
+
+That's all. You did it yourself, when you learned to walk. You're doing it right now, in a small way, every time you shift your pillow until it feels just right.
+
+Tonight, we'll follow that simple idea for about eighty years. We'll meet a quiet mathematician who asked whether machines could think. A psychologist who built a machine that turned its own knobs. A man who taught a computer to play checkers better than he could. We'll pass through a long cold winter, when almost nobody believed. And we'll come out, slowly, into the strange bright world we live in now.
+
+You don't need to understand all of it. Nobody really does. Not even the people who build these things, as we'll see. If you fall asleep halfway, that's the plan. I'll keep talking quietly, and the story will keep going without you, and that's perfectly fine.
+
+If you'd like me on watch again tomorrow night, you can subscribe. Then close your eyes.
+
+There. Let's begin.
+
+The year is nineteen fifty. In England, in a philosophy journal called Mind, a paper is published. It's about thirty pages long. And its very first sentence is this.
+
+I propose to consider the question, can machines think?
+
+The man who wrote it was Alan Turing. He was a mathematician. During the war, he'd worked in secret, on breaking codes. And he'd spent years thinking about what a machine could do, in principle, if you gave it the right instructions. But he knew that the question, can machines think, was slippery. What do we even mean by think? He called the original question, too meaningless to deserve discussion.
+
+So he did something clever. He replaced it with a game.
+
+He called it the imitation game. It's played with three people. A man, a woman, and a questioner, sitting in a separate room. The questioner can't see them, or hear their voices. They only pass notes back and forth. And the questioner's job is to work out, just from the written answers, which one is the man and which one is the woman.
+
+Now, Turing asked, what happens if we let a machine take one of those places? If the machine answers the notes, and the questioner can't reliably tell which one is the machine, then perhaps we should stop arguing about whether it thinks.
+
+He even made a prediction. In about fifty years, he wrote, computers would be able to play the game so well that an average questioner would have no more than a seventy percent chance of guessing right, after five minutes of questions. And he thought that by the end of the century, people would talk about machines thinking, without expecting anyone to argue.
+
+In his paper, Turing went through all the objections he could think of, one by one, patiently, like a host answering questions from the audience. And one of them came from a woman who'd lived a hundred years before him. Ada Lovelace.
+
+In the eighteen forties, Lovelace had written about a machine that was never fully built, Charles Babbage's Analytical Engine. And she'd written something very wise about it. The Analytical Engine, she said, has no pretensions to originate anything. It can do whatever we know how to order it to perform.
+
+A machine only does what we tell it. It can't surprise us. It can't create.
+
+Turing took her seriously. But he answered gently, and with a little smile, I think. Machines, he wrote, take me by surprise with great frequency.
+
+And then, near the end of the paper, he had an idea that was really the seed of everything we'll talk about tonight. Instead of trying to write a program that behaves like an adult mind, he asked, why not write one that behaves like a child's? And then let it learn. Give it an education. A child's mind, he imagined, is like a notebook from the stationer's. Rather little mechanism, and lots of blank sheets.
+
+A machine that isn't told everything. A machine that learns.
+
+A few years later, in the summer of nineteen fifty-five, four scientists wrote a short proposal. John McCarthy, Marvin Minsky, Nathaniel Rochester of IBM, and Claude Shannon of Bell Labs. And the first sentence of their proposal is rather charming, when you read it today.
+
+We propose that a two month, ten man study of artificial intelligence be carried out during the summer of nineteen fifty-six, at Dartmouth College, in Hanover, New Hampshire.
+
+Two months. Ten people. That was the plan. They wrote that every aspect of learning, or any other feature of intelligence, could in principle be described so precisely that a machine could be made to copy it. And they thought that a carefully chosen group of scientists, working together for a summer, could make a significant advance.
+
+That summer, at Dartmouth, is often remembered as the place where the words artificial intelligence first took hold. A new field, with a new name.
+
+The summer ended. The problems didn't. They're still being worked on, seventy years later.
+
+But there's one more small story from those early years that I'd like to tell you, because it's a quiet warning, and it's about us, more than about machines.
+
+In the mid nineteen sixties, at MIT, a computer scientist called Joseph Weizenbaum wrote a little program called ELIZA. He named it after Eliza Doolittle, the flower girl in Pygmalion, who's taught to speak like a lady. ELIZA could hold a simple conversation, typed on a screen. Its most famous role was a kind of therapist. You'd type, I feel sad. And it would answer, why do you feel sad? It didn't understand anything. It just followed rules, turning your own words back towards you.
+
+And yet, people loved talking to it. There's a story, which Weizenbaum told later in a book, that his own secretary, who knew perfectly well it was just a program, asked him after a few exchanges to leave the room, so she could talk to it in private.
+
+Weizenbaum found that unsettling. He spent much of his later life warning that just because computers can do something, doesn't mean they should. And he wrote a line that I think about sometimes. Once a program is explained in plain enough language, its magic crumbles away.
+
+That's what we'll try to do tonight. Explain it plainly. Not to make the magic crumble, exactly. But to make it feel a little less like magic, and a little more like something patient and ordinary, happening quietly in the dark.

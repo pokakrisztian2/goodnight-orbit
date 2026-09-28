@@ -1,0 +1,53 @@
+In March of twenty nineteen, three of the people who kept the faith through the long winter were given the Turing Award, which is sometimes called the Nobel Prize of computing. Yoshua Bengio, from Montreal. Yann LeCun, who taught networks to read cheques. And Geoffrey Hinton. The award was named, of course, after the man who first asked, can machines think?
+
+And then, in October of twenty twenty-four, something happened that nobody would have predicted when Rosenblatt's little motors were turning dials in Buffalo. The Nobel Prize in Physics went to two people who worked on learning machines.
+
+One was John Hopfield, of Princeton. In the early nineteen eighties, he'd designed a kind of network that works like a memory. Show it a damaged or blurry picture, and it settles, step by step, towards the closest picture it has stored. Like a ball rolling downhill into the nearest valley. The Nobel committee described it as a network that lowers its energy, bit by bit, until it finds its rest.
+
+The other was Geoffrey Hinton, for building on Hopfield's idea with his Boltzmann machine, using tools from physics to let networks learn hidden features of their own.
+
+When the call came from Stockholm, Hinton was in a cheap hotel in California, without an internet connection. He'd been planning to get an MRI scan that day. I guess I'll have to cancel that, he said.
+
+A day later, the Nobel Prize in Chemistry went, in part, to Demis Hassabis and John Jumper of DeepMind, the same company that built AlphaGo, for a program called AlphaFold. It predicts the shapes of proteins, the tiny folded machines that do almost all the work inside every living cell. It can predict the structures of virtually all of the two hundred million or so proteins that researchers have identified. And more than two million people, in a hundred and ninety countries, have used it in their work.
+
+From telling left from right on punch cards, to the shapes of the molecules of life. In about seventy years.
+
+So. Let's gather up what we've learned tonight. Slowly. There's no test.
+
+A machine that learns has knobs. Millions, or billions of them. Each knob says how much one small thing matters.
+
+It learns by making a guess, seeing how wrong it was, and turning every knob a tiny bit, in the direction that would have made it less wrong. Then it does it again. And again.
+
+It's like walking downhill in the fog. You never see the whole mountain. You only feel the slope beneath your feet. But step by step, you find your way down.
+
+The blame for each mistake is passed backwards, layer by layer, like walking back along a line of people carrying buckets, to find where the water spilled.
+
+Machines that see slide little windows across a picture, looking for the same small patterns everywhere. Machines that play learn from rewards, sometimes long delayed. Machines that read turn every word into a place on a vast map of meaning, and then let every word pay attention to every other.
+
+And the machines that talk to us are, at heart, guessing the next word, one small piece at a time. Very, very well. And sometimes, when they're unsure, bluffing a little.
+
+That's machine learning. Or at least, the heart of it.
+
+It began with a question, from a quiet mathematician in England. Can machines think? And he never claimed to know the answer. At the very end of his paper, after all his arguments, Alan Turing wrote a sentence that I've always found very comforting.
+
+We can only see a short distance ahead, but we can see plenty there that needs to be done.
+
+A short distance ahead. Like a walker in the fog.
+
+Now. Let's let the facts drift away for a while.
+
+Wherever you are, right now, you're learning too. Even as you rest. Scientists who study sleep believe that the brain uses the night to sort through the day. To keep some things, and let others go. Somewhere inside you, very quietly, your own connections are settling. Not because anyone is telling them what to do. Just because that's what they do, in the dark.
+
+Your breathing is slowing down. Each breath a little longer than the last.
+
+You don't need to turn any knobs tonight. You don't need to get anything right. There's no slope to feel, no valley to find. You're already there. Already resting, at the bottom of the hill, where it's warm.
+
+Up here, the station hums. The screens are dim. Somewhere in the computers around me, something is quietly learning, turning its tiny knobs, while I watch the Earth. And my tea has gone cold again. It always does. I don't mind.
+
+Out the window, the night side of the planet is turning beneath me. Dark oceans. Pale clouds. Scattered lights. And your light is one of those lights down there. Or maybe it's already off.
+
+You don't need to remember any of this tomorrow. The ideas will still be there, whenever you want them.
+
+Just rest now.
+
+The sun is coming up over the ocean now. My shift is almost over. Sleep well. I'll be up here tomorrow night.

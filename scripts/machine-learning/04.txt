@@ -1,0 +1,47 @@
+In the nineteen sixties, there was a great deal of hope. And, as there often is after great hope, there came a long, cold season.
+
+Remember Rosenblatt's little judge, the perceptron? It could learn to separate pictures into two groups, as long as a straight line could do the job. Imagine red dots and blue dots scattered on a page. If you can draw one straight line with all the red on one side and all the blue on the other, the perceptron will find that line.
+
+But what if you can't? What if the red dots sit in the middle, and the blue dots are all around them, in a ring? No straight line in the world can separate those. You'd need a curve. A circle.
+
+And a single perceptron can't draw a circle.
+
+In nineteen sixty-nine, two scientists at MIT, Marvin Minsky and Seymour Papert, published a book simply called Perceptrons. It was careful, and mathematical, and it proved that simple perceptrons of the kind Rosenblatt had built had some important limits. Their best-known examples were simple sounding questions. Is the number of dots on this card odd or even? Is this shape all in one piece, or is it broken into parts? Questions a child could answer, but which a simple perceptron, looking at the picture in the way it did, could not.
+
+Minsky was a remarkable person. He'd built one of the very first neural network machines himself, as a graduate student at Princeton in nineteen fifty-one. He co-founded MIT's artificial intelligence laboratory. He also invented, of all things, an early kind of microscope, a confocal scanning microscope, which is still used in laboratories today. He's often called one of the fathers of artificial intelligence.
+
+People have argued for decades about how much damage that book did. Some say it killed interest in neural networks for a generation. Others point out that the tide was already turning, and that Rosenblatt himself had moved on to other research. Probably, it was a little of both. But what's certain is that the idea of learning machines built like brains fell quietly out of fashion.
+
+And then, in Britain, in the early nineteen seventies, the government's science council asked a famous mathematician, Sir James Lighthill, to review the whole field of artificial intelligence. Lighthill was an expert in fluid dynamics. The flow of air and water. He was not an AI researcher. And his report was blunt.
+
+In no part of the field, he wrote, have the discoveries made so far produced the major impact that was then promised.
+
+He blamed something he called the combinatorial explosion. It's a simple idea, really. If you try to solve a problem by checking every possibility, then every step you look ahead multiplies the number of possibilities. Two steps, four. Ten steps, a thousand. Twenty steps, a million. Very quickly, even the fastest computer in the world is drowning.
+
+After the report, much of the funding for AI in Britain dried up. Research groups shrank. A robot project at Edinburgh, a robot called Freddy that could pick up pieces and assemble simple objects, was among the casualties.
+
+This was the first of what people came to call the AI winters.
+
+There was a spring, of sorts, in the late nineteen seventies and early eighties. A new idea became popular, called expert systems. Instead of trying to make a machine learn, you'd sit down with a human expert, a doctor, say, and write down everything they knew as rules. If the patient has this symptom, and this test result, then consider this infection. A program at Stanford called MYCIN did exactly that, to advise on infections. It started with about two hundred rules, and by nineteen seventy-eight it had nearly five hundred.
+
+Companies were founded. Money poured in. But writing down every rule by hand turned out to be slow, and brittle, and expensive. The world is full of situations that nobody thought to write a rule for.
+
+In nineteen eighty-four, at a big AI conference in America, some researchers held a discussion panel with a rather gloomy title. The Dark Ages of AI. Can we avoid them, or survive them? They could feel the weather changing. And they were right. In the late nineteen eighties, several AI companies closed. Government budgets were cut. The second winter had arrived.
+
+But winters, of course, are not the end of anything. The computer scientist Nils Nilsson, who lived through all of it, put it beautifully. The winter, he wrote, endured only for a season. A season not of hibernation, but of renewed efforts to carry on.
+
+And during that season, in the nineteen nineties, one idea in particular became very popular. It had a rather technical name. The support vector machine. But the idea underneath it is lovely, and simple.
+
+Picture those red and blue dots again, on a page. Lots of straight lines might separate them. Which one is best?
+
+The answer from support vector machines is this. Don't just draw a line. Build a street. Find the widest possible empty street that runs between the two groups, with all the red houses on one side and all the blue houses on the other. And draw your line right down the middle of that street.
+
+The widest street is the safest. When a new dot arrives, one you've never seen, it's least likely to land on the wrong side.
+
+And here's the part that gives the method its name. The only dots that matter are the ones right on the edge of the street. The houses on the kerb, you might say. The ones further back don't change anything. Those few kerbside points are the support vectors. They hold the street in place.
+
+This idea was worked out at Bell Laboratories, in New Jersey, by Vladimir Vapnik and his colleagues, in papers from nineteen ninety-two and nineteen ninety-five. And they found a clever trick for the circle problem, too. If the dots can't be separated on a flat page, lift them up, into more dimensions, where a flat street can pass between them after all.
+
+For about a decade, support vector machines were the trusted, respectable way to do machine learning. They were well understood, and reliable. Neural networks, with their layers and knobs, seemed messy and old-fashioned by comparison. By the late nineteen nineties, as three of their most devoted champions later wrote, neural networks had been largely forsaken.
+
+Largely. But not completely. A few people kept working on them, through the long winter, mostly ignored. And they'd found something important.

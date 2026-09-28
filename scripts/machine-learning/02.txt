@@ -1,0 +1,55 @@
+To build a machine that learns, people first looked at the one thing they knew for certain could learn. The brain.
+
+Your brain is made of cells called neurons. Tens of billions of them. Each one is a bit like a tiny tree, with branches reaching out to touch other neurons. A neuron listens to its neighbours. It gathers up their signals. And when enough of them are calling at once, it fires, sending its own signal onwards. All or nothing. Like a small click.
+
+In nineteen forty-three, two men in Chicago wrote a paper about that click. One was Warren McCulloch, an older neuroscientist. The other was Walter Pitts, who was still in his teens, and had no degree at all.
+
+There's a story about Pitts, told and retold, so perhaps a little polished over the years. As a boy in Detroit, the story goes, he hid from bullies in the public library. And while he was there, he read a huge, famously difficult book on the foundations of mathematics, Principia Mathematica, and found mistakes in it, and wrote to one of its authors, Bertrand Russell, to point them out. He was about twelve.
+
+Whether every detail is true or not, Pitts really was a kind of genius. And together with McCulloch, he showed something remarkable. Because a neuron either fires or it doesn't, they argued, you could describe a network of neurons using simple logic. Yes or no. On or off. And a network like that, in principle, could compute anything that a computer could compute.
+
+It was a picture of the brain as a machine made of tiny switches. It wasn't quite right, of course. Real neurons are far richer and messier than that. But it planted an idea. If a brain is a network of simple units, maybe we could build one.
+
+The man who tried was Frank Rosenblatt.
+
+Rosenblatt was born in New Rochelle, New York, in nineteen twenty-eight. He was a psychologist, trained at Cornell University, and his interests were enormous. He composed music. He studied the stars. Later, he bought a telescope for about three thousand dollars, and built a little observatory in his back yard with his students, and proposed a new way of searching for planets around other stars. He was the kind of person who couldn't stay in one room of knowledge. He had to wander through all of them.
+
+And in the nineteen fifties, at the Cornell Aeronautical Laboratory in Buffalo, he designed something he called the perceptron.
+
+Here's the idea, as gently as I can put it.
+
+Imagine a little judge. It looks at a picture, and it has to answer a simple question. Yes or no. Is the mark on the left side of the card, or on the right?
+
+The judge looks at every part of the picture. And for each part, it has a knob. A little dial, that says how much that part matters. Turn a knob up, and that part of the picture counts for more. Turn it down, and it counts for less. Turn it below zero, and that part actually argues for the other answer.
+
+The judge adds everything up. Each part of the picture, times the setting on its knob. And if the total is big enough, it says yes. Otherwise, it says no.
+
+At the start, the knobs are set more or less at random. So the judge is mostly guessing.
+
+But now comes the learning. Every time the judge gets an answer wrong, you nudge the knobs. Just a little. You turn up the ones that would have pushed it towards the right answer, and turn down the ones that pushed it the wrong way. And when it gets the answer right, you leave the knobs alone.
+
+That's it. Learn only from your mistakes. Change a little each time.
+
+Those knobs have a name in machine learning. They're called weights. And I'd like you to hold on to that picture for the rest of the night. A machine with knobs, that turns them a tiny bit every time it's wrong. Because almost everything we'll talk about tonight, even the most astonishing things, are that same machine, grown very, very large.
+
+In July of nineteen fifty-eight, the US Navy's Office of Naval Research showed off Rosenblatt's idea to the press. It ran on an IBM seven oh four, a computer that weighed about five tons and filled a room. They fed it punch cards, some marked on the left, some marked on the right. And after fifty tries, it had taught itself to tell them apart.
+
+The next day, the New York Times ran a story. New Navy device learns by doing. And it said the Navy expected the machine would one day be able to walk, talk, see, write, reproduce itself, and be conscious of its existence.
+
+That was, shall we say, a little optimistic. It had learned to tell left from right.
+
+But Rosenblatt wanted more than a program. He wanted a real machine. And so, at Cornell Aeronautical Laboratory, they built one. The Mark One Perceptron. It was first shown to the public on the twenty-third of June, nineteen sixty.
+
+It had an eye. A grid of four hundred light sensors, twenty across and twenty down. A tiny, blurry camera, four hundred dots. You could hold a shape up in front of it, and it would try to sort it into one of two groups.
+
+And here's the part I love. The knobs were real knobs. The weights were volume controls, the same kind of dial you'd find on an old radio. And each one had a small electric motor attached. So when the machine made a mistake, you could almost hear it learning. Little motors, whirring, turning the dials up and down.
+
+A machine, turning its own knobs, in a room in Buffalo, sixty-odd years ago. The Mark One Perceptron is kept today at the Smithsonian Institution, in Washington.
+
+Rosenblatt also proved something important. If there was a straight line that could separate the two groups of pictures, his learning rule would always find it, eventually. Keep nudging the knobs, and you'll get there.
+
+But notice that little word. If. If there was a straight line. And that if, as we'll see, would cause a great deal of trouble.
+
+Rosenblatt's own story ended far too soon. On the eleventh of July, nineteen seventy-one, on his forty-third birthday, he drowned in a sailing accident on Chesapeake Bay. His colleagues at Cornell remembered him as one of the most selfless and sympathetic colleagues, whose good humour and brilliant mind left a deep impression on them all.
+
+He didn't live to see what his little judge would become. But the knobs kept turning, long after he was gone.

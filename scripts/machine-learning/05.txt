@@ -1,0 +1,51 @@
+Remember the problem with the little judge? One judge can only draw one straight line. It can't draw a circle.
+
+But what if you had more than one judge? What if you put a row of judges in the middle, each one looking at the picture and drawing its own straight line, and then one last judge at the end, who listens to all of them and makes the final decision?
+
+With enough judges in the middle, all those straight lines together can surround a shape. They can draw something that works like a circle. Or a much stranger shape. In principle, any shape at all.
+
+Those judges in the middle are called a hidden layer. Hidden, because you never see their answers directly. They sit between the picture going in and the answer coming out, quietly doing their part. Stack several hidden layers on top of each other, and you have what people now call a deep network. That's all the word deep means, in deep learning. Many layers.
+
+But there was a problem, and it was a hard one. When the final answer is wrong, whose fault is it? The last judge? One of the judges in the middle? Which of the thousands of knobs, spread across all those layers, should you turn? And which way? And by how much?
+
+This is where the story takes us walking.
+
+Imagine you're standing on a hillside, somewhere in the mountains, at night. There's thick fog all around you. You can't see the valley. You can't see anything at all, really, except the ground right under your feet. And you want to get down, to the lowest point, where it's warm, and where you can rest.
+
+What do you do?
+
+You feel the ground with your feet. Which way does it slope? You find the direction that goes most steeply downhill. And you take one small, careful step that way. Then you stop, and you feel the ground again. And you take another step. And another.
+
+You never see the whole mountain. You only ever know the slope beneath you. But step by step, patiently, you find your way down.
+
+This is how almost every learning machine in the world learns, today. It's called gradient descent. Gradient just means the slope. Descent means going down.
+
+Here's how the picture fits. The height of the hillside is the machine's mistake. Machine learning people call it the loss. High up on the mountain, the machine is making big mistakes. Down in the valley, it's making small ones. And where you're standing on the hillside depends on how all the knobs are set.
+
+So when the machine feels the slope, it's asking, for each knob, a very small question. If I turned this one knob up, just a tiny bit, would my mistake get bigger, or smaller? And by how much? Then it turns every knob a little in the direction that makes the mistake smaller. One small step downhill.
+
+In practice, the machine doesn't even look at all its examples before each step. It takes a small handful, feels the slope for just those, steps, and then takes another handful. It's a bit like walking downhill while the fog shifts around you. It wobbles. But on average, it goes down.
+
+The mathematics of walking downhill is very old, much older than computers. The hard part was this. In a network with many layers, how do you find the slope for a knob that's buried deep inside, far away from the final answer?
+
+The answer is called backpropagation. It means, sending the error backwards.
+
+First, the picture flows forward, through the layers, to an answer. Then you compare that answer with the right one, and measure the mistake. And then the blame flows backwards. The last layer works out how much each of its knobs contributed to the mistake. Then it passes a message back to the layer before, saying, here's how much you contributed, through me. And that layer does the same, passing blame back to the layer before it. All the way back to the beginning.
+
+It's a little like a long line of people passing buckets of water. If the last bucket arrives half empty, you walk back down the line, one person at a time, finding out where the water spilled.
+
+Versions of this idea had been found before, by different people, in different places. But in October of nineteen eighty-six, a short paper in the journal Nature made it famous. Its authors were David Rumelhart, Ronald Williams, and a British researcher named Geoffrey Hinton.
+
+And the most beautiful thing in that paper wasn't the method itself. It was what happened inside the network. The hidden judges in the middle, the ones nobody had told what to look for, came to represent important features of the task all by themselves. Nobody told them what to notice. They worked it out, on their way down the mountain.
+
+Geoffrey Hinton became, over the following decades, one of the most patient figures in this whole story. He kept believing in neural networks through the long winter, when most of the field had moved on. A few years before the backpropagation paper, in nineteen eighty-three, he and Terrence Sejnowski had invented something called the Boltzmann machine, one of the first networks that could learn hidden features of its own, using ideas borrowed from physics. We'll come back to that, near the end of the night.
+
+And there's one small, human thing about Hinton that I find rather touching. When he was nineteen, he hurt his back, trying to move a heavy heater for his mother. A disc in his spine was damaged. Over the years it got worse, and by two thousand and five, he'd stopped sitting down almost entirely. He works standing up. Long journeys became slow and difficult. For years now, one of the great minds of machine learning has thought his thoughts on his feet.
+
+People worried about one thing, with the downhill walk. What if you walk down into a little hollow, a small dip in the hillside, and get stuck there, thinking you've reached the bottom, while the real valley lies far below, hidden in the fog?
+
+For years, that worry was one of the reasons people gave up on neural networks. But it turned out, when the networks became very large, that the worry was mostly overblown. In a landscape with millions of directions, there's nearly always some way further down. Poor little hollows, as Hinton and his colleagues wrote much later, are rarely a problem with large networks.
+
+So. Picture it for a moment. Somewhere in the fog, a walker, taking one small step, and then another. Never seeing the whole mountain. Just feeling for the slope, and trusting it.
+
+That's learning. Or, at least, it's how the machines do it.

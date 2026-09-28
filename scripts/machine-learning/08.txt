@@ -1,0 +1,45 @@
+So far, our machines have learned from examples with answers. Here's a picture, and it's a lighthouse. Here's a handwritten number, and it's a seven. This is called supervised learning. It's a bit like studying a book of questions with the answers printed at the back.
+
+But a lot of learning isn't like that. Nobody gave you an answer book when you learned to ride a bicycle. You wobbled. You fell. You tried again. And slowly, your body worked out what to do, from the feeling of falling and the feeling of not falling.
+
+That's the idea behind a different kind of machine learning, called reinforcement learning. The machine isn't told the right answer. It's put into a situation, and it tries things. And sometimes, afterwards, it gets a reward. A point. A win. And it has to work out, by itself, which of its many actions deserved the credit.
+
+Two researchers who shaped this field, Richard Sutton and Andrew Barto, described its two most important features in a simple phrase. Trial-and-error search, and delayed reward.
+
+Delayed. That's the hard part. In a game, you might make a brilliant move, and not find out that it was brilliant until twenty moves later, when you finally win. Which move was the good one? The machine has to learn to spread the credit backwards through time, a little like our bucket line from earlier tonight, but stretching back through the moves of a game.
+
+In the early nineteen nineties, at IBM, a researcher named Gerald Tesauro built a program that learned to play backgammon, the old board game of dice and counters. It was called TD-Gammon. It played against itself, over and over, for many hundreds of thousands of games, eventually millions. Nobody taught it strategy. And the patterns in its hidden layers came to resemble, as Tesauro put it, the kind of useful features an expert would have written down.
+
+Later versions played at a level close to the best humans in the world. In one match of forty games against a former world champion, Bill Robertie, the champion only pulled ahead in the very last game, to win by a single point.
+
+Then, in two thousand and thirteen, a small company in London called DeepMind showed something striking. They built a program that learned to play old Atari video games. The kind with blocky pictures and simple sounds, from the late nineteen seventies. The program wasn't told the rules of any game. It saw only what a player would see. The pixels on the screen. And it was given only the score.
+
+That's all. Here's the screen. Here's the score. Make the score go up.
+
+In a paper in Nature in two thousand and fifteen, they showed that the same program, with the same settings, could learn forty-nine different Atari games this way, and on many of them it reached roughly the level of an expert human player. It learned by playing, and failing, and playing again, many thousands of times over.
+
+But the most famous game of all was still to come. And it's one of the oldest games in the world.
+
+Go is a game played on a board of nineteen by nineteen lines, with black and white stones. Players take turns placing stones, trying to surround territory. The rules are simple enough to learn in an afternoon. And yet the game is so rich that the number of possible arrangements of the board is around a one, followed by a hundred and seventy zeros. That's far, far more than the number of atoms in the known universe.
+
+For a long time, people thought a computer wouldn't beat a top human at Go for decades. There are simply too many possibilities to check them all. Remember Lighthill's combinatorial explosion? Go was the explosion in its purest form.
+
+DeepMind's program was called AlphaGo. It had two neural networks, working together. One looked at the board and suggested promising moves, like an instinct. The other looked at the board and judged who was likely to win, like a feeling in the stomach. It first learned from the games of human experts. And then it played against itself, many, many times, and improved beyond them.
+
+In March of two thousand and sixteen, in Seoul, AlphaGo played a five-game match against Lee Sedol, one of the greatest Go players of his generation. Over two hundred million people around the world watched.
+
+In the second game, AlphaGo played a move that the commentators couldn't understand. Move thirty-seven. It placed a stone in a spot that looked, to experienced human eyes, almost like a mistake. DeepMind later estimated that a human player would have chosen that move about one time in ten thousand.
+
+Lee Sedol stood up and left the room. It took him nearly fifteen minutes to reply. Watching from the side, the European champion Fan Hui, who'd lost to AlphaGo himself a few months before, kept saying, so beautiful. So beautiful.
+
+The move turned out to be brilliant. AlphaGo won that game, and the next one.
+
+But in the fourth game, something lovely happened. Lee Sedol, under enormous pressure, three games down, found a move of his own. Move seventy-eight. A wedge, placed right into the middle of the board. And that move, too, had odds of about one in ten thousand. Go fans later called it God's Touch.
+
+AlphaGo hadn't prepared for it. As DeepMind's founder, Demis Hassabis, explained later, it didn't think that a human would ever play it. The machine began to make mistakes, and lost the game.
+
+AlphaGo won the match four games to one. And Lee Sedol became the only human ever to win a game against that version of AlphaGo.
+
+Three years later, he retired from professional Go. And the reason he gave was quiet, and a little sad. Even if I become the number one, he said, there is an entity that cannot be defeated.
+
+I think about those two moves, sometimes, on the long nights up here. Move thirty-seven, one in ten thousand, from a machine. And move seventy-eight, one in ten thousand, from a man. Both of them surprising. Both of them beautiful. And for one afternoon in Seoul, a human being, playing an ancient game, was the one who took the machine by surprise.

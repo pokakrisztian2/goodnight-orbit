@@ -1,0 +1,39 @@
+Language arrives in order. One word, then the next, then the next. So for a long time, the machines that worked with language read the same way we do. From left to right, one word at a time, carrying a little memory along with them as they went.
+
+The trouble was that the memory faded. By the end of a long sentence, the beginning had grown faint. It's a little like trying to remember a long phone number that someone reads out to you, one digit at a time. By the time they reach the end, the first few digits are slipping away.
+
+In nineteen ninety-seven, two researchers in Germany, Sepp Hochreiter and Jürgen Schmidhuber, designed a network with a better memory. They called it Long Short-Term Memory. It had little gates inside it, which could decide what to keep, what to forget, and what to pass along. It could carry a piece of information across a thousand steps or more. For about twenty years, networks like this did much of the work of translating, and recognising speech, and suggesting the next word on your phone.
+
+But they still read one word at a time. And that made them slow to train. You can't read the tenth word until you've read the ninth.
+
+Then, around two thousand and fourteen, researchers including Yoshua Bengio's group in Montreal added something to translation machines, something they called attention. When the machine was writing out a translated sentence, it could look back at the original sentence and focus on the words that mattered most, right at that moment. Like a translator, running a finger back along the line.
+
+And in June of two thousand and seventeen, eight researchers, most of them at Google, published a paper with a rather bold title. Attention Is All You Need.
+
+What if, they asked, we got rid of the reading-in-order altogether? What if the machine used only attention?
+
+The design they described was called the Transformer.
+
+Here's how I'd picture it. Imagine a sentence, laid out on a table, all at once. Every word, all together. The cat, which had been sleeping by the fire all afternoon, finally stretched.
+
+Now, each word gets to ask a question. And every other word gets to answer.
+
+The word stretched asks, who is doing the stretching? And it looks around the table, at all the other words. The fire? No. The afternoon? No. The cat. Yes, the cat. So stretched pays a lot of attention to cat, and very little to the rest.
+
+Meanwhile, the word sleeping is asking its own question, and the word fire, and every other word. All at the same time. Each word looking around the sentence, weighing up how much every other word matters to it. And then, each word updates itself, blending in a little of the meaning of the words it paid attention to.
+
+So after one round, the word bank, in a sentence about rivers, has absorbed a little of the river around it. And the word bank, in a sentence about money, has absorbed a little of the money.
+
+And then you do it again. Another layer. And again. Dozens of layers of words, all looking at each other, asking and answering, refining their meanings, until each word carries the whole sentence inside it.
+
+Because every word does this at once, instead of one after another, the Transformer could use those gaming chips from Toronto to their fullest. Thousands of calculations, side by side. It trained far faster than the old reading-in-order networks. In the original paper, their big model learned to translate between English and German, and English and French, better than any system before it, after training for three and a half days on eight graphics chips.
+
+There's a small, human detail in that paper, which I've always liked. Next to the list of the eight authors, there's a little footnote. Equal contribution, it says. Listing order is random.
+
+Eight people. Nobody first, nobody last. And the footnote goes on to say who did what. One of them, Jakob Uszkoreit, had first proposed replacing the old reading-in-order networks with attention. Others designed pieces, tested ideas, wrote the code, ran the experiments. A real group effort, recorded in one quiet footnote at the bottom of the first page.
+
+That design, the Transformer, is now inside almost every large language system you've heard of. Google's own guide describes a large language model, informally, as simply any Transformer-based language model.
+
+All those words, on all those tables, looking at each other, asking and answering. All at once. That's attention.
+
+It's a little like this station at night, I think. Every instrument quietly checking on every other. The air system listening to the temperature. The temperature listening to the lights. The lights listening to the clock. Nothing in charge, exactly. Everything paying a little attention to everything else. And somehow, together, keeping me safe and warm while the Earth turns below.

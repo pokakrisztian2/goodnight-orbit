@@ -1,0 +1,39 @@
+Now let's give our machines eyes.
+
+A picture, to a computer, is just a grid of numbers. Each little square, each pixel, has a number for how bright it is. A small photo might be a few hundred pixels across. A modern phone photo, millions.
+
+Suppose you wanted to build a network that recognises handwritten numbers. A three, a seven, a nine. The simplest idea is to give every pixel its own knob, connected to every judge in the first layer. But that's an awful lot of knobs. And it's also a little foolish. Because a seven is a seven, whether it's written in the top corner of the page or near the bottom. A network that learned to spot a seven in one place would have to learn the whole thing all over again, from scratch, for every other place.
+
+There's a better way. And it's the way your own eyes seem to work, in part.
+
+Imagine a small window. A little square, just a few pixels wide. And inside that window, a small pattern of knobs, tuned to notice one simple thing. A short line, leaning to the left, perhaps. Or a curve. Or the place where a dark stroke meets a light background.
+
+Now slide that little window across the whole picture. Left to right, row by row, the way your eyes move across a page when you read. Everywhere it goes, it asks the same question, using the same knobs. Is my little pattern here? And here? And here?
+
+That sliding window is called a filter, and the sliding is called convolution. Because the same small set of knobs is reused everywhere, the network needs far fewer of them. And a seven is recognised as a seven, wherever it happens to sit.
+
+The first layer finds little edges and strokes. The next layer looks at those edges and finds corners and loops. The next finds whole shapes. Layer by layer, from dots, to lines, to shapes, to meaning.
+
+In the late nineteen eighties, a young French researcher named Yann LeCun, working first in Toronto and then at Bell Laboratories in New Jersey, trained a network like this on real handwriting. Zip codes. Handwritten numbers from envelopes, supplied by the United States Postal Service. His paper came out in nineteen eighty-nine. It was one of the first times a convolutional network had been trained with backpropagation, on real, messy human writing.
+
+Over the next decade, LeCun and his colleagues refined the idea. Their network from nineteen ninety-eight, called LeNet five, had about sixty thousand knobs. Which sounds like a lot. But because its filters were shared across the picture, it made over three hundred and forty thousand connections with those sixty thousand knobs. The same small set of dials, reused again and again.
+
+To train and test it, they put together a collection of handwritten digits, gathered from two older collections at the National Institute of Standards and Technology. Sixty thousand examples for learning, and ten thousand more for testing. The collection was called MNIST. And for years afterwards, almost every student of machine learning trained their very first network on those same little handwritten numbers. Tens of thousands of threes and sevens and nines, written by strangers, a long time ago.
+
+And here's the part of the story that happened quietly, in the real world. LeCun's network was put to work reading numbers on bank cheques. By the late nineteen nineties, it was reading several million cheques a day. More than one in ten of all the cheques written in the United States passed through it.
+
+Think of that. Somebody, somewhere, writes forty dollars and fifty cents, in slightly wobbly handwriting, and signs it, and pays their rent. And a network with sixty thousand knobs, trained on strangers' handwriting, quietly reads the number, and gets it right. Nobody in the story ever knows.
+
+Now, there's one danger in teaching a machine from examples, and it's worth understanding, because it's a very human danger too. It's called overfitting.
+
+Google's machine learning guide describes it with a lovely comparison. Overfitting, they say, is like strictly following advice from only your favourite teacher. You'll probably do very well in that teacher's class. But you might become so tuned to that one teacher's ideas that you struggle in every other class.
+
+A machine that overfits has learned its examples too well. It has memorised the quirks of those particular sixty thousand handwritten numbers, the smudges and the odd loops, instead of learning what a seven really is. Show it a seven written by somebody new, and it stumbles.
+
+So when you teach a machine, you always keep some examples aside, ones it never sees during learning. A test. If it does well on the practice questions, but poorly on the test, you know it has memorised, rather than understood.
+
+It's a good thing to remember about learning of any kind, I think. The goal isn't to remember every example perfectly. It's to find the thing underneath them. The shape of a seven. Not the smudge.
+
+And yet, even after all this success, most of the computer vision world still wasn't convinced. Convolutional networks, as LeCun, Bengio and Hinton later wrote, were largely forsaken by the mainstream, until one particular competition, in two thousand and twelve.
+
+To get there, we need a very big picture book.

@@ -1,0 +1,51 @@
+In two thousand and seven, a young computer scientist named Fei-Fei Li, working with Professor Kai Li at Princeton University, started a project that many people thought was a strange use of time.
+
+She wanted to build a picture book. The biggest picture book in the world.
+
+Her thinking went something like this. A small child learns to recognise a cat without anyone explaining what a cat is. Nobody gives a three-year-old a list of rules about whiskers and ears and tails. The child just sees cats. Lots of them. Real ones, drawings, cats in books, cats in windows. And somewhere along the way, the idea of a cat settles into place.
+
+By the age of three, she pointed out, a child would have seen hundreds of millions of pictures of the real world. Every glance is a picture, after all. Every second of looking.
+
+So perhaps, she thought, the problem with machines wasn't only how they learned. Perhaps they simply hadn't seen enough.
+
+The project was called ImageNet. The idea was to collect millions of photographs from the internet, and to label each one with what it showed. Not just cat and dog. But thousands and thousands of categories, organised like a great family tree of words. Tabby cat. Persian cat. Golden retriever. Fire engine. Teapot. Lighthouse. Strawberry.
+
+No small team could label that many pictures. So they turned to the internet itself. At its peak, the project was one of the biggest employers on a website where people around the world do small tasks online for small payments. Almost fifty thousand people, in a hundred and sixty-seven countries, helped to sort and clean and label nearly a billion candidate pictures.
+
+I like to imagine them. Someone in a kitchen, late at night. Someone on a lunch break. Clicking, one after another. Yes, this is a lighthouse. No, this is not a strawberry. Thousands of quiet, anonymous decisions, all over the planet, all flowing into one enormous book.
+
+By two thousand and nine, ImageNet held about fifteen million pictures, in about twenty-two thousand categories.
+
+And then, from two thousand and ten, there was a yearly competition. Teams from around the world would build programs to look at pictures from ImageNet and name what was in them. Each program could make five guesses. If the right answer was among the five, it counted as correct.
+
+For the first couple of years, the best programs improved slowly. The methods were careful and hand-crafted. And then came two thousand and twelve.
+
+In Toronto, Geoffrey Hinton had two students. One was Alex Krizhevsky. The other was Ilya Sutskever. And together, they built a convolutional network, the same kind of sliding-window network that LeCun had used on handwritten numbers. But much, much bigger.
+
+Their network had sixty million knobs. Sixty million. And six hundred and fifty thousand of those little artificial neurons. It learned from about one point two million pictures.
+
+Turning sixty million knobs, over and over, for millions of pictures, takes an enormous amount of arithmetic. And this is where our story takes a turn that I find rather wonderful. Because the machines that made it possible were built for video games.
+
+A graphics card, or GPU, is the chip inside a computer that draws pictures on the screen. To make a game look smooth and real, it has to do a vast number of small calculations at once, one for every tiny point of light. And it turns out that training a neural network is also mostly a vast number of small, similar calculations, all at once. Multiplying long rows of numbers, again and again.
+
+In two thousand and seven, the company NVIDIA had released a way for programmers to use these graphics chips for other kinds of work, not just games. And Alex Krizhevsky wrote careful, clever code to train his network on them.
+
+He used two graphics cards. Ordinary gaming cards, the kind someone might buy to play games at home. Each one had only three gigabytes of memory, which wasn't enough to hold the whole network. So he split the network in half, and let each card carry one half, talking to each other as they went.
+
+The training took five to six days.
+
+And according to the Computer History Museum, it happened on a computer with those two graphics cards, in Alex Krizhevsky's bedroom, at his parents' house.
+
+The competition results came in the autumn of two thousand and twelve. The second-best team got the answer wrong, even with five guesses, about twenty-six percent of the time. Krizhevsky's network got it wrong about fifteen percent of the time. It had almost halved the error.
+
+In a field where improvements usually came a percent or two at a time, it was like a runner finishing a race while everybody else was still rounding the last bend.
+
+The network became known by its builder's first name. AlexNet. It was presented at a computer vision conference in Florence, in Italy, in October of that year. And almost overnight, the people who had ignored neural networks for years began to pay attention. The long winter was over. The spring had come very suddenly, and it came from a bedroom.
+
+Many years later, Hinton summed up the whole thing to the Computer History Museum in one sentence, with his usual dry humour.
+
+Ilya thought we should do it, Alex made it work, and I got the Nobel Prize.
+
+We'll get to the Nobel Prize, a little later.
+
+For now, let's just stay with the picture. A house in Toronto. A quiet bedroom. Two graphics cards humming inside a computer case, warm to the touch, for nearly a week. Sixty million knobs, each turning a tiny bit, and then a tiny bit more. Walking down the mountain in the fog, one small step at a time, looking at lighthouses and teapots and strawberries, until it learned to see.

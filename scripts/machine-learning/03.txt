@@ -1,0 +1,41 @@
+While Rosenblatt was building his judge, another man was quietly teaching a computer to play a game.
+
+His name was Arthur Samuel. He was an engineer, and he'd started thinking about the idea in the late nineteen forties, at the University of Illinois. In nineteen forty-nine, he joined IBM, at its laboratory in Poughkeepsie, New York. And there, on IBM's very first big scientific computers, he began to write a program that played checkers.
+
+Why checkers? Because it's simple enough to describe completely. Red and black pieces on a board of squares. Pieces move diagonally. You jump over your opponent to capture. Reach the far side, and you become a king. The rules fit on a single page. And yet, the game is deep enough that a human can spend a whole lifetime getting better at it.
+
+Samuel's first working checkers program ran in nineteen fifty-two, on the IBM seven oh one. Two years later, he rewrote it for the seven oh four, the same kind of room-sized machine that Rosenblatt's perceptron had run on.
+
+He wasn't the very first to try. In England, a few years earlier, a programmer named Christopher Strachey had written a checkers program for a computer in Manchester. But Samuel wanted something different. He didn't just want a program that played. He wanted a program that got better.
+
+Here's how he thought about it.
+
+When you look at a checkers board, you can judge, roughly, who's winning. How many pieces each side has. How many kings. Who controls the centre of the board. Who has more room to move. Each of those things matters. But how much? Is a king worth two ordinary pieces? Three? Is controlling the centre more important than having an extra piece?
+
+Samuel gave his program a list of these things to look at. And for each one, a weight. A knob, once again. How much does this feature matter? And he didn't set the knobs himself. He let the program find them.
+
+The program would look ahead a few moves, imagining what might happen. It would judge each future position using its current knobs. And then, as the game went on, it would compare what it had predicted with what actually happened. When its guesses turned out wrong, it adjusted the knobs, so that next time, its judgement of a position would be a little closer to the truth.
+
+And it played against itself. Over and over. One version of the program against another, through the long hours of the night, learning from every game.
+
+In July of nineteen fifty-nine, Samuel published a paper about his work. And the title is worth noticing. Some Studies in Machine Learning Using the Game of Checkers.
+
+Machine learning. It's one of the earliest places those two words appear together, and IBM credits Samuel with coining the phrase.
+
+The first sentence of his paper says something that must have seemed almost impossible at the time. A computer, he wrote, can be programmed so that it will learn to play a better game of checkers than can be played by the person who wrote the program.
+
+That was the whole point. The program didn't need its maker to be a master. Samuel gave the program only the rules of the game, a sense of direction, and a list of features whose correct weights, he wrote, were unknown. And in eight or ten hours of playing time, it learned to beat him.
+
+He also explained why this mattered, in a sentence that could describe the whole field, even today. Programming computers to learn from experience, he wrote, should eventually eliminate the need for much of this detailed programming effort.
+
+Don't write every rule. Let the machine learn the rules from experience.
+
+A few years before that paper, in February of nineteen fifty-six, Samuel's checkers program was shown on television. And there's a lovely little story about it, remembered by John McCarthy. IBM's founder, Thomas J. Watson, apparently said that the demonstration would raise the price of IBM stock by fifteen points.
+
+And, McCarthy added, it did.
+
+In nineteen sixty-two, the program played a game against a strong human player named Robert Nealey, and won. It was celebrated as a milestone. In fairness, the story is a little more modest than the headlines. Nealey was a good player, but not quite the champion he was sometimes described as. And in a rematch the following year, he won one game and drew the other five. Against the true world-class players of the day, the program lost every game.
+
+But that doesn't matter very much, I think. What mattered was the idea. A machine, playing against itself in the dark, adjusting its own knobs, slowly becoming better than the person who built it.
+
+I think of Samuel sometimes, up here, in the quiet hours. The station hums. The screens glow. Somewhere in the computers around me, programs are running that nobody is watching. And it's a strange, gentle thought, that a machine could be busy getting better at something, all night long, while its maker sleeps.
