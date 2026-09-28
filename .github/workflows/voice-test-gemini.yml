@@ -4,7 +4,7 @@ on:
     inputs:
       voices:
         description: "Voices, comma separated"
-        default: "Charon,Algenib,Iapetus,Orus"
+        default: "voice_j2on1zgy9jtv,voice_vo5ig3o1nuni,voice_t0ztxfib06u1"
 jobs:
   test:
     runs-on: ubuntu-latest

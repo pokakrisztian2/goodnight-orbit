@@ -10,6 +10,7 @@ Plain text only: one paragraph per beat, blank line between beats.
 
 import argparse
 import base64
+import io
 import json
 import os
 import re
@@ -22,7 +23,7 @@ import numpy as np
 import soundfile as sf
 
 MODEL = "gemini-3.8-flash-tts"
-VOICE = "Charon"
+VOICE = "voice_j2on1zgy9jtv"   # "ASMR Orbit 2", custom voice made in AI Studio (2026-09-28)
 # Prices from ai.google.dev/gemini-api/docs/pricing (checked 2026-09-28, valid to 2026-12-31)
 PRICE_IN = 0.50 / 1e6       # $ per input token
 PRICE_OUT = 9.00 / 1e6      # $ per audio output token (25 tokens = 1 second)
@@ -57,26 +58,53 @@ def chunks(paragraphs):
     return out
 
 
-def tts(text, voice, model, key, style):
-    url = "https://generativelanguage.googleapis.com/v1beta/models/%s:generateContent" % model
-    body = {
+def request(text, voice, model, style):
+    """Custom voices (voice_...) use the Interactions API; star-named voices use generateContent."""
+    if voice.startswith(("voice_", "voicekey_")):
+        # the custom voice already carries its style, so only the text is sent
+        return ("interactions", {
+            "model": model,
+            "input": [{"type": "user_input", "content": [{"type": "text", "text": text}]}],
+            "response_format": {"type": "audio"},
+            "generation_config": {"speech_config": [{"voice": voice}]},
+        })
+    return ("models/%s:generateContent" % model, {
         "contents": [{"parts": [{"text": "%s\n\n%s" % (style, text)}]}],
         "generationConfig": {
             "responseModalities": ["AUDIO"],
             "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}},
         },
-    }
+    })
+
+
+def decode(data):
+    """-> (float32 samples at SR, input tokens, output tokens)"""
+    if "steps" in data:   # Interactions API: base64 WAV file
+        audio = next(c for st in data["steps"] for c in st.get("content", []) if c.get("type") == "audio")
+        pcm, sr = sf.read(io.BytesIO(base64.b64decode(audio["data"])), dtype="float32")
+        if pcm.ndim > 1:
+            pcm = pcm.mean(axis=1)
+        if sr != SR:
+            pcm = np.interp(np.arange(0, len(pcm), sr / SR), np.arange(len(pcm)), pcm).astype(np.float32)
+        u = data.get("usage", {})
+        return pcm, u.get("total_input_tokens", 0), u.get("total_output_tokens", 0)
+    part = data["candidates"][0]["content"]["parts"][0]["inlineData"]["data"]
+    pcm = np.frombuffer(base64.b64decode(part), dtype="<i2").astype(np.float32) / 32768
+    u = data.get("usageMetadata", {})
+    return pcm, u.get("promptTokenCount", 0), u.get("candidatesTokenCount", 0)
+
+
+def tts(text, voice, model, key, style):
+    path, body = request(text, voice, model, style)
+    url = "https://generativelanguage.googleapis.com/v1beta/" + path
     req = urllib.request.Request(url, data=json.dumps(body).encode(),
                                  headers={"Content-Type": "application/json", "x-goog-api-key": key})
     for attempt in range(6):
         try:
             with urllib.request.urlopen(req, timeout=300) as r:
                 data = json.load(r)
-            part = data["candidates"][0]["content"]["parts"][0]["inlineData"]["data"]
-            pcm = np.frombuffer(base64.b64decode(part), dtype="<i2").astype(np.float32) / 32768
-            u = data.get("usageMetadata", {})
-            return pcm, u.get("promptTokenCount", 0), u.get("candidatesTokenCount", 0)
-        except (urllib.error.HTTPError, urllib.error.URLError, KeyError, TimeoutError) as e:
+            return decode(data)
+        except (urllib.error.HTTPError, urllib.error.URLError, KeyError, StopIteration, TimeoutError) as e:
             msg = e.read().decode()[:300] if isinstance(e, urllib.error.HTTPError) else str(e)
             wait = 10 * (attempt + 1)
             print("  retry in %ds: %s" % (wait, msg), flush=True)
