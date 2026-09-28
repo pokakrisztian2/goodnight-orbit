@@ -145,7 +145,7 @@ Cosmo is a mascot in a room. **We make a show.** Three things nobody in this nic
 Topics are not owned. Our script, character and pictures are new. That makes it ours.
 More ideas: `ideas/ideas-backlog.md`.
 
-**Rhythm:** start with 3 a week. Go daily only when one video takes under 2 hours of work **and** still passes the `SLEEP.md` §1 checklist.
+**Rhythm: daily, 1–2 hour videos** (user decided 2026-09-28). Every video must still pass the `SLEEP.md` §1 checklist — if one fails, skip that day.
 
 ---
 
