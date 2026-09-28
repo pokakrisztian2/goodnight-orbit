@@ -77,6 +77,7 @@ def main():
             sh([PY, "tools/narrate.py", "--name", name, "--text", job["script"], "--sleep"])
         else:   # Otto's voice: Gemini custom voice "ASMR Orbit 2", 20% slower
             sh([PY, "tools/narrate_gemini.py", "--name", name, "--text", job["script"]])
+            upload("assets/audio/%s/timings.json" % name)
         upload(narration)
 
     # 3. one loop per scene

@@ -136,13 +136,22 @@ def main():
 
     tin = tout = 0
     t0 = time.time()
+    pos, timings = 0.0, []   # start time of every paragraph (estimated inside a chunk by word share)
     with sf.SoundFile(out, "w", samplerate=SR, channels=1, subtype="PCM_16") as f:
         for i, c in enumerate(parts, 1):
             pcm, a, b = tts(c, args.voice, args.model, key, STYLE)
             tin, tout = tin + a, tout + b
             f.write(pcm)
             f.write(np.zeros(int(SR * PAUSE_PARAGRAPH), np.float32))
-            print("  chunk %d/%d  %.0fs audio" % (i, len(parts), len(pcm) / SR), flush=True)
+            dur, paras = len(pcm) / SR, c.split("\n\n")
+            total_w, done_w = sum(len(p.split()) for p in paras), 0
+            for p in paras:
+                timings.append({"t": round((pos + dur * done_w / total_w) / args.tempo, 2), "text": p[:80]})
+                done_w += len(p.split())
+            pos += dur + PAUSE_PARAGRAPH
+            print("  chunk %d/%d  %.0fs audio" % (i, len(parts), dur), flush=True)
+    with open(os.path.join(os.path.dirname(out), "timings.json"), "w") as fh:
+        json.dump(timings, fh, indent=0)
     if args.tempo != 1.0:
         # slower speech, same pitch
         tmp = out + ".tmp.wav"
