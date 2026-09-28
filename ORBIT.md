@@ -235,10 +235,11 @@ Save as `assets/loops/<video-name>/01.mp4 … 12.mp4` (order: stage 1 a,b,c → 
   1. Upload new clips: `bash tools/push.sh assets/scenes/<name>/*.mp4`
   2. Commit + push the script and `videos/<name>.json`.
   3. GitHub → Actions → **Render video** → Run workflow → type `<name>`.
-  4. The download link shows on the run page. Also in R2 `renders/<name>.mp4`.
+  4. Download: Cloudflare dashboard → R2 → goodnight-orbit → renders → `<name>.mp4`. (GitHub hides the link in the log for safety.)
 - Same job on the Mac: `tools/.venv/bin/python tools/render_job.py videos/<name>.json`
 - Space behind the window + seamless loop: `tools/make_station_loop.py` (finds the green window by itself).
-- GitHub gives ~2,000 free minutes a month for private repos. The voice is the slow part. Check the first real run's time.
+- Speed (measured 2026-09-28, private repo, 2 CPUs): voice ≈ 0.55 min per minute of audio; each 60 s loop ≈ 1 min.
+  → a 2 h video ≈ 80 min, a 1 h video ≈ 45 min. Daily ≈ 2,000 min/month = the free limit. Public repo = unlimited + faster.
 - R2 free space is 10 GB. Delete old renders after they are on YouTube.
 
 ## 10. Which channel to use (decided 2026-09-28)
