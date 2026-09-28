@@ -18,6 +18,7 @@ Camera must NOT move in the Veo clip — the mask is made once.
 
 import argparse
 import collections
+import math
 import os
 import subprocess
 import sys
@@ -40,6 +41,14 @@ def first_frame(path, dst):
     else:
         Image.open(path).convert("RGB").save(dst)
     return Image.open(dst).convert("RGB").resize((W, H))
+
+
+def frames(path):
+    """Number of video frames in a clip."""
+    out = subprocess.run(["ffprobe", "-v", "error", "-count_packets", "-select_streams", "v:0",
+                          "-show_entries", "stream=nb_read_packets", "-of", "csv=p=0", path],
+                         check=True, capture_output=True, text=True).stdout
+    return int(out.strip())
 
 
 def window_mask(img):
@@ -138,6 +147,18 @@ def main():
         space_in = ["-i", space]
         space_f = ("[0]loop=loop=-1:size=1,setpts=N/%d/TB,setsar=1,crop=%d:%d:'(iw-%d)/2-%.1f+%.1f*(1-abs(2*t/%.3f-1))':'(ih-%d)/2'[bg]"
                    % (FPS, W, H, W, travel / 2, travel, L, H))
+
+    # every moving layer must finish a whole cycle at the loop point, or it jumps there.
+    # so make the loop a multiple of each cycle (smallest one that is at least --seconds)
+    cycles = [frames(f) for f, moving in ((room, is_video), (sp, space_is_video)) if moving]
+    if cycles:
+        step = 1
+        for c in cycles:
+            step = step * c // math.gcd(step, c)
+        n = max(1, math.ceil(L * FPS / step))
+        if L * FPS % step:
+            print("loop %.0fs -> %.1fs so every clip ends where it started" % (L, n * step / FPS))
+        L = n * step / FPS
 
     os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)
     if is_video:
