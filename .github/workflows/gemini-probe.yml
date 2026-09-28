@@ -1,0 +1,12 @@
+name: Gemini custom voice probe
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: python tools/voicetest/gemini_probe.py
+      - run: for f in probe_*.json; do echo "== $f"; python -c "import json,sys; d=json.load(open('$f')); print(json.dumps(d)[:1500].replace(d.get('x','x'),''))" | sed -E 's/"data": "[^"]{80}[^"]*"/"data": "<audio...>"/g'; done
+        if: always()
