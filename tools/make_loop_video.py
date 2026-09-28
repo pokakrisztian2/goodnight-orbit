@@ -70,15 +70,27 @@ def encoder():
     return "h264_videotoolbox" if "h264_videotoolbox" in enc else "libx264"
 
 
+def already_ok(src):
+    """True if the clip is already h264 1920x1080 at our fps (make_station_loop output)."""
+    out = run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
+               "stream=codec_name,width,height,r_frame_rate,pix_fmt", "-of", "json", src]).stdout
+    st = json.loads(out)["streams"][0]
+    return (st["codec_name"], st["width"], st["height"], st["r_frame_rate"], st["pix_fmt"]) == \
+        ("h264", W, H, "%d/1" % FPS, "yuv420p")
+
+
 def normalise(src, dst, enc, fade_out_at=None):
     """Re-encode one loop to the same size/fps/codec so copies join cleanly."""
+    if fade_out_at is None and already_ok(src):
+        run(["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-an", "-c", "copy", dst])
+        return
     vf = ("scale=%d:%d:force_original_aspect_ratio=increase,crop=%d:%d,fps=%d,"
           "setsar=1,format=yuv420p" % (W, H, W, H, FPS))
     if fade_out_at is not None:
         vf += ",fade=t=out:st=%.2f:d=%.2f" % fade_out_at
     # Mac hardware encoder needs a bitrate. libx264 (cloud) uses quality mode:
     # the picture barely moves, so this keeps a 2-hour file small.
-    rate = ["-b:v", "8M"] if enc == "h264_videotoolbox" else ["-crf", "24", "-preset", "medium"]
+    rate = ["-b:v", "8M"] if enc == "h264_videotoolbox" else ["-crf", "24", "-preset", "veryfast"]
     run(["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-an", "-vf", vf,
          "-c:v", enc, *rate, "-g", str(FPS * 2), "-pix_fmt", "yuv420p", dst])
 

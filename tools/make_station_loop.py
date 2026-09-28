@@ -122,7 +122,7 @@ def main():
          "[2]scale=%d:%d,format=gray,negate[a];"
          "[fg0][a]alphamerge[fg];[bg][fg]overlay=shortest=0,format=yuv420p" % (W, H, FPS, W, H),
          "-t", "%.2f" % L, "-r", str(FPS), "-an",
-         "-c:v", "libx264", "-crf", "20", "-preset", "medium", "-g", str(FPS * 2), args.out])
+         "-c:v", "libx264", "-crf", "24", "-preset", "veryfast", "-g", str(FPS * 2), args.out])
     print("done -> %s (%.0fs loop)" % (args.out, L))
 
 
