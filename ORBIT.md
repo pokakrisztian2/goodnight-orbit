@@ -113,11 +113,8 @@ Cosmo is a mascot in a room. **We make a show.** Three things nobody in this nic
 
 ## 6. Titles and thumbnails
 
-**Do not copy Cosmo's title.** Keep the same promise (hard + gentle + sleep) in our own words.
-
-- **Main shape:** `The Confusing Parts of [Topic], Explained Gently (For Sleep)`
-- **Test shape:** `[Topic], Explained Slowly From Orbit | Science for Sleep`
-- Test both in the first 10 videos. Keep the winner.
+- **Title format (user decided 2026-09-28): Cosmo's winning format.** `Every Confusing Thing About [Topic] Explained Slowly (For Sleep)` — their best shape (median 7.6K, top 287K).
+- Change the topic words a little so it is not a word-for-word copy of a Cosmo title (e.g. "Einstein's Relativity", not "The Theory of Relativity").
 
 **Thumbnail (same layout every time):**
 - Dark navy-black. Otto small, bottom-left, in the window light. Earth curve in the window.
