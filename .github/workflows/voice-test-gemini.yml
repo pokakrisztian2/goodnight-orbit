@@ -1,0 +1,35 @@
+name: Voice test (Gemini)
+on:
+  workflow_dispatch:
+    inputs:
+      voices:
+        description: "Voices, comma separated"
+        default: "Charon,Algenib,Iapetus,Orus"
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q numpy soundfile
+      - name: Key works? List TTS models
+        run: |
+          curl -s -H "x-goog-api-key: $GEMINI_API_KEY" "https://generativelanguage.googleapis.com/v1beta/models?pageSize=200" \
+            | python -c "import json,sys; d=json.load(sys.stdin); print(d.get('error') or [m['name'] for m in d['models'] if 'tts' in m['name']])"
+      - name: Make samples
+        run: |
+          IFS=',' read -ra VS <<< "${{ inputs.voices }}"
+          for v in "${VS[@]}"; do
+            echo "== $v"
+            python tools/narrate_gemini.py --name voice-tests --text scripts/voice-sample.txt --voice "$v" --out "assets/audio/voice-tests/gemini_$v.wav"
+            aws s3 cp "assets/audio/voice-tests/gemini_$v.wav" "s3://goodnight-orbit/assets/audio/voice-tests/gemini_$v.wav" --endpoint-url $R2_ENDPOINT --only-show-errors
+          done
