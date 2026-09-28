@@ -89,6 +89,8 @@ def main():
     ap.add_argument("--out", required=True)
     ap.add_argument("--seconds", type=float, default=60)
     ap.add_argument("--drift", type=float, default=6, help="space photo drift, pixels per second")
+    ap.add_argument("--space-margin", type=float, default=1.02,
+                    help="space video: how much bigger than the window (1.0 = just covers it)")
     ap.add_argument("--space-slow", type=float, default=2.0, help="space video: play this many times slower")
     args = ap.parse_args()
 
@@ -137,10 +139,27 @@ def main():
     space_is_video = args.space.lower().endswith(VIDEO_EXTS)
     if space_is_video:
         # slow it down, then forward + backward: the Earth never jumps at the loop point
+        # fit the clip to the window (a bit bigger), not the whole screen:
+        # more Earth in view, and a 4K clip shrunk down stays sharp
+        win = np.asarray(window_mask(frame)[0]) > 128
+        ys, xs = np.nonzero(win)
+        bw, bh = (xs.max() - xs.min()) * args.space_margin, (ys.max() - ys.min()) * args.space_margin
+        cx, cy = (xs.max() + xs.min()) / 2, (ys.max() + ys.min()) / 2
+        vw, vh = [int(v) for v in subprocess.run(
+            ["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height",
+             "-of", "csv=p=0", args.space], check=True, capture_output=True, text=True).stdout.strip().split(",")[:2]]
+        f = max(bw / vw, bh / vh)
+        sw, sh_ = int(vw * f) // 2 * 2, int(vh * f) // 2 * 2
+        x0, y0 = int(cx - sw / 2), int(cy - sh_ / 2)
+        # keep only the part that is on screen, then place it on a black frame
+        cl, ct = max(0, -x0), max(0, -y0)
+        cw, ch = min(sw - cl, W - max(0, x0)) // 2 * 2, min(sh_ - ct, H - max(0, y0)) // 2 * 2
+        print("space clip %dx%d -> %dx%d around the window" % (vw, vh, sw, sh_))
         sp = os.path.join(tmp, "space-pingpong.mp4")
         run(["ffmpeg", "-y", "-loglevel", "error", "-i", args.space, "-an", "-filter_complex",
-             "[0]scale=%d:%d:force_original_aspect_ratio=increase,crop=%d:%d,setpts=%.2f*PTS,fps=%d,setsar=1,"
-             "split[a][b];[b]reverse[r];[a][r]concat=n=2:v=1" % (W, H, W, H, args.space_slow, FPS),
+             "[0]scale=%d:%d:flags=lanczos,crop=%d:%d:%d:%d,pad=%d:%d:%d:%d:black,setpts=%.2f*PTS,fps=%d,setsar=1,"
+             "split[a][b];[b]reverse[r];[a][r]concat=n=2:v=1"
+             % (sw, sh_, cw, ch, cl, ct, W, H, max(0, x0), max(0, y0), args.space_slow, FPS),
              "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", sp])
         space_in = ["-stream_loop", "-1", "-i", sp]
         space_f = "[0]setsar=1[bg]"
