@@ -72,7 +72,8 @@ def main():
 
     # 2. voice (slow, so keep it in R2 and reuse it on the next run)
     narration = "assets/audio/%s/narration.wav" % name
-    if not fetch(narration):
+    new_voice = not fetch(narration)
+    if new_voice:
         if job.get("voice", "gemini") == "kokoro":
             sh([PY, "tools/narrate.py", "--name", name, "--text", job["script"], "--sleep"])
         else:   # Otto's voice: Gemini custom voice "ASMR Orbit 2", 20% slower
@@ -95,6 +96,8 @@ def main():
 
     # 4b. Cosmo-style captions, a few words at a time (word times from faster-whisper)
     if job.get("captions", True):
+        if not new_voice:
+            fetch("assets/audio/%s/captions.ass" % name)   # same voice -> reuse its word times
         sh([PY, "tools/make_captions.py", "--name", name])
         upload("assets/audio/%s/captions.ass" % name)
 
