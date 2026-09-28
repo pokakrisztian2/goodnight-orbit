@@ -106,3 +106,13 @@ huge topic word in the middle + small "Explained Slowly" + 6–10 labelled icons
 
 **Voice prompt (for Gemini TTS / voice design):**
 > A deep, warm, bass-baritone male voice, around 35 to 45 years old, American accent. Calm, friendly and curious, like a smart friend explaining something fascinating late at night. Speak at a relaxed conversational pace, about 130 words per minute: not slow and dragged out, just unhurried. Low, steady pitch with small, natural rises on questions and interesting moments; never dramatic, never excited. Short natural pauses between sentences, a little longer after a question. Close to the microphone, clear and crisp, with soft breath and a little air in the voice, but NOT whispering and NOT muffled. Intimate and reassuring, like someone talking quietly next to you so they do not wake anyone. No radio-announcer energy, no sales tone.
+
+## Tags and metadata (pulled 2026-09-28)
+
+**Relativity video (#1) tags:** theory of relativity, relativity explained, einstein relativity, special relativity, general relativity, time dilation, space time explained, physics for sleep, science for sleep, relaxing science, calm physics explanation, astronomy for sleep, universe explained, einstein theory, confusing physics explained, sleep documentary, science documentary, educational sleep video, slow explanation, physics made simple, spacetime explained, what is time dilation
+
+**Machine Learning video (#2) tags:** machine learning history, artificial intelligence explained, history of AI, deep learning explained, neural networks, Alan Turing, perceptron, backpropagation, Geoffrey Hinton, AlexNet, transformers explained, large language models, GPT explained, AI documentary, computer science, explained slowly, AI for sleep, machine learning basics, machine learning tutorial, deep learning, generative ai, introduction to machine learning, what is deep learning
+
+**Pattern:** ~22 tags. Topic words + "explained" + "for sleep" + "documentary". Category: People & Blogs.
+Description: Spotify link first, 1–2 sentence summary, then a "Resources" list of real sources.
+**Relativity chapters (18):** seed of a theory → Galileo → light & ether → Michelson–Morley → two postulates → simultaneity → time dilation → length contraction & twins → Minkowski → equivalence principle → gravity as geometry → race for the field equations → testing → 1919 eclipse → cosmology & dark energy → black holes → observational validation → frontier. Our script follows the same path (plus Otto).

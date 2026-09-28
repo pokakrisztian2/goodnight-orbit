@@ -1,0 +1,71 @@
+Remember the second prediction from Einstein's happy thought? That clocks lower down, deeper in gravity, should tick a little slower than clocks higher up?
+
+For decades, nobody could test it. The effect on Earth is so small, it was simply beyond anyone's instruments. But in the late nineteen fifties, a new discovery made it possible. It's called the Mössbauer effect. It lets certain atoms, like a special form of iron, send out and absorb gamma rays at an extraordinarily precise frequency. Like tuning forks that ring at exactly one note, and can hear exactly that note, and no other.
+
+At Harvard University, in Cambridge, Massachusetts, a physicist named Robert Pound and his student Glen Rebka had an idea. What if you sent those gamma rays up a tall building? If Einstein was right, the rays climbing up against gravity would lose a tiny bit of energy, and arrive very slightly lower in pitch. And the iron atoms waiting at the top wouldn't quite hear them anymore.
+
+They used a tower in Harvard's Jefferson Physical Laboratory, an enclosed tower about twenty-two and a half meters tall. About seventy-four feet. Not very tall at all. Roughly a seven-story building.
+
+The shift they were looking for was about two and a half parts in a million billion. So small that even a breath of air could disturb it. And in fact the air itself was a problem. The gamma rays would be partly swallowed by the air in the tower. So they did something wonderfully simple. They ran a long plastic bag, made of Mylar, up the tower, and filled it with helium. The rays traveled up through a column of helium, instead of air.
+
+A physics experiment, at one of the world's great universities, and at the heart of it, a long balloon.
+
+They published in the spring of nineteen sixty. The shift they measured matched Einstein's prediction almost exactly. One point oh five times the predicted value, with an uncertainty of about ten percent. A few years later, Pound and another colleague improved it to about one percent.
+
+Light really does lose a little energy climbing out of gravity. Time really does run differently at different heights.
+
+Then, in October of nineteen seventy-one, two scientists did something almost playful. Joseph Hafele, a physicist, and Richard Keating, an astronomer at the United States Naval Observatory, took four very precise atomic clocks, cesium-beam clocks, each about the size of a suitcase, and flew them around the world. On ordinary passenger airplanes. Commercial flights. The clocks had their own seats.
+
+The whole experiment cost about eight thousand dollars, mostly for airline tickets. For the scientists, and for the clocks.
+
+They flew around the world once heading east, and then once heading west. And then they compared the flying clocks with clocks that had stayed at home, at the Naval Observatory in Washington.
+
+Two effects were at work. Speed, which slows a moving clock. And height, which speeds up a clock flying high above the ground, where gravity is a little weaker. And because the Earth itself is spinning eastward, the plane flying east was moving faster, overall, than the ground, and the plane flying west was moving slower.
+
+When they compared the clocks, the ones that flew east had lost about fifty-nine billionths of a second. The ones that flew west had gained about two hundred and seventy-three billionths of a second. Both close to what Einstein's theories predicted.
+
+Billionths of a second. In that time, light could barely cross a wide street. But it was there. Time had passed differently for clocks that had simply taken a trip.
+
+Now here's where relativity comes into your everyday life. Maybe you used it today, without knowing.
+
+When you open a map on your phone, and a little blue dot shows you where you are, that dot often comes from GPS. The Global Positioning System. A group of satellites, high above the Earth, about twenty thousand kilometers up. Much higher than my little station. Each one carries atomic clocks, and each one constantly sends out signals saying, here's where I am, and here's exactly what time it is.
+
+Your phone listens to several satellites at once, and from the tiny differences in when their signals arrive, it works out where you are. Light travels about thirty centimeters in a single billionth of a second. So the clocks have to be astonishingly precise. A tiny error in time becomes a big error in distance.
+
+And the satellite clocks are affected by relativity. Twice.
+
+Because the satellites are moving fast, their clocks run slow, by about seven millionths of a second every day. That's special relativity.
+
+But because they're so high up, where the Earth's gravity is weaker, their clocks run fast, by about forty-five millionths of a second every day. That's general relativity.
+
+Put together, the satellite clocks run fast by about thirty-eight millionths of a second, every single day.
+
+That sounds like nothing. But the physicist Neil Ashby, who spent years working on these corrections, wrote that if they were left uncorrected, the errors building up in just one day would cause navigational errors of more than eleven kilometers. After a day, your little blue dot would be in the wrong town.
+
+So the engineers correct for it. Before launch, each satellite clock is set to tick very slightly slow, here on the ground, so that once it's up in orbit, the effects of relativity bring it back to exactly the right rate.
+
+And here's my favorite part. When the first satellite carrying a cesium atomic clock was launched, back in nineteen seventy-seven, not everyone was sure the relativity correction was really needed. It seemed so strange, so abstract. So the engineers built in a switch. The clock could run with the correction, or without it.
+
+They ran it uncorrected, for about three weeks, and measured what happened. The clock drifted, just as Einstein had said it would. Within one percent of the prediction.
+
+Then they switched the correction on. And it has been on ever since.
+
+Every time a delivery van finds a doorstep, or a ship finds a harbor, or a hiker finds their way home in the fog, Einstein's strange ideas about time are quietly doing their part.
+
+In the years since, clocks have become so precise that relativity shows up at an almost personal scale.
+
+In twenty ten, at the National Institute of Standards and Technology, in Colorado, scientists compared two extraordinary clocks, based on single aluminum atoms. They raised one of them by just thirty-three centimeters. About a foot. And they could see it tick faster.
+
+A foot higher, and time runs faster. The scientists put it in a lovely way. Your head is older than your feet.
+
+They worked out that if you spent your whole life standing two steps higher on a staircase, after seventy-nine years you would have aged about ninety billionths of a second more than someone standing on the lower step. Not enough to notice. But real.
+
+They also showed that the same clocks could detect time dilation from motion at everyday speeds. A few meters per second. About as fast as a car driving slowly through a town.
+
+And in twenty twenty-two, at a lab called JILA, also in Colorado, a team measured the difference in the flow of time across a tiny cloud of about a hundred thousand strontium atoms. The cloud was only about a millimeter tall. The top of the cloud and the bottom of the cloud, a millimeter apart, and they could tell that time was passing at slightly different rates.
+
+A millimeter. The thickness of a credit card. Time is not the same at the top of it as at the bottom.
+
+Newton's great cosmic clock, flowing equably for all, the same everywhere. It turns out the universe has no such clock. Every place, every height, every speed, has its own gentle rhythm. And right now, your pillow is ticking at a very slightly different rate than the ceiling above you.
+
+It doesn't matter. Not for tonight. But I find it beautiful. That the universe is so precise, and so personal, all at once.

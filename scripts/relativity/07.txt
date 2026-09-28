@@ -1,0 +1,59 @@
+Special relativity, the theory from nineteen oh five, is special in a particular sense. It only works for smooth, steady motion. No speeding up, no slowing down, no turning. Galileo's calm ship, on a calm sea.
+
+But the real world isn't like that. Things speed up. Things fall. And the most common reason anything speeds up is gravity. The apple falling from the tree. The rain falling from a cloud. The Moon, forever falling around the Earth.
+
+Newton had described gravity as a force. An invisible pull, reaching across empty space, instantly, from the Sun to the Earth, from the Earth to the Moon. It worked wonderfully. But it didn't fit with the new picture. In Einstein's world, nothing could travel faster than light. Not even a message. So how could gravity pull across space instantly?
+
+In late nineteen oh seven, Einstein was still at the patent office. He'd been asked to write a long review article about relativity, a kind of summary of everything so far. And as he worked on it, he started to wonder how gravity could fit in.
+
+And then, sitting at his desk in Bern, a thought came to him. Years later, in a manuscript he wrote in nineteen twenty, he called it, der glücklichste Gedanke meines Lebens. The happiest thought of my life.
+
+Here's what it was.
+
+A person falling freely, from the roof of a house, would not feel their own weight.
+
+That's it. That was the happiest thought of his life.
+
+In his words, for an observer freely falling from the roof of a house, no gravitational field exists while he is falling, at least not in his immediate surroundings.
+
+Let's think about that gently. Imagine you're in an elevator, high up in a tall building. And imagine, very safely, in our imagination only, that the cable is gone, and the elevator is falling freely. You, and the elevator, and everything in it, all falling together, at the same rate.
+
+What would you feel?
+
+You'd float. If you let go of your keys, they would hang in the air next to you, because they're falling at exactly the same speed you are. If you poured water from a bottle, it would drift out in a wobbly ball. Your feet would lift off the floor. Everything inside that little room would behave as if there were no gravity at all.
+
+Now, flip it around. Imagine you're in a closed room, a windowless room, like Galileo's cabin, but out in deep space, far from any planet or star. And imagine a rocket is pushing your room upward, speeding it up steadily. What would you feel?
+
+You'd be pressed down into the floor. If you let go of your keys, the floor would rush up to meet them, and it would look exactly like they fell. You'd feel heavy. Just as if you were standing on the Earth.
+
+Inside a closed room, you cannot tell the difference between gravity and acceleration. Falling freely feels like having no gravity. Speeding up feels like gravity. This became known as the equivalence principle. Gravity and acceleration are, in a deep sense, the same thing.
+
+And now, I'll tell you a small secret about me.
+
+I'm floating right now. My tea is floating beside me. People often think that's because there's no gravity up here, in space. But that isn't true. Up here, the Earth's gravity is still almost as strong as it is on the ground. Only about ten percent weaker.
+
+The reason I float, is that I'm falling. The whole station is falling. All the time. We're falling toward the Earth, constantly. But we're also moving sideways, very fast, so fast that as we fall, the Earth's curved surface falls away beneath us, and we never get any closer. We just keep falling, around and around. That's what an orbit is. A long, endless fall that keeps missing the ground.
+
+And because the station, and me, and my tea, are all falling together, at exactly the same rate, nothing presses on anything. We float. Einstein's falling man, from the roof of the house. That's me. That's my whole life up here. The happiest thought, every day.
+
+It's a strange comfort. Falling forever, and never landing, and feeling completely at peace.
+
+Now, from this simple idea, the equivalence principle, Einstein began to see some astonishing consequences.
+
+First, light should bend in gravity.
+
+Imagine that speeding rocket room again. You shine a beam of light straight across the room, from one wall to the other. While the light is crossing, the room is speeding up. So by the time the light reaches the far wall, the floor has moved up a little. From inside the room, the light seems to curve downward, in a gentle arc, like a thrown ball.
+
+And if acceleration bends light, and gravity is the same as acceleration, then gravity must bend light too. A ray of starlight passing close to the Sun should curve, just a little.
+
+Second, clocks should run differently at different heights.
+
+In the rocket room, imagine a light signal sent up from the floor to the ceiling. As the room speeds up, the ceiling is racing away from the signal, and the signal arrives a tiny bit stretched out. Lower in pitch, as it were. As if the clock on the floor were running slow, compared to the clock on the ceiling.
+
+And if that happens in a rocket, it must happen in gravity too. Clocks lower down, deeper in gravity, should run slower than clocks higher up. On a mountaintop, time should pass just a little faster than at the seashore.
+
+Which means that up here, on my station, gravity is actually making my clock run a tiny bit faster than yours. While my speed is making it run slower. Two effects, pulling in opposite directions. For me, low in orbit, the speed wins. But for satellites much higher up, as we'll see later tonight, gravity wins. And that, as it turns out, matters a great deal for anyone who's ever used a map on their phone.
+
+But in nineteen oh seven, all of this was just a beginning. A happy thought, and a few surprising predictions. To turn it into a real theory, a complete description of gravity, Einstein would need a kind of mathematics he didn't know yet.
+
+And it would take him eight long years.

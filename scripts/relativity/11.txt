@@ -1,0 +1,67 @@
+Einstein's theory made some predictions so subtle that it took most of a century, and some of the most delicate machines ever built, to check them.
+
+One of them is that a spinning mass, like the Earth, doesn't just curve spacetime. It gently drags spacetime around with it as it turns. A little like a spoon turning slowly in a jar of honey, pulling the honey along with it. This is called frame-dragging.
+
+To test it, scientists at Stanford University, with NASA, built a satellite called Gravity Probe B. The idea had first been proposed around nineteen sixty. The satellite was finally launched on the twentieth of April, two thousand and four. It took about forty-seven years from the first idea to the final result.
+
+Inside it were four gyroscopes. Spinning balls, made of quartz, each about the size of a ping-pong ball. And they are, as far as anyone knows, the roundest objects humans have ever made. If one of them were enlarged to the size of the Earth, its highest bump would be only about eight feet tall. Only neutron stars, the collapsed cores of dead stars, are known to be rounder.
+
+The gyroscopes spun, and pointed at a distant guide star, for about a year. And as the satellite circled the Earth, the gyroscopes' directions slowly, very slowly, shifted. Exactly the way Einstein's theory said they should. Both from the Earth's curve in spacetime, and from the tiny drag of the Earth's spin.
+
+The results were announced in May of twenty eleven. Close to the predictions, in both cases.
+
+Near-perfect spheres, spinning in the silence of orbit, quietly feeling the shape of spacetime.
+
+Another prediction was stranger still. If mass curves spacetime, then when very heavy things move violently, they should send ripples through spacetime. Waves, spreading outward at the speed of light. Stretching and squeezing space itself as they pass. Gravitational waves.
+
+Einstein himself doubted they could ever be detected. They'd be far too faint.
+
+But in the United States, scientists built two enormous instruments to try. Together, they're called LIGO. One is in Hanford, in Washington State. The other is in Livingston, in Louisiana. Each has two long arms, set at a right angle, like a giant letter L. Each arm is four kilometers long. Laser light travels up and down the arms, and comes back together, very much like Michelson's experiment on its stone floating in mercury. Only vastly more sensitive.
+
+When a gravitational wave passes, one arm stretches a little and the other squeezes a little, and the light patterns shift. LIGO can sense a change in the length of its arms smaller than one ten-thousandth of the width of a proton. A proton, the tiny particle in the center of an atom.
+
+On the fourteenth of September, twenty fifteen, just before ten in the morning, universal time, a signal arrived. First at Livingston. Then, about seven thousandths of a second later, at Hanford.
+
+It was a gentle, rising chirp. Like a bird's call, swooping upward, and then gone. It lasted a fraction of a second.
+
+What the scientists had heard was two black holes. One about thirty-six times as heavy as our Sun, the other about twenty-nine times. Circling each other, faster and faster, closer and closer, until they merged into one.
+
+In that final instant, about three times the mass of our Sun turned into pure ripples in spacetime. For that brief moment, the collision was putting out more power than all the stars in the visible universe combined.
+
+And it happened about one point three billion years ago. The ripples had been traveling ever since. Across the universe. While life on Earth was still simple, just single cells and early seaweeds, those waves were already on their way. And they arrived, finally, just as humans had built instruments sensitive enough to hear them.
+
+It was announced to the world in February of twenty sixteen. A hundred years after Einstein first predicted gravitational waves. And in twenty seventeen, three of the scientists who made LIGO possible, Rainer Weiss, Barry Barish and Kip Thorne, received the Nobel Prize in Physics.
+
+And there's one more picture I'd like to share with you. A real picture.
+
+For most of the twentieth century, black holes were a strange idea on paper. Schwarzschild's secret. Nobody had ever seen one. By their very nature, they can't be seen. They swallow light.
+
+But the space right around a black hole can glow. Gas and dust, swirling in toward it, get heated to enormous temperatures, and shine. And if you could take a picture, you'd see that glowing ring, with a dark shadow in the middle. The shadow of the black hole itself.
+
+To take that picture, you'd need a telescope as big as the whole Earth.
+
+So astronomers made one. The Event Horizon Telescope. Radio telescopes in different places around the world, all observing the same spot at the same time, in two thousand seventeen, timed by extremely precise atomic clocks, so they worked together like one giant dish. The data was so enormous that it was stored on hard drives, and the drives were flown to Germany and to Massachusetts to be combined.
+
+On the tenth of April, twenty nineteen, they showed the world the first image of a black hole.
+
+It's in a galaxy called M eighty-seven, about fifty-five million light-years away. It's six and a half billion times as heavy as our Sun. And in the picture, it looks like a soft, glowing orange ring. A little blurry. With a dark circle in the middle.
+
+It looks, honestly, a bit like a doughnut. Or like the rim of a teacup, seen from above, in candlelight.
+
+Three years later, in May of twenty twenty-two, they released a second picture. This time, of the black hole at the center of our own galaxy, the Milky Way. It's called Sagittarius A star. About four million times as heavy as the Sun, and about twenty-seven thousand light-years away. And from here, it looks about as big as a doughnut would look, sitting on the surface of the Moon.
+
+That's our galaxy's quiet heart. It's out there right now, on the far side of the sky, while you're lying here. Stars circling it, patiently, the way the Earth circles the Sun.
+
+Einstein's equations reached even further than black holes. They reached the whole universe.
+
+In nineteen seventeen, Einstein applied his equations to the cosmos as a whole. And they told him something he didn't like. They said the universe couldn't simply sit still. It should be either growing, or shrinking. At that time, almost everyone believed the universe was eternal and unchanging. So Einstein added an extra term to his equations, a small adjustment, just to hold the universe steady. It became known as the cosmological constant.
+
+But in the nineteen twenties, astronomers, including Edwin Hubble, looking at distant galaxies through great telescopes, found that the galaxies are moving away from us. The farther away they are, the faster they recede. The universe is expanding. Just as the original equations had suggested.
+
+Einstein let go of his extra term. But the story wasn't over.
+
+In the late nineteen nineties, two teams of astronomers, measuring distant exploding stars, found something no one expected. The expansion of the universe isn't slowing down. It's speeding up. Something seems to be pushing space apart, faster and faster. Nobody knows what it is. We call it dark energy.
+
+And one of the simplest ways to describe it, in the equations, looks just like Einstein's old cosmological constant. The small adjustment he had set aside. It came back, eighty years later, in a new role.
+
+It seems that even Einstein's second thoughts had something to teach us.

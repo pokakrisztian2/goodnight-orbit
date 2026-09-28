@@ -1,0 +1,95 @@
+The paper begins with two simple ideas. Einstein called them postulates. A postulate is something you agree to take as true, at the start, and then you see where it leads.
+
+The first idea is Galileo's cabin, grown up. In Einstein's words, the same laws of electrodynamics and optics will be valid for all frames of reference for which the equations of mechanics hold good. In plain words, if you're moving smoothly, without speeding up or turning, then all the laws of physics work exactly the same for you as for anyone else. Not just butterflies and falling drops. Light and magnets and electric currents too. There's no experiment, of any kind, that can tell you whether you're really moving.
+
+The second idea is the brave one. Light, he wrote, is always propagated in empty space with a definite velocity c, which is independent of the state of motion of the emitting body.
+
+Light always moves at the same speed. Always. It doesn't matter how fast the lamp is moving. And, following from the first idea, it doesn't matter how fast you are moving either. Everyone who measures the speed of light gets the same answer.
+
+Then, almost in passing, he added one more sentence. The introduction of a luminiferous aether will prove to be superfluous.
+
+Superfluous means unnecessary. Not wrong, exactly. Just not needed. The great invisible sea that scientists had built so carefully, over a century, he set aside with one quiet word.
+
+Now, those two ideas sound simple. But put them together, and something very strange happens.
+
+Let's go back to the train. When you throw a ball forward on a moving train, the ball's speed adds to the train's speed. Someone standing on the platform sees the ball going faster than you do. Train speed, plus throwing speed. That's how the world normally works.
+
+But light doesn't do that. If you shine a torch forward on a moving train, the person on the platform doesn't see the light going faster. They measure the same speed you do. Exactly the same.
+
+How can that possibly be?
+
+Einstein's answer was to look very carefully at what we mean by time. And he did it with a sentence that sounds almost too simple to be in a scientific paper.
+
+If, for instance, I say, that train arrives here at seven o'clock, I mean something like this. The pointing of the small hand of my watch to seven, and the arrival of the train, are simultaneous events.
+
+Simultaneous. Happening at the same moment.
+
+When the train is right here, next to you, that's easy. The watch says seven, the train pulls in. Same place, same moment. No problem.
+
+But what about two things happening far apart? A flash of lightning here, and a flash of lightning over the hills, miles away. How do you know they happened at the same moment?
+
+You'd have to see them. And seeing means light has to travel from each flash to your eyes. Which takes time. So you have to reason about it. If the light from both flashes reaches you at the same moment, and you're standing exactly halfway between them, then you can say they happened at the same time.
+
+And here is where it gets strange.
+
+Imagine a long train, gliding smoothly past a station platform. Right in the middle of the platform stands a woman. Right in the middle of the train sits a man. At the exact moment the man passes the woman, two bolts of lightning strike. One at the front end of the train. One at the back.
+
+For the woman on the platform, standing still, halfway between the two strikes, the light from both reaches her at the same moment. She says, the two strikes happened at the same time.
+
+But the man on the train is moving toward the front strike, and away from the back one. So the light from the front reaches him a little sooner. And the light from the back reaches him a little later. And remember, for him, light moves at the same speed in both directions. He's sitting at the middle of his train. So, he concludes, the front strike must have happened first.
+
+Who is right?
+
+Einstein's answer is quiet and extraordinary. They both are.
+
+There is no single, universal now. Whether two distant events happen at the same moment depends on how you're moving. For the woman, they're simultaneous. For the man, they're not. Neither is making a mistake. Neither view is the true one. There's no great cosmic clock to settle the argument.
+
+Newton's time, flowing equably, the same for all, has quietly dissolved.
+
+Just let that settle for a moment. It's a big thing, and it's okay if it feels slippery. It felt slippery to everyone.
+
+Once "now" becomes personal, other things follow. Let's look at the most famous one. Moving clocks tick slower.
+
+To see why, imagine a very simple clock. Two mirrors, one above the other, facing each other. A tiny flash of light bounces up and down between them. Up, down. Up, down. Each round trip is one tick.
+
+Now put that clock on a fast spaceship, gliding past you.
+
+For the astronaut on the ship, nothing changes. The light goes straight up and straight down. Tick. Tick.
+
+But you, watching the ship fly past, see something different. While the light travels up, the ship moves forward. So from where you are, the light doesn't go straight up. It travels on a slant, a diagonal. Then a diagonal back down. A zig-zag path, like a long, shallow saw blade.
+
+A diagonal is longer than straight up and down. So the light has to travel farther, as you see it.
+
+In our everyday world, you'd say, well, then the light must be moving faster, to cover the extra distance. But light can't move faster. Its speed is fixed, for everyone. So the only way it can cover a longer path at the same speed, is by taking more time.
+
+Each tick of the moving clock takes longer, as you see it.
+
+The moving clock runs slow.
+
+And not just light clocks. Every kind of clock. Wristwatches. Heartbeats. The slow growing of a plant. Everything that happens on that ship happens more slowly, as seen from outside. Because if only the light clock slowed down, the astronaut could compare it to her watch and discover she was moving. And Galileo's cabin rule says she never can.
+
+This is called time dilation. Dilation means stretching. Time, stretched out.
+
+In his nineteen oh five paper, Einstein even gave an example. A clock carried around a loop and brought back to where it started, he said, would come back slightly behind a clock that stayed put. And then he added that a clock at the equator, carried around by the spinning Earth, must go a little more slowly than an identical clock at one of the poles.
+
+Now, for anything moving at ordinary speeds, the effect is tiny. Much too tiny for you to notice. A car, a plane, even a rocket. The difference is billionths of a second. The effect only becomes large when you move at a good fraction of the speed of light.
+
+And there's a partner to time dilation. Moving things get shorter, in the direction they're moving. This is length contraction. It's the same shortening FitzGerald and Lorentz had imagined. But Einstein didn't need an aether to squeeze things. The shortening came naturally, out of the two simple ideas. In the paper, he describes a sphere, a perfect ball, moving past at high speed. To someone watching it, it would look slightly squashed along its direction of travel. Like a ball that's been gently pressed flat.
+
+Again, for everyday speeds, you'd never notice. A fast train is shorter by less than the width of an atom.
+
+And then, in September, came the little three-page paper. Einstein had one more question. If time and length change with motion, what about energy and mass?
+
+He worked through the logic. And he found that if a body gives off energy, as light, its mass gets smaller. By the amount of that energy, divided by the speed of light, squared.
+
+Here's a small surprise. The paper never writes the famous equation the way we know it. There's no E equals m c squared in it. He used different letters. He wrote that if a body gives off the energy L in the form of radiation, its mass diminishes by L divided by V squared. The same idea. Just in the letters of his time.
+
+Mass is a kind of stored energy. A very concentrated kind. And because the speed of light is so enormous, and squared makes it even more enormous, a tiny bit of mass is equal to an astonishing amount of energy.
+
+That's why the Sun can shine for billions of years. Every second, deep in its core, a small amount of its mass turns into light and warmth. Some of that light is on the Earth right now, on the day side. It's warming a field somewhere. A cat on a windowsill. Someone's face.
+
+At the end of that little paper, Einstein even suggested a way to test the idea. With radium salts, he wrote, bodies whose energy changes a lot, the theory might be put to the test.
+
+He wasn't sure. He was offering it gently. Here's what I think. Let's see if nature agrees.
+
+And that, really, is the spirit of the whole story. A person noticing something odd, following it honestly, and then asking the world to check.

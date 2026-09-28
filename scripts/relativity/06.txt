@@ -1,0 +1,67 @@
+At first, very few people paid attention to the patent clerk's paper. But one of the people who did was a man who had once been his teacher.
+
+Hermann Minkowski had taught mathematics at the Zurich Polytechnic when Einstein was a student there. And, if the stories are true, he hadn't thought much of young Albert, who so often skipped his lectures. He's said to have called him a lazy dog.
+
+But when Minkowski read the nineteen oh five paper, he saw something inside it that even Einstein hadn't fully seen yet.
+
+On the twenty-first of September, nineteen oh eight, in the city of Cologne, Minkowski stood up before a large gathering of German scientists and doctors, and gave a lecture called Space and Time.
+
+And he began with words that people still quote today.
+
+Henceforth space by itself, and time by itself, are doomed to fade away into mere shadows, and only a kind of union of the two will preserve an independent reality.
+
+A union of the two. Space and time, woven together into one thing. We call it spacetime.
+
+What did he mean?
+
+Here's one gentle way to picture it. Imagine you're drawing a map of your day. Across the page, you draw where you are. Your bed, your kitchen, the road to work. And up the page, you draw when. Morning at the bottom, night at the top. As the day goes on, you trace a line, moving across the page when you travel, and always moving up the page as time passes.
+
+Even when you sit perfectly still, your line keeps going up. You're always traveling through time, even when you're not traveling through space.
+
+That line is your path through spacetime. Your whole life is one long, winding line on a map with four directions. Left and right. Forward and back. Up and down. And the fourth, the one we can't point to, before and after.
+
+What Minkowski saw, is that when you move fast through space, it tilts your path. Some of your journey through time gets turned into journey through space. The faster you move across the map, the more slowly you climb up it. That's time dilation, drawn as a picture.
+
+And different observers, moving differently, slice this four-dimensional map in different ways. What one person calls now, a flat slice across the map, is tilted for someone else. That's why they disagree about which things happen at the same time. Neither slice is the true one. The map itself is what's real.
+
+Minkowski put it beautifully. Three-dimensional geometry, he said, becomes a chapter in four-dimensional physics.
+
+Einstein wasn't impressed, at first. He reportedly grumbled that since the mathematicians had got hold of his theory, he no longer understood it himself. But within a few years, he would come to depend on Minkowski's picture completely. It became the foundation for everything that came next.
+
+Sadly, Minkowski didn't get to see it. A few months after that lecture, in January of nineteen oh nine, he died suddenly, of appendicitis. He was forty-four years old. The man who joined space and time together had very little time left himself.
+
+Now, let's take time dilation a little further, and visit one of the most famous puzzles in physics. It's often called the twin paradox.
+
+A version of it was told by the French physicist Paul Langevin, at a conference in Bologna, in nineteen eleven. It goes something like this.
+
+Imagine two twins. Same age, same birthday. One stays home, on Earth. The other climbs into a very fast spaceship, and travels out to a distant star, at nearly the speed of light, and then turns around and comes home.
+
+For the twin at home, the traveling twin's clocks were running slow the whole time. Their heartbeat, their breathing, their aging. So when the traveler steps out of the ship, she's younger than her sibling. Perhaps much younger. Perhaps her twin has grown old and gray, while she's aged only a few years.
+
+But wait, you might say. From the traveler's point of view, isn't it the Earth that's moving? Shouldn't she see her sibling's clock running slow? Why isn't it the other way around?
+
+That's the paradox. And the answer is that the two twins aren't really in the same situation. The one at home stays in one smooth, steady frame the whole time. The traveler doesn't. She has to speed up, turn around, and slow down again. She feels those changes. Her tea would slide across the table when she turned around. And on the spacetime map, her path is bent, while her sibling's is straight.
+
+And here's the beautiful, surprising part. On the spacetime map, the straight line between two moments is the path with the most time on it. Any bent path, any detour, has less time along it. It's the opposite of what you'd expect from an ordinary map, where the straight road is the shortest. In spacetime, the straight path is the longest-lasting. The wanderer always comes home younger.
+
+This isn't just a story. It happens. We see it every day, high above your head, in the upper air.
+
+When cosmic rays from deep space smash into the top of our atmosphere, they create tiny particles called muons. Muons are like heavy cousins of electrons. And they don't live very long. At rest, a muon lasts only about two millionths of a second, on average, before it falls apart.
+
+That's so short that even moving at nearly the speed of light, most of them should fall apart long before they reach the ground. And yet, lots of them do reach the ground. There are some passing through you right now, gently, harmlessly, as you lie there.
+
+Why? Because they're moving so fast, their clocks run slow, as we see them. Their short lives are stretched out, long enough to reach us.
+
+In nineteen forty-one, two physicists named Bruno Rossi and David Hall measured this, counting muons high in the mountains of Colorado, and lower down, in Denver. They found the fast muons really do live longer than they should.
+
+In the nineteen sixties, two scientists named David Frisch and James Smith carried their instruments to the top of Mount Washington, in New Hampshire, and counted muons there for an hour. Then they went down near sea level, to Cambridge, Massachusetts, about nineteen hundred meters lower, and counted again. Without time dilation, only a tiny fraction of those muons should have survived the trip down. Instead, most of them did. They even made a short film about it, for students.
+
+And in nineteen seventy-seven, at CERN, in Switzerland, physicists sent muons whizzing around a great storage ring, at almost the speed of light. At rest, those muons would have lived about two millionths of a second. Racing around the ring, they lived about sixty-four millionths of a second. Almost thirty times longer. Exactly as Einstein's equations predicted, to within a fraction of a percent.
+
+Tiny travelers, coming home younger than they should.
+
+I sometimes think about that, up here. I'm moving fast, too. Not nearly fast enough for anything dramatic. But fast enough that my clock, compared to yours, runs just a tiny bit slow, because of my speed. By the time my shift is over, I'll be a few millionths of a second younger than I would have been on the ground.
+
+Although. That's only half the story. Because there's something else up here, pulling on my clock in the other direction. Something Einstein hadn't included in his nineteen oh five paper at all.
+
+Gravity.
