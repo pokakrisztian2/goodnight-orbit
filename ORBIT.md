@@ -226,6 +226,21 @@ Save as `assets/loops/<video-name>/01.mp4 … 12.mp4` (order: stage 1 a,b,c → 
 
 ---
 
+### In the cloud (not on the laptop) — set up 2026-09-28
+
+- **Code + scripts:** GitHub, private repo `pokakrisztian2/goodnight-orbit`.
+- **Pictures, clips, finished videos:** Cloudflare R2, bucket `goodnight-orbit` (same paths as here: `assets/...`, `renders/...`).
+- **One video = one job file** `videos/<name>.json` (script + list of scenes: station clip + space picture).
+- Steps:
+  1. Upload new clips: `bash tools/push.sh assets/scenes/<name>/*.mp4`
+  2. Commit + push the script and `videos/<name>.json`.
+  3. GitHub → Actions → **Render video** → Run workflow → type `<name>`.
+  4. The download link shows on the run page. Also in R2 `renders/<name>.mp4`.
+- Same job on the Mac: `tools/.venv/bin/python tools/render_job.py videos/<name>.json`
+- Space behind the window + seamless loop: `tools/make_station_loop.py` (finds the green window by itself).
+- GitHub gives ~2,000 free minutes a month for private repos. The voice is the slow part. Check the first real run's time.
+- R2 free space is 10 GB. Delete old renders after they are on YouTube.
+
 ## 10. Which channel to use (decided 2026-09-28)
 
 - **Not "chrispokaaa".** It carries Chris's own name and his business brand. Wrong audience.
