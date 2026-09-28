@@ -73,7 +73,10 @@ def main():
     # 2. voice (slow, so keep it in R2 and reuse it on the next run)
     narration = "assets/audio/%s/narration.wav" % name
     if not fetch(narration):
-        sh([PY, "tools/narrate.py", "--name", name, "--text", job["script"], "--sleep"])
+        if job.get("voice", "gemini") == "kokoro":
+            sh([PY, "tools/narrate.py", "--name", name, "--text", job["script"], "--sleep"])
+        else:   # Otto's voice: Gemini custom voice "ASMR Orbit 2", 20% slower
+            sh([PY, "tools/narrate_gemini.py", "--name", name, "--text", job["script"]])
         upload(narration)
 
     # 3. one loop per scene

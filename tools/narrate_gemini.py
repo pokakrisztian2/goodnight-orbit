@@ -14,6 +14,7 @@ import io
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 import urllib.error
@@ -30,6 +31,7 @@ PRICE_OUT = 9.00 / 1e6      # $ per audio output token (25 tokens = 1 second)
 SR = 24000
 MAX_CHARS = 1200
 PAUSE_PARAGRAPH = 0.6       # seconds between beats (Cosmo averages ~0.7 s pauses)
+TEMPO = 0.8                 # play 20% slower: Orbit 2 speaks ~169 words/min -> ~135 (user picked "Orbit 2 slower")
 
 STYLE = ("Read this as a deep, warm, bass-baritone male narrator, American accent. Calm, friendly and curious, "
          "like a smart friend explaining something fascinating late at night. Relaxed conversational pace, "
@@ -119,6 +121,7 @@ def main():
     ap.add_argument("--voice", default=VOICE)
     ap.add_argument("--model", default=MODEL)
     ap.add_argument("--out", help="default: assets/audio/<name>/narration.wav")
+    ap.add_argument("--tempo", type=float, default=TEMPO, help="1.0 = as Google made it")
     ap.add_argument("--root", default=os.getcwd())
     args = ap.parse_args()
     key = os.environ.get("GEMINI_API_KEY")
@@ -140,10 +143,15 @@ def main():
             f.write(pcm)
             f.write(np.zeros(int(SR * PAUSE_PARAGRAPH), np.float32))
             print("  chunk %d/%d  %.0fs audio" % (i, len(parts), len(pcm) / SR), flush=True)
+    if args.tempo != 1.0:
+        # slower speech, same pitch
+        tmp = out + ".tmp.wav"
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", out, "-af", "atempo=%.3f" % args.tempo, tmp], check=True)
+        os.replace(tmp, out)
     secs = sf.info(out).duration
     cost = tin * PRICE_IN + tout * PRICE_OUT
     print("done: %.1f min audio, %d words -> %.0f words/min, in %.0fs" % (secs / 60, words, words / (secs / 60), time.time() - t0))
-    print("COST: %d input + %d audio tokens = $%.4f  ->  $%.2f per hour of audio" % (tin, tout, cost, cost / secs * 3600))
+    print("COST: %d input + %d audio tokens = $%.4f  ->  $%.2f per hour of finished audio" % (tin, tout, cost, cost / secs * 3600))
 
 
 if __name__ == "__main__":

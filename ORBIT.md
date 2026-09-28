@@ -91,8 +91,8 @@ Cosmo is a mascot in a room. **We make a show.** Three things nobody in this nic
 | | |
 |---|---|
 | **Length** | ~2 hours (target 120 min). |
-| **Words** | ~13,000 at our sleep speed (~108 per minute). |
-| **Voice** | Kokoro `am_michael`, `narrate.py --sleep`. Same voice forever. Free. **The voice is Otto.** |
+| **Words** | ~135 per minute → 1 h ≈ 8,000 words, 2 h ≈ 16,000. |
+| **Voice** | **Gemini custom voice "ASMR Orbit 2"** (`voice_j2on1zgy9jtv`), played 20% slower (~135 words/min). Chosen by the user 2026-09-28. `tools/narrate_gemini.py`. ~$1.03 per hour of audio (measured). Same voice forever. **The voice is Otto.** |
 | **Picture** | 12 clips per video: 4 light stages × 3 window views. Each clip 8–15 s, looped. `make_loop_video.py` gives each ~10 min. No new code needed. |
 | **Motion** | tiny only: Otto breathes, tea drifts, Earth turns, lights blink. Nothing fast. |
 | **Captions** | not burned in (lights-off viewers don't read). Upload the script as YouTube subtitles. |
