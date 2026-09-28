@@ -32,7 +32,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install Python packages
-        run: pip install -q kokoro-onnx soundfile numpy pillow
+        run: pip install -q kokoro-onnx soundfile numpy pillow faster-whisper
 
       - name: Voice model (cached)
         id: models

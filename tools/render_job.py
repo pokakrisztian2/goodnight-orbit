@@ -93,6 +93,11 @@ def main():
     # 4. the long video
     sh([PY, "tools/make_loop_video.py", "--name", name])
 
+    # 4b. Cosmo-style captions, a few words at a time (word times from faster-whisper)
+    if job.get("captions", True):
+        sh([PY, "tools/make_captions.py", "--name", name])
+        upload("assets/audio/%s/captions.ass" % name)
+
     # 5. upload + a download link (works 7 days)
     render = "renders/%s.mp4" % name
     if BUCKET:
