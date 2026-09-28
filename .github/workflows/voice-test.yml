@@ -1,0 +1,32 @@
+name: Voice test (Chatterbox)
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install
+        run: |
+          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install -q chatterbox-tts
+      - name: Get reference voices
+        run: |
+          for f in blend_george_onyx blend_michael_onyx am_onyx; do
+            aws s3 cp s3://goodnight-orbit/assets/audio/voice-tests/$f.wav assets/audio/voice-tests/$f.wav --endpoint-url $R2_ENDPOINT --only-show-errors
+          done
+      - name: Make samples
+        run: python tools/voicetest/chatterbox_test.py
+      - name: Upload
+        run: |
+          for f in assets/audio/voice-tests/cb_*.wav; do
+            aws s3 cp "$f" "s3://goodnight-orbit/$f" --endpoint-url $R2_ENDPOINT --only-show-errors
+          done
