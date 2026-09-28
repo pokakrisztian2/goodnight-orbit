@@ -35,9 +35,9 @@ def run(cmd):
     return subprocess.run(cmd, check=True, capture_output=True, text=True)
 
 
-def first_frame(path, dst):
+def first_frame(path, dst, at=0.0):
     if path.lower().endswith(VIDEO_EXTS):
-        run(["ffmpeg", "-y", "-loglevel", "error", "-i", path, "-frames:v", "1", dst])
+        run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "%.2f" % at, "-i", path, "-frames:v", "1", dst])
     else:
         Image.open(path).convert("RGB").save(dst)
     return Image.open(dst).convert("RGB").resize((W, H))
@@ -95,6 +95,15 @@ def main():
     tmp = tempfile.mkdtemp(prefix="station-")
     frame = first_frame(args.station, os.path.join(tmp, "f0.png"))
     mask, share = window_mask(frame)
+    if args.station.lower().endswith(VIDEO_EXTS):
+        # things float over the window (the tea mug), so one frame is not enough:
+        # a spot counts as window if it is green in any of 8 frames across the clip
+        dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                                    "-of", "csv=p=0", args.station],
+                                   check=True, capture_output=True, text=True).stdout)
+        for k in range(1, 8):
+            m, _ = window_mask(first_frame(args.station, os.path.join(tmp, "f%d.png" % k), dur * k / 8))
+            mask = Image.fromarray(np.maximum(np.asarray(mask), np.asarray(m)))
     mask_path = os.path.join(tmp, "mask.png")
     mask.save(mask_path)
     print("window = %.0f%% of the picture" % (share * 100))
