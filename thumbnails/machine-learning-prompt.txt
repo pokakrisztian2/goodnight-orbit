@@ -1,0 +1,17 @@
+YouTube thumbnail, 16:9, 1280x720. Pure black background. Everything is glowing neon line art in ONE colour only: bright cyan (light electric blue), like chalk made of light, with a soft glow. No other colours.
+
+Centre: huge chunky pixel-art title in two lines: "MACHINE LEARNING". Under it, smaller clean pixel text between two thin lines: "EXPLAINED SLOWLY". The title is the biggest thing, easy to read on a phone.
+
+Around the title, 8 small glowing cyan line-art icons, each with a small pixel-text label under it:
+1. Top left: a vintage portrait sketch of Alan Turing — label "TURING, 1950"
+2. Top: a small neural network diagram, circles connected by lines — label "NEURAL NETWORKS"
+3. Top: a loss curve going down on a small graph — label "LEARNING FROM MISTAKES"
+4. Top right: a hiker walking down a foggy hill — label "GRADIENT DESCENT"
+5. Right: a Go board with a few stones — label "ALPHAGO"
+6. Bottom right: a speech bubble with the letters "GPT" inside — label "CHATGPT"
+7. Bottom: a big old computer chip / graphics card — label "GPUs"
+8. Bottom: a grid of tiny pictures (cat, dog, car) — label "IMAGENET"
+
+Bottom left: a small round astronaut (the character from the reference image), drawn in the same glowing cyan line art, floating cross-legged and holding a cup of tea with steam.
+
+Clean, not cluttered. Small stars scattered in the black. Spell every word exactly as written.
