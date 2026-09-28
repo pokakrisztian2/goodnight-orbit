@@ -80,6 +80,7 @@ def main():
     ap.add_argument("--out", required=True)
     ap.add_argument("--seconds", type=float, default=60)
     ap.add_argument("--drift", type=float, default=6, help="space photo drift, pixels per second")
+    ap.add_argument("--space-slow", type=float, default=2.0, help="space video: play this many times slower")
     args = ap.parse_args()
 
     tmp = tempfile.mkdtemp(prefix="station-")
@@ -99,7 +100,15 @@ def main():
              "-filter_complex", "[0]scale=%d:%d,fps=%d,setsar=1,split[a][b];[b]reverse[r];[a][r]concat=n=2:v=1" % (W, H, FPS),
              "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", room])
         room_in = ["-stream_loop", "-1", "-i", room]
-        room_f = "[1]setsar=1,format=rgba[fg0];"
+        a = np.asarray(frame).astype(int)
+        key = np.median(a[np.asarray(mask) > 200], axis=0).astype(int)
+        keyhex = "0x%02x%02x%02x" % tuple(key)
+        # layer 1: the room with green made see-through on every frame
+        # layer 2: the room again, solid everywhere except the window area (so green screens on the wall stay)
+        room_f = ("[1]setsar=1,split[r1][r2];"
+                  "[r1]format=rgba,colorkey=%s:0.38:0.04,despill=type=green:mix=0.6[keyed];"
+                  "[2]loop=loop=-1:size=1,setpts=N/%d/TB,format=gray,negate[out];"
+                  "[r2]format=rgba[r2a];[r2a][out]alphamerge[outside];" % (keyhex, FPS))
     else:
         # resize once here, not on every frame
         room = os.path.join(tmp, "room.png")
@@ -109,8 +118,14 @@ def main():
 
     space_is_video = args.space.lower().endswith(VIDEO_EXTS)
     if space_is_video:
-        space_in = ["-stream_loop", "-1", "-i", args.space]
-        space_f = "[0]scale=%d:%d:force_original_aspect_ratio=increase,crop=%d:%d,fps=%d,setsar=1[bg]" % (W, H, W, H, FPS)
+        # slow it down, then forward + backward: the Earth never jumps at the loop point
+        sp = os.path.join(tmp, "space-pingpong.mp4")
+        run(["ffmpeg", "-y", "-loglevel", "error", "-i", args.space, "-an", "-filter_complex",
+             "[0]scale=%d:%d:force_original_aspect_ratio=increase,crop=%d:%d,setpts=%.2f*PTS,fps=%d,setsar=1,"
+             "split[a][b];[b]reverse[r];[a][r]concat=n=2:v=1" % (W, H, W, H, args.space_slow, FPS),
+             "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", sp])
+        space_in = ["-stream_loop", "-1", "-i", sp]
+        space_f = "[0]setsar=1[bg]"
     else:
         # drift right for half the loop, back for the other half -> same at start and end
         travel = args.drift * L / 2
@@ -125,13 +140,18 @@ def main():
                    % (FPS, W, H, W, travel / 2, travel, L, H))
 
     os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)
+    if is_video:
+        # window area = mask made bigger, so a small wobble in the Veo clip is fine
+        big = mask.filter(ImageFilter.MaxFilter(15))
+        big.save(mask_path)
+        comp = "[bg][keyed]overlay[b1];[b1][outside]overlay=shortest=0,format=yuv420p"
+    else:
+        comp = ("[2]loop=loop=-1:size=1,setpts=N/%d/TB,format=gray,negate[a];" % FPS +
+                "[fg0][a]alphamerge[fg];[bg][fg]overlay=shortest=0,format=yuv420p")
     run(["ffmpeg", "-y", "-loglevel", "error", *space_in, *room_in,
          "-i", mask_path,
          "-filter_complex",
-         space_f + ";"
-         + room_f +
-         "[2]loop=loop=-1:size=1,setpts=N/%d/TB,format=gray,negate[a];" % FPS +
-         "[fg0][a]alphamerge[fg];[bg][fg]overlay=shortest=0,format=yuv420p",
+         space_f + ";" + room_f + comp,
          "-t", "%.2f" % L, "-r", str(FPS), "-an",
          "-c:v", "libx264", "-crf", "24", "-preset", "veryfast", "-g", str(FPS * 2), args.out])
     print("done -> %s (%.0fs loop)" % (args.out, L))
