@@ -65,6 +65,7 @@ About this video
 Educational science for relaxation and sleep. Narration and pictures are made with AI tools; the script is researched and written for this channel, and every fact is checked against the sources above.
 ```
 
+- **Limits (real YouTube counts):** description max 5,000 characters; tags max 500, where every tag with a space counts +2 (YouTube adds quotes) plus 1 per comma. Aim for ~450.
 - **Altered or synthetic content:** Yes (every video)
 - **Comments:** On. Pin a friendly comment on each video: "What should Otto explain tomorrow night? 🌙" (comments tell us topics + help the algorithm).
 
