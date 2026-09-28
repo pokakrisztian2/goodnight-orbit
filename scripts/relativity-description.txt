@@ -22,36 +22,36 @@ Chapters
 1:32:43 The Stubborn Illusion
 
 Resources
-Every fact in this video comes from these sources (no guesses presented as facts):
-• Galileo, Dialogue Concerning the Two Chief World Systems (extract) — MacTutor, University of St Andrews — https://mathshistory.st-andrews.ac.uk/Extras/Galileo_Dialogue/
-• Newton's Scholium on Time, Space, Place and Motion — Stanford Encyclopedia of Philosophy — https://plato.stanford.edu/entries/newton-stm/scholium.html
-• James Clerk Maxwell: a force for physics — Physics World — https://physicsworld.com/a/james-clerk-maxwell-a-force-for-physics/
-• November 1887: Michelson and Morley report their failure to detect the ether — APS News — https://www.aps.org/apsnews/2007/11/november-1887-michelson-uminiferous-ether
-• Special relativity (history) — MacTutor, University of St Andrews — https://mathshistory.st-andrews.ac.uk/HistTopics/Special_relativity/
-• Einstein: Image and Impact — AIP Center for History of Physics — https://history.aip.org/exhibits/einstein/
-• Chasing the Light: Einstein's Most Famous Thought Experiment — John D. Norton, University of Pittsburgh — https://sites.pitt.edu/~jdnorton/papers/Chasing.pdf
-• Einstein at the Patent Office — Swiss Federal Institute of Intellectual Property — https://www.ige.ch/en/about-us/the-history-of-the-ipi/einstein/einstein-at-the-patent-office
+Every fact in this video comes from these sources:
+• Galileo, Dialogue Concerning the Two Chief World Systems (extract) — https://mathshistory.st-andrews.ac.uk/Extras/Galileo_Dialogue/
+• Newton's Scholium on Time, Space, Place and Motion — https://plato.stanford.edu/entries/newton-stm/scholium.html
+• James Clerk Maxwell: a force for physics — https://physicsworld.com/a/james-clerk-maxwell-a-force-for-physics/
+• November 1887: Michelson and Morley report their failure to detect the ether — https://www.aps.org/apsnews/2007/11/november-1887-michelson-uminiferous-ether
+• Special relativity (history) — https://mathshistory.st-andrews.ac.uk/HistTopics/Special_relativity/
+• Einstein: Image and Impact — https://history.aip.org/exhibits/einstein/
+• Chasing the Light: Einstein's Most Famous Thought Experiment — https://sites.pitt.edu/~jdnorton/papers/Chasing.pdf
+• Einstein at the Patent Office — https://www.ige.ch/en/about-us/the-history-of-the-ipi/einstein/einstein-at-the-patent-office
 • On the Electrodynamics of Moving Bodies (1905, English translation) — https://www.fourmilab.ch/etexts/einstein/specrel/specrel.pdf
-• One Hundred Years of Einstein's Field Equations — Einstein Papers Project, Caltech — https://www.einstein.caltech.edu/news/one-hundred-years-of-einsteins-field-equations-and-of-the-explanation-of-mercurys-perihelion
-• Einstein's quest for general relativity, 1907–1920 — Michel Janssen (Cambridge Companion to Einstein) — https://www.physics.umd.edu/grt/taj/675e/QuestforGR.pdf
-• The Hole Argument — Stanford Encyclopedia of Philosophy — https://plato.stanford.edu/entries/spacetime-holearg/
-• The 1919 solar eclipse — Max Planck Society — https://www.mpg.de/9244824/solar-eclipse-1919
-• Muon time dilation historic site, Mount Washington — American Physical Society — https://www.aps.org/programs/honors/history/historicsites/mtwashington.cfm
-• USNO marks 50 years since the Hafele–Keating experiment — U.S. Naval Observatory (DVIDS) — https://www.dvidshub.net/news/407785/usno-marks-50-year-anniversary-breakthrough-relativity-experiment
-• The Weight of Light (Pound–Rebka) — APS Physics — https://physics.aps.org/story/v16/st1
-• Relativity and the Global Positioning System — Neil Ashby, Physics Today — https://physicstoday.aip.org/features/relativity-and-the-global-positioning-system
-• Putting Einstein to the Test — NIST — https://www.nist.gov/atomic-clocks/a-powerful-tool-for-science/putting-einstein-test
-• JILA atomic clocks measure general relativity at the millimetre scale — NIST — https://www.nist.gov/news-events/news/2022/02/jila-atomic-clocks-measure-einsteins-general-relativity-millimeter-scale
-• Gravity Probe B — Stanford University — https://einstein.stanford.edu/
-• Gravitational waves detected 100 years after Einstein's prediction — LIGO Caltech — https://www.ligo.caltech.edu/news/ligo20160211
-• The Nobel Prize in Physics 2017 (LIGO) — NobelPrize.org — https://www.nobelprize.org/prizes/physics/2017/press-release/
-• Astronomers capture first image of a black hole — ESO — https://www.eso.org/public/news/eso1907/
-• First image of our Milky Way's black hole — ESO — https://www.eso.org/public/news/eso2208-eht-mw/
-• Albert Einstein, Nobel Prize in Physics 1921 — NobelPrize.org — https://www.nobelprize.org/prizes/physics/1921/einstein/facts/
+• One Hundred Years of Einstein's Field Equations — https://www.einstein.caltech.edu/news/one-hundred-years-of-einsteins-field-equations-and-of-the-explanation-of-mercurys-perihelion
+• Einstein's quest for general relativity, 1907–1920 — https://www.physics.umd.edu/grt/taj/675e/QuestforGR.pdf
+• The Hole Argument — https://plato.stanford.edu/entries/spacetime-holearg/
+• The 1919 solar eclipse — https://www.mpg.de/9244824/solar-eclipse-1919
+• Muon time dilation historic site, Mount Washington — https://www.aps.org/programs/honors/history/historicsites/mtwashington.cfm
+• USNO marks 50 years since the Hafele–Keating experiment — https://www.dvidshub.net/news/407785/usno-marks-50-year-anniversary-breakthrough-relativity-experiment
+• The Weight of Light (Pound–Rebka) — https://physics.aps.org/story/v16/st1
+• Relativity and the Global Positioning System — https://physicstoday.aip.org/features/relativity-and-the-global-positioning-system
+• Putting Einstein to the Test — https://www.nist.gov/atomic-clocks/a-powerful-tool-for-science/putting-einstein-test
+• JILA atomic clocks measure general relativity at the millimetre scale — https://www.nist.gov/news-events/news/2022/02/jila-atomic-clocks-measure-einsteins-general-relativity-millimeter-scale
+• Gravity Probe B — https://einstein.stanford.edu/
+• Gravitational waves detected 100 years after Einstein's prediction — https://www.ligo.caltech.edu/news/ligo20160211
+• The Nobel Prize in Physics 2017 (LIGO) — https://www.nobelprize.org/prizes/physics/2017/press-release/
+• Astronomers capture first image of a black hole — https://www.eso.org/public/news/eso1907/
+• First image of our Milky Way's black hole — https://www.eso.org/public/news/eso2208-eht-mw/
+• Albert Einstein, Nobel Prize in Physics 1921 — https://www.nobelprize.org/prizes/physics/1921/einstein/facts/
 
 Books: Walter Isaacson, *Einstein: His Life and Universe* (2007); Abraham Pais, *'Subtle is the Lord…': The Science and the Life of Albert Einstein* (1982); Peter Galison, *Einstein's Clocks, Poincaré's Maps* (2003); John Stachel (ed.), *Einstein's Miraculous Year* (1998).
 
 About this video
-Educational science for relaxation and sleep. Narration and pictures are made with AI tools; the script is researched and written for this channel, and every fact is checked against the sources above. Some quotes are translations, and a few stories are marked in the narration as "reportedly".
+Educational science for relaxation and sleep. Narration and pictures are made with AI tools; the script is researched and written for this channel and checked against the sources above.
 
 #relativity #sleep #physics
