@@ -8,12 +8,16 @@ def call(method, path, body=None):
     try:
         with urllib.request.urlopen(req, timeout=300) as r: return r.status, json.load(r)
     except urllib.error.HTTPError as e: return e.code, e.read().decode()[:600]
-st, d = call("GET", "/voices?pageSize=100")
+st, d = call("GET", "/voices?pageSize=1000")
 print("LIST", st)
 voices = d.get("voices", []) if isinstance(d, dict) else []
 if not isinstance(d, dict): print(d)
 custom = [v for v in voices if v.get("type", "").lower() not in ("prebuilt", "voice_type_prebuilt")]
 for v in custom: print("CUSTOM:", json.dumps({k: v.get(k) for k in ("id","name","displayName","display_name","type","description","gender","accent")}))
+import collections
+print("TYPES", collections.Counter(v.get("type") for v in voices))
+print("ASMR matches", [ (v.get("id"), v.get("display_name"), v.get("type")) for v in voices if "asmr" in json.dumps(v).lower()][:10])
+print("first 3", [(v.get("id"), v.get("display_name"), v.get("type")) for v in voices[:3]])
 print("first keys:", list(voices[0].keys()) if voices else None, "| total", len(voices))
 match = [v for v in custom if NAME in json.dumps(v).lower()] or custom
 if not match: sys.exit("no custom voice found on this project")
