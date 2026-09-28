@@ -20,8 +20,6 @@ The year is sixteen thirty-two. In Florence, in Italy, a book is being printed. 
 
 The book is called the Dialogue Concerning the Two Chief World Systems. It's mostly about a big question of that time. Does the Sun go around the Earth? Or does the Earth go around the Sun?
 
-If the Earth really moves, people asked, why don't we feel it? Why doesn't a stone dropped from a tower land far behind, as the ground rushes away beneath it? Why aren't birds swept backwards? Why isn't there a great wind in our faces all the time?
-
 And in the middle of this conversation, Salviati says something lovely. He asks his friends to imagine a scene.
 
 Shut yourself up with some friend, he says, in the main cabin below decks on some large ship. And have with you there some flies, butterflies, and other small flying animals. Have a large bowl of water with some fish in it. Hang up a bottle that empties drop by drop into a wide vessel beneath it.
@@ -46,8 +44,6 @@ That's the first seed of relativity. It's almost four hundred years old. And it'
 
 You've felt it on a train, maybe. You're sitting in a carriage at the station, and the train next to yours begins to slide past the window. And for a moment, you're not sure. Is it them moving? Or is it us? Your body can't tell. Only when you look at the platform do you know.
 
-Or on a plane, at night, high above the clouds, with the cabin lights dimmed. You're moving faster than almost anything on the ground. And yet someone pours water into a cup, and it goes straight into the cup. Someone walks down the aisle, and it feels like walking down a hallway at home.
-
 Steady motion is invisible from the inside.
 
 Galileo's idea is sometimes called Galilean relativity. It says the laws of motion are the same for anyone moving smoothly, without speeding up or slowing down. There's no special place that's truly at rest. There's only motion compared to something else. The ship is moving compared to the harbor. The harbor is moving compared to the Sun. And the Sun is moving too.
@@ -64,8 +60,6 @@ The Royal Society in London was supposed to pay for it. But they had just spent 
 
 So a friend stepped in. The astronomer Edmond Halley, the same Halley the comet is named after. He paid for the printing largely from his own pocket. And later, when the Society was short of money again, part of Halley's salary was paid to him in unsold copies of the fish book.
 
-I find that very comforting, somehow. The most important science book of its century, rescued by a friend, while a pile of fish books waited in a storeroom.
-
 Now, inside the Principia, Newton made a quiet decision that would last for more than two hundred years. He decided what time is. And what space is.
 
 Absolute, true, and mathematical time, he wrote, of itself, and from its own nature, flows equably without relation to anything external.
@@ -76,10 +70,6 @@ And space, he wrote, absolute space, in its own nature, without relation to anyt
 
 Space is like a great invisible stage. Fixed. Still. Things move across it, but the stage itself never moves, never stretches, never bends.
 
-This is the world most of us still feel we live in. Time ticks along the same for everyone. A meter is a meter. A second is a second. Now is now.
-
-It feels so obviously true that it hardly seems like an idea at all. It feels like the way things simply are.
-
 And for two centuries, it worked beautifully. It predicted eclipses. It guided ships across oceans. It found new planets. It sent cannonballs exactly where they were aimed. Newton's world was steady and dependable, like a good old clock on a mantelpiece.
 
 But there was one small thing. A thing nobody had really looked at closely enough. A thing that would, very slowly, loosen the whole picture.
@@ -88,13 +78,9 @@ That thing was light.
 
 For a long time, people argued about what light actually is. Is it a stream of tiny particles, flying out like sand from a lamp? Or is it a wave, rippling outward, like the rings on a pond when a stone drops in?
 
-By the eighteen hundreds, most scientists had settled on waves. Light bends around edges a little. Light waves can cancel each other out, making dark stripes, just as water waves do. It really did behave like a wave.
-
 But a wave has to be a wave in something. Ocean waves move through water. Sound waves move through air. So what was light waving through? It crossed the empty space between the Sun and the Earth, between the stars and our eyes. What was out there, in the dark, to carry it?
 
 The answer people chose was a name. They called it the luminiferous aether. Luminiferous means light-bearing. The aether was imagined as an invisible, perfectly smooth substance filling the whole universe. Everywhere. Even inside a glass jar with all the air pumped out. The quiet, still sea that light swims through.
-
-It was a comfortable idea. And it fit so well with Newton's stage. The aether was the stage, made real. Something fixed, something still, that everything else moved through.
 
 Now, let me introduce you to someone. A Scottish boy named James Clerk Maxwell.
 
@@ -108,33 +94,19 @@ When he got back to London, he compared his number with the measured speed of li
 
 They matched.
 
-Imagine that moment. Sitting with your notebook, looking at two numbers that came from completely different places. One from careful experiments with coils and magnets. One from people timing light across mirrors and mountains. And they're the same.
-
 Maxwell wrote that we can scarcely avoid the inference, that light is made of the same stuff as electric and magnetic effects. Light is an electromagnetic wave. The glow of a candle, the colors of a sunset, the sunlight warming your skin, all of it, ripples of electricity and magnetism.
 
 He was quietly proud of it. In a letter to his cousin in January of eighteen sixty-five, he wrote that he had a paper afloat containing an electromagnetic theory of light, which, till I am convinced to the contrary, I hold to be great guns.
-
-Great guns. I love that. The most important discovery of his life, and he describes it like a man who's just caught a very big fish.
 
 But Maxwell's equations held a small puzzle inside them. A puzzle that nobody quite noticed at first.
 
 The equations give one speed for light. Just one. Roughly three hundred thousand kilometers every second. They don't say, three hundred thousand kilometers per second compared to the aether. Or compared to the lamp. Or compared to you. They just give the number. As if the speed of light were simply, always, that.
 
-Most people assumed it must mean compared to the aether. The aether was the still sea, and light moved through it at that speed. And the Earth, of course, was moving through the aether too, as it swept around the Sun.
-
-Which meant something could be measured.
-
-Think of a boat on a river. If you row upstream, against the current, you go slower compared to the bank. If you row downstream, you go faster. If you row across the river and back, it's somewhere in between.
-
 The Earth moves around the Sun at about thirty kilometers every second. If the aether is still, then the Earth is rushing through it. There should be an aether wind blowing across the Earth, like the wind you feel when you put your hand out of a car window. And light moving into that wind should be a little slower, compared to us, than light moving across it.
-
-It would be a tiny difference. But perhaps, with enough care, a person could catch it.
 
 Enter Albert Michelson. A young American physicist, very patient, very precise, who loved measuring light more than almost anything.
 
-His first attempt was in Berlin, in eighteen eighty-one. And it failed, not because of the aether, but because of the city. The street traffic outside shook his instrument so much that the delicate light patterns wobbled and blurred. Horses and carts rattling past on the cobblestones. So he packed everything up and moved it to a quiet cellar in Potsdam, under an observatory, where it was still enough to work. He saw no aether wind. But his instrument wasn't quite sensitive enough to be sure.
-
-A few years later, in Cleveland, Ohio, he tried again. This time with a chemist named Edward Morley.
+In Cleveland, Ohio, in the eighteen eighties, he teamed up with a chemist named Edward Morley.
 
 They built something beautiful. A heavy stone slab, about one and a half meters square and thirty centimeters thick. And they floated it on a pool of liquid mercury, in a round iron trough, so the whole stone could turn slowly and smoothly, without a single bump.
 
@@ -152,23 +124,11 @@ What they saw was, in their words, certainly less than the twentieth part of thi
 
 Almost nothing. The stripes barely moved at all.
 
-As if there were no aether wind. As if the Earth were not moving through anything. Or as if light, somehow, always moved at the same speed, whichever way you measured it.
-
 This is one of the most famous results in all of science. And the funny thing is, it's famous for finding nothing. Michelson himself was disappointed. He and Morley both kept believing in the aether for the rest of their lives. Michelson went on to become the first American to win a Nobel Prize in science, for his beautiful measurements of light. But he never let go of the still, invisible sea.
 
-Others tried to rescue the aether.
+Some physicists tried clever ways to rescue the aether. Perhaps moving objects shrink, just enough to hide the effect. But they were all still trying to save the old stage.
 
-In Ireland, a physicist named George FitzGerald wrote a very short letter, less than half a page, with a daring suggestion. What if objects moving through the aether get slightly shorter, in the direction they're moving? Just by exactly the right amount to hide the difference. The arm of the instrument pointing into the wind would shrink a tiny bit, the light would have a shorter path, and the delay would disappear.
-
-In the Netherlands, not knowing about FitzGerald's letter, Hendrik Lorentz had the same idea. And he went further. He worked out careful mathematical rules for how lengths and times would have to change for a moving observer, so that Maxwell's equations would still work. Those rules are still named after him today. The Lorentz transformations.
-
-And in France, the great mathematician Henri Poincaré was thinking about time itself. In eighteen ninety-eight he wrote that we have no direct intuition about the equality of two time intervals. In other words, how do we really know that one second, here, is the same as one second, over there? We just assume it.
-
-All of these men were so close. They had the pieces on the table. Shortened lengths. Strange new rules for time. The feeling that something was not quite right with simultaneous moments.
-
-But they were still trying to save the old stage. The aether. The still sea. The great cosmic clock.
-
-What was needed was someone willing to let go of it entirely. Someone who would look at the puzzle and say, what if there's nothing to rescue? What if light's speed simply is the same for everyone, and it's our ideas about space and time that have to give way?
+What was needed was someone willing to let go of the aether entirely. Someone who would look at the puzzle and say, what if there's nothing to rescue? What if light's speed simply is the same for everyone, and it's our ideas about space and time that have to give way?
 
 And that someone, at that moment, was a young man with a very ordinary job, in a quiet Swiss city, who had been carrying a strange question around since he was sixteen years old.
 
@@ -178,15 +138,9 @@ He was a quiet child. Family stories say he was slow to start talking. And he co
 
 When he was about four or five, he was sick in bed, and his father brought him a compass to play with.
 
-Maybe you had one as a child. A little round case, a needle floating inside. And whichever way you turn it, the needle swings back and points the same direction. As if an invisible hand is holding it.
-
 The little boy was amazed. Nothing was touching the needle. And yet something was pushing it. Something in the empty air. Many years later, as an old man, he wrote that the compass made him feel that there had to be something behind things, something deeply hidden.
 
-I like to think of that little boy, lying in bed, turning the compass around and around, trying to catch the needle out. And the needle, patiently, pointing north every time.
-
 At about twelve, he found a small geometry book. He later called it a holy little geometry booklet. It was full of proofs, arguments that start from simple things and arrive, step by step, at something certain. He said this lucidity and certainty made an indescribable impression on him.
-
-So he had two wonders, early on. The mystery of the invisible force in the compass. And the clarity of mathematics that could explain things with complete certainty. His whole life, in a way, would be about bringing those two wonders together.
 
 But school was a different matter.
 
@@ -194,13 +148,9 @@ In Munich he went to the Luitpold Gymnasium, a strict German school where studen
 
 When he was fifteen, his family's business moved to Italy. They left him behind in Munich to finish school. He lasted until December of eighteen ninety-four. Then, in the middle of the school year, he simply left, and went to join his parents in Italy.
 
-A teenager, without a diploma, crossing the Alps to his family.
-
 The next year, he tried to enter the Polytechnic in Zurich, a famous technical university in Switzerland, even though he was younger than most students. And he failed the entrance exam. He did very well in mathematics and physics. But he did poorly in languages and history.
 
 So he was sent to a small school in a Swiss town called Aarau, to finish his studies. And Aarau turned out to be exactly what he needed.
-
-It was a gentle school. The teachers encouraged students to think for themselves, to look, to wonder, to ask. No drilling. No shouting. He was happy there. He stayed with a kind family. He took long walks. He played his violin.
 
 And it was there, in Aarau, at about sixteen years old, that he first had the question we started with tonight.
 
@@ -216,8 +166,6 @@ If you ride next to a train at the same speed, the train looks like it's standin
 
 But young Einstein had a feeling this was wrong. Nobody had ever seen frozen light. And Maxwell's equations didn't allow it. In Maxwell's equations, light always moves. It never stands still. There is no such thing as a resting wave of light.
 
-So either the equations were wrong, or the simple idea of catching up with light was wrong.
-
 He didn't solve it then. He just carried it. For years. Like a small stone in his pocket that he'd turn over, now and then, when his mind wandered.
 
 At Aarau he also wrote a school essay, in French, about his plans for the future. He wrote that he wanted to study physics. And one of the reasons he gave was, and I promise this is true, his lack of imagination and practical talent.
@@ -225,8 +173,6 @@ At Aarau he also wrote a school essay, in French, about his plans for the future
 The man who would become famous for his imagination, at sixteen, said he didn't have much.
 
 In eighteen ninety-six, he passed his exams and entered the Zurich Polytechnic after all. He studied there for four years, to become a teacher of mathematics and physics.
-
-He was not a model student. He skipped many lectures. He preferred to read the great physicists on his own, at home, and to do experiments in the laboratory. He found some of his professors old-fashioned.
 
 But he had a friend. A classmate named Marcel Grossmann. Grossmann went to every lecture and took beautiful, careful notes. And before exams, he lent those notes to Einstein. Einstein later wrote, I would rather not speculate on what would have become of me without these notes.
 
@@ -252,8 +198,6 @@ He later called the job a kind of salvation.
 
 His work was to read patent applications. Inventors from all over Switzerland, and beyond, would send in their designs. A new kind of electrical switch. An improved machine for something or other. And his job was to understand each idea, clearly and exactly, and decide whether it really worked, and whether it was really new.
 
-It sounds dull. But in a way, it was perfect training. Every day, he had to take a complicated description and ask, what is the simple principle underneath? What is actually happening here?
-
 And he was fast at it. Often he'd finish his day's work in a few hours. And then, carefully, so his supervisor wouldn't notice, he would pull out his own papers from a drawer and work on physics.
 
 He described his days this way. Eight hours of patent work. Eight hours of what he called allotria, a playful word, something like fooling around, which for him meant his own physics. And eight hours of sleep.
@@ -262,21 +206,13 @@ Eight hours of sleep. Einstein would approve of what you're doing right now.
 
 He loved that office. Years later, he called it that worldly cloister where I hatched my most beautiful ideas. A cloister is a quiet place where monks live and think. A worldly cloister. A quiet thinking place, in the middle of an ordinary city job.
 
-There's one more thing about Bern that people like to mention. Bern was a city of clocks. There's a famous clock tower in the old town, with little mechanical figures that move when the hour strikes. And by that time, the city had begun linking its public clocks with electrical signals, so that clocks in different places would show exactly the same time.
-
-Some historians have wondered whether patents for synchronizing clocks crossed Einstein's desk. Patents like that did pass through the Bern office in those years. But the records don't tell us which files he personally handled. So we can't say for sure. It's a lovely thought, though. The young man thinking about time, in a city full of clocks trying to agree with each other.
-
 In the evenings, he had friends. Two young men, Maurice Solovine and Conrad Habicht, met with him regularly to read books together and argue about them. Philosophy. Physics. Spinoza, Hume, Mach, Poincaré. They'd eat simple dinners, sausage, cheese, fruit, tea, and talk late into the night.
 
 They jokingly called their little club the Olympia Academy. It was a gentle joke at the expense of the grand, serious academies of science, full of important old men in important old rooms. Their academy was three young friends in a small apartment, drinking tea and taking nothing for granted.
 
-For a couple of years, Einstein lived with Mileva in a small flat at Kramgasse forty-nine, in the old part of Bern. That flat is a little museum today. The Einstein House. You can climb the narrow stairs and see the rooms where he lived during the most extraordinary year of his life.
-
 And there was one more friend. Maybe the most important one. Michele Besso.
 
 Besso also worked at the patent office. And every day, the two of them would walk home together. Talking. About physics, about ideas, about everything. Einstein called Besso the best sounding board in Europe. A sounding board is someone you can think out loud to. Someone whose listening helps your ideas come into focus.
-
-Imagine those walks. The two of them, strolling home through the arcades of Bern's old town, the long covered walkways along the streets. Late afternoon light. Einstein talking, his hands moving. Besso listening, asking a question now and then.
 
 In the spring of nineteen oh five, Einstein was stuck. Truly stuck. He had spent years with his old question about chasing light, and with the puzzle of Maxwell's equations and the aether, and it just wouldn't come together.
 
@@ -298,21 +234,13 @@ In May, he wrote a playful letter to his friend Conrad Habicht. It began, you fr
 
 And then, casually, he promised to send Habicht four papers he was working on. One of them, he said, was about light, and was very revolutionary. Another was still a rough draft, about the electrodynamics of moving bodies, using a modification of the theory of space and time.
 
-He tossed it off, in a letter to a friend, between jokes.
-
 And all of those papers were published that year, in a respected German journal called the Annalen der Physik.
 
 In March, a paper on light. It suggested that light comes in small packets of energy, the idea that later grew into quantum physics. That paper, and not relativity, would win him his Nobel Prize.
 
-In April, his doctoral thesis, a clever way of measuring the size of molecules.
-
-In May, a paper on the jittery dance of tiny particles in water, which helped prove that atoms are real.
-
 On the thirtieth of June, the journal received his paper with the modest title, On the Electrodynamics of Moving Bodies. The paper that introduced what we now call special relativity.
 
 And in September, a very short follow-up. Just three pages. The one that contained the seed of the most famous equation in the world.
-
-A twenty-six-year-old patent clerk, Technical Expert Third Class, on trial. Working in his spare hours. In one year, he changed physics several times over.
 
 And now, let's look at what he actually said in that paper about moving bodies. Because it's simpler than you might think. And stranger.
 
@@ -325,8 +253,6 @@ The second idea is the brave one. Light, he wrote, is always propagated in empty
 Light always moves at the same speed. Always. It doesn't matter how fast the lamp is moving. And, following from the first idea, it doesn't matter how fast you are moving either. Everyone who measures the speed of light gets the same answer.
 
 Then, almost in passing, he added one more sentence. The introduction of a luminiferous aether will prove to be superfluous.
-
-Superfluous means unnecessary. Not wrong, exactly. Just not needed. The great invisible sea that scientists had built so carefully, over a century, he set aside with one quiet word.
 
 Now, those two ideas sound simple. But put them together, and something very strange happens.
 
@@ -341,8 +267,6 @@ Einstein's answer was to look very carefully at what we mean by time. And he did
 If, for instance, I say, that train arrives here at seven o'clock, I mean something like this. The pointing of the small hand of my watch to seven, and the arrival of the train, are simultaneous events.
 
 Simultaneous. Happening at the same moment.
-
-When the train is right here, next to you, that's easy. The watch says seven, the train pulls in. Same place, same moment. No problem.
 
 But what about two things happening far apart? A flash of lightning here, and a flash of lightning over the hills, miles away. How do you know they happened at the same moment?
 
@@ -363,8 +287,6 @@ Einstein's answer is quiet and extraordinary. They both are.
 There is no single, universal now. Whether two distant events happen at the same moment depends on how you're moving. For the woman, they're simultaneous. For the man, they're not. Neither is making a mistake. Neither view is the true one. There's no great cosmic clock to settle the argument.
 
 Newton's time, flowing equably, the same for all, has quietly dissolved.
-
-Just let that settle for a moment. It's a big thing, and it's okay if it feels slippery. It felt slippery to everyone.
 
 Once "now" becomes personal, other things follow. Let's look at the most famous one. Moving clocks tick slower.
 
@@ -388,11 +310,9 @@ And not just light clocks. Every kind of clock. Wristwatches. Heartbeats. The sl
 
 This is called time dilation. Dilation means stretching. Time, stretched out.
 
-In his nineteen oh five paper, Einstein even gave an example. A clock carried around a loop and brought back to where it started, he said, would come back slightly behind a clock that stayed put. And then he added that a clock at the equator, carried around by the spinning Earth, must go a little more slowly than an identical clock at one of the poles.
-
 Now, for anything moving at ordinary speeds, the effect is tiny. Much too tiny for you to notice. A car, a plane, even a rocket. The difference is billionths of a second. The effect only becomes large when you move at a good fraction of the speed of light.
 
-And there's a partner to time dilation. Moving things get shorter, in the direction they're moving. This is length contraction. It's the same shortening FitzGerald and Lorentz had imagined. But Einstein didn't need an aether to squeeze things. The shortening came naturally, out of the two simple ideas. In the paper, he describes a sphere, a perfect ball, moving past at high speed. To someone watching it, it would look slightly squashed along its direction of travel. Like a ball that's been gently pressed flat.
+And there's a partner to time dilation. Moving things get shorter, in the direction they're moving. This is length contraction. A few physicists had guessed at a shortening like this before, to rescue the aether. But Einstein didn't need an aether to squeeze things. The shortening came naturally, out of the two simple ideas. In the paper, he describes a sphere, a perfect ball, moving past at high speed. To someone watching it, it would look slightly squashed along its direction of travel. Like a ball that's been gently pressed flat.
 
 Again, for everyday speeds, you'd never notice. A fast train is shorter by less than the width of an atom.
 
@@ -405,12 +325,6 @@ Here's a small surprise. The paper never writes the famous equation the way we k
 Mass is a kind of stored energy. A very concentrated kind. And because the speed of light is so enormous, and squared makes it even more enormous, a tiny bit of mass is equal to an astonishing amount of energy.
 
 That's why the Sun can shine for billions of years. Every second, deep in its core, a small amount of its mass turns into light and warmth. Some of that light is on the Earth right now, on the day side. It's warming a field somewhere. A cat on a windowsill. Someone's face.
-
-At the end of that little paper, Einstein even suggested a way to test the idea. With radium salts, he wrote, bodies whose energy changes a lot, the theory might be put to the test.
-
-He wasn't sure. He was offering it gently. Here's what I think. Let's see if nature agrees.
-
-And that, really, is the spirit of the whole story. A person noticing something odd, following it honestly, and then asking the world to check.
 
 At first, very few people paid attention to the patent clerk's paper. But one of the people who did was a man who had once been his teacher.
 
@@ -430,19 +344,11 @@ What did he mean?
 
 Here's one gentle way to picture it. Imagine you're drawing a map of your day. Across the page, you draw where you are. Your bed, your kitchen, the road to work. And up the page, you draw when. Morning at the bottom, night at the top. As the day goes on, you trace a line, moving across the page when you travel, and always moving up the page as time passes.
 
-Even when you sit perfectly still, your line keeps going up. You're always traveling through time, even when you're not traveling through space.
-
 That line is your path through spacetime. Your whole life is one long, winding line on a map with four directions. Left and right. Forward and back. Up and down. And the fourth, the one we can't point to, before and after.
 
 What Minkowski saw, is that when you move fast through space, it tilts your path. Some of your journey through time gets turned into journey through space. The faster you move across the map, the more slowly you climb up it. That's time dilation, drawn as a picture.
 
-And different observers, moving differently, slice this four-dimensional map in different ways. What one person calls now, a flat slice across the map, is tilted for someone else. That's why they disagree about which things happen at the same time. Neither slice is the true one. The map itself is what's real.
-
-Minkowski put it beautifully. Three-dimensional geometry, he said, becomes a chapter in four-dimensional physics.
-
-Einstein wasn't impressed, at first. He reportedly grumbled that since the mathematicians had got hold of his theory, he no longer understood it himself. But within a few years, he would come to depend on Minkowski's picture completely. It became the foundation for everything that came next.
-
-Sadly, Minkowski didn't get to see it. A few months after that lecture, in January of nineteen oh nine, he died suddenly, of appendicitis. He was forty-four years old. The man who joined space and time together had very little time left himself.
+Sadly, Minkowski didn't get to see where his picture would lead. A few months after that lecture, in January of nineteen oh nine, he died suddenly, of appendicitis. He was forty-four years old. The man who joined space and time together had very little time left himself.
 
 Now, let's take time dilation a little further, and visit one of the most famous puzzles in physics. It's often called the twin paradox.
 
@@ -456,8 +362,6 @@ But wait, you might say. From the traveler's point of view, isn't it the Earth t
 
 That's the paradox. And the answer is that the two twins aren't really in the same situation. The one at home stays in one smooth, steady frame the whole time. The traveler doesn't. She has to speed up, turn around, and slow down again. She feels those changes. Her tea would slide across the table when she turned around. And on the spacetime map, her path is bent, while her sibling's is straight.
 
-And here's the beautiful, surprising part. On the spacetime map, the straight line between two moments is the path with the most time on it. Any bent path, any detour, has less time along it. It's the opposite of what you'd expect from an ordinary map, where the straight road is the shortest. In spacetime, the straight path is the longest-lasting. The wanderer always comes home younger.
-
 This isn't just a story. It happens. We see it every day, high above your head, in the upper air.
 
 When cosmic rays from deep space smash into the top of our atmosphere, they create tiny particles called muons. Muons are like heavy cousins of electrons. And they don't live very long. At rest, a muon lasts only about two millionths of a second, on average, before it falls apart.
@@ -466,25 +370,13 @@ That's so short that even moving at nearly the speed of light, most of them shou
 
 Why? Because they're moving so fast, their clocks run slow, as we see them. Their short lives are stretched out, long enough to reach us.
 
-In nineteen forty-one, two physicists named Bruno Rossi and David Hall measured this, counting muons high in the mountains of Colorado, and lower down, in Denver. They found the fast muons really do live longer than they should.
-
-In the nineteen sixties, two scientists named David Frisch and James Smith carried their instruments to the top of Mount Washington, in New Hampshire, and counted muons there for an hour. Then they went down near sea level, to Cambridge, Massachusetts, about nineteen hundred meters lower, and counted again. Without time dilation, only a tiny fraction of those muons should have survived the trip down. Instead, most of them did. They even made a short film about it, for students.
-
 And in nineteen seventy-seven, at CERN, in Switzerland, physicists sent muons whizzing around a great storage ring, at almost the speed of light. At rest, those muons would have lived about two millionths of a second. Racing around the ring, they lived about sixty-four millionths of a second. Almost thirty times longer. Exactly as Einstein's equations predicted, to within a fraction of a percent.
 
 Tiny travelers, coming home younger than they should.
 
-I sometimes think about that, up here. I'm moving fast, too. Not nearly fast enough for anything dramatic. But fast enough that my clock, compared to yours, runs just a tiny bit slow, because of my speed. By the time my shift is over, I'll be a few millionths of a second younger than I would have been on the ground.
-
-Although. That's only half the story. Because there's something else up here, pulling on my clock in the other direction. Something Einstein hadn't included in his nineteen oh five paper at all.
-
-Gravity.
-
 Special relativity, the theory from nineteen oh five, is special in a particular sense. It only works for smooth, steady motion. No speeding up, no slowing down, no turning. Galileo's calm ship, on a calm sea.
 
 But the real world isn't like that. Things speed up. Things fall. And the most common reason anything speeds up is gravity. The apple falling from the tree. The rain falling from a cloud. The Moon, forever falling around the Earth.
-
-Newton had described gravity as a force. An invisible pull, reaching across empty space, instantly, from the Sun to the Earth, from the Earth to the Moon. It worked wonderfully. But it didn't fit with the new picture. In Einstein's world, nothing could travel faster than light. Not even a message. So how could gravity pull across space instantly?
 
 In late nineteen oh seven, Einstein was still at the patent office. He'd been asked to write a long review article about relativity, a kind of summary of everything so far. And as he worked on it, he started to wonder how gravity could fit in.
 
@@ -517,8 +409,6 @@ I'm floating right now. My tea is floating beside me. People often think that's 
 The reason I float, is that I'm falling. The whole station is falling. All the time. We're falling toward the Earth, constantly. But we're also moving sideways, very fast, so fast that as we fall, the Earth's curved surface falls away beneath us, and we never get any closer. We just keep falling, around and around. That's what an orbit is. A long, endless fall that keeps missing the ground.
 
 And because the station, and me, and my tea, are all falling together, at exactly the same rate, nothing presses on anything. We float. Einstein's falling man, from the roof of the house. That's me. That's my whole life up here. The happiest thought, every day.
-
-It's a strange comfort. Falling forever, and never landing, and feeling completely at peace.
 
 Now, from this simple idea, the equivalence principle, Einstein began to see some astonishing consequences.
 
@@ -556,19 +446,11 @@ It was exactly what Einstein needed. Or at least, the beginning of it.
 
 Let me give you a gentle picture of curved space. You've probably seen it before. Imagine a large sheet of stretchy fabric, pulled tight, like a trampoline. Place a heavy bowling ball in the middle. The fabric sags into a dip around it. Now roll a small marble across the fabric. As it passes near the bowling ball, it curves inward, following the slope of the dip. If you roll it just right, it circles around and around the ball, like a planet around the Sun.
 
-It's not a perfect picture. Real spacetime isn't a sheet, and the marble in the picture is pulled down by the Earth's gravity, which is a bit of a cheat. But it captures the feeling. Mass bends the space around it. And things moving nearby follow the bend. The Earth isn't being pulled by the Sun, exactly. It's rolling along the natural curve of spacetime that the Sun has made.
-
-The physicist John Wheeler, many years later, put it in one sentence. Spacetime tells matter how to move. Matter tells spacetime how to curve.
-
 But getting the equations right was agonizingly hard.
 
 In nineteen thirteen, Einstein and Grossmann published a first attempt. They called it an Entwurf. That's the German word for an outline, or a draft. And they meant it. It was close. It had many of the right ideas. But it wasn't quite right.
 
 Then, later that year, Einstein talked himself into a mistake. He came up with a clever argument, now called the hole argument, that seemed to show the kind of equations he really wanted were impossible. So he gave them up, and kept working with the draft theory, for about two years.
-
-Imagine that. Having the right path in front of you, and walking away from it, because of an argument that seemed convincing but wasn't.
-
-In nineteen fourteen, he moved to Berlin, to a prestigious position at the Prussian Academy of Sciences. That same summer, the First World War began. His marriage with Mileva fell apart. She went back to Zurich with their two sons. And Einstein stayed in Berlin, alone, working.
 
 By the autumn of nineteen fifteen, he had realized that the draft theory didn't work. It couldn't explain a small puzzle about the planet Mercury.
 
@@ -576,17 +458,11 @@ Mercury, the smallest planet and the closest to the Sun, travels in a slightly s
 
 In November of nineteen fifteen, Einstein threw himself into the problem with everything he had. He went back to the kind of equations he'd abandoned two years before. And he presented his progress to the Prussian Academy in Berlin, in four talks, one each Thursday. On the fourth, the eleventh, the eighteenth, and the twenty-fifth of November.
 
-Each week, he was changing, correcting, rebuilding. Standing up before the most distinguished scientists in Germany, and saying, in effect, here's where I've got to this week.
-
-And he wasn't the only one working on it. The great mathematician David Hilbert, in Göttingen, had become fascinated by Einstein's problem too, after Einstein visited and gave lectures there. The two men exchanged letters that November. There's been a long, friendly debate among historians about who reached which part of the final answer first. Many historians today think Einstein reached the complete field equations on his own, but the conversation still goes on, kindly. But it was a remarkable few weeks. Two brilliant minds, working on the same beautiful problem, at the same time.
-
 On the eighteenth of November, Einstein presented the calculation for Mercury. Using his new theory, with no hidden planets, no adjustments, he worked out how much Mercury's orbit should slowly turn.
 
 The answer came out right. About forty-three arcseconds a century.
 
 He reportedly told a colleague that when he saw it, he had palpitations of the heart. His biographer Abraham Pais called it the strongest emotional experience in Einstein's scientific life. He wrote to a friend that for a few days he was beside myself with joyous excitement.
-
-To another friend, a few days after the final talk, he wrote that these had been one of the most exciting, exhausting times of my life, indeed also one of the most successful.
 
 On the twenty-fifth of November, nineteen fifteen, he presented the final equations. The Einstein field equations. They describe how matter and energy curve spacetime, and how that curved spacetime guides everything moving through it. Planets, light, falling apples, sleepy astronauts.
 
@@ -598,17 +474,13 @@ That winter, a German astronomer named Karl Schwarzschild was serving as an arti
 
 In a letter dated the twenty-second of December, nineteen fifteen, he sent Einstein something extraordinary. The first exact solution to the new equations. A precise description of how spacetime curves around a single, round mass, like a star.
 
-He wrote, as one translation puts it, that the war had treated him kindly enough, in spite of the heavy gunfire, to allow him to get away from it all, and take this walk in the land of your ideas.
-
 Einstein was delighted. He wrote back that he had not expected that one could formulate the exact solution of the problem in such a simple way.
 
 Schwarzschild's solution held a strange secret inside it. If you squeezed a mass into a small enough space, the curve of spacetime around it would become so steep that nothing, not even light, could ever climb back out. Many years later, people would call such a thing a black hole.
 
 But Schwarzschild didn't live to see that. He had caught a rare illness at the front. He was sent home in March of nineteen sixteen, and he died that May, in Potsdam. He was forty-two.
 
-So much of this story is carried by people who didn't get to see where their work would lead. Minkowski. Schwarzschild. And yet their ideas kept traveling, long after they were gone. Like starlight from a star that has already gone quiet.
-
-Speaking of starlight. Einstein's new theory had made a prediction. A very specific one. Light from distant stars, passing close to the Sun, should bend by a particular amount. One point seven five arcseconds.
+Meanwhile, Einstein's new theory had made a prediction. A very specific one. Light from distant stars, passing close to the Sun, should bend by a particular amount. One point seven five arcseconds.
 
 And there was only one way to check it. You'd have to see stars right next to the Sun. In the daytime.
 
@@ -630,11 +502,7 @@ Leading the Príncipe team was an astronomer named Arthur Eddington. And Eddingt
 
 He was a Quaker, deeply committed to peace. During the First World War, which had only just ended, he had refused to fight. In the summer of nineteen eighteen, a tribunal allowed him to avoid war service, on the condition that he kept doing his scientific work. And part of that work, it turned out, was this eclipse.
 
-There's something very moving about that. A British scientist, a man of peace, setting off, right after a terrible war, to test the theory of a scientist working in Berlin. Across the lines that had divided their countries for four years. Science, quietly reaching out a hand.
-
 Before the teams left, there's a story that Dyson teased the other astronomer on Eddington's team, a clockmaker named Cottingham. If they found double the predicted bending, Dyson joked, Eddington will go mad, and you will have to come home alone.
-
-The two teams sailed from England together on the eighth of March, nineteen nineteen. Then they parted ways, one heading for Brazil, the other for Africa.
 
 On Príncipe, the morning of the eclipse brought bad weather. Rain, and then heavy clouds. Eddington and Cottingham waited, watching the sky, hoping. As the eclipse began, the clouds were still there.
 
@@ -656,13 +524,7 @@ The results were presented. And the chairman, the physicist J. J. Thomson, the m
 
 The next day, the London newspaper, The Times, ran the headline, Revolution in Science. New Theory of the Universe. Newtonian Ideas Overthrown.
 
-A few days later, the New York Times printed, Lights All Askew in the Heavens. Einstein Theory Triumphs.
-
 And almost overnight, Albert Einstein, the former patent clerk, became the most famous scientist in the world. Newspapers everywhere wrote about the strange new theory where space bends and time stretches. Most people didn't understand it at all. But they loved the idea of it. After a long, dark war, here was something wondrous. A reminder that the universe was bigger and stranger than anyone had imagined.
-
-Years later, a student of Einstein's, Ilse Rosenthal-Schneider, remembered asking him what he would have done if the eclipse had proved him wrong. As she remembered it, he replied that he would have had to feel sorry for the dear Lord, because the theory is correct.
-
-It's a lovely line, though it comes from her memory, many years later. So let's hold it gently.
 
 Now here's a small twist. You might think the eclipse, and all that fame, would have brought Einstein a Nobel Prize for relativity. It didn't.
 
@@ -688,23 +550,13 @@ They used a tower in Harvard's Jefferson Physical Laboratory, an enclosed tower 
 
 The shift they were looking for was about two and a half parts in a million billion. So small that even a breath of air could disturb it. And in fact the air itself was a problem. The gamma rays would be partly swallowed by the air in the tower. So they did something wonderfully simple. They ran a long plastic bag, made of Mylar, up the tower, and filled it with helium. The rays traveled up through a column of helium, instead of air.
 
-A physics experiment, at one of the world's great universities, and at the heart of it, a long balloon.
-
 They published in the spring of nineteen sixty. The shift they measured matched Einstein's prediction almost exactly. One point oh five times the predicted value, with an uncertainty of about ten percent. A few years later, Pound and another colleague improved it to about one percent.
-
-Light really does lose a little energy climbing out of gravity. Time really does run differently at different heights.
 
 Then, in October of nineteen seventy-one, two scientists did something almost playful. Joseph Hafele, a physicist, and Richard Keating, an astronomer at the United States Naval Observatory, took four very precise atomic clocks, cesium-beam clocks, each about the size of a suitcase, and flew them around the world. On ordinary passenger airplanes. Commercial flights. The clocks had their own seats.
 
 The whole experiment cost about eight thousand dollars, mostly for airline tickets. For the scientists, and for the clocks.
 
-They flew around the world once heading east, and then once heading west. And then they compared the flying clocks with clocks that had stayed at home, at the Naval Observatory in Washington.
-
-Two effects were at work. Speed, which slows a moving clock. And height, which speeds up a clock flying high above the ground, where gravity is a little weaker. And because the Earth itself is spinning eastward, the plane flying east was moving faster, overall, than the ground, and the plane flying west was moving slower.
-
 When they compared the clocks, the ones that flew east had lost about fifty-nine billionths of a second. The ones that flew west had gained about two hundred and seventy-three billionths of a second. Both close to what Einstein's theories predicted.
-
-Billionths of a second. In that time, light could barely cross a wide street. But it was there. Time had passed differently for clocks that had simply taken a trip.
 
 Now here's where relativity comes into your everyday life. Maybe you used it today, without knowing.
 
@@ -730,17 +582,9 @@ They ran it uncorrected, for about three weeks, and measured what happened. The 
 
 Then they switched the correction on. And it has been on ever since.
 
-Every time a delivery van finds a doorstep, or a ship finds a harbor, or a hiker finds their way home in the fog, Einstein's strange ideas about time are quietly doing their part.
-
-In the years since, clocks have become so precise that relativity shows up at an almost personal scale.
-
-In twenty ten, at the National Institute of Standards and Technology, in Colorado, scientists compared two extraordinary clocks, based on single aluminum atoms. They raised one of them by just thirty-three centimeters. About a foot. And they could see it tick faster.
+Today, clocks are even more precise. In twenty ten, at the National Institute of Standards and Technology, in Colorado, scientists compared two extraordinary clocks, based on single aluminum atoms. They raised one of them by just thirty-three centimeters. About a foot. And they could see it tick faster.
 
 A foot higher, and time runs faster. The scientists put it in a lovely way. Your head is older than your feet.
-
-They worked out that if you spent your whole life standing two steps higher on a staircase, after seventy-nine years you would have aged about ninety billionths of a second more than someone standing on the lower step. Not enough to notice. But real.
-
-They also showed that the same clocks could detect time dilation from motion at everyday speeds. A few meters per second. About as fast as a car driving slowly through a town.
 
 And in twenty twenty-two, at a lab called JILA, also in Colorado, a team measured the difference in the flow of time across a tiny cloud of about a hundred thousand strontium atoms. The cloud was only about a millimeter tall. The top of the cloud and the bottom of the cloud, a millimeter apart, and they could tell that time was passing at slightly different rates.
 
@@ -748,25 +592,7 @@ A millimeter. The thickness of a credit card. Time is not the same at the top of
 
 Newton's great cosmic clock, flowing equably for all, the same everywhere. It turns out the universe has no such clock. Every place, every height, every speed, has its own gentle rhythm. And right now, your pillow is ticking at a very slightly different rate than the ceiling above you.
 
-It doesn't matter. Not for tonight. But I find it beautiful. That the universe is so precise, and so personal, all at once.
-
-Einstein's theory made some predictions so subtle that it took most of a century, and some of the most delicate machines ever built, to check them.
-
-One of them is that a spinning mass, like the Earth, doesn't just curve spacetime. It gently drags spacetime around with it as it turns. A little like a spoon turning slowly in a jar of honey, pulling the honey along with it. This is called frame-dragging.
-
-To test it, scientists at Stanford University, with NASA, built a satellite called Gravity Probe B. The idea had first been proposed around nineteen sixty. The satellite was finally launched on the twentieth of April, two thousand and four. It took about forty-seven years from the first idea to the final result.
-
-Inside it were four gyroscopes. Spinning balls, made of quartz, each about the size of a ping-pong ball. And they are, as far as anyone knows, the roundest objects humans have ever made. If one of them were enlarged to the size of the Earth, its highest bump would be only about eight feet tall. Only neutron stars, the collapsed cores of dead stars, are known to be rounder.
-
-The gyroscopes spun, and pointed at a distant guide star, for about a year. And as the satellite circled the Earth, the gyroscopes' directions slowly, very slowly, shifted. Exactly the way Einstein's theory said they should. Both from the Earth's curve in spacetime, and from the tiny drag of the Earth's spin.
-
-The results were announced in May of twenty eleven. Close to the predictions, in both cases.
-
-Near-perfect spheres, spinning in the silence of orbit, quietly feeling the shape of spacetime.
-
-Another prediction was stranger still. If mass curves spacetime, then when very heavy things move violently, they should send ripples through spacetime. Waves, spreading outward at the speed of light. Stretching and squeezing space itself as they pass. Gravitational waves.
-
-Einstein himself doubted they could ever be detected. They'd be far too faint.
+One of the strangest predictions is this. If mass curves spacetime, then when very heavy things move violently, they should send ripples through spacetime. Waves, spreading outward at the speed of light. Stretching and squeezing space itself as they pass. Gravitational waves.
 
 But in the United States, scientists built two enormous instruments to try. Together, they're called LIGO. One is in Hanford, in Washington State. The other is in Livingston, in Louisiana. Each has two long arms, set at a right angle, like a giant letter L. Each arm is four kilometers long. Laser light travels up and down the arms, and comes back together, very much like Michelson's experiment on its stone floating in mercury. Only vastly more sensitive.
 
@@ -814,10 +640,6 @@ Einstein let go of his extra term. But the story wasn't over.
 
 In the late nineteen nineties, two teams of astronomers, measuring distant exploding stars, found something no one expected. The expansion of the universe isn't slowing down. It's speeding up. Something seems to be pushing space apart, faster and faster. Nobody knows what it is. We call it dark energy.
 
-And one of the simplest ways to describe it, in the equations, looks just like Einstein's old cosmological constant. The small adjustment he had set aside. It came back, eighty years later, in a new role.
-
-It seems that even Einstein's second thoughts had something to teach us.
-
 Let's go back, for a moment, to Bern. To the walks home from the patent office, under the arcades. To Michele Besso, the friend who listened.
 
 Einstein and Besso stayed friends their whole lives. Fifty years of letters. Long after the patent office, long after the fame, they kept writing to each other. About physics. About family. About getting old.
@@ -835,8 +657,6 @@ I think about that letter often. Up here, especially at night. It isn't really a
 In Newton's world, time was a river, flowing the same for everyone. The past was gone. The future hadn't arrived. And only the present, this one thin moment, was real.
 
 In Einstein's world, there's no single now that everyone shares. Your now and my now are slightly different slices of the same great map. And perhaps, on that map, the walks through Bern are still there. Still happening. Two young men under the arcades, late afternoon light, talking about time.
-
-I don't know if that's true. Nobody really does. But I find it comforting. And I think he meant it to be comforting.
 
 So. Let's gather up what we've learned tonight. Slowly. There's no test.
 

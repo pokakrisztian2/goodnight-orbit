@@ -1,20 +1,4 @@
-Einstein's theory made some predictions so subtle that it took most of a century, and some of the most delicate machines ever built, to check them.
-
-One of them is that a spinning mass, like the Earth, doesn't just curve spacetime. It gently drags spacetime around with it as it turns. A little like a spoon turning slowly in a jar of honey, pulling the honey along with it. This is called frame-dragging.
-
-To test it, scientists at Stanford University, with NASA, built a satellite called Gravity Probe B. The idea had first been proposed around nineteen sixty. The satellite was finally launched on the twentieth of April, two thousand and four. It took about forty-seven years from the first idea to the final result.
-
-Inside it were four gyroscopes. Spinning balls, made of quartz, each about the size of a ping-pong ball. And they are, as far as anyone knows, the roundest objects humans have ever made. If one of them were enlarged to the size of the Earth, its highest bump would be only about eight feet tall. Only neutron stars, the collapsed cores of dead stars, are known to be rounder.
-
-The gyroscopes spun, and pointed at a distant guide star, for about a year. And as the satellite circled the Earth, the gyroscopes' directions slowly, very slowly, shifted. Exactly the way Einstein's theory said they should. Both from the Earth's curve in spacetime, and from the tiny drag of the Earth's spin.
-
-The results were announced in May of twenty eleven. Close to the predictions, in both cases.
-
-Near-perfect spheres, spinning in the silence of orbit, quietly feeling the shape of spacetime.
-
-Another prediction was stranger still. If mass curves spacetime, then when very heavy things move violently, they should send ripples through spacetime. Waves, spreading outward at the speed of light. Stretching and squeezing space itself as they pass. Gravitational waves.
-
-Einstein himself doubted they could ever be detected. They'd be far too faint.
+One of the strangest predictions is this. If mass curves spacetime, then when very heavy things move violently, they should send ripples through spacetime. Waves, spreading outward at the speed of light. Stretching and squeezing space itself as they pass. Gravitational waves.
 
 But in the United States, scientists built two enormous instruments to try. Together, they're called LIGO. One is in Hanford, in Washington State. The other is in Livingston, in Louisiana. Each has two long arms, set at a right angle, like a giant letter L. Each arm is four kilometers long. Laser light travels up and down the arms, and comes back together, very much like Michelson's experiment on its stone floating in mercury. Only vastly more sensitive.
 
@@ -61,7 +45,3 @@ But in the nineteen twenties, astronomers, including Edwin Hubble, looking at di
 Einstein let go of his extra term. But the story wasn't over.
 
 In the late nineteen nineties, two teams of astronomers, measuring distant exploding stars, found something no one expected. The expansion of the universe isn't slowing down. It's speeding up. Something seems to be pushing space apart, faster and faster. Nobody knows what it is. We call it dark energy.
-
-And one of the simplest ways to describe it, in the equations, looks just like Einstein's old cosmological constant. The small adjustment he had set aside. It came back, eighty years later, in a new role.
-
-It seems that even Einstein's second thoughts had something to teach us.

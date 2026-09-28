@@ -20,8 +20,6 @@ The year is sixteen thirty-two. In Florence, in Italy, a book is being printed. 
 
 The book is called the Dialogue Concerning the Two Chief World Systems. It's mostly about a big question of that time. Does the Sun go around the Earth? Or does the Earth go around the Sun?
 
-If the Earth really moves, people asked, why don't we feel it? Why doesn't a stone dropped from a tower land far behind, as the ground rushes away beneath it? Why aren't birds swept backwards? Why isn't there a great wind in our faces all the time?
-
 And in the middle of this conversation, Salviati says something lovely. He asks his friends to imagine a scene.
 
 Shut yourself up with some friend, he says, in the main cabin below decks on some large ship. And have with you there some flies, butterflies, and other small flying animals. Have a large bowl of water with some fish in it. Hang up a bottle that empties drop by drop into a wide vessel beneath it.
@@ -46,8 +44,6 @@ That's the first seed of relativity. It's almost four hundred years old. And it'
 
 You've felt it on a train, maybe. You're sitting in a carriage at the station, and the train next to yours begins to slide past the window. And for a moment, you're not sure. Is it them moving? Or is it us? Your body can't tell. Only when you look at the platform do you know.
 
-Or on a plane, at night, high above the clouds, with the cabin lights dimmed. You're moving faster than almost anything on the ground. And yet someone pours water into a cup, and it goes straight into the cup. Someone walks down the aisle, and it feels like walking down a hallway at home.
-
 Steady motion is invisible from the inside.
 
 Galileo's idea is sometimes called Galilean relativity. It says the laws of motion are the same for anyone moving smoothly, without speeding up or slowing down. There's no special place that's truly at rest. There's only motion compared to something else. The ship is moving compared to the harbor. The harbor is moving compared to the Sun. And the Sun is moving too.
@@ -64,8 +60,6 @@ The Royal Society in London was supposed to pay for it. But they had just spent 
 
 So a friend stepped in. The astronomer Edmond Halley, the same Halley the comet is named after. He paid for the printing largely from his own pocket. And later, when the Society was short of money again, part of Halley's salary was paid to him in unsold copies of the fish book.
 
-I find that very comforting, somehow. The most important science book of its century, rescued by a friend, while a pile of fish books waited in a storeroom.
-
 Now, inside the Principia, Newton made a quiet decision that would last for more than two hundred years. He decided what time is. And what space is.
 
 Absolute, true, and mathematical time, he wrote, of itself, and from its own nature, flows equably without relation to anything external.
@@ -75,10 +69,6 @@ Let's slow that down. Time flows. Evenly. By itself. It doesn't care about anyth
 And space, he wrote, absolute space, in its own nature, without relation to anything external, remains always similar and immovable.
 
 Space is like a great invisible stage. Fixed. Still. Things move across it, but the stage itself never moves, never stretches, never bends.
-
-This is the world most of us still feel we live in. Time ticks along the same for everyone. A meter is a meter. A second is a second. Now is now.
-
-It feels so obviously true that it hardly seems like an idea at all. It feels like the way things simply are.
 
 And for two centuries, it worked beautifully. It predicted eclipses. It guided ships across oceans. It found new planets. It sent cannonballs exactly where they were aimed. Newton's world was steady and dependable, like a good old clock on a mantelpiece.
 

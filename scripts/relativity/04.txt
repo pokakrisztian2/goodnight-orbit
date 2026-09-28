@@ -6,8 +6,6 @@ He later called the job a kind of salvation.
 
 His work was to read patent applications. Inventors from all over Switzerland, and beyond, would send in their designs. A new kind of electrical switch. An improved machine for something or other. And his job was to understand each idea, clearly and exactly, and decide whether it really worked, and whether it was really new.
 
-It sounds dull. But in a way, it was perfect training. Every day, he had to take a complicated description and ask, what is the simple principle underneath? What is actually happening here?
-
 And he was fast at it. Often he'd finish his day's work in a few hours. And then, carefully, so his supervisor wouldn't notice, he would pull out his own papers from a drawer and work on physics.
 
 He described his days this way. Eight hours of patent work. Eight hours of what he called allotria, a playful word, something like fooling around, which for him meant his own physics. And eight hours of sleep.
@@ -16,21 +14,13 @@ Eight hours of sleep. Einstein would approve of what you're doing right now.
 
 He loved that office. Years later, he called it that worldly cloister where I hatched my most beautiful ideas. A cloister is a quiet place where monks live and think. A worldly cloister. A quiet thinking place, in the middle of an ordinary city job.
 
-There's one more thing about Bern that people like to mention. Bern was a city of clocks. There's a famous clock tower in the old town, with little mechanical figures that move when the hour strikes. And by that time, the city had begun linking its public clocks with electrical signals, so that clocks in different places would show exactly the same time.
-
-Some historians have wondered whether patents for synchronizing clocks crossed Einstein's desk. Patents like that did pass through the Bern office in those years. But the records don't tell us which files he personally handled. So we can't say for sure. It's a lovely thought, though. The young man thinking about time, in a city full of clocks trying to agree with each other.
-
 In the evenings, he had friends. Two young men, Maurice Solovine and Conrad Habicht, met with him regularly to read books together and argue about them. Philosophy. Physics. Spinoza, Hume, Mach, Poincaré. They'd eat simple dinners, sausage, cheese, fruit, tea, and talk late into the night.
 
 They jokingly called their little club the Olympia Academy. It was a gentle joke at the expense of the grand, serious academies of science, full of important old men in important old rooms. Their academy was three young friends in a small apartment, drinking tea and taking nothing for granted.
 
-For a couple of years, Einstein lived with Mileva in a small flat at Kramgasse forty-nine, in the old part of Bern. That flat is a little museum today. The Einstein House. You can climb the narrow stairs and see the rooms where he lived during the most extraordinary year of his life.
-
 And there was one more friend. Maybe the most important one. Michele Besso.
 
 Besso also worked at the patent office. And every day, the two of them would walk home together. Talking. About physics, about ideas, about everything. Einstein called Besso the best sounding board in Europe. A sounding board is someone you can think out loud to. Someone whose listening helps your ideas come into focus.
-
-Imagine those walks. The two of them, strolling home through the arcades of Bern's old town, the long covered walkways along the streets. Late afternoon light. Einstein talking, his hands moving. Besso listening, asking a question now and then.
 
 In the spring of nineteen oh five, Einstein was stuck. Truly stuck. He had spent years with his old question about chasing light, and with the puzzle of Maxwell's equations and the aether, and it just wouldn't come together.
 
@@ -52,20 +42,12 @@ In May, he wrote a playful letter to his friend Conrad Habicht. It began, you fr
 
 And then, casually, he promised to send Habicht four papers he was working on. One of them, he said, was about light, and was very revolutionary. Another was still a rough draft, about the electrodynamics of moving bodies, using a modification of the theory of space and time.
 
-He tossed it off, in a letter to a friend, between jokes.
-
 And all of those papers were published that year, in a respected German journal called the Annalen der Physik.
 
 In March, a paper on light. It suggested that light comes in small packets of energy, the idea that later grew into quantum physics. That paper, and not relativity, would win him his Nobel Prize.
 
-In April, his doctoral thesis, a clever way of measuring the size of molecules.
-
-In May, a paper on the jittery dance of tiny particles in water, which helped prove that atoms are real.
-
 On the thirtieth of June, the journal received his paper with the modest title, On the Electrodynamics of Moving Bodies. The paper that introduced what we now call special relativity.
 
 And in September, a very short follow-up. Just three pages. The one that contained the seed of the most famous equation in the world.
-
-A twenty-six-year-old patent clerk, Technical Expert Third Class, on trial. Working in his spare hours. In one year, he changed physics several times over.
 
 And now, let's look at what he actually said in that paper about moving bodies. Because it's simpler than you might think. And stranger.

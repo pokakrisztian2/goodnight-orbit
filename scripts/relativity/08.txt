@@ -14,19 +14,11 @@ It was exactly what Einstein needed. Or at least, the beginning of it.
 
 Let me give you a gentle picture of curved space. You've probably seen it before. Imagine a large sheet of stretchy fabric, pulled tight, like a trampoline. Place a heavy bowling ball in the middle. The fabric sags into a dip around it. Now roll a small marble across the fabric. As it passes near the bowling ball, it curves inward, following the slope of the dip. If you roll it just right, it circles around and around the ball, like a planet around the Sun.
 
-It's not a perfect picture. Real spacetime isn't a sheet, and the marble in the picture is pulled down by the Earth's gravity, which is a bit of a cheat. But it captures the feeling. Mass bends the space around it. And things moving nearby follow the bend. The Earth isn't being pulled by the Sun, exactly. It's rolling along the natural curve of spacetime that the Sun has made.
-
-The physicist John Wheeler, many years later, put it in one sentence. Spacetime tells matter how to move. Matter tells spacetime how to curve.
-
 But getting the equations right was agonizingly hard.
 
 In nineteen thirteen, Einstein and Grossmann published a first attempt. They called it an Entwurf. That's the German word for an outline, or a draft. And they meant it. It was close. It had many of the right ideas. But it wasn't quite right.
 
 Then, later that year, Einstein talked himself into a mistake. He came up with a clever argument, now called the hole argument, that seemed to show the kind of equations he really wanted were impossible. So he gave them up, and kept working with the draft theory, for about two years.
-
-Imagine that. Having the right path in front of you, and walking away from it, because of an argument that seemed convincing but wasn't.
-
-In nineteen fourteen, he moved to Berlin, to a prestigious position at the Prussian Academy of Sciences. That same summer, the First World War began. His marriage with Mileva fell apart. She went back to Zurich with their two sons. And Einstein stayed in Berlin, alone, working.
 
 By the autumn of nineteen fifteen, he had realized that the draft theory didn't work. It couldn't explain a small puzzle about the planet Mercury.
 
@@ -34,17 +26,11 @@ Mercury, the smallest planet and the closest to the Sun, travels in a slightly s
 
 In November of nineteen fifteen, Einstein threw himself into the problem with everything he had. He went back to the kind of equations he'd abandoned two years before. And he presented his progress to the Prussian Academy in Berlin, in four talks, one each Thursday. On the fourth, the eleventh, the eighteenth, and the twenty-fifth of November.
 
-Each week, he was changing, correcting, rebuilding. Standing up before the most distinguished scientists in Germany, and saying, in effect, here's where I've got to this week.
-
-And he wasn't the only one working on it. The great mathematician David Hilbert, in Göttingen, had become fascinated by Einstein's problem too, after Einstein visited and gave lectures there. The two men exchanged letters that November. There's been a long, friendly debate among historians about who reached which part of the final answer first. Many historians today think Einstein reached the complete field equations on his own, but the conversation still goes on, kindly. But it was a remarkable few weeks. Two brilliant minds, working on the same beautiful problem, at the same time.
-
 On the eighteenth of November, Einstein presented the calculation for Mercury. Using his new theory, with no hidden planets, no adjustments, he worked out how much Mercury's orbit should slowly turn.
 
 The answer came out right. About forty-three arcseconds a century.
 
 He reportedly told a colleague that when he saw it, he had palpitations of the heart. His biographer Abraham Pais called it the strongest emotional experience in Einstein's scientific life. He wrote to a friend that for a few days he was beside myself with joyous excitement.
-
-To another friend, a few days after the final talk, he wrote that these had been one of the most exciting, exhausting times of my life, indeed also one of the most successful.
 
 On the twenty-fifth of November, nineteen fifteen, he presented the final equations. The Einstein field equations. They describe how matter and energy curve spacetime, and how that curved spacetime guides everything moving through it. Planets, light, falling apples, sleepy astronauts.
 
@@ -56,17 +42,13 @@ That winter, a German astronomer named Karl Schwarzschild was serving as an arti
 
 In a letter dated the twenty-second of December, nineteen fifteen, he sent Einstein something extraordinary. The first exact solution to the new equations. A precise description of how spacetime curves around a single, round mass, like a star.
 
-He wrote, as one translation puts it, that the war had treated him kindly enough, in spite of the heavy gunfire, to allow him to get away from it all, and take this walk in the land of your ideas.
-
 Einstein was delighted. He wrote back that he had not expected that one could formulate the exact solution of the problem in such a simple way.
 
 Schwarzschild's solution held a strange secret inside it. If you squeezed a mass into a small enough space, the curve of spacetime around it would become so steep that nothing, not even light, could ever climb back out. Many years later, people would call such a thing a black hole.
 
 But Schwarzschild didn't live to see that. He had caught a rare illness at the front. He was sent home in March of nineteen sixteen, and he died that May, in Potsdam. He was forty-two.
 
-So much of this story is carried by people who didn't get to see where their work would lead. Minkowski. Schwarzschild. And yet their ideas kept traveling, long after they were gone. Like starlight from a star that has already gone quiet.
-
-Speaking of starlight. Einstein's new theory had made a prediction. A very specific one. Light from distant stars, passing close to the Sun, should bend by a particular amount. One point seven five arcseconds.
+Meanwhile, Einstein's new theory had made a prediction. A very specific one. Light from distant stars, passing close to the Sun, should bend by a particular amount. One point seven five arcseconds.
 
 And there was only one way to check it. You'd have to see stars right next to the Sun. In the daytime.
 

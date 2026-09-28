@@ -1,14 +1,12 @@
 The paper begins with two simple ideas. Einstein called them postulates. A postulate is something you agree to take as true, at the start, and then you see where it leads.
 
-The first idea is Galileo's cabin, grown up. In Einstein's words, the same laws of electrodynamics and optics will be valid for all frames of reference for which the equations of mechanics hold good. In plain words, if you're moving smoothly, without speeding up or turning, then all the laws of physics work exactly the same for you as for anyone else. Not just butterflies and falling drops. Light and magnets and electric currents too. There's no experiment, of any kind, that can tell you whether you're really moving.
+The first idea is Galileo's cabin, grown up. In Einstein's words, the same laws of electrodynamics and optics will be valid for all frames of reference for which the equations of mechanics hold good. In plain words, if you're moving smoothly, without speeding up or turning, then all the laws of physics work exactly the same for you as for anyone else. Not just butterflies and falling drops. Light and magnets and electric currents too. Nothing you could ever measure would reveal whether you're really moving.
 
 The second idea is the brave one. Light, he wrote, is always propagated in empty space with a definite velocity c, which is independent of the state of motion of the emitting body.
 
 Light always moves at the same speed. Always. It doesn't matter how fast the lamp is moving. And, following from the first idea, it doesn't matter how fast you are moving either. Everyone who measures the speed of light gets the same answer.
 
 Then, almost in passing, he added one more sentence. The introduction of a luminiferous aether will prove to be superfluous.
-
-Superfluous means unnecessary. Not wrong, exactly. Just not needed. The great invisible sea that scientists had built so carefully, over a century, he set aside with one quiet word.
 
 Now, those two ideas sound simple. But put them together, and something very strange happens.
 
@@ -23,8 +21,6 @@ Einstein's answer was to look very carefully at what we mean by time. And he did
 If, for instance, I say, that train arrives here at seven o'clock, I mean something like this. The pointing of the small hand of my watch to seven, and the arrival of the train, are simultaneous events.
 
 Simultaneous. Happening at the same moment.
-
-When the train is right here, next to you, that's easy. The watch says seven, the train pulls in. Same place, same moment. No problem.
 
 But what about two things happening far apart? A flash of lightning here, and a flash of lightning over the hills, miles away. How do you know they happened at the same moment?
 
@@ -45,8 +41,6 @@ Einstein's answer is quiet and extraordinary. They both are.
 There is no single, universal now. Whether two distant events happen at the same moment depends on how you're moving. For the woman, they're simultaneous. For the man, they're not. Neither is making a mistake. Neither view is the true one. There's no great cosmic clock to settle the argument.
 
 Newton's time, flowing equably, the same for all, has quietly dissolved.
-
-Just let that settle for a moment. It's a big thing, and it's okay if it feels slippery. It felt slippery to everyone.
 
 Once "now" becomes personal, other things follow. Let's look at the most famous one. Moving clocks tick slower.
 
@@ -70,11 +64,9 @@ And not just light clocks. Every kind of clock. Wristwatches. Heartbeats. The sl
 
 This is called time dilation. Dilation means stretching. Time, stretched out.
 
-In his nineteen oh five paper, Einstein even gave an example. A clock carried around a loop and brought back to where it started, he said, would come back slightly behind a clock that stayed put. And then he added that a clock at the equator, carried around by the spinning Earth, must go a little more slowly than an identical clock at one of the poles.
-
 Now, for anything moving at ordinary speeds, the effect is tiny. Much too tiny for you to notice. A car, a plane, even a rocket. The difference is billionths of a second. The effect only becomes large when you move at a good fraction of the speed of light.
 
-And there's a partner to time dilation. Moving things get shorter, in the direction they're moving. This is length contraction. It's the same shortening FitzGerald and Lorentz had imagined. But Einstein didn't need an aether to squeeze things. The shortening came naturally, out of the two simple ideas. In the paper, he describes a sphere, a perfect ball, moving past at high speed. To someone watching it, it would look slightly squashed along its direction of travel. Like a ball that's been gently pressed flat.
+And there's a partner to time dilation. Moving things get shorter, in the direction they're moving. This is length contraction. A few physicists had guessed at a shortening like this before, to rescue the aether. But Einstein didn't need an aether to squeeze things. The shortening came naturally, out of the two simple ideas. In the paper, he describes a sphere, a perfect ball, moving past at high speed. To someone watching it, it would look slightly squashed along its direction of travel. Like a ball that's been gently pressed flat.
 
 Again, for everyday speeds, you'd never notice. A fast train is shorter by less than the width of an atom.
 
@@ -87,9 +79,3 @@ Here's a small surprise. The paper never writes the famous equation the way we k
 Mass is a kind of stored energy. A very concentrated kind. And because the speed of light is so enormous, and squared makes it even more enormous, a tiny bit of mass is equal to an astonishing amount of energy.
 
 That's why the Sun can shine for billions of years. Every second, deep in its core, a small amount of its mass turns into light and warmth. Some of that light is on the Earth right now, on the day side. It's warming a field somewhere. A cat on a windowsill. Someone's face.
-
-At the end of that little paper, Einstein even suggested a way to test the idea. With radium salts, he wrote, bodies whose energy changes a lot, the theory might be put to the test.
-
-He wasn't sure. He was offering it gently. Here's what I think. Let's see if nature agrees.
-
-And that, really, is the spirit of the whole story. A person noticing something odd, following it honestly, and then asking the world to check.

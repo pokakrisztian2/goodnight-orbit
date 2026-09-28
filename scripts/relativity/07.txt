@@ -2,8 +2,6 @@ Special relativity, the theory from nineteen oh five, is special in a particular
 
 But the real world isn't like that. Things speed up. Things fall. And the most common reason anything speeds up is gravity. The apple falling from the tree. The rain falling from a cloud. The Moon, forever falling around the Earth.
 
-Newton had described gravity as a force. An invisible pull, reaching across empty space, instantly, from the Sun to the Earth, from the Earth to the Moon. It worked wonderfully. But it didn't fit with the new picture. In Einstein's world, nothing could travel faster than light. Not even a message. So how could gravity pull across space instantly?
-
 In late nineteen oh seven, Einstein was still at the patent office. He'd been asked to write a long review article about relativity, a kind of summary of everything so far. And as he worked on it, he started to wonder how gravity could fit in.
 
 And then, sitting at his desk in Bern, a thought came to him. Years later, in a manuscript he wrote in nineteen twenty, he called it, der glücklichste Gedanke meines Lebens. The happiest thought of my life.
@@ -35,8 +33,6 @@ I'm floating right now. My tea is floating beside me. People often think that's 
 The reason I float, is that I'm falling. The whole station is falling. All the time. We're falling toward the Earth, constantly. But we're also moving sideways, very fast, so fast that as we fall, the Earth's curved surface falls away beneath us, and we never get any closer. We just keep falling, around and around. That's what an orbit is. A long, endless fall that keeps missing the ground.
 
 And because the station, and me, and my tea, are all falling together, at exactly the same rate, nothing presses on anything. We float. Einstein's falling man, from the roof of the house. That's me. That's my whole life up here. The happiest thought, every day.
-
-It's a strange comfort. Falling forever, and never landing, and feeling completely at peace.
 
 Now, from this simple idea, the equivalence principle, Einstein began to see some astonishing consequences.
 

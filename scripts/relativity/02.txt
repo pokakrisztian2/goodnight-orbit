@@ -1,12 +1,8 @@
 For a long time, people argued about what light actually is. Is it a stream of tiny particles, flying out like sand from a lamp? Or is it a wave, rippling outward, like the rings on a pond when a stone drops in?
 
-By the eighteen hundreds, most scientists had settled on waves. Light bends around edges a little. Light waves can cancel each other out, making dark stripes, just as water waves do. It really did behave like a wave.
-
 But a wave has to be a wave in something. Ocean waves move through water. Sound waves move through air. So what was light waving through? It crossed the empty space between the Sun and the Earth, between the stars and our eyes. What was out there, in the dark, to carry it?
 
 The answer people chose was a name. They called it the luminiferous aether. Luminiferous means light-bearing. The aether was imagined as an invisible, perfectly smooth substance filling the whole universe. Everywhere. Even inside a glass jar with all the air pumped out. The quiet, still sea that light swims through.
-
-It was a comfortable idea. And it fit so well with Newton's stage. The aether was the stage, made real. Something fixed, something still, that everything else moved through.
 
 Now, let me introduce you to someone. A Scottish boy named James Clerk Maxwell.
 
@@ -20,33 +16,19 @@ When he got back to London, he compared his number with the measured speed of li
 
 They matched.
 
-Imagine that moment. Sitting with your notebook, looking at two numbers that came from completely different places. One from careful experiments with coils and magnets. One from people timing light across mirrors and mountains. And they're the same.
-
 Maxwell wrote that we can scarcely avoid the inference, that light is made of the same stuff as electric and magnetic effects. Light is an electromagnetic wave. The glow of a candle, the colors of a sunset, the sunlight warming your skin, all of it, ripples of electricity and magnetism.
 
 He was quietly proud of it. In a letter to his cousin in January of eighteen sixty-five, he wrote that he had a paper afloat containing an electromagnetic theory of light, which, till I am convinced to the contrary, I hold to be great guns.
-
-Great guns. I love that. The most important discovery of his life, and he describes it like a man who's just caught a very big fish.
 
 But Maxwell's equations held a small puzzle inside them. A puzzle that nobody quite noticed at first.
 
 The equations give one speed for light. Just one. Roughly three hundred thousand kilometers every second. They don't say, three hundred thousand kilometers per second compared to the aether. Or compared to the lamp. Or compared to you. They just give the number. As if the speed of light were simply, always, that.
 
-Most people assumed it must mean compared to the aether. The aether was the still sea, and light moved through it at that speed. And the Earth, of course, was moving through the aether too, as it swept around the Sun.
-
-Which meant something could be measured.
-
-Think of a boat on a river. If you row upstream, against the current, you go slower compared to the bank. If you row downstream, you go faster. If you row across the river and back, it's somewhere in between.
-
 The Earth moves around the Sun at about thirty kilometers every second. If the aether is still, then the Earth is rushing through it. There should be an aether wind blowing across the Earth, like the wind you feel when you put your hand out of a car window. And light moving into that wind should be a little slower, compared to us, than light moving across it.
-
-It would be a tiny difference. But perhaps, with enough care, a person could catch it.
 
 Enter Albert Michelson. A young American physicist, very patient, very precise, who loved measuring light more than almost anything.
 
-His first attempt was in Berlin, in eighteen eighty-one. And it failed, not because of the aether, but because of the city. The street traffic outside shook his instrument so much that the delicate light patterns wobbled and blurred. Horses and carts rattling past on the cobblestones. So he packed everything up and moved it to a quiet cellar in Potsdam, under an observatory, where it was still enough to work. He saw no aether wind. But his instrument wasn't quite sensitive enough to be sure.
-
-A few years later, in Cleveland, Ohio, he tried again. This time with a chemist named Edward Morley.
+In Cleveland, Ohio, in the eighteen eighties, he teamed up with a chemist named Edward Morley.
 
 They built something beautiful. A heavy stone slab, about one and a half meters square and thirty centimeters thick. And they floated it on a pool of liquid mercury, in a round iron trough, so the whole stone could turn slowly and smoothly, without a single bump.
 
@@ -64,22 +46,10 @@ What they saw was, in their words, certainly less than the twentieth part of thi
 
 Almost nothing. The stripes barely moved at all.
 
-As if there were no aether wind. As if the Earth were not moving through anything. Or as if light, somehow, always moved at the same speed, whichever way you measured it.
-
 This is one of the most famous results in all of science. And the funny thing is, it's famous for finding nothing. Michelson himself was disappointed. He and Morley both kept believing in the aether for the rest of their lives. Michelson went on to become the first American to win a Nobel Prize in science, for his beautiful measurements of light. But he never let go of the still, invisible sea.
 
-Others tried to rescue the aether.
+Some physicists tried clever ways to rescue the aether. Perhaps moving objects shrink, just enough to hide the effect. But they were all still trying to save the old stage.
 
-In Ireland, a physicist named George FitzGerald wrote a very short letter, less than half a page, with a daring suggestion. What if objects moving through the aether get slightly shorter, in the direction they're moving? Just by exactly the right amount to hide the difference. The arm of the instrument pointing into the wind would shrink a tiny bit, the light would have a shorter path, and the delay would disappear.
-
-In the Netherlands, not knowing about FitzGerald's letter, Hendrik Lorentz had the same idea. And he went further. He worked out careful mathematical rules for how lengths and times would have to change for a moving observer, so that Maxwell's equations would still work. Those rules are still named after him today. The Lorentz transformations.
-
-And in France, the great mathematician Henri Poincaré was thinking about time itself. In eighteen ninety-eight he wrote that we have no direct intuition about the equality of two time intervals. In other words, how do we really know that one second, here, is the same as one second, over there? We just assume it.
-
-All of these men were so close. They had the pieces on the table. Shortened lengths. Strange new rules for time. The feeling that something was not quite right with simultaneous moments.
-
-But they were still trying to save the old stage. The aether. The still sea. The great cosmic clock.
-
-What was needed was someone willing to let go of it entirely. Someone who would look at the puzzle and say, what if there's nothing to rescue? What if light's speed simply is the same for everyone, and it's our ideas about space and time that have to give way?
+What was needed was someone willing to let go of the aether entirely. Someone who would look at the puzzle and say, what if there's nothing to rescue? What if light's speed simply is the same for everyone, and it's our ideas about space and time that have to give way?
 
 And that someone, at that moment, was a young man with a very ordinary job, in a quiet Swiss city, who had been carrying a strange question around since he was sixteen years old.
