@@ -99,8 +99,13 @@ def main():
              "-filter_complex", "[0]scale=%d:%d,fps=%d,setsar=1,split[a][b];[b]reverse[r];[a][r]concat=n=2:v=1" % (W, H, FPS),
              "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", room])
         room_in = ["-stream_loop", "-1", "-i", room]
+        room_f = "[1]setsar=1,format=rgba[fg0];"
     else:
-        room_in = ["-loop", "1", "-framerate", str(FPS), "-i", room]
+        # resize once here, not on every frame
+        room = os.path.join(tmp, "room.png")
+        Image.open(args.station).convert("RGB").resize((W, H), Image.LANCZOS).save(room)
+        room_in = ["-i", room]
+        room_f = "[1]loop=loop=-1:size=1,setpts=N/%d/TB,setsar=1,format=rgba[fg0];" % FPS
 
     space_is_video = args.space.lower().endswith(VIDEO_EXTS)
     if space_is_video:
@@ -109,18 +114,24 @@ def main():
     else:
         # drift right for half the loop, back for the other half -> same at start and end
         travel = args.drift * L / 2
-        space_in = ["-loop", "1", "-framerate", str(FPS), "-i", args.space]
-        space_f = ("[0]scale=%d:-2,setsar=1,crop=%d:%d:'(iw-%d)/2-%.1f+%.1f*(1-abs(2*t/%.3f-1))':'(ih-%d)/2'[bg]"
-                   % (W + int(travel) + 200, W, H, W, travel / 2, travel, L, H))
+        sp = Image.open(args.space).convert("RGB")
+        sw = W + int(travel) + 200
+        sh_ = max(H, round(sp.height * sw / sp.width))
+        sp = sp.resize((sw, sh_), Image.LANCZOS)   # resize once, not on every frame
+        space = os.path.join(tmp, "space.png")
+        sp.save(space)
+        space_in = ["-i", space]
+        space_f = ("[0]loop=loop=-1:size=1,setpts=N/%d/TB,setsar=1,crop=%d:%d:'(iw-%d)/2-%.1f+%.1f*(1-abs(2*t/%.3f-1))':'(ih-%d)/2'[bg]"
+                   % (FPS, W, H, W, travel / 2, travel, L, H))
 
     os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)
     run(["ffmpeg", "-y", "-loglevel", "error", *space_in, *room_in,
-         "-loop", "1", "-i", mask_path,
+         "-i", mask_path,
          "-filter_complex",
          space_f + ";"
-         "[1]scale=%d:%d,fps=%d,setsar=1,format=rgba[fg0];"
-         "[2]scale=%d:%d,format=gray,negate[a];"
-         "[fg0][a]alphamerge[fg];[bg][fg]overlay=shortest=0,format=yuv420p" % (W, H, FPS, W, H),
+         + room_f +
+         "[2]loop=loop=-1:size=1,setpts=N/%d/TB,format=gray,negate[a];" % FPS +
+         "[fg0][a]alphamerge[fg];[bg][fg]overlay=shortest=0,format=yuv420p",
          "-t", "%.2f" % L, "-r", str(FPS), "-an",
          "-c:v", "libx264", "-crf", "24", "-preset", "veryfast", "-g", str(FPS * 2), args.out])
     print("done -> %s (%.0fs loop)" % (args.out, L))
