@@ -31,7 +31,8 @@ tries = {
 for name, (path, body) in tries.items():
     st, d = call("POST", path, body)
     if isinstance(d, dict):
-        s = json.dumps(d); print(name, st, "OK keys:", list(d.keys()), "| usage:", d.get("usageMetadata") or d.get("usage"))
-        open(f"probe_{name}.json", "w").write(s)
+        import re
+        s = re.sub(r'"data": "[^"]{60}[^"]*"', '"data": "<audio>"', json.dumps(d))
+        print(name, st, s[:1200])
     else:
         print(name, st, d)
