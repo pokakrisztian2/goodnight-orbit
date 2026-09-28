@@ -1,0 +1,9 @@
+{
+  "name": "test-window",
+  "script": "scripts/test-window.txt",
+  "loop_seconds": 20,
+  "scenes": [
+    {"station": "assets/scenes/station/station-base-v1.png", "space": "assets/space/iss040e091231.jpg"},
+    {"station": "assets/scenes/station/station-base-v1.png", "space": "assets/space/iss035e017357.jpg"}
+  ]
+}

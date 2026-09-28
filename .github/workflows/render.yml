@@ -1,0 +1,52 @@
+name: Render video
+
+# Press "Run workflow" on GitHub (Actions tab), type the job name, e.g. relativity
+# -> uses videos/<job>.json -> the finished video lands in Cloudflare R2 (goodnight-orbit/renders/).
+on:
+  workflow_dispatch:
+    inputs:
+      job:
+        description: "Job name (videos/<job>.json)"
+        required: true
+        default: test-window
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      R2_BUCKET: goodnight-orbit
+      R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python packages
+        run: pip install -q kokoro-onnx soundfile numpy pillow
+
+      - name: Voice model (cached)
+        id: models
+        uses: actions/cache@v4
+        with:
+          path: tools/models
+          key: kokoro-v1.0
+
+      - name: Download voice model
+        if: steps.models.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p tools/models
+          BASE=https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0
+          curl -sL -o tools/models/kokoro-v1.0.onnx "$BASE/kokoro-v1.0.onnx"
+          curl -sL -o tools/models/voices-v1.0.bin "$BASE/voices-v1.0.bin"
+
+      - name: Make the video
+        run: python tools/render_job.py "videos/${{ inputs.job }}.json"
