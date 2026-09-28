@@ -91,3 +91,18 @@ huge topic word in the middle + small "Explained Slowly" + 6–10 labelled icons
 - **They re-post the same topics** (Nervous System, Neural Networks, Immune System 2–3 times).
 - **They skip many AI topics:** transformers, GPUs, how CPUs think, how ChatGPT "thinks", search engines, GPS, crypto.
 - Like/view ratio is low (~1–2%). Viewers are asleep. Subscribers come slowly.
+
+## The voice (measured 2026-09-28 from the first 60 s of the Relativity video)
+
+| | Cosmo | Our Kokoro "ASMR" test | Meaning |
+|---|---|---|---|
+| Pitch (middle) | **84 Hz** (range 73–118) | 113 Hz | Cosmo is very deep. Bass-baritone. |
+| Speed | **130 words/min** | ~110 | Normal, relaxed talking. Not slow. |
+| Talking time | 66% | 60% | Keeps talking, short breaks. |
+| Pauses | 23 per minute, **0.7 s** average, max 1.5 s | 0.9 s, max 2 s | Short, natural pauses. |
+| Brightness | **2,400 Hz**, 30% above 4 kHz | 1,400 Hz, 13% | Cosmo is **clear and crisp**, close mic, some air. Our ASMR filter made ours too dark. |
+
+**Lesson:** Cosmo is not a whisper and not slow. It is a **deep, clear, close, relaxed talker** at normal speed.
+
+**Voice prompt (for Gemini TTS / voice design):**
+> A deep, warm, bass-baritone male voice, around 35 to 45 years old, American accent. Calm, friendly and curious, like a smart friend explaining something fascinating late at night. Speak at a relaxed conversational pace, about 130 words per minute: not slow and dragged out, just unhurried. Low, steady pitch with small, natural rises on questions and interesting moments; never dramatic, never excited. Short natural pauses between sentences, a little longer after a question. Close to the microphone, clear and crisp, with soft breath and a little air in the voice, but NOT whispering and NOT muffled. Intimate and reassuring, like someone talking quietly next to you so they do not wake anyone. No radio-announcer energy, no sales tone.
