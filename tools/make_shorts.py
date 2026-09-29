@@ -3,7 +3,9 @@
 Each Short = a few whole paragraphs of Otto's voice, over the station loop, with:
   top     a hook line (the Short's title idea)
   middle  a 1080x1080 square of the station: Otto + the window
-  bottom  big word-timed captions, and "Full video on Goodnight Orbit"
+  below   big word-timed captions, 2-3 words at a time, right under the square
+  (nothing in the bottom ~500 px: YouTube covers it with the title and buttons;
+   link the full video with the Short's "Related video" setting instead)
 
 Which paragraphs: the "shorts" list in videos/<name>.json, e.g.
   {"hook": "AlexNet was trained in a bedroom", "from": "The training took five", "paras": 3}
@@ -24,7 +26,7 @@ FONT_DIR = os.path.join(ROOT, "tools", "fonts")
 OFFSET = 2.0          # the long video starts with 2 s of silence (make_loop_video.py START_SILENCE)
 MAX_LEN = 59.0        # Shorts that stay under a minute get the widest reach
 SQUARE_X = 380        # left edge of the 1080 square cut from the 1920-wide station (Otto + window)
-SQUARE_Y = 400        # where the square sits in the 1920-high Short
+SQUARE_Y = 300        # where the square sits in the 1920-high Short (ends at 1380)
 
 
 def ts(t):
@@ -58,6 +60,17 @@ def snap(caps, est, word):
     good = [c for c in near if first_word(c[2]) == word]
     pool = good or near or caps
     return min(pool, key=lambda c: abs(c[0] - est))[0]
+
+
+def split_caption(s, e, text):
+    """Cut a 4-word caption into two short ones, timed by length."""
+    words = text.split()
+    if len(text) <= 14 or len(words) < 3:
+        return [(s, e, text)]
+    k = (len(words) + 1) // 2
+    first, second = " ".join(words[:k]), " ".join(words[k:])
+    mid = s + (e - s) * len(first) / (len(first) + len(second))
+    return [(s, mid, first), (mid, e, second)]
 
 
 def main():
@@ -101,10 +114,12 @@ def main():
         print("short %d: %.1f-%.1f s = %.1f s%s  %s" % (n, a, b, dur, flag, sh["hook"]), flush=True)
 
         # captions for this piece, moved to the Short's own clock
+        # short lines (2-3 words) so the text can be big and still fit beside YouTube's buttons
         lines = []
         for s, e, text in caps:
             if s >= a - 0.05 and s < b:
-                lines.append("Dialogue: 1,%s,%s,Cap,,0,0,0,,%s" % (ts(s - a), ts(min(e, b) - a), text))
+                for s2, e2, t2 in split_caption(s, min(e, b), text):
+                    lines.append("Dialogue: 1,%s,%s,Cap,,0,0,0,,%s" % (ts(s2 - a), ts(e2 - a), t2))
         hook = sh["hook"].upper().replace("{", "(").replace("}", ")")
         ass = os.path.join(out_dir, "%s-%02d.ass" % (name, n))
         with open(ass, "w", encoding="utf-8") as fh:
@@ -116,14 +131,12 @@ WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Hook,{f},74,&H00FFFFFF,&H00FFFFFF,&H00100A06,&H96000000,-1,0,0,0,100,100,2,0,1,5,2,8,70,70,150,1
-Style: Cap,{f},84,&H00C4E2F5,&H00C4E2F5,&H00100A06,&H96000000,-1,0,0,0,100,100,3,0,1,6,3,2,60,60,300,1
-Style: Foot,{f},42,&H00C4E2F5,&H00C4E2F5,&H00100A06,&H96000000,0,0,0,0,100,100,1,0,1,3,0,2,60,60,120,1
+Style: Hook,{f},68,&H00FFFFFF,&H00FFFFFF,&H00100A06,&H96000000,-1,0,0,0,100,100,2,0,1,5,2,8,80,80,55,1
+Style: Cap,{f},104,&H00C4E2F5,&H00C4E2F5,&H00100A06,&H96000000,-1,0,0,0,100,100,3,0,1,7,3,8,110,110,1410,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,{z},{d},Hook,,0,0,0,,{h}
-Dialogue: 0,{z},{d},Foot,,0,0,0,,FULL VIDEO ON GOODNIGHT ORBIT
 """.format(f=FONT, z=ts(0), d=ts(dur), h=hook) + "\n".join(lines) + "\n")
 
         out = os.path.join(out_dir, "%s-%02d.mp4" % (name, n))
