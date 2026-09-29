@@ -13,6 +13,10 @@ on:
       image:
         description: "Start picture in R2 (empty = text only)"
         default: ""
+      loop:
+        description: "End on the start picture (seamless loop)"
+        type: boolean
+        default: false
       model:
         default: veo-3.1-lite-generate-preview
       resolution:
@@ -39,3 +43,4 @@ jobs:
           python tools/gen_veo.py --prompt "${{ inputs.prompt }}" --out "${{ inputs.out }}"
           --model "${{ inputs.model }}" --resolution "${{ inputs.resolution }}"
           ${{ inputs.image && format('--image "{0}"', inputs.image) || '' }}
+          ${{ inputs.loop && '--loop' || '' }}

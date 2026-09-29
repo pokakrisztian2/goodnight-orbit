@@ -30,6 +30,7 @@ def main():
     ap.add_argument("--prompt", required=True, help="text file with the prompt")
     ap.add_argument("--out", required=True)
     ap.add_argument("--image")
+    ap.add_argument("--loop", action="store_true", help="last frame = the start picture, so the clip loops")
     ap.add_argument("--model", default="veo-3.1-lite-generate-preview")
     ap.add_argument("--resolution", default="1080p")
     a = ap.parse_args()
@@ -41,6 +42,8 @@ def main():
         mime = "image/png" if a.image.lower().endswith(".png") else "image/jpeg"
         inst["image"] = {"mimeType": mime, "bytesBase64Encoded":
                          base64.b64encode(open(os.path.join(ROOT, a.image), "rb").read()).decode()}
+    if a.loop and a.image:
+        inst["lastFrame"] = dict(inst["image"])
     body = {"instances": [inst], "parameters": {"aspectRatio": "16:9", "resolution": a.resolution,
                                                 "durationSeconds": 8}}
     if a.image:
