@@ -4,8 +4,8 @@
  "loop_seconds": 60,
  "scenes": [
   {
-   "station": "assets/scenes/station/station-veo-v2-4k.mp4",
-   "space": "assets/space/earth-night-veo-v1.mp4"
+   "station": "assets/scenes/quantum-physics/room-veo-v2.mp4",
+   "space": "assets/space/aurora-milkyway-v1.mp4"
   }
  ],
  "captions": true,
