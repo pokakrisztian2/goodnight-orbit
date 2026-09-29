@@ -1,32 +1,47 @@
 """Cut vertical YouTube Shorts (1080x1920) out of a finished long video.
 
-Each Short = a few whole paragraphs of Otto's voice, over the station loop, with:
-  top     a hook line (the Short's title idea)
-  middle  a 1080x1080 square of the station: Otto + the window
-  below   big word-timed captions, 2-3 words at a time, right under the square
-  (nothing in the bottom ~500 px: YouTube covers it with the title and buttons;
-   link the full video with the Short's "Related video" setting instead)
+Rules come from ideas/research-2026-09-29-shorts.md (viral science/sleep Shorts, measured):
+  - sound from 0.0 s: a spoken hook ("say") in Otto's voice, then the segment. No silence, no fade-in.
+  - normal talking speed: the segment is played 1.25x (the long video is slowed to 0.8x), ~165 words/min
+  - end 0.15 s after the last word, so the Short loops back into the hook
+  - everything inside the safe zone (YouTube covers the top ~170 px, the bottom ~330 px, the right ~120 px)
+  - a slow push-in on the picture, the hook text pops in, a quiet station hum under the voice
+  - last 3 s: "Full 1h 41m version for sleep"
+
+Layout (1080x1920):
+  top     hook text, y 190-350, max 2 lines
+  middle  1080x1080 square of the station (Otto + window), y 360-1440, slowly zooming 100->108%
+  lower   word-timed captions, 1-3 words, y ~1260 (over the bottom of the picture)
 
 Which paragraphs: the "shorts" list in videos/<name>.json, e.g.
-  {"hook": "AlexNet was trained in a bedroom", "from": "The training took five", "paras": 3}
-"from" = the first words of the first paragraph, "paras" = how many paragraphs.
+  {"hook": "I'm not floating. I'm falling.",
+   "say": "Everyone thinks I float because there's no gravity up here. That's not true.",
+   "from": "The reason I float", "paras": 2}
+"from" = the first words of the first paragraph, "paras" = how many paragraphs, "say" = optional
+spoken first line (made with the Gemini voice, cached in assets/audio/<name>/shorts/).
 
 Needs (made by render_job.py): assets/audio/<name>/narration.wav, timings.json, captions.ass,
 assets/loops/<name>/01.mp4.  Writes renders/shorts/<name>-NN.mp4 + renders/shorts/<name>.txt
 """
 import argparse
+import hashlib
 import json
 import os
 import re
 import subprocess
+import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONT = "Varela Round"
 FONT_DIR = os.path.join(ROOT, "tools", "fonts")
 OFFSET = 2.0          # the long video starts with 2 s of silence (make_loop_video.py START_SILENCE)
+SPEED = 1.25          # segment speed: undoes the long video's 0.8x slowdown
+GAP = 0.3             # pause between the spoken hook and the segment
 MAX_LEN = 59.0        # Shorts that stay under a minute get the widest reach
 SQUARE_X = 380        # left edge of the 1080 square cut from the 1920-wide station (Otto + window)
-SQUARE_Y = 260        # where the square sits in the 1920-high Short (ends at 1340)
+SQUARE_Y = 360        # where the square sits in the 1920-high Short (360-1440)
+ZOOM = 0.08           # slow push-in over the whole Short
+PY = sys.executable
 
 
 def ts(t):
@@ -42,10 +57,8 @@ def parse_ass(path):
         if not line.startswith("Dialogue:"):
             continue
         parts = line.rstrip("\n").split(",", 9)
-        s = parts[1].split(":")
-        e = parts[2].split(":")
         sec = lambda p: int(p[0]) * 3600 + int(p[1]) * 60 + float(p[2])
-        out.append((sec(s), sec(e), parts[9]))
+        out.append((sec(parts[1].split(":")), sec(parts[2].split(":")), parts[9]))
     return out
 
 
@@ -73,6 +86,53 @@ def split_caption(s, e, text):
     return [(s, mid, first), (mid, e, second)]
 
 
+def say_path(name, text):
+    """Where the spoken hook for this text is cached (render_job.py fetches/uploads it)."""
+    h = hashlib.sha1(text.encode()).hexdigest()[:10]
+    return "assets/audio/%s/shorts/say-%s.wav" % (name, h)
+
+
+def duration(path):
+    return float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
+                                 path], check=True, capture_output=True, text=True).stdout)
+
+
+def make_say(name, text):
+    """Otto's voice saying the hook, at normal speed, silence trimmed at both ends."""
+    wav = os.path.join(ROOT, say_path(name, text))
+    if not os.path.exists(wav):
+        os.makedirs(os.path.dirname(wav), exist_ok=True)
+        txt = wav[:-4] + ".txt"
+        open(txt, "w").write(text + "\n")
+        raw = wav[:-4] + ".raw.wav"
+        # its own folder: narrate_gemini writes a timings.json next to the file
+        subprocess.run([PY, os.path.join(ROOT, "tools", "narrate_gemini.py"), "--name", name, "--text", txt,
+                        "--out", raw, "--tempo", "1.0"], check=True, cwd=ROOT)
+        trim = ("silenceremove=start_periods=1:start_threshold=-45dB,areverse,"
+                "silenceremove=start_periods=1:start_threshold=-45dB,areverse")
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-af", trim, "-ar", "24000", "-ac", "1", wav],
+                       check=True)
+        os.remove(raw)
+    return wav
+
+
+def say_captions(wav):
+    """Word times for the spoken hook (faster-whisper), grouped 1-3 words."""
+    from faster_whisper import WhisperModel
+    model = WhisperModel("base.en", device="cpu", compute_type="int8")
+    segs, _ = model.transcribe(wav, word_timestamps=True, condition_on_previous_text=False)
+    words = [w for s in segs for w in s.words]
+    out, cur = [], []
+    for w in words:
+        cur.append(w)
+        if len(cur) == 3 or w.word.strip()[-1:] in ".?!,;:":
+            out.append((cur[0].start, cur[-1].end, " ".join(x.word.strip() for x in cur).upper()))
+            cur = []
+    if cur:
+        out.append((cur[0].start, cur[-1].end, " ".join(x.word.strip() for x in cur).upper()))
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--name", required=True)
@@ -83,6 +143,7 @@ def main():
     if not shorts:
         print("no shorts in videos/%s.json" % name)
         return
+    topic = job.get("topic", name.replace("-", " "))
 
     audio_dir = os.path.join(ROOT, "assets", "audio", name)
     narration = os.path.join(audio_dir, "narration.wav")
@@ -91,9 +152,9 @@ def main():
     paras = [p.strip() for p in open(os.path.join(ROOT, job["script"])).read().split("\n\n") if p.strip()]
     assert len(paras) == len(timings), "script changed since the voice was made"
     loop = os.path.join(ROOT, "assets", "loops", name, "01.mp4")
-    audio_len = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
-                                      "-of", "csv=p=0", narration], check=True,
-                                     capture_output=True, text=True).stdout) + OFFSET
+    long_len = duration(narration) + OFFSET
+    lh, lm = divmod(int(round(long_len / 60)), 60)
+    long_label = ("%dH %02dM" % (lh, lm)) if lh else ("%d MIN" % lm)
 
     out_dir = os.path.join(ROOT, "renders", "shorts")
     os.makedirs(out_dir, exist_ok=True)
@@ -105,22 +166,36 @@ def main():
         if j < len(paras):
             nxt = snap(caps, timings[j]["t"] + OFFSET, first_word(paras[j]))
             last = [c for c in caps if a <= c[0] < nxt - 0.05]
-            b = min(last[-1][1] + 0.6, nxt - 0.1) if last else nxt
+            b = min(last[-1][1] + 0.15 * SPEED, nxt - 0.05) if last else nxt
         else:
-            b = audio_len
-        a = max(a - 0.25, 0)
-        dur = b - a
-        flag = "" if dur <= MAX_LEN else "  (LONGER than %.0f s)" % MAX_LEN
-        print("short %d: %.1f-%.1f s = %.1f s%s  %s" % (n, a, b, dur, flag, sh["hook"]), flush=True)
+            b = long_len
+        a = max(a - 0.03, 0)
+        seg = (b - a) / SPEED            # segment length after speeding up
 
-        # captions for this piece, moved to the Short's own clock
-        # short lines (2-3 words) so the text can be big and still fit beside YouTube's buttons
+        # spoken hook first (optional)
         lines = []
+        if sh.get("say"):
+            wav = make_say(name, sh["say"])
+            head = duration(wav) + GAP
+            lines += say_captions(wav)
+        else:
+            wav, head = None, 0.0
+        dur = head + seg
+
+        # segment captions on the Short's clock (sped up), 1-3 words each
         for s, e, text in caps:
             if s >= a - 0.05 and s < b:
                 for s2, e2, t2 in split_caption(s, min(e, b), text):
-                    lines.append("Dialogue: 1,%s,%s,Cap,,0,0,0,,%s" % (ts(s2 - a), ts(e2 - a), t2))
+                    lines.append((head + (s2 - a) / SPEED, head + (e2 - a) / SPEED, t2))
+        flag = "" if dur <= MAX_LEN else "  (LONGER than %.0f s)" % MAX_LEN
+        print("short %d: %.1f-%.1f s -> %.1f s%s  %s" % (n, a, b, dur, flag, sh["hook"]), flush=True)
+
         hook = sh["hook"].upper().replace("{", "(").replace("}", ")")
+        pop = r"{\fscx88\fscy88\alpha&HFF&\t(0,350,\fscx100\fscy100\alpha&H00&)}"
+        events = ["Dialogue: 0,%s,%s,Hook,,0,0,0,,%s%s" % (ts(0), ts(dur), pop, hook),
+                  "Dialogue: 0,%s,%s,Foot,,0,0,0,,{\\fad(300,0)}FULL %s VERSION FOR SLEEP"
+                  % (ts(max(dur - 3.0, 0)), ts(dur), long_label)]
+        events += ["Dialogue: 1,%s,%s,Cap,,0,0,0,,%s" % (ts(s), ts(e), t) for s, e, t in lines]
         ass = os.path.join(out_dir, "%s-%02d.ass" % (name, n))
         with open(ass, "w", encoding="utf-8") as fh:
             fh.write("""[Script Info]
@@ -131,27 +206,41 @@ WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Hook,{f},64,&H00FFFFFF,&H00FFFFFF,&H00100A06,&H96000000,-1,0,0,0,100,100,2,0,1,5,2,8,80,80,40,1
-Style: Cap,{f},104,&H00C4E2F5,&H00C4E2F5,&H00100A06,&H96000000,-1,0,0,0,100,100,3,0,1,7,3,8,110,110,1275,1
+Style: Hook,{f},72,&H00FFFFFF,&H00FFFFFF,&H00100A06,&H96000000,-1,0,0,0,100,100,2,0,1,5,2,8,60,120,190,1
+Style: Cap,{f},100,&H00C4E2F5,&H00C4E2F5,&H00100A06,&H96000000,-1,0,0,0,100,100,3,0,1,7,3,8,90,150,1260,1
+Style: Foot,{f},44,&H00C4E2F5,&H00C4E2F5,&H00100A06,&H96000000,-1,0,0,0,100,100,2,0,1,4,2,8,60,120,1170,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,{z},{d},Hook,,0,0,0,,{h}
-""".format(f=FONT, z=ts(0), d=ts(dur), h=hook) + "\n".join(lines) + "\n")
+""".format(f=FONT) + "\n".join(events) + "\n")
 
         out = os.path.join(out_dir, "%s-%02d.mp4" % (name, n))
-        vf = ("[0]crop=1080:1080:%d:0,pad=1080:1920:0:%d:color=0x05070d,"
-              "ass=%s:fontsdir=%s[v]" % (SQUARE_X, SQUARE_Y, os.path.relpath(ass, ROOT), os.path.relpath(FONT_DIR, ROOT)))
-        af = ("[1]atrim=start=%.3f:duration=%.3f,asetpts=PTS-STARTPTS,afade=t=in:d=0.15,"
-              "afade=t=out:st=%.3f:d=0.5,loudnorm=I=-14:TP=-1.5:LRA=11[a]" % (a - OFFSET, dur, max(dur - 0.5, 0)))
-        # relative paths + cwd: the project folder name has a space, which the ass filter can't take
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-stream_loop", "-1", "-i", os.path.relpath(loop, ROOT),
-                        "-i", os.path.relpath(narration, ROOT), "-filter_complex", vf + ";" + af,
+        # picture: square, slow push-in, placed on the dark background, text burned in
+        vf = ("[0]crop=1080:1080:%d:0,scale=w='trunc(1080*(1+%.3f*t/%.3f)/2)*2':h=-2:eval=frame,"
+              "crop=1080:1080,pad=1080:1920:0:%d:color=0x05070d,ass=%s:fontsdir=%s[v]"
+              % (SQUARE_X, ZOOM, dur, SQUARE_Y, os.path.relpath(ass, ROOT), os.path.relpath(FONT_DIR, ROOT)))
+        inputs = ["-stream_loop", "-1", "-i", os.path.relpath(loop, ROOT), "-i", os.path.relpath(narration, ROOT)]
+        segf = ("[1]atrim=start=%.3f:duration=%.3f,asetpts=PTS-STARTPTS,atempo=%.3f,aresample=48000[seg]"
+                % (a - OFFSET, b - a, SPEED))
+        if wav:
+            inputs += ["-i", os.path.relpath(wav, ROOT)]
+            voice = ("[2]aresample=48000,apad=pad_dur=%.3f[say];%s;[say][seg]concat=n=2:v=0:a=1[voice]"
+                     % (GAP, segf))
+        else:
+            voice = segf + ";[seg]anull[voice]"
+        # quiet station hum ~20 dB under the voice, then loud enough for phones
+        hum = "anoisesrc=color=brown:amplitude=0.012:sample_rate=48000,lowpass=f=320[hum]"
+        af = (voice + ";" + hum + ";[voice][hum]amix=inputs=2:duration=first:normalize=0,"
+              "afade=t=in:d=0.02,afade=t=out:st=%.3f:d=0.12,loudnorm=I=-14:TP=-1.5:LRA=11[a]" % max(dur - 0.12, 0))
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", vf + ";" + af,
                         "-map", "[v]", "-map", "[a]", "-t", "%.3f" % dur,
                         "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
                         "-c:a", "aac", "-b:a", "160k", "-ar", "48000", "-movflags", "+faststart", out],
                        check=True, cwd=ROOT)
-        notes.append("%s-%02d.mp4  (%.0f s)\nTitle: %s 🌙 #shorts\n" % (name, n, dur, sh["hook"]))
+        title = "%s | Otto explains %s 🌙" % (sh["hook"], topic)
+        notes.append("%s-%02d.mp4  (%.0f s)\nTitle: %s\nDescription first line: Full slow version for sleep: %s\n"
+                     "Hashtags: #science #sleep\nRelated video: the full %s video\n"
+                     % (name, n, dur, title, job.get("title", ""), topic))
         print("  -> " + out, flush=True)
 
     with open(os.path.join(out_dir, name + ".txt"), "w") as fh:

@@ -11,29 +11,36 @@
  "captions": true,
  "shorts": [
   {
-   "hook": "The AI that changed everything was trained in a bedroom",
+   "hook": "Modern AI started in a bedroom",
+   "say": "The AI boom started on two gaming cards, in a student's bedroom.",
    "from": "He used two graphics cards",
    "paras": 3
   },
   {
-   "hook": "The first learning machine turned its own knobs",
+   "hook": "This machine learned by turning knobs",
+   "say": "One of the first machines that learned had no screen. It had knobs. And it turned them itself.",
    "from": "And here's the part I love",
    "paras": 2
   },
   {
-   "hook": "The Go move that stunned the world",
+   "hook": "Move 37: 1 in 10,000",
+   "say": "In 2016, a computer played a move so strange that its opponent walked out of the room.",
    "from": "In the second game, AlphaGo",
    "paras": 3
   },
   {
-   "hook": "King minus man plus woman equals...",
+   "hook": "King minus man plus woman = ?",
+   "say": "Take the word king. Take away man. Add woman. An AI knows the answer.",
    "from": "Here's the most famous example",
    "paras": 4
   },
   {
-   "hook": "Why AI makes things up",
+   "hook": "AI bluffs like a student in an exam",
+   "say": "Why does AI make things up? Researchers found a very human reason.",
    "from": "Why does it happen?",
    "paras": 3
   }
- ]
+ ],
+ "topic": "machine learning",
+ "title": "Every Confusing Thing About Machine Learning Explained Slowly (For Sleep)"
 }

@@ -65,7 +65,13 @@ def make_shorts(job, name):
     for f in ("timings.json", "captions.ass"):
         if not fetch("assets/audio/%s/%s" % (name, f)):
             sys.exit("error: missing assets/audio/%s/%s" % (name, f))
+    sys.path.insert(0, os.path.join(ROOT, "tools"))
+    from make_shorts import say_path
+    says = [say_path(name, x["say"]) for x in job["shorts"] if x.get("say")]
+    missing = [p for p in says if not fetch(p)]     # spoken hooks: made once, then reused
     sh([PY, "tools/make_shorts.py", "--name", name])
+    for p in missing:
+        upload(p)
     for f in sorted(os.listdir(os.path.join(ROOT, "renders", "shorts"))):
         if f.startswith(name + "-") and f.endswith(".mp4") or f == name + ".txt":
             upload("renders/shorts/" + f)
