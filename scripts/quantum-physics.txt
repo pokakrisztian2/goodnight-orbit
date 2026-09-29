@@ -1,0 +1,729 @@
+Hi. It's Otto. It's night on your side of the Earth, and I'm up here on the night shift. I'll keep watch, so you don't have to.
+
+The lamps are low. The tea is warm. Outside my window, the Earth is turning slowly, and a thin blue line of air is glowing along its edge. Somewhere down there, you're getting comfortable. That's good. Stay right there.
+
+Tonight, let's think slowly about quantum physics.
+
+Quantum physics has a strange reputation. People say it's impossible. That it breaks common sense. That particles can be in two places at once, and cats can be alive and dead, and nobody really understands it. And the funny thing is, some of that is almost true.
+
+In nineteen sixty-four, the physicist Richard Feynman gave a series of lectures at Cornell University, for an ordinary audience. And he told them, quite cheerfully, I think I can safely say that nobody understands quantum mechanics.
+
+But then he said something else, and I'd like to borrow it for tonight. Do not take the lecture too seriously, he said. Just relax and enjoy it. I am going to tell you what nature behaves like. If you will simply admit that maybe she does behave like this, you will find her a delightful, entrancing thing.
+
+So that's our plan. We won't fight it. We'll just watch, the way you'd watch the sea at night, and let nature be as strange as she likes.
+
+We'll start more than a hundred years ago, with a glowing piece of metal, and a quiet professor who loved music and mountains. And we'll move forward slowly, one small idea at a time. Light that comes in little packets. Atoms that are built like staircases. Electrons that behave like waves. A famous argument between two old friends. A cat in a box. And the quiet ways all of this is working, right now, inside the objects around you.
+
+You don't need to understand all of it. Remember, Feynman said nobody does. If you fall asleep halfway, that's the plan. I'll keep talking quietly, and the story will keep going without you, and that's perfectly fine.
+
+If you'd like me on watch again tomorrow night, you can subscribe. Then close your eyes.
+
+There. Let's begin.
+
+Think of the glow of a fire. Or the coils of an old electric heater, slowly turning red, then orange. Or a blacksmith's iron, pulled from the coals, shining almost white.
+
+Heat something enough, and it glows. And the colour of the glow tells you how hot it is. Dull red is warm. Orange is hotter. Yellow-white is very hot indeed. A potter can look into a kiln and judge the temperature by eye.
+
+In the nineteenth century, physicists became fascinated by a perfect version of this. They called it a black body. An object that swallows every bit of light that falls on it, and reflects nothing. And when you heat a black body, something surprising happens. The light it gives off depends only on its temperature. Not on what it's made of. Iron, clay, carbon, it doesn't matter. At the same temperature, they all glow the same way.
+
+That sounded like a clue. Something simple and deep, hiding underneath all the different materials in the world.
+
+The study began in Berlin. And in eighteen eighty-nine, a new professor of physics arrived there, to take up the chair of the man who had started it. His name was Max Planck.
+
+Planck was born in Kiel, in northern Germany, in eighteen fifty-eight. He was a careful, serious, rather old-fashioned man. And he was a wonderful pianist. At one point, it's said, he had even thought about a career in music. In later years, his musical evenings in Berlin became legendary. Colleagues would come to play. Violinists. Singers. Sometimes, Albert Einstein came too, with his violin.
+
+Planck also loved the mountains. He climbed and hiked in the Alps well into old age. If you'd met him, I think you'd have found him calm, polite, and a little shy. Not at all the sort of person you'd expect to start a revolution.
+
+Now, in Berlin, at a great government laboratory, experimenters were measuring the glow of hot bodies more and more precisely. How much light came out at each colour. Including the colours we can't see. Deep red, and beyond red, into the infrared, the warm invisible light you feel from a fire on your face.
+
+And the theories couldn't quite match the measurements. A formula that worked well for one part of the glow went wrong for another.
+
+On a Sunday, the seventh of October, nineteen hundred, an experimenter named Heinrich Rubens and his wife came to visit the Plancks at home, for tea. And Rubens mentioned his newest measurements. Far out in the infrared, at long wavelengths, the old formula simply didn't fit.
+
+That evening, after his guests had gone, Planck sat down and found a new formula. One that fitted everything. The whole glowing curve, from end to end. Twelve days later, he presented it to the German Physical Society.
+
+It worked perfectly. But Planck didn't know why it worked. And for a man like Planck, that wasn't good enough. So he spent the next few weeks trying to explain it. Trying to derive it properly, from the laws of physics.
+
+And the only way he could make it work was very odd.
+
+He had to pretend that the energy inside the glowing body could not flow smoothly. That it could only come in little lumps. Fixed-sized pieces. Like coins. You could have one coin of energy, or two, or three hundred. But never one and a half.
+
+Here's a picture I like. Imagine walking up to a door. You could walk up a ramp, and stop at any height you like. Or you could walk up a staircase, where you can only stand on the steps. Nothing in between.
+
+Everyone had always assumed that energy was a ramp. Smooth. Continuous. Planck found that to explain the glow, energy had to be a staircase.
+
+And the height of each step depended on the colour of the light, multiplied by a new, very tiny number. We now call it Planck's constant. It's so small that in everyday life you'd never notice the steps at all. They're far, far too fine to feel. Like a staircase whose steps are thinner than an atom. From a distance, it looks exactly like a ramp.
+
+On the fourteenth of December, nineteen hundred, Planck presented his idea. He was forty-two years old.
+
+And here's the gentle surprise of the story. Almost nobody noticed. Including Planck. One historian put it beautifully. If a revolution occurred in physics in December nineteen hundred, nobody seemed to notice it. Planck was no exception.
+
+Planck thought the little steps were just a mathematical trick. Years later, he called it an act of desperation. He had to find a result, whatever the cost. He didn't really believe that energy came in lumps. He hoped someone would find a way to smooth the steps back into a ramp.
+
+Nobody ever did.
+
+It would take another young man, working in an office in Switzerland, to take Planck's staircase seriously.
+
+If you listened to my relativity night, you've already met him. A young patent clerk in Bern, in Switzerland, sitting at a desk, reading other people's inventions.
+
+Albert Einstein had started at the patent office in nineteen oh two. He divided his days, he said, into eight hours of patent work, eight hours of his own physics, and eight hours of sleep. And he called the office that worldly cloister where I hatched my most beautiful ideas.
+
+In nineteen oh five, he wrote several papers that changed physics. One of them was about relativity. But the very first of them, received by the journal in March, was about light. And of all the papers he wrote that year, it was the only one that he himself called revolutionary.
+
+To see why, we need to know what everyone believed about light.
+
+By nineteen hundred, physicists were sure that light was a wave. They'd proved it again and again. Light spreads out. It bends around edges. Two beams of light can overlap and cancel each other out, making dark stripes, exactly as waves on water do. A great Scottish physicist, James Clerk Maxwell, had shown that light was a wave of electricity and magnetism, rippling through space.
+
+It was one of the most successful ideas in all of science.
+
+But there was a small puzzle, and it involved metal and light.
+
+If you shine light on certain metals, the light can knock tiny particles out of the metal. Electrons. It's called the photoelectric effect. Photo, for light. Electric, for the electrons.
+
+In nineteen oh two, a physicist named Philipp Lenard measured these electrons carefully. And he found something that made no sense for a wave.
+
+If light is a wave, then brighter light is a bigger wave. More energy. It should shake the electrons harder, and they should fly out faster. But they didn't. Lenard made the light a thousand times brighter. More electrons came out. But each one came out with exactly the same energy as before. Not the slightest bit faster.
+
+What did change their speed was the colour of the light. Bluer light gave faster electrons. Redder light gave slower ones. And below a certain colour, no electrons came out at all. However bright the light. You could shine the most powerful red lamp in the world on some metals, and nothing would happen. But a faint glimmer of ultraviolet would knock electrons out at once.
+
+Einstein saw the answer. And it was Planck's staircase, taken seriously.
+
+What if light itself comes in lumps? Not a smooth wave spreading everywhere, but little packets of energy. And the size of each packet depends on the colour. Blue packets are bigger. Red packets are smaller.
+
+In his paper, he wrote it like this. The energy of a light ray, he said, consists of a finite number of energy quanta, which are localised at points in space, which move without dividing, and which can only be produced and absorbed as complete units.
+
+Complete units. Whole packets.
+
+Now the puzzle solves itself, like a key turning in a lock.
+
+An electron is sitting in the metal. A single packet of light arrives and hits it, and gives it all its energy at once. To escape from the metal, the electron has to pay a small fee, a fixed amount of energy to get out of the door. Whatever energy is left over becomes its speed.
+
+If the packet is too small, a red one, it can't pay the fee. The electron stays put. And it doesn't matter how many red packets you send. Each one arrives alone, and each one is too small. It's like trying to buy a train ticket with a pile of coins that are each too small to be accepted. However many you have, the machine won't take them.
+
+A blue packet is bigger. It pays the fee easily, and there's plenty left over. The electron flies out fast.
+
+And brighter light? That's just more packets. More electrons knocked out. But each one gets the same size of kick.
+
+It was a beautiful explanation. And almost nobody believed it.
+
+An American physicist, Robert Millikan, spent about ten years testing Einstein's idea, expecting to prove it wrong. He built an extraordinary machine for it, with a little rotating knife inside a vacuum, worked by magnets from outside, to shave the metal perfectly clean before every measurement. He called it a machine shop in a vacuum.
+
+In nineteen sixteen, he published his results. Einstein's equation was right, in every detail. And from it, Millikan measured Planck's tiny number, to within about half a percent.
+
+Even then, Millikan still didn't want to believe in packets of light. He called it a bold, not to say a reckless, hypothesis. Later, in his Nobel lecture, he admitted that his work had resulted, contrary to my own expectation, in the first direct experimental proof of Einstein's equation.
+
+I like Millikan very much for that sentence. Ten years of hard work. And at the end of it, he stood up and said, I was wrong.
+
+Einstein's Nobel Prize, by the way, is sometimes thought to be for relativity. It wasn't. It was for this. For the law of the photoelectric effect. Packets of light.
+
+Those packets eventually got a name. Not from Einstein. He called them light quanta. In nineteen twenty-six, an American chemist named Gilbert Lewis wrote a letter to the journal Nature, proposing a word for a slightly different idea of his own. His idea faded away. But his word stayed.
+
+Photon.
+
+Up here, the station is covered in solar panels, great wings of them, spread out on either side. They work on a close cousin of Einstein's idea. Every second, photons from the Sun strike them, and each one hands its whole packet of energy to an electron, setting it free to move, and those moving electrons become the electricity that runs my lamps, and my air, and the little kettle that makes my tea.
+
+So in a way, this cup of tea was made by photons. One packet at a time.
+
+Now let's go inside an atom.
+
+For a long time, nobody knew what an atom looked like on the inside. Or whether it had an inside at all. Then, in eighteen ninety-seven, J. J. Thomson in Cambridge showed that atoms contain tiny particles with negative charge. Electrons. So an atom wasn't a solid little ball. It had parts.
+
+But how were the parts arranged?
+
+In nineteen oh nine, in a laboratory in Manchester, a physicist named Hans Geiger was training a young student, Ernest Marsden. And their professor, Ernest Rutherford, suggested a little experiment. Fire tiny particles, called alpha particles, at a sheet of gold foil, hammered so thin that it was only about four hundred atoms thick. And see whether any of them bounced back.
+
+The counting was done by eye. In complete darkness, they watched a small screen, and counted tiny flashes of light, one for each particle that hit it. It was so tiring on the eyes that one person could count reliably for only about a minute at a time. Geiger later invented the Geiger counter, and some people like to think that those long hours in the dark had something to do with it.
+
+Almost all the particles went straight through the gold, as if it were hardly there. But now and then, one in many thousands, a particle bounced right back.
+
+Rutherford later said it was quite the most incredible event that ever happened to me in my life. It was almost as incredible, he said, as if you fired a fifteen-inch shell at a piece of tissue paper, and it came back and hit you.
+
+The explanation was astonishing. Almost all of an atom is empty space. Nearly all of its weight is packed into a tiny, dense centre, which we call the nucleus. The electrons are somewhere far out around it. If an atom were the size of a great cathedral, the nucleus would be a small fly, buzzing in the middle.
+
+So people imagined the atom as a tiny solar system. The nucleus like the Sun, the electrons circling around it like planets.
+
+But there was a problem with that picture. A deep one.
+
+According to all the physics of the day, an electron moving in a circle should constantly give off light. And as it gave off light, it would lose energy, and spiral inwards, faster and faster, until it crashed into the nucleus. It should all happen in a tiny fraction of a second. Every atom in the universe should collapse, almost instantly.
+
+But atoms don't collapse. You don't. The chair beneath you doesn't. The world is stable, and quiet, and has been for billions of years.
+
+In the spring of nineteen twelve, a young Danish physicist came to work in Rutherford's laboratory. His name was Niels Bohr. He was twenty-six, and later that year he would marry Margrethe. And he began to wonder whether Planck's staircase might hold the answer.
+
+In nineteen thirteen, he published his idea. And it was bold, almost cheeky.
+
+Suppose, said Bohr, that an electron in an atom can only live on certain steps. Certain fixed orbits, each with its own fixed energy. On those steps, for reasons we don't yet understand, it simply doesn't give off light. It's stable. It rests.
+
+But it can jump. From a higher step down to a lower one. And when it does, it gives off one packet of light. One photon. And the energy of that photon is exactly the height of the drop.
+
+Bohr admitted, in his paper, that this was in obvious contrast to the ordinary ideas of physics. But it seemed necessary, he wrote, in order to account for experimental facts.
+
+And it explained something beautiful, something that had puzzled scientists for decades.
+
+If you heat a gas, like hydrogen, until it glows, and pass its light through a prism, you don't get a smooth rainbow. You get a few sharp, bright lines of colour, with darkness in between. A line of red. A line of blue-green. A couple of violet ones. Every element has its own set of lines, like a fingerprint. Or like a barcode.
+
+Why only those colours?
+
+Bohr's staircase explained it perfectly. Each colour comes from one particular jump, between two particular steps. Only certain jumps are possible, so only certain colours of light can come out. A staircase can only give you certain drops.
+
+There's a lovely detail here. Back in eighteen eighty-five, a schoolteacher in Basel, in Switzerland, named Johann Balmer, who taught mathematics at a school for girls, had found a simple formula that matched the colours of hydrogen's lines almost exactly. It was a riddle, a pattern of numbers, and nobody knew why it worked. For nearly thirty years, it just sat there, correct and unexplained.
+
+Bohr's staircase explained Balmer's riddle.
+
+And there was another small wonder in Bohr's paper. In laboratory tubes on Earth, scientists had only ever seen about twelve lines of hydrogen's pattern. But in the light of some distant stars, astronomers had counted thirty-three. Bohr explained why. The highest steps of his staircase are huge, and the atoms need a great deal of space around them to use them. In a glass tube on Earth, the atoms are too crowded. In the thin gas of the stars, there's room.
+
+You can see Bohr's staircase at work, almost any evening, in any city. A neon sign. When electricity passes through the gas in the tube, it lifts the electrons up to higher steps. When they fall back down, they give off light of one particular colour. True neon glows a warm red-orange. The other colours you see in signs come from other gases, each with its own staircase, and its own colours.
+
+So every glowing sign in a shop window, down there on the night side of the Earth, is a little staircase of atoms, electrons jumping down, step by step, glowing as they go.
+
+Bohr's picture wasn't the final answer. His neat circular orbits would later be replaced by something much stranger. But the steps were real. The staircase stayed.
+
+And Bohr himself would become one of the most important people in our story. Especially in his long, gentle, lifelong argument with Einstein. But that comes later.
+
+First, we need a French prince.
+
+Louis de Broglie was born in Dieppe, in France, in eighteen ninety-two, into one of the oldest noble families in the country. His father was a duke. When the Nobel committee later wrote his name, they called him Prince Louis-Victor Pierre Raymond de Broglie.
+
+And at first, he didn't study science at all. He studied history. He took his degree in history in nineteen ten.
+
+But he had an older brother, Maurice, who was an experimental physicist, working with X-rays in Paris. And Louis became curious. In nineteen eleven, when he was nineteen, he went with Maurice to the very first great physics conference in Brussels, the first Solvay conference, as his brother's secretary. The subject was radiation and the quanta. Planck's staircase. Einstein's packets.
+
+Reading the notes of those meetings, Louis made himself a promise. He wrote later that he had promised himself to devote all his efforts to understanding the true nature of the mysterious quanta.
+
+During the First World War, he served in the army's radio section. He was stationed at the Eiffel Tower, which was used for radio. I like to imagine him there, high above Paris, listening to the crackle of radio waves in the night.
+
+After the war, he went back to physics. And in nineteen twenty-four, for his doctoral thesis, he proposed an idea so strange that even his examiners weren't quite sure what to do with it.
+
+Here's how he thought.
+
+Einstein had shown that light, which everyone thought was a wave, also behaves like a stream of particles. Photons.
+
+So what if it works the other way round too? What if things that everyone thinks are particles, like electrons, also behave like waves?
+
+He even had a formula for it. The heavier and faster something is, the shorter its wave. A slow electron would have a wave about the size of an atom. A person walking across a room would have a wave so unimaginably small that nothing could ever detect it. That's why we never see people, or tea cups, or planets rippling like waves. The waves are there, in principle. They're just far too tiny.
+
+At the time, there was no evidence for this at all. None. The Nobel committee said it plainly, years later. At a time when no single known fact supported this theory, Louis de Broglie asserted that a stream of electrons, passing through a very small hole, must behave just like a ray of light.
+
+His examiners weren't sure. So one of them, Paul Langevin, sent a copy to Einstein, to ask what he thought.
+
+And Einstein was delighted. He said that de Broglie had lifted a corner of the great veil.
+
+Now, here's the part of the story I like best, because it's so human.
+
+At Bell Telephone Laboratories, in New York, two physicists, Clinton Davisson and Lester Germer, had been firing slow electrons at a piece of nickel metal, and watching how they bounced off. They weren't testing de Broglie's idea. They'd never heard of it. They were just studying metals, for the telephone company.
+
+Then, in nineteen twenty-five, there was an accident. Their equipment broke. And to repair the damage, they heated the nickel very strongly. When it cooled down, something had changed inside it. The metal, which had been made of many tiny crystals, had rearranged itself into a few large ones.
+
+And after that, the electrons started behaving strangely. Instead of bouncing off evenly in all directions, they came off in some directions much more than others. Bright directions and dark directions, as if they were being sorted.
+
+Davisson didn't know what it meant. Then, in the summer of nineteen twenty-six, he travelled to England for a scientific meeting. And there, talking with other physicists, he heard for the first time about de Broglie's waves. And he began to wonder.
+
+When he got home, he and Germer searched carefully. And early in nineteen twenty-seven, they found it. The electrons were bouncing off the rows of atoms in the crystal just as light bounces off the fine grooves of a CD, spreading into bright and dark directions, exactly as only waves can. And the size of the waves matched de Broglie's formula perfectly.
+
+Years later, in his Nobel lecture, Davisson was very honest about it. The true story, he said, contains less of perspicacity and more of chance.
+
+Less cleverness. More luck.
+
+At almost the same time, in Aberdeen, in Scotland, another physicist named George Paget Thomson sent electrons through very thin sheets of metal film, and saw rings of light and dark, the same kind of pattern. Electrons were waves.
+
+And here is a quiet, lovely coincidence. George Thomson was the son of J. J. Thomson. The same J. J. Thomson who, thirty years earlier, had discovered the electron and shown that it was a particle.
+
+The father showed that the electron is a particle. The son showed that it is also a wave. And both of them, in time, won the Nobel Prize for it.
+
+I think about that sometimes. A family dinner table, in England. A father and a son, both right, and both, in a way, contradicting each other.
+
+So now we have a strange situation. Light is a wave, and also a stream of particles. Electrons are particles, and also waves. And perhaps everything is, in some sense, both.
+
+But what does it actually mean, for one thing to be both a wave and a particle? How can a single electron be spread out like a ripple, and also arrive at one single point, like a tiny grain of sand?
+
+There's one experiment that shows this better than anything else in physics. Richard Feynman said it contains the only mystery.
+
+Let's go and look at it, slowly.
+
+In nineteen sixty-three, Richard Feynman began his lectures on quantum physics with this experiment. And he introduced it like this.
+
+We choose to examine a phenomenon which is impossible, absolutely impossible, to explain in any classical way, and which has in it the heart of quantum mechanics. In reality, it contains the only mystery.
+
+It's called the double-slit experiment. Let's build it, in our imagination. Gently.
+
+Picture a wall, with two narrow slits cut in it, side by side, close together. Behind the wall, a screen, like the screen at the back of a cinema. And in front of the wall, something that throws things at it.
+
+First, let's throw tennis balls. Some hit the wall and bounce away. Some pass through the left slit, and some through the right. And on the screen behind, they make two heaps. Two bands of marks, one behind each slit. That's what you'd expect. Things go through one slit or the other, and land roughly behind it.
+
+Now let's use water instead. Imagine a calm pool, and a wave rolling towards the wall. When the wave reaches the two slits, each slit becomes a new little source of ripples, spreading out in circles on the other side. And those two sets of ripples overlap.
+
+Where two crests meet, the water rises higher. Where a crest meets a trough, they cancel out, and the water is flat and still. So on the far side, you get a pattern of stripes. Bands of big waves, and bands of calm water, side by side, many of them, across the whole width. This is called an interference pattern. It's the signature of a wave.
+
+Two heaps for particles. Many stripes for waves. Simple.
+
+Now let's do it with electrons.
+
+We fire electrons at the two slits, and on the screen behind, a little detector clicks, and records a dot, wherever an electron lands.
+
+And here's the first thing. Every electron arrives as a single dot. One tiny point, in one place. Never smeared out. Never half an electron. Feynman put it simply. Electrons always arrive in identical lumps. Like particles.
+
+But as the dots build up, one after another, thousands of them, the pattern they make isn't two heaps. It's stripes. Bands where many electrons land, and bands where almost none land at all. An interference pattern. Like waves.
+
+Now you might say, well, perhaps the electrons are bumping into each other on the way, and somehow organising themselves into stripes. So let's slow everything down. Let's send the electrons one at a time. So slowly that there's only ever one electron in the machine at once.
+
+This was once only a thought experiment. When Feynman lectured, nobody had done it this way. It was too hard to build. But since then, it has been done, several times. In Italy, in the nineteen seventies, a team in Bologna recorded electrons building up a pattern one by one, and even made a short film of it. And in nineteen eighty-nine, at the Hitachi company in Japan, a team led by Akira Tonomura did it more cleanly than ever before.
+
+In their experiment, the electrons came in a thin trickle. On average, each one was about a hundred and fifty kilometres behind the one before. And the whole machine was only about a metre and a half long. So each electron truly travelled alone. It had nothing to bump into, and no one to talk to.
+
+They took pictures of the screen as the dots arrived. After ten electrons, just a few scattered dots. They look random. After a hundred, still random. After three thousand, you begin to see something. After twenty thousand, faint stripes. And after seventy thousand, there they are. Clear bands of light and dark. The interference pattern. Built up one lonely dot at a time.
+
+Each electron, travelling alone, somehow took part in a pattern that only makes sense if something went through both slits at once, and interfered with itself.
+
+It's as if each single raindrop, falling through the night, somehow knew about the shape of the whole storm.
+
+Now, the obvious thing to do is to peek. Let's put a tiny light near the slits, to see which slit each electron goes through.
+
+And when we do that, something remarkable happens. Every time we look, we see each electron go through one slit, or the other. Never both. And the stripes disappear. The pattern on the screen turns back into two plain heaps, like tennis balls.
+
+Watch the electrons, and they behave like particles. Stop watching, and the stripes come back.
+
+Feynman said it like this. When we watch them, the electrons come through just as we would expect them to come through. And whenever we're able to tell which way they went, the interference is lost.
+
+It isn't really about a person's eyes, or a person's mind. It's about information. Anything that could record which slit the electron used, even a single stray bit of light bouncing off it, is enough to wash the stripes away.
+
+What does it all mean? Honestly, nobody can tell you in a way that feels comfortable. The rules work perfectly. They predict exactly where the dots will land, and how the stripes will look. But what the electron is doing, in between, when nobody's looking, is still argued about today.
+
+Feynman had some advice for that feeling. In another lecture, he told his audience, do not keep saying to yourself, if you can possibly avoid it, but how can it be like that? Because you will get down the drain, into a blind alley from which nobody has escaped. Nobody knows how it can be like that.
+
+In two thousand and two, the magazine Physics World asked its readers to vote for the most beautiful experiment in the history of physics. More than two hundred people replied. And the winner was this one. The double slit, with single electrons.
+
+And it doesn't stop with electrons. In nineteen ninety-nine, in Vienna, scientists did it with molecules shaped like tiny footballs, each made of sixty carbon atoms. Big, heavy things, by the standards of this world. And they made stripes too.
+
+So let's rest here for a moment. Somewhere in a laboratory, a single electron is travelling through the dark. Alone. And when it arrives, it'll be one small dot. But it will land exactly where the pattern says it should, as if it had quietly passed through every open door at once.
+
+In early June of nineteen twenty-five, a young German physicist was miserable with hay fever. His name was Werner Heisenberg. He was twenty-three. His face was swollen, his nose was blocked, and he could hardly work.
+
+So he asked his professor, Max Born, in the university town of Göttingen, for two weeks off. And he went to the one place he could think of where there would be almost no pollen at all. A tiny island in the North Sea, called Helgoland. A red rock, about fifty kilometres from the coast, barely a square kilometre in size. Sea birds. Wind. Salt air.
+
+Heisenberg had been thinking about Bohr's atom, with its little electrons circling on their steps. And he'd come to a strange, bold conclusion. Nobody can see those orbits. Nobody ever has. All we can actually measure is the light that comes out of atoms. The colours. The brightness. So why build a theory on something we can never see?
+
+He wrote to a friend, the physicist Wolfgang Pauli, that all of his meagre efforts were going towards killing off the idea of the orbit, the path that one cannot observe, and replacing it with something better.
+
+On the island, by his own account, he took long walks, and swam, and climbed the rocks, and worked. And one night, he said, it all came together.
+
+Many years later, he wrote about it. It was almost three o'clock in the morning, he said, before the final result of my computations lay before me. I was far too excited to sleep. And so, as a new day dawned, I made for the southern tip of the island, where I had been longing to climb a rock jutting out into the sea. I now did so without too much trouble, and waited for the sun to rise.
+
+I love that picture. A young man, alone on a rock in the North Sea, at dawn, having just found something nobody in the world had ever known.
+
+Now, in fairness, historians today are a little careful with this story. Heisenberg wrote it down more than forty years later. He was on the island for about ten days, and he probably did much of the work before and after. Memories grow smoother with time, like pebbles in the sea. But the sunrise, I think, we can let him keep.
+
+What he'd found was a new way to do physics. Instead of electrons following paths, he wrote down tables of numbers, one for every possible jump between steps. And he found rules for combining those tables. Strange rules. When he multiplied two of his tables together, the answer depended on the order. A times B was not the same as B times A.
+
+That seemed bizarre. In ordinary arithmetic, three times five is the same as five times three. Always.
+
+Heisenberg gave his paper to Max Born, and went off on a trip. And Born sat puzzling over the strange arithmetic for about a week. Then he suddenly remembered something he'd learned as a student, long ago, from a teacher in Breslau. These tables had a name. Mathematicians had known about them for decades. They were called matrices. And with matrices, the order really does matter.
+
+Born and a young colleague, Pascual Jordan, and Heisenberg together, turned this into a complete theory, called matrix mechanics. It was the first full version of quantum mechanics.
+
+It was also very hard to understand. The great physicist Steven Weinberg once admitted that he had tried several times to read Heisenberg's paper, and had never understood his reasons for the steps he took. Heisenberg's paper, he said, was pure magic.
+
+Less than two years later, in the winter of nineteen twenty-seven, Heisenberg was working in Copenhagen, at Bohr's institute. Bohr had gone away on a skiing holiday. And Heisenberg, alone, found the idea he's most famous for. The uncertainty principle.
+
+Here it is, as simply as I can put it.
+
+There are certain pairs of things about a particle that can't both be sharp at the same time. The most famous pair is where the particle is, and how it's moving. The more exactly one is pinned down, the more spread out and blurry the other must be.
+
+Heisenberg first explained it with a thought experiment, a sort of imaginary microscope. To see an electron clearly, you have to shine light on it. But light comes in packets. And each packet that hits the electron gives it a little kick, and changes how it's moving. So the more sharply you try to see where it is, the more you disturb where it's going.
+
+It's a nice picture. But Bohr, when he came back from skiing, told Heisenberg it wasn't quite right. And they argued. They argued so hard that, it's said, at one point Heisenberg burst into tears. He was twenty-five.
+
+Heisenberg added a note to his paper, admitting part of the mistake. And over time, physicists came to see the principle more deeply. It isn't really about clumsy measurements, or poking things too hard. The blurriness is built into the particle itself. An electron simply doesn't have an exact position and an exact motion at the same time. Not because we can't see them. Because they aren't there to be seen.
+
+Here's a gentle way to picture it. Think of a single musical note. If you want to know its pitch very precisely, you need to hear it for a while. A long, steady hum. But then it isn't happening at any one exact moment. It's spread out in time. And if you make the note very short, a quick little click, it happens at one sharp moment, but then its pitch becomes fuzzy and hard to name. Sharp in time, or sharp in pitch. Never both at once.
+
+Particles are like that, in their own way. Because, as de Broglie saw, they're waves too.
+
+Heisenberg himself never liked the word principle. He called them inaccuracy relations, or indeterminacy relations. The name uncertainty principle was given by others, in English, a couple of years later. And it stuck.
+
+He received the Nobel Prize for creating quantum mechanics. He later wrote to Born and Jordan that he was sorry the three of them had not shared it.
+
+So now we have one version of quantum mechanics. Tables of numbers, with no pictures at all. Very powerful. Very strange. And very cold.
+
+But at almost exactly the same time, far away in the Swiss mountains, someone else was finding a completely different way to say the same thing. And his version was full of waves.
+
+Erwin Schrödinger was an Austrian physicist, working in Zürich, in Switzerland. And in late nineteen twenty-five, after he'd given a talk about de Broglie's electron waves, a colleague, Peter Debye, made a remark that stayed with him. If electrons are waves, Debye said, then you ought to have a wave equation. A proper mathematical rule for how the waves behave.
+
+At Christmas that year, Schrödinger went on holiday to Arosa, a mountain resort in the Swiss Alps. Snow. Pine trees. Clean, cold air. And he later told a colleague that he'd hardly gone skiing at all, because he was busy with a few calculations.
+
+A letter he wrote from Arosa, dated the twenty-seventh of December, shows what those calculations were. He was treating the hydrogen atom as a wave.
+
+The story goes, as a colleague remembered it many years later, that when Schrödinger came back to Zürich, he began his next talk with the words, my colleague Debye suggested that one should have a wave equation. Well, I have found one.
+
+In nineteen twenty-six, he published it, in a series of four papers. And it's one of the most famous equations in all of science. The Schrödinger equation.
+
+Here's the lovely thing about it. Physicists could picture it. After Heisenberg's cold tables of numbers, this felt like coming in from the snow to a warm room. Waves were familiar. Everyone had studied them. Sound waves. Water waves. Vibrating strings.
+
+And here's the image that made it all make sense. Think of a guitar string, fixed at both ends. When you pluck it, it can't vibrate any way it likes. It can only vibrate in certain patterns. The whole string swinging together. Or two halves, swinging opposite ways, with a still point in the middle. Or three sections. Or four. Each pattern makes its own note. And there's nothing in between. No pattern with one and a half sections.
+
+That's the staircase again. Planck's steps. Bohr's steps. Now they had a reason. An electron wave, held inside an atom, is like a string held at both ends. It can only settle into certain patterns. And each pattern has its own energy. That's why the steps exist.
+
+Schrödinger's equation calculated the energy levels of the hydrogen atom exactly. Matching the colours of Balmer's lines, from that school in Basel, perfectly.
+
+Now, Schrödinger didn't much like Heisenberg's version of the theory. He said the tables of numbers left him discouraged, not to say repelled. And Heisenberg, in a private letter to Pauli, was rather less polite about Schrödinger's waves. The more I think about it, he wrote, the more repulsive I find it.
+
+So you might think they'd found two different theories, and one of them must be wrong.
+
+But in nineteen twenty-six, Schrödinger showed something surprising. Both versions give exactly the same answers. Every time. They're the same theory, written in two different languages. Like the same poem, in German and in French. One in tables. One in waves.
+
+But that left a question hanging in the air, like mist over a lake. What exactly is waving?
+
+A water wave is water moving. A sound wave is air moving. But an electron wave? What is it made of? Schrödinger hoped at first that the electron itself was somehow smeared out, spread thin like butter across space. But that didn't work. Remember the double slit. Every electron arrives as one single dot. Never smeared.
+
+The answer came from Max Born. The same Born who'd recognised Heisenberg's matrices.
+
+The wave, Born said, is not the electron. The wave tells you where the electron is likely to be found.
+
+Where the wave is big, you're likely to find the electron. Where the wave is small, you're unlikely to. Where the wave is zero, you'll never find it there at all. The wave is a wave of chance. A map of possibilities.
+
+Born wrote it in a small note, added to his paper at the last minute, in the summer of nineteen twenty-six. It's one of the most important footnotes ever written.
+
+Go back to the double slit, with this in mind. The electron's wave passes through both slits. On the other side, the two parts of the wave overlap, and make stripes. Big in some places, small in others. That's a map of where the electron is likely to land. Then, when it arrives at the screen, the electron appears as one dot, in one place, chosen by chance, according to the map. Each dot is a surprise. But thousands of dots together draw the map exactly.
+
+It's a little like rain falling on a roof at night. You can't say where the next drop will land. But after a long rain, you can see exactly where the gutters overflow, and where the ground stays dry.
+
+This was a profound change. Before, physics had always been a matter of certainty. If you knew exactly how things were now, you could, in principle, predict exactly what would happen next. Like clockwork.
+
+Now, at the very bottom of nature, physics could only tell you the chances. Not what will happen. Only what might.
+
+Born took the idea partly from Einstein, who'd once had a similar thought about light. But, as we're about to see, Einstein did not like where this was going. Not at all.
+
+Born received his Nobel Prize for this idea in nineteen fifty-four, almost thirty years later. Schrödinger received his in nineteen thirty-three, sharing it with a very quiet English physicist named Paul Dirac.
+
+Dirac was famous for saying very little. It's said that his colleagues in Cambridge joked about a unit of speech in his honour, a Dirac, which was about one word per hour. But in nineteen twenty-eight, he wrote an equation that combined quantum waves with Einstein's relativity. And it predicted something nobody had ever seen. A twin of the electron, exactly the same, but with the opposite charge.
+
+A few years later, it was found. The positron. The first hint of antimatter. Discovered, in a way, by a man who hardly spoke, simply by listening very carefully to his mathematics.
+
+Einstein had helped to start quantum physics. His packets of light were one of its first great ideas. But as the new theory grew, he became more and more uneasy about it.
+
+It was the chance that troubled him. The idea that, at the very bottom of nature, things happen for no reason at all. That an electron lands here, rather than there, simply by luck.
+
+In December of nineteen twenty-six, he wrote a letter to his friend Max Born. And it contains a sentence that became famous, though it's usually quoted a little differently. The theory yields a lot, he wrote, but it hardly brings us any closer to the secret of the Old One. In any case, I am convinced that he does not throw dice.
+
+God does not play dice. That's the way people usually remember it.
+
+The following October, in nineteen twenty-seven, the greatest physicists in the world gathered in Brussels, for the fifth Solvay conference. The subject was electrons and photons. They stayed at a hotel called the Hôtel Britannique. And at the end of it, they sat for a photograph, which is perhaps the most famous photograph in the history of science.
+
+Twenty-nine people, in three rows. Dark suits, stiff collars. Planck is there, in the front row. Einstein sits in the middle, in the front. Bohr is there. Heisenberg, Schrödinger, Born, Dirac, de Broglie, Pauli. And Marie Curie, the only woman in the picture, and the only person there with Nobel Prizes in two different sciences. Seventeen of the twenty-nine were, or would become, Nobel Prize winners.
+
+At the conference, Born and Heisenberg made a bold statement. They said that quantum mechanics was now a complete theory. Its basic ideas, they said, were no longer open to change.
+
+Einstein disagreed. And here's the part of the story I find most charming. The famous argument between Einstein and Bohr didn't mostly happen in the lecture hall. In the official record of the meetings, both of them are actually rather quiet. It happened over breakfast.
+
+Heisenberg remembered it later. We generally met already at breakfast in the hotel, he said, and Einstein began to describe an imaginary experiment. Some clever arrangement of boxes and shutters and screens, which he thought would show that quantum mechanics was incomplete. That you could, after all, know more than the uncertainty principle allowed.
+
+Then they'd walk together to the conference, talking. And Bohr would think about it all day. And by dinner, he'd have found the flaw in Einstein's experiment. And he'd explain it over dinner. And the next morning at breakfast, Einstein would arrive with a new one.
+
+Day after day. Breakfast, puzzle. Dinner, answer.
+
+At one point, one of their friends, Paul Ehrenfest, went to the blackboard and wrote a verse from the Bible about the Tower of Babel. The story where people suddenly start speaking different languages, and can no longer understand each other.
+
+Bohr later remembered Einstein teasing them all, asking whether they could really believe that God played dice. And Bohr, in his own gentle words, replied by pointing out that ancient thinkers had already urged great caution in describing what God would or wouldn't do, in everyday language.
+
+Three years later, at the next Solvay conference, in nineteen thirty, Einstein came with his cleverest puzzle of all.
+
+Imagine a box, he said, full of light. On one side of the box, a tiny shutter, controlled by a clock inside. At an exact moment, the shutter opens, and lets out a single photon. Then closes again. So you know exactly when the photon left.
+
+Now weigh the box, before and after. The box is a tiny bit lighter afterwards. And from Einstein's own famous equation, E equals m c squared, the lost weight tells you exactly how much energy the photon carried away.
+
+So you know both the exact time, and the exact energy. And the uncertainty principle says you can't have both.
+
+It's said that Bohr was shaken, and spent the evening going from one person to another, sure it couldn't be right, but unable to say why.
+
+But by the next day, he had the answer. And it's one of the most beautiful answers in the history of physics. Because Bohr used Einstein's own theory against him. To weigh the box, it has to hang on a spring, in gravity. When the photon leaves, the box moves slightly. And as we learned in the relativity night, clocks run at different speeds at different heights in gravity. So the moment the box moves, its clock changes its rate, just a little. Just enough to blur the time. Exactly enough to keep the uncertainty principle safe.
+
+Einstein's relativity had rescued the quantum rule that Einstein was trying to break.
+
+Bohr later wrote that, at the end of the discussion, to which Einstein himself contributed effectively, it became clear that the argument could not be upheld.
+
+But I want you to notice something about all this. It was never bitter. Bohr said a most humorous spirit animated the discussions. When the two men had first met, years before, Einstein reportedly wrote to Bohr that not often in life has a human being caused me such joy by his mere presence as you did. They disagreed about the deepest questions in the universe, for the rest of their lives. And they stayed friends.
+
+Einstein never fully accepted the new theory. He believed there must be a real world out there, independent of anyone looking at it. He thought quantum mechanics was right, as far as it went, but incomplete. That something was missing.
+
+Bohr's view came to be called the Copenhagen interpretation, after the city where he worked. Very roughly, it says we shouldn't ask what an electron is doing when nobody's measuring it. We should just use the rules, which work perfectly, and describe what we actually observe.
+
+Not everyone was satisfied with that, then or now. Other ideas have come along over the years. One says that every possible outcome really happens, each one in its own branching world. Another, which goes back to de Broglie himself, says particles always have real positions, and are guided along by their waves, like little boats on a current.
+
+Physicists still disagree about which picture is right, if any. And for ordinary experiments, the main pictures all predict the same results. So nobody has yet found a way to settle it.
+
+The argument that began over breakfast in Brussels, a hundred years ago, is still going on. Quietly. Politely. At breakfast tables all over the world.
+
+In the summer of nineteen thirty-five, Einstein and Schrödinger were writing letters to each other. Both of them were uneasy about where quantum physics had gone. And they were trying to find the clearest way to show what bothered them.
+
+Einstein suggested an example. Imagine a pile of gunpowder, he wrote, which might explode at some point within the next year, or might not, depending on some tiny quantum event. According to the new theory, until someone checks, its description would have to mix the exploded and the unexploded together. Which, he thought, was plainly absurd.
+
+Schrödinger took the idea, and made it into something much more memorable. He put it in a long article, published later that year. And in the middle of it, there's a paragraph that has become the most famous thought experiment in all of physics.
+
+I'll read you a little of it. Don't worry. It's only imaginary. No animals were ever involved.
+
+One can even set up quite ridiculous cases, Schrödinger wrote. A cat is penned up in a steel chamber, along with the following diabolical device, which must be secured against direct interference by the cat.
+
+I've always loved that little detail. Secured against direct interference by the cat. He knew cats.
+
+Inside the chamber, there's a tiny amount of radioactive material. So little that, in the course of an hour, perhaps one of its atoms breaks apart, or perhaps none does. Equal chances. If an atom does break apart, a detector notices it, and through a little mechanism, releases a hammer, which breaks a small bottle of poison.
+
+After an hour, has the atom broken apart or not? Quantum physics says that, until something checks, the atom is in a kind of combination of both. A superposition. Broken and not broken, both at once, with equal weight.
+
+And then, Schrödinger pointed out, if you follow the theory strictly, the cat must be in a combination too. The whole system, he wrote, would have in it the living and the dead cat, and then he added, in brackets, pardon the expression, mixed or smeared out in equal parts.
+
+Pardon the expression. He was a very polite man.
+
+Now, here's the thing people often forget. Schrödinger didn't mean this as a description of how the world works. He meant it as a joke. A criticism. He was saying, look, it's fine to talk about blurry, smeared-out states for atoms. But if your theory says the same about a cat, something's gone badly wrong. Blurring, he wrote, seems simply wrong for things we can see and touch.
+
+He was trying to make the idea look ridiculous. Instead, he made it famous. People have been drawing that cat, in its box, ever since.
+
+So why don't we ever see a cat that's both alive and dead? Or a teacup that's in two places at once? Or anything big, in a superposition?
+
+The best answer we have today has a rather technical name. Decoherence. But the idea is gentle, and I think you'll like it.
+
+A single electron, travelling through an empty vacuum, is very lonely. Nothing touches it. Nothing notices it. And so it can stay in its strange combination of possibilities, passing through both slits, keeping its options open.
+
+But a cat is never lonely like that. A cat is constantly being touched by the world. It breathes air. It's warm, so it gives off heat. Light bounces off its fur. Dust settles on it. Countless tiny particles hit it every moment, and each one carries away a little bit of information about where the cat is, and what it's doing.
+
+In a sense, the whole world is always watching the cat. Not with eyes. Just by touching it. And, like the electron in the double slit when we peeked, all that quiet watching washes away the strange quantum combinations, almost instantly.
+
+How quickly? Scientists have worked it out. For a single speck of dust, floating in ordinary air, the quantum blurriness, even on scales far smaller than an atom, is washed away in about a billionth of a second. For a cat, far, far faster. So quickly that there's no hope of ever catching it in two states at once.
+
+That's why the everyday world looks so solid and certain. Not because the quantum rules stop working for big things. They don't. But because big things are never alone. The world is always gently touching them, and in touching, deciding.
+
+There's a lovely thought in that, I think. The strange quantum world is still there, underneath everything. But it's the constant, quiet contact between things that makes the world feel steady and real.
+
+In twenty twelve, two physicists, Serge Haroche and David Wineland, won the Nobel Prize for learning how to hold single particles, and single atoms, perfectly still and isolated, without destroying their quantum states. The Nobel committee wrote that single particles lose their mysterious quantum properties as soon as they interact with the outside world. What those two scientists did was build little boxes of silence, where the quantum world could survive long enough to be studied.
+
+Now, I should be honest with you. Decoherence explains why we never see superpositions of big things. But the philosophers who study this point out, quite rightly, that it doesn't fully explain why we see one particular result, rather than another. Why the dot lands here, and not there. That part of the mystery is still open.
+
+Up here on the station, I sometimes think about it at night. The station is its own little closed box, floating in the dark. And I suppose, to someone down on Earth who isn't watching, I'm in all sorts of states at once. Asleep. Awake. Reading. Drinking tea.
+
+But of course, I'm not really. The station's lamps are shining on me. The air is moving around me. My tea is steaming. The world is always touching me, even up here.
+
+And the answer, tonight, is drinking tea. Definitely drinking tea.
+
+In the spring of nineteen thirty-five, the same year as the cat, Einstein published one more puzzle. He wrote it with two young colleagues at Princeton, Boris Podolsky and Nathan Rosen. So it's known by their three initials. E, P, R.
+
+Its title was a question. Can the quantum description of physical reality be considered complete? And their answer, at the end, was no.
+
+Here's the idea, in the gentlest way I can put it.
+
+Imagine a little machine that throws two balls at once, in opposite directions. One is always black, and the other is always white. But you don't know which is which. You stand at one end, and a friend stands far away at the other. You catch your ball. It's black. And straight away, without asking, you know your friend is holding a white one.
+
+Nothing strange about that. The balls were black and white all along. You just didn't know which was which, until you looked.
+
+Now, quantum physics says that for tiny particles, it's different. It says that, before anyone looks, neither ball has a colour yet. It's as if both are grey. Right up until the moment someone looks at one of them. And then, at that instant, one turns black, and the other, however far away, turns white.
+
+Einstein couldn't accept that. How could looking at one particle here decide something about another particle, far away, instantly, without anything travelling between them? Surely, he thought, each particle must have carried its answer with it, all along. Like a little sealed envelope with instructions inside. And if the theory couldn't see those envelopes, the theory was incomplete.
+
+Those secret instructions came to be called hidden variables.
+
+Einstein wasn't even happy with the way the paper was written. A few weeks later, he wrote to Schrödinger that the essential thing had been, so to speak, smothered by formalism. Too much mathematics. Not enough plain thought.
+
+But Schrödinger read it, and saw something important. When two particles meet, and then separate, he wrote, they can no longer be described separately, the way they were before. And he gave this connection a name. He said the two had become entangled.
+
+He called entanglement not one, but rather the characteristic trait of quantum mechanics.
+
+Einstein, years later, in a letter to Born, gave it a different name. Spooky action at a distance.
+
+For almost thirty years, it seemed like an argument nobody could ever settle. A question for philosophers. Grey balls, or sealed envelopes? How could you ever tell the difference, if every time you look, you see the same thing?
+
+The answer came from Belfast. From a man named John Bell.
+
+Bell was born in nineteen twenty-eight, into a family without much money. His mother was a dressmaker. His father sold horses. A grammar school was too expensive, so he went to a technical school. And afterwards, he worked for a year as a technician, in the physics department at Queen's University, where the staff lent him books and let him sit in on lectures. His mother, it's said, sewed his university gown from old blackout curtains.
+
+He grew up to work at CERN, in Geneva, designing particle accelerators. But quantum puzzles were his side passion. And in nineteen sixty-four, during a year away in America, he wrote a short paper.
+
+He'd found a way to tell the difference.
+
+If the particles really carry hidden instructions, Bell showed, then when you repeat the experiment many, many times, and compare the results on both sides, the way they match up can only reach a certain limit. No higher. But quantum physics predicted that entangled particles would match up more strongly than that. Past the limit.
+
+So it wasn't philosophy anymore. It was a test. Something you could actually do.
+
+Bell sent his paper to a tiny new journal that lasted only four years. Hardly anyone noticed it. For the first six years, it was cited fewer than a dozen times.
+
+But in nineteen sixty-seven, a young American physicist named John Clauser came across it, drawn by the odd name of the journal. And he decided to try.
+
+People told him he was crazy. That he'd ruin his career. He had almost no money. So he and a student, Stuart Freedman, built their equipment at Berkeley, as Clauser put it, by cobbling together old junk and scrap from the physics department. It took two years to build, and about two hundred hours to collect the data.
+
+In nineteen seventy-two, they had their answer. The particles broke Bell's limit. Just as quantum physics said.
+
+Then, in France, near Paris, Alain Aspect made the test even stronger. In nineteen eighty-two, he switched the measuring filters while the particles were already in flight. In a few billionths of a second. Too fast for any message to pass between the two sides, even at the speed of light.
+
+And still, the particles broke the limit.
+
+Later, Anton Zeilinger in Austria pushed it further still. Particles hundreds of metres apart. Settings chosen at random. And once, even using the light of distant galaxies to choose the settings.
+
+Every time, the answer was the same. No sealed envelopes. The grey balls are real.
+
+In twenty twenty-two, Aspect, Clauser and Zeilinger shared the Nobel Prize for it.
+
+John Bell didn't live to see it. He died suddenly, in nineteen ninety, at sixty-two. In Belfast, where roads can't be named after people, there's now a curving road by the water called Bell's Theorem Crescent.
+
+And one last gentle thing, before we move on. Entanglement can't be used to send a message faster than light. Each person, on their own, just sees a random list of results. The pattern only appears later, when the two lists are brought together and compared. And that needs an ordinary signal, travelling no faster than light.
+
+So the universe keeps its speed limit. It just has a very strange way of keeping its secrets.
+
+Here's a question I think about a lot, up here, especially at night, with my feet hooked under a rail so I don't drift away.
+
+Atoms are almost entirely empty. We saw that with Rutherford. A tiny nucleus, and a huge space around it, with just a few electrons in it. So why doesn't everything just pass through everything else? Why don't you sink through your mattress, and through the floor, and keep on going?
+
+The answer is quantum. And it begins with a small, strange property of the electron, called spin.
+
+In February of nineteen twenty-two, in Frankfurt, two physicists, Otto Stern and Walther Gerlach, sent a thin beam of silver atoms through a magnet. By the old rules, the beam should have spread out into a smudge. Instead, it split cleanly in two. Two neat marks, and nothing in between.
+
+There's a lovely story about it. At first, the silver on the plate was so faint they couldn't see it at all. But as they peered at it closely, it slowly appeared. Stern could only afford cheap cigars, full of sulfur. And his breath turned the thin silver black, like developing a photograph.
+
+Gerlach sent a postcard to Bohr, with a picture of the split beam. And he sent Stern a telegram, which said simply, Bohr is right after all.
+
+They didn't know it yet, but they'd seen spin.
+
+In nineteen twenty-five, two young students in Leiden, George Uhlenbeck and Samuel Goudsmit, suggested that every electron behaves a little like a tiny spinning magnet. Uhlenbeck got nervous, and asked their professor, Paul Ehrenfest, not to send the paper in. But Ehrenfest had already posted it. You are both young enough, he told them, to be able to afford a stupidity.
+
+It wasn't a stupidity. It was right.
+
+Now, spin is only a name. The electron isn't really a little ball, turning round and round. It's a purely quantum property, with no everyday twin. But it has one very simple feature. When you measure it, you only ever get one of two answers. Up, or down.
+
+And that brings us to Wolfgang Pauli.
+
+Pauli was brilliant, and famous for being sharp with other people's ideas. There was even a legend, told by physicists with great fondness, that laboratory equipment would break whenever he came near. They called it the Pauli effect. It's only a legend. But they loved it.
+
+In nineteen twenty-five, Pauli found a rule. And it's one of the quietest, most important rules in the whole universe. It's called the exclusion principle.
+
+It says that no two electrons in an atom can be in exactly the same state. Each one needs its own place. Its own step on the staircase, and its own spin. Two electrons can share a step, if one spins up and the other spins down. But then that step is full. The next electron has to go higher.
+
+It's a little like a small hotel, where each room holds two guests at most. So as atoms get bigger, and have more electrons, they have to fill the rooms, floor by floor. And that gives every kind of atom its own shape, its own outer floor, its own character.
+
+That's why there is chemistry. Why carbon is not like gold. Why oxygen is not like neon. Why water is wet, and salt is salty. All of it rests on this one quiet rule.
+
+And it's a big part of why you don't fall through the floor.
+
+In nineteen sixty-seven, two physicists, Freeman Dyson and Andrew Lenard, proved something remarkable. Without Pauli's rule, ordinary matter would not be stable. It would collapse into something far, far denser, giving off enormous energy. The rule is what keeps atoms big, and keeps them apart.
+
+Physicists still say that exactly how much of the push you feel from a floor comes from this rule, and how much from ordinary electric forces, is hard to explain simply. But without the exclusion principle, there would be no floors. And no you to stand on them.
+
+So tonight, as you lie in bed, the thing holding you up, gently, all night long, is a quantum rule, found by a sharp-tongued man, a hundred years ago.
+
+And now, the opposite. Sometimes, in the quantum world, things do go through walls.
+
+It's called tunnelling. A particle meets a barrier it doesn't have enough energy to climb over. By the old rules, it simply bounces back. But its wave doesn't stop dead at the wall. A tiny part of it leaks through. And so, now and then, the particle turns up on the far side.
+
+In nineteen twenty-eight, a young physicist named George Gamow used this to explain a mystery about radioactive atoms. And, in the very same week, two others, Ronald Gurney and Edward Condon, found the same idea on their own. They wrote a line I've always liked. Much has been written of the explosive violence with which the particle is hurled from the nucleus. But one would rather say that it slips away, almost unnoticed.
+
+Slips away, almost unnoticed. Like someone leaving a party quietly.
+
+Tunnelling is working right now, above my window. The Sun. At its centre, it's about fifteen million degrees. And yet, even that isn't quite hot enough for its tiny particles to push past each other and join together. They repel each other too strongly. But thanks to tunnelling, now and then, they slip through anyway. And that is part of why the Sun shines.
+
+Just last year, in twenty twenty-five, the Nobel Prize went to three physicists, John Clarke, Michel Devoret and John Martinis, for showing tunnelling in something much bigger. A whole electric circuit, big enough to hold in your hand, behaving together like one single quantum particle.
+
+That kind of circuit, as we'll see, is now inside some of the world's first quantum computers.
+
+It's easy to think of quantum physics as something far away. Something for blackboards, and laboratories, and people arguing over breakfast in Brussels.
+
+But it isn't far away at all. It's in the room with you, right now. Probably within reach of your hand.
+
+Let's start with the little light on your phone charger, or the lamp beside your bed. If it's a modern one, it's an LED. A light-emitting diode.
+
+In an old light bulb, electricity heats a thin wire until it glows. Just like Planck's glowing furnaces, all those years ago. Most of the energy is lost as heat. But in an LED, the electrons fall down a small step, inside a special crystal, and give off packets of light. Photons. Einstein's packets. Almost directly, with very little wasted.
+
+Red and green LEDs came first. But for a long time, nobody could make a good blue one. And without blue, you can't make white light. In the late nineteen eighties and early nineties, three Japanese scientists, Isamu Akasaki, Hiroshi Amano and Shuji Nakamura, finally did it. They won the Nobel Prize in twenty fourteen. The committee wrote that incandescent bulbs had lit the twentieth century, and the twenty-first would be lit by LEDs.
+
+An old bulb lasts about a thousand hours. An LED can last up to a hundred thousand.
+
+Now, the phone itself. Inside it, there are billions of tiny switches, called transistors. Each one turns a flow of electrons on or off. And every photo, every message, every song, is made of those ons and offs.
+
+The very first transistor was built at Bell Labs, in December of nineteen forty-seven, by John Bardeen and Walter Brattain. Two gold contacts, held by a little plastic wedge, pressed onto a slab of germanium. It made a signal a hundred times stronger. They showed it to their bosses two days before Christmas. And their colleague, William Shockley, called it a magnificent Christmas present.
+
+Transistors only work because we understand how electrons behave inside crystals. Their steps. Their bands. Pauli's rule, filling the rooms. Without quantum mechanics, there would be no computer chips. No phones. And none of the computers that sent me up here.
+
+Then there are lasers. In nineteen seventeen, Einstein worked out that a packet of light, passing an excited atom, can nudge it into releasing a second packet. An exact twin. Same colour, same direction, marching in step. It took more than forty years for anyone to build a machine that used it.
+
+The first laser shone in May of nineteen sixty, in Malibu, in California. Its heart was a small pink ruby, about the size of a fingertip, with silvered ends, inside a coiled flash lamp. There's a famous press photo of it. But the ruby in that photo is a bigger one. The photographer thought the real laser was too small to look impressive.
+
+Today, lasers read the barcodes at the supermarket. They carry the internet, as flashes of light, through glass fibres under the oceans. And they help surgeons, and they measure the distance to the Moon.
+
+If you've ever had an MRI scan, you've met quantum physics in a very personal way. The nuclei of hydrogen atoms, in the water inside your body, each behave like tiny magnets. In a strong magnetic field, they respond to radio waves of just the right frequency, and then send radio waves back. And from those faint signals, a computer builds a picture of the inside of you. No cutting. Just atoms, quietly answering.
+
+And finally, time itself.
+
+The second, the official second, is defined by atoms. Atoms of caesium. Their outer electron can jump between two very close energy steps. And the microwaves that match that jump vibrate exactly nine billion, one hundred and ninety-two million, six hundred and thirty-one thousand, seven hundred and seventy times. Count that many, and you've counted one second.
+
+Good atomic clocks keep time to within a tiny fraction of a millionth of a second in a whole year.
+
+The GPS satellites, circling far higher than me, each carry atomic clocks. Your phone listens to their signals, and works out where you are from how long each signal took to arrive. If their clocks were off by even a hundred billionths of a second, your position would be off by about thirty metres. That's the length of a big swimming pool.
+
+And, as we learned on the relativity night, those clocks also have to be corrected for Einstein's relativity. So every time you look at a map on your phone, both of Einstein's great revolutions are helping you find your way home.
+
+The Nobel committee once wrote that the first quantum revolution gave us transistors and lasers.
+
+The second one is just beginning.
+
+In May of nineteen eighty-one, Richard Feynman, the same Feynman who told us to relax and enjoy it, gave a talk about computers.
+
+He'd noticed a problem. Whenever scientists tried to use ordinary computers to calculate what quantum things would do, the work became impossibly large, very quickly. Every extra particle doubled it. And then doubled it again. Even a few dozen particles could be too much for any computer on Earth.
+
+So Feynman suggested something simple, and very bold. If nature is quantum, then build the computer out of quantum things. Let the computer itself be made of parts that obey quantum laws.
+
+And he ended the talk with a line that I think is one of the most cheerful sentences in all of science. Nature isn't classical, dammit, he said, and if you want to make a simulation of nature, you'd better make it quantum mechanical. And by golly, it's a wonderful problem, because it doesn't look so easy. Thank you.
+
+That was the beginning of the quantum computer.
+
+An ordinary computer works with bits. Each bit is a tiny switch, either off or on. Zero or one. A quantum computer works with qubits. Quantum bits. They can be made from all sorts of things. Single atoms. Particles of light. Tiny loops of superconducting metal, like the circuit from the last Nobel Prize.
+
+Now, you'll often hear that a qubit is zero and one at the same time, and so a quantum computer simply tries every answer at once. I'd like to gently set that aside. The physicist Scott Aaronson calls it the most common mistake in explaining quantum computers.
+
+Because if you just set up every possible answer at once, and then look, you get one random answer. Like the electron landing somewhere on the screen. It's no use at all.
+
+The real trick is the one we met at the very beginning, with the double slit. Waves. Adding and cancelling. A good quantum program is arranged so that, for every wrong answer, the waves cancel each other out, like the dark stripes on the screen. And for the right answer, they add up, like the bright stripes. So when you finally look, the right answer is the one most likely to appear.
+
+It's a little like the stripes of light and shadow on that screen. Only now, the bright stripe is the answer to your question.
+
+That's very hard to arrange. And it only works for certain kinds of problems. But for some of them, it could be enormously faster.
+
+In nineteen ninety-four, a mathematician named Peter Shor showed that a quantum computer could break very large numbers into their factors, quickly. That sounds quiet and harmless. But much of the world's online security relies on that being very, very hard. So suddenly, everyone paid attention.
+
+Building one, though, is extraordinarily difficult. Remember the cat, and the dust in the air. Qubits are fragile. The smallest touch from the outside world, a little heat, a stray vibration, and their quantum states wash away. So they're kept in little boxes of silence, colder than deep space, just a whisper above absolute zero.
+
+In twenty nineteen, Google announced that its chip, called Sycamore, with fifty-three working qubits, had done a special calculation in about two hundred seconds. A task, they estimated, that the best ordinary supercomputer would need about ten thousand years to do.
+
+IBM quickly disagreed. With enough cleverness, and enough disk space, they said, their supercomputer could do it in about two and a half days. Physicists still discuss it. But what matters, most of them agreed, is the way the effort grows. For the quantum chip, gently. For ordinary computers, explosively.
+
+And in December of twenty twenty-four, Google announced a newer chip, called Willow. It did two things worth knowing about.
+
+First, and I think most importantly, it showed that as they made their grid of qubits bigger, the errors got smaller. Each time they grew the grid, they cut the error rate roughly in half. For a machine made of fragile, easily disturbed things, that's a very big step.
+
+And second, a new speed test. A benchmark done in under five minutes that, they said, would take one of today's fastest supercomputers ten septillion years. That's a one with twenty-five zeros. But Google itself was honest that this particular test has no known practical use. It's a race on a very special track.
+
+So, real quantum computers, useful ones, doing things we care about, are still being built. Slowly. Carefully. One fragile qubit at a time.
+
+When Alain Aspect won his Nobel Prize, someone asked him whether Einstein had lost the great argument, in the end. And he gave an answer I love. There is not one who wins and the other one who loses, he said. Bohr wins from a certain point of view. But Einstein wins, because he spotted something extraordinary.
+
+Nobody loses. I think that's a good way to end a long argument.
+
+So let's look back, slowly, at everything we've floated past tonight.
+
+A professor, Max Planck, trying to explain the glow of hot metal, found that energy comes in little steps. Einstein said light comes in packets. Bohr built a staircase for the electron. De Broglie said the electron is a wave, and a father and son showed it was both.
+
+One electron at a time went through two slits, and drew stripes. A young man with hay fever found tables of numbers on an island. A man on a ski holiday found waves. And Born said the waves are waves of chance.
+
+Einstein and Bohr argued over breakfast, and stayed friends. A cat sat in an imaginary box. Two particles stayed connected across any distance. A quiet rule keeps atoms apart, and keeps you from sinking through the floor. And a tiny leak through walls helps the Sun to shine.
+
+And all of it is in your lamp, and your phone, and your clock, and the map that finds your way home.
+
+Now. Let's let it all drift away.
+
+You don't need to understand quantum physics tonight. Feynman said nobody does. And that's all right. The world works beautifully anyway. Every atom in your body is keeping its electrons on their steps, all by itself. Every one is following the rules, quietly, without your help. You don't have to hold any of it together.
+
+Your breathing is slow now. Each breath a little longer than the last.
+
+Somewhere in your pillow, and your blanket, and the air in your room, countless tiny particles are touching each other, gently, all night long. And that's what keeps the world soft and steady around you.
+
+Up here, the station hums. The lamps are low. My tea is cold again. I don't mind. It's definitely there. Definitely cold.
+
+Out the window, the night side of the Earth is turning beneath me. Dark oceans. Soft clouds. Scattered lights, each one a little quantum glow. And your light is one of those lights down there. Or maybe it's already off.
+
+You don't need to remember any of this tomorrow. The stripes will still be there. The steps will still be there. Whenever you want them.
+
+Just rest now.
+
+The sun is coming up over the ocean now. My shift is almost over. Sleep well. I'll be up here tomorrow night.

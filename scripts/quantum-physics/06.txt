@@ -1,0 +1,49 @@
+In early June of nineteen twenty-five, a young German physicist was miserable with hay fever. His name was Werner Heisenberg. He was twenty-three. His face was swollen, his nose was blocked, and he could hardly work.
+
+So he asked his professor, Max Born, in the university town of Göttingen, for two weeks off. And he went to the one place he could think of where there would be almost no pollen at all. A tiny island in the North Sea, called Helgoland. A red rock, about fifty kilometres from the coast, barely a square kilometre in size. Sea birds. Wind. Salt air.
+
+Heisenberg had been thinking about Bohr's atom, with its little electrons circling on their steps. And he'd come to a strange, bold conclusion. Nobody can see those orbits. Nobody ever has. All we can actually measure is the light that comes out of atoms. The colours. The brightness. So why build a theory on something we can never see?
+
+He wrote to a friend, the physicist Wolfgang Pauli, that all of his meagre efforts were going towards killing off the idea of the orbit, the path that one cannot observe, and replacing it with something better.
+
+On the island, by his own account, he took long walks, and swam, and climbed the rocks, and worked. And one night, he said, it all came together.
+
+Many years later, he wrote about it. It was almost three o'clock in the morning, he said, before the final result of my computations lay before me. I was far too excited to sleep. And so, as a new day dawned, I made for the southern tip of the island, where I had been longing to climb a rock jutting out into the sea. I now did so without too much trouble, and waited for the sun to rise.
+
+I love that picture. A young man, alone on a rock in the North Sea, at dawn, having just found something nobody in the world had ever known.
+
+Now, in fairness, historians today are a little careful with this story. Heisenberg wrote it down more than forty years later. He was on the island for about ten days, and he probably did much of the work before and after. Memories grow smoother with time, like pebbles in the sea. But the sunrise, I think, we can let him keep.
+
+What he'd found was a new way to do physics. Instead of electrons following paths, he wrote down tables of numbers, one for every possible jump between steps. And he found rules for combining those tables. Strange rules. When he multiplied two of his tables together, the answer depended on the order. A times B was not the same as B times A.
+
+That seemed bizarre. In ordinary arithmetic, three times five is the same as five times three. Always.
+
+Heisenberg gave his paper to Max Born, and went off on a trip. And Born sat puzzling over the strange arithmetic for about a week. Then he suddenly remembered something he'd learned as a student, long ago, from a teacher in Breslau. These tables had a name. Mathematicians had known about them for decades. They were called matrices. And with matrices, the order really does matter.
+
+Born and a young colleague, Pascual Jordan, and Heisenberg together, turned this into a complete theory, called matrix mechanics. It was the first full version of quantum mechanics.
+
+It was also very hard to understand. The great physicist Steven Weinberg once admitted that he had tried several times to read Heisenberg's paper, and had never understood his reasons for the steps he took. Heisenberg's paper, he said, was pure magic.
+
+Less than two years later, in the winter of nineteen twenty-seven, Heisenberg was working in Copenhagen, at Bohr's institute. Bohr had gone away on a skiing holiday. And Heisenberg, alone, found the idea he's most famous for. The uncertainty principle.
+
+Here it is, as simply as I can put it.
+
+There are certain pairs of things about a particle that can't both be sharp at the same time. The most famous pair is where the particle is, and how it's moving. The more exactly one is pinned down, the more spread out and blurry the other must be.
+
+Heisenberg first explained it with a thought experiment, a sort of imaginary microscope. To see an electron clearly, you have to shine light on it. But light comes in packets. And each packet that hits the electron gives it a little kick, and changes how it's moving. So the more sharply you try to see where it is, the more you disturb where it's going.
+
+It's a nice picture. But Bohr, when he came back from skiing, told Heisenberg it wasn't quite right. And they argued. They argued so hard that, it's said, at one point Heisenberg burst into tears. He was twenty-five.
+
+Heisenberg added a note to his paper, admitting part of the mistake. And over time, physicists came to see the principle more deeply. It isn't really about clumsy measurements, or poking things too hard. The blurriness is built into the particle itself. An electron simply doesn't have an exact position and an exact motion at the same time. Not because we can't see them. Because they aren't there to be seen.
+
+Here's a gentle way to picture it. Think of a single musical note. If you want to know its pitch very precisely, you need to hear it for a while. A long, steady hum. But then it isn't happening at any one exact moment. It's spread out in time. And if you make the note very short, a quick little click, it happens at one sharp moment, but then its pitch becomes fuzzy and hard to name. Sharp in time, or sharp in pitch. Never both at once.
+
+Particles are like that, in their own way. Because, as de Broglie saw, they're waves too.
+
+Heisenberg himself never liked the word principle. He called them inaccuracy relations, or indeterminacy relations. The name uncertainty principle was given by others, in English, a couple of years later. And it stuck.
+
+He received the Nobel Prize for creating quantum mechanics. He later wrote to Born and Jordan that he was sorry the three of them had not shared it.
+
+So now we have one version of quantum mechanics. Tables of numbers, with no pictures at all. Very powerful. Very strange. And very cold.
+
+But at almost exactly the same time, far away in the Swiss mountains, someone else was finding a completely different way to say the same thing. And his version was full of waves.

@@ -1,0 +1,59 @@
+If you listened to my relativity night, you've already met him. A young patent clerk in Bern, in Switzerland, sitting at a desk, reading other people's inventions.
+
+Albert Einstein had started at the patent office in nineteen oh two. He divided his days, he said, into eight hours of patent work, eight hours of his own physics, and eight hours of sleep. And he called the office that worldly cloister where I hatched my most beautiful ideas.
+
+In nineteen oh five, he wrote several papers that changed physics. One of them was about relativity. But the very first of them, received by the journal in March, was about light. And of all the papers he wrote that year, it was the only one that he himself called revolutionary.
+
+To see why, we need to know what everyone believed about light.
+
+By nineteen hundred, physicists were sure that light was a wave. They'd proved it again and again. Light spreads out. It bends around edges. Two beams of light can overlap and cancel each other out, making dark stripes, exactly as waves on water do. A great Scottish physicist, James Clerk Maxwell, had shown that light was a wave of electricity and magnetism, rippling through space.
+
+It was one of the most successful ideas in all of science.
+
+But there was a small puzzle, and it involved metal and light.
+
+If you shine light on certain metals, the light can knock tiny particles out of the metal. Electrons. It's called the photoelectric effect. Photo, for light. Electric, for the electrons.
+
+In nineteen oh two, a physicist named Philipp Lenard measured these electrons carefully. And he found something that made no sense for a wave.
+
+If light is a wave, then brighter light is a bigger wave. More energy. It should shake the electrons harder, and they should fly out faster. But they didn't. Lenard made the light a thousand times brighter. More electrons came out. But each one came out with exactly the same energy as before. Not the slightest bit faster.
+
+What did change their speed was the colour of the light. Bluer light gave faster electrons. Redder light gave slower ones. And below a certain colour, no electrons came out at all. However bright the light. You could shine the most powerful red lamp in the world on some metals, and nothing would happen. But a faint glimmer of ultraviolet would knock electrons out at once.
+
+Einstein saw the answer. And it was Planck's staircase, taken seriously.
+
+What if light itself comes in lumps? Not a smooth wave spreading everywhere, but little packets of energy. And the size of each packet depends on the colour. Blue packets are bigger. Red packets are smaller.
+
+In his paper, he wrote it like this. The energy of a light ray, he said, consists of a finite number of energy quanta, which are localised at points in space, which move without dividing, and which can only be produced and absorbed as complete units.
+
+Complete units. Whole packets.
+
+Now the puzzle solves itself, like a key turning in a lock.
+
+An electron is sitting in the metal. A single packet of light arrives and hits it, and gives it all its energy at once. To escape from the metal, the electron has to pay a small fee, a fixed amount of energy to get out of the door. Whatever energy is left over becomes its speed.
+
+If the packet is too small, a red one, it can't pay the fee. The electron stays put. And it doesn't matter how many red packets you send. Each one arrives alone, and each one is too small. It's like trying to buy a train ticket with a pile of coins that are each too small to be accepted. However many you have, the machine won't take them.
+
+A blue packet is bigger. It pays the fee easily, and there's plenty left over. The electron flies out fast.
+
+And brighter light? That's just more packets. More electrons knocked out. But each one gets the same size of kick.
+
+It was a beautiful explanation. And almost nobody believed it.
+
+An American physicist, Robert Millikan, spent about ten years testing Einstein's idea, expecting to prove it wrong. He built an extraordinary machine for it, with a little rotating knife inside a vacuum, worked by magnets from outside, to shave the metal perfectly clean before every measurement. He called it a machine shop in a vacuum.
+
+In nineteen sixteen, he published his results. Einstein's equation was right, in every detail. And from it, Millikan measured Planck's tiny number, to within about half a percent.
+
+Even then, Millikan still didn't want to believe in packets of light. He called it a bold, not to say a reckless, hypothesis. Later, in his Nobel lecture, he admitted that his work had resulted, contrary to my own expectation, in the first direct experimental proof of Einstein's equation.
+
+I like Millikan very much for that sentence. Ten years of hard work. And at the end of it, he stood up and said, I was wrong.
+
+Einstein's Nobel Prize, by the way, is sometimes thought to be for relativity. It wasn't. It was for this. For the law of the photoelectric effect. Packets of light.
+
+Those packets eventually got a name. Not from Einstein. He called them light quanta. In nineteen twenty-six, an American chemist named Gilbert Lewis wrote a letter to the journal Nature, proposing a word for a slightly different idea of his own. His idea faded away. But his word stayed.
+
+Photon.
+
+Up here, the station is covered in solar panels, great wings of them, spread out on either side. They work on a close cousin of Einstein's idea. Every second, photons from the Sun strike them, and each one hands its whole packet of energy to an electron, setting it free to move, and those moving electrons become the electricity that runs my lamps, and my air, and the little kettle that makes my tea.
+
+So in a way, this cup of tea was made by photons. One packet at a time.

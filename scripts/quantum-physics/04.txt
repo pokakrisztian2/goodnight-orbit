@@ -1,0 +1,57 @@
+Louis de Broglie was born in Dieppe, in France, in eighteen ninety-two, into one of the oldest noble families in the country. His father was a duke. When the Nobel committee later wrote his name, they called him Prince Louis-Victor Pierre Raymond de Broglie.
+
+And at first, he didn't study science at all. He studied history. He took his degree in history in nineteen ten.
+
+But he had an older brother, Maurice, who was an experimental physicist, working with X-rays in Paris. And Louis became curious. In nineteen eleven, when he was nineteen, he went with Maurice to the very first great physics conference in Brussels, the first Solvay conference, as his brother's secretary. The subject was radiation and the quanta. Planck's staircase. Einstein's packets.
+
+Reading the notes of those meetings, Louis made himself a promise. He wrote later that he had promised himself to devote all his efforts to understanding the true nature of the mysterious quanta.
+
+During the First World War, he served in the army's radio section. He was stationed at the Eiffel Tower, which was used for radio. I like to imagine him there, high above Paris, listening to the crackle of radio waves in the night.
+
+After the war, he went back to physics. And in nineteen twenty-four, for his doctoral thesis, he proposed an idea so strange that even his examiners weren't quite sure what to do with it.
+
+Here's how he thought.
+
+Einstein had shown that light, which everyone thought was a wave, also behaves like a stream of particles. Photons.
+
+So what if it works the other way round too? What if things that everyone thinks are particles, like electrons, also behave like waves?
+
+He even had a formula for it. The heavier and faster something is, the shorter its wave. A slow electron would have a wave about the size of an atom. A person walking across a room would have a wave so unimaginably small that nothing could ever detect it. That's why we never see people, or tea cups, or planets rippling like waves. The waves are there, in principle. They're just far too tiny.
+
+At the time, there was no evidence for this at all. None. The Nobel committee said it plainly, years later. At a time when no single known fact supported this theory, Louis de Broglie asserted that a stream of electrons, passing through a very small hole, must behave just like a ray of light.
+
+His examiners weren't sure. So one of them, Paul Langevin, sent a copy to Einstein, to ask what he thought.
+
+And Einstein was delighted. He said that de Broglie had lifted a corner of the great veil.
+
+Now, here's the part of the story I like best, because it's so human.
+
+At Bell Telephone Laboratories, in New York, two physicists, Clinton Davisson and Lester Germer, had been firing slow electrons at a piece of nickel metal, and watching how they bounced off. They weren't testing de Broglie's idea. They'd never heard of it. They were just studying metals, for the telephone company.
+
+Then, in nineteen twenty-five, there was an accident. Their equipment broke. And to repair the damage, they heated the nickel very strongly. When it cooled down, something had changed inside it. The metal, which had been made of many tiny crystals, had rearranged itself into a few large ones.
+
+And after that, the electrons started behaving strangely. Instead of bouncing off evenly in all directions, they came off in some directions much more than others. Bright directions and dark directions, as if they were being sorted.
+
+Davisson didn't know what it meant. Then, in the summer of nineteen twenty-six, he travelled to England for a scientific meeting. And there, talking with other physicists, he heard for the first time about de Broglie's waves. And he began to wonder.
+
+When he got home, he and Germer searched carefully. And early in nineteen twenty-seven, they found it. The electrons were bouncing off the rows of atoms in the crystal just as light bounces off the fine grooves of a CD, spreading into bright and dark directions, exactly as only waves can. And the size of the waves matched de Broglie's formula perfectly.
+
+Years later, in his Nobel lecture, Davisson was very honest about it. The true story, he said, contains less of perspicacity and more of chance.
+
+Less cleverness. More luck.
+
+At almost the same time, in Aberdeen, in Scotland, another physicist named George Paget Thomson sent electrons through very thin sheets of metal film, and saw rings of light and dark, the same kind of pattern. Electrons were waves.
+
+And here is a quiet, lovely coincidence. George Thomson was the son of J. J. Thomson. The same J. J. Thomson who, thirty years earlier, had discovered the electron and shown that it was a particle.
+
+The father showed that the electron is a particle. The son showed that it is also a wave. And both of them, in time, won the Nobel Prize for it.
+
+I think about that sometimes. A family dinner table, in England. A father and a son, both right, and both, in a way, contradicting each other.
+
+So now we have a strange situation. Light is a wave, and also a stream of particles. Electrons are particles, and also waves. And perhaps everything is, in some sense, both.
+
+But what does it actually mean, for one thing to be both a wave and a particle? How can a single electron be spread out like a ripple, and also arrive at one single point, like a tiny grain of sand?
+
+There's one experiment that shows this better than anything else in physics. Richard Feynman said it contains the only mystery.
+
+Let's go and look at it, slowly.

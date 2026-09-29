@@ -1,0 +1,46 @@
+{
+ "name": "quantum-physics",
+ "script": "scripts/quantum-physics.txt",
+ "loop_seconds": 60,
+ "scenes": [
+  {
+   "station": "assets/scenes/station/station-veo-v2-4k.mp4",
+   "space": "assets/space/earth-night-veo-v1.mp4"
+  }
+ ],
+ "captions": true,
+ "shorts": [
+  {
+   "hook": "Why you don't fall through the floor",
+   "say": "Atoms are almost completely empty. So why don't you sink through your bed?",
+   "from": "In nineteen sixty-seven, two physicists",
+   "paras": 3
+  },
+  {
+   "hook": "One electron. Two slits. Stripes.",
+   "say": "Fire electrons at two slits, one at a time. Each lands as a single dot. But together, they draw stripes.",
+   "from": "In their experiment, the electrons came",
+   "paras": 3
+  },
+  {
+   "hook": "Schrödinger's cat was a joke",
+   "say": "Schrödinger's cat was never meant to describe the world. It was a joke.",
+   "from": "Now, here's the thing people often forget",
+   "paras": 2
+  },
+  {
+   "hook": "Einstein's Nobel wasn't for relativity",
+   "say": "Einstein never won a Nobel Prize for relativity. He won it for something stranger.",
+   "from": "Even then, Millikan still didn't want",
+   "paras": 3
+  },
+  {
+   "hook": "A cheap cigar revealed spin",
+   "say": "In 1922, a physicist's cheap cigar helped reveal one of the strangest things in nature.",
+   "from": "There's a lovely story about it",
+   "paras": 3
+  }
+ ],
+ "topic": "quantum physics",
+ "title": "Every Confusing Thing About Quantum Physics Explained Slowly (For Sleep)"
+}

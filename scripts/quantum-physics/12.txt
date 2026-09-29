@@ -1,0 +1,39 @@
+It's easy to think of quantum physics as something far away. Something for blackboards, and laboratories, and people arguing over breakfast in Brussels.
+
+But it isn't far away at all. It's in the room with you, right now. Probably within reach of your hand.
+
+Let's start with the little light on your phone charger, or the lamp beside your bed. If it's a modern one, it's an LED. A light-emitting diode.
+
+In an old light bulb, electricity heats a thin wire until it glows. Just like Planck's glowing furnaces, all those years ago. Most of the energy is lost as heat. But in an LED, the electrons fall down a small step, inside a special crystal, and give off packets of light. Photons. Einstein's packets. Almost directly, with very little wasted.
+
+Red and green LEDs came first. But for a long time, nobody could make a good blue one. And without blue, you can't make white light. In the late nineteen eighties and early nineties, three Japanese scientists, Isamu Akasaki, Hiroshi Amano and Shuji Nakamura, finally did it. They won the Nobel Prize in twenty fourteen. The committee wrote that incandescent bulbs had lit the twentieth century, and the twenty-first would be lit by LEDs.
+
+An old bulb lasts about a thousand hours. An LED can last up to a hundred thousand.
+
+Now, the phone itself. Inside it, there are billions of tiny switches, called transistors. Each one turns a flow of electrons on or off. And every photo, every message, every song, is made of those ons and offs.
+
+The very first transistor was built at Bell Labs, in December of nineteen forty-seven, by John Bardeen and Walter Brattain. Two gold contacts, held by a little plastic wedge, pressed onto a slab of germanium. It made a signal a hundred times stronger. They showed it to their bosses two days before Christmas. And their colleague, William Shockley, called it a magnificent Christmas present.
+
+Transistors only work because we understand how electrons behave inside crystals. Their steps. Their bands. Pauli's rule, filling the rooms. Without quantum mechanics, there would be no computer chips. No phones. And none of the computers that sent me up here.
+
+Then there are lasers. In nineteen seventeen, Einstein worked out that a packet of light, passing an excited atom, can nudge it into releasing a second packet. An exact twin. Same colour, same direction, marching in step. It took more than forty years for anyone to build a machine that used it.
+
+The first laser shone in May of nineteen sixty, in Malibu, in California. Its heart was a small pink ruby, about the size of a fingertip, with silvered ends, inside a coiled flash lamp. There's a famous press photo of it. But the ruby in that photo is a bigger one. The photographer thought the real laser was too small to look impressive.
+
+Today, lasers read the barcodes at the supermarket. They carry the internet, as flashes of light, through glass fibres under the oceans. And they help surgeons, and they measure the distance to the Moon.
+
+If you've ever had an MRI scan, you've met quantum physics in a very personal way. The nuclei of hydrogen atoms, in the water inside your body, each behave like tiny magnets. In a strong magnetic field, they respond to radio waves of just the right frequency, and then send radio waves back. And from those faint signals, a computer builds a picture of the inside of you. No cutting. Just atoms, quietly answering.
+
+And finally, time itself.
+
+The second, the official second, is defined by atoms. Atoms of caesium. Their outer electron can jump between two very close energy steps. And the microwaves that match that jump vibrate exactly nine billion, one hundred and ninety-two million, six hundred and thirty-one thousand, seven hundred and seventy times. Count that many, and you've counted one second.
+
+Good atomic clocks keep time to within a tiny fraction of a millionth of a second in a whole year.
+
+The GPS satellites, circling far higher than me, each carry atomic clocks. Your phone listens to their signals, and works out where you are from how long each signal took to arrive. If their clocks were off by even a hundred billionths of a second, your position would be off by about thirty metres. That's the length of a big swimming pool.
+
+And, as we learned on the relativity night, those clocks also have to be corrected for Einstein's relativity. So every time you look at a map on your phone, both of Einstein's great revolutions are helping you find your way home.
+
+The Nobel committee once wrote that the first quantum revolution gave us transistors and lasers.
+
+The second one is just beginning.

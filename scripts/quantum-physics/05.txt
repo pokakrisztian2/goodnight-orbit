@@ -1,0 +1,55 @@
+In nineteen sixty-three, Richard Feynman began his lectures on quantum physics with this experiment. And he introduced it like this.
+
+We choose to examine a phenomenon which is impossible, absolutely impossible, to explain in any classical way, and which has in it the heart of quantum mechanics. In reality, it contains the only mystery.
+
+It's called the double-slit experiment. Let's build it, in our imagination. Gently.
+
+Picture a wall, with two narrow slits cut in it, side by side, close together. Behind the wall, a screen, like the screen at the back of a cinema. And in front of the wall, something that throws things at it.
+
+First, let's throw tennis balls. Some hit the wall and bounce away. Some pass through the left slit, and some through the right. And on the screen behind, they make two heaps. Two bands of marks, one behind each slit. That's what you'd expect. Things go through one slit or the other, and land roughly behind it.
+
+Now let's use water instead. Imagine a calm pool, and a wave rolling towards the wall. When the wave reaches the two slits, each slit becomes a new little source of ripples, spreading out in circles on the other side. And those two sets of ripples overlap.
+
+Where two crests meet, the water rises higher. Where a crest meets a trough, they cancel out, and the water is flat and still. So on the far side, you get a pattern of stripes. Bands of big waves, and bands of calm water, side by side, many of them, across the whole width. This is called an interference pattern. It's the signature of a wave.
+
+Two heaps for particles. Many stripes for waves. Simple.
+
+Now let's do it with electrons.
+
+We fire electrons at the two slits, and on the screen behind, a little detector clicks, and records a dot, wherever an electron lands.
+
+And here's the first thing. Every electron arrives as a single dot. One tiny point, in one place. Never smeared out. Never half an electron. Feynman put it simply. Electrons always arrive in identical lumps. Like particles.
+
+But as the dots build up, one after another, thousands of them, the pattern they make isn't two heaps. It's stripes. Bands where many electrons land, and bands where almost none land at all. An interference pattern. Like waves.
+
+Now you might say, well, perhaps the electrons are bumping into each other on the way, and somehow organising themselves into stripes. So let's slow everything down. Let's send the electrons one at a time. So slowly that there's only ever one electron in the machine at once.
+
+This was once only a thought experiment. When Feynman lectured, nobody had done it this way. It was too hard to build. But since then, it has been done, several times. In Italy, in the nineteen seventies, a team in Bologna recorded electrons building up a pattern one by one, and even made a short film of it. And in nineteen eighty-nine, at the Hitachi company in Japan, a team led by Akira Tonomura did it more cleanly than ever before.
+
+In their experiment, the electrons came in a thin trickle. On average, each one was about a hundred and fifty kilometres behind the one before. And the whole machine was only about a metre and a half long. So each electron truly travelled alone. It had nothing to bump into, and no one to talk to.
+
+They took pictures of the screen as the dots arrived. After ten electrons, just a few scattered dots. They look random. After a hundred, still random. After three thousand, you begin to see something. After twenty thousand, faint stripes. And after seventy thousand, there they are. Clear bands of light and dark. The interference pattern. Built up one lonely dot at a time.
+
+Each electron, travelling alone, somehow took part in a pattern that only makes sense if something went through both slits at once, and interfered with itself.
+
+It's as if each single raindrop, falling through the night, somehow knew about the shape of the whole storm.
+
+Now, the obvious thing to do is to peek. Let's put a tiny light near the slits, to see which slit each electron goes through.
+
+And when we do that, something remarkable happens. Every time we look, we see each electron go through one slit, or the other. Never both. And the stripes disappear. The pattern on the screen turns back into two plain heaps, like tennis balls.
+
+Watch the electrons, and they behave like particles. Stop watching, and the stripes come back.
+
+Feynman said it like this. When we watch them, the electrons come through just as we would expect them to come through. And whenever we're able to tell which way they went, the interference is lost.
+
+It isn't really about a person's eyes, or a person's mind. It's about information. Anything that could record which slit the electron used, even a single stray bit of light bouncing off it, is enough to wash the stripes away.
+
+What does it all mean? Honestly, nobody can tell you in a way that feels comfortable. The rules work perfectly. They predict exactly where the dots will land, and how the stripes will look. But what the electron is doing, in between, when nobody's looking, is still argued about today.
+
+Feynman had some advice for that feeling. In another lecture, he told his audience, do not keep saying to yourself, if you can possibly avoid it, but how can it be like that? Because you will get down the drain, into a blind alley from which nobody has escaped. Nobody knows how it can be like that.
+
+In two thousand and two, the magazine Physics World asked its readers to vote for the most beautiful experiment in the history of physics. More than two hundred people replied. And the winner was this one. The double slit, with single electrons.
+
+And it doesn't stop with electrons. In nineteen ninety-nine, in Vienna, scientists did it with molecules shaped like tiny footballs, each made of sixty carbon atoms. Big, heavy things, by the standards of this world. And they made stripes too.
+
+So let's rest here for a moment. Somewhere in a laboratory, a single electron is travelling through the dark. Alone. And when it arrives, it'll be one small dot. But it will land exactly where the pattern says it should, as if it had quietly passed through every open door at once.

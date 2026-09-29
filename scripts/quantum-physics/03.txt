@@ -1,0 +1,57 @@
+Now let's go inside an atom.
+
+For a long time, nobody knew what an atom looked like on the inside. Or whether it had an inside at all. Then, in eighteen ninety-seven, J. J. Thomson in Cambridge showed that atoms contain tiny particles with negative charge. Electrons. So an atom wasn't a solid little ball. It had parts.
+
+But how were the parts arranged?
+
+In nineteen oh nine, in a laboratory in Manchester, a physicist named Hans Geiger was training a young student, Ernest Marsden. And their professor, Ernest Rutherford, suggested a little experiment. Fire tiny particles, called alpha particles, at a sheet of gold foil, hammered so thin that it was only about four hundred atoms thick. And see whether any of them bounced back.
+
+The counting was done by eye. In complete darkness, they watched a small screen, and counted tiny flashes of light, one for each particle that hit it. It was so tiring on the eyes that one person could count reliably for only about a minute at a time. Geiger later invented the Geiger counter, and some people like to think that those long hours in the dark had something to do with it.
+
+Almost all the particles went straight through the gold, as if it were hardly there. But now and then, one in many thousands, a particle bounced right back.
+
+Rutherford later said it was quite the most incredible event that ever happened to me in my life. It was almost as incredible, he said, as if you fired a fifteen-inch shell at a piece of tissue paper, and it came back and hit you.
+
+The explanation was astonishing. Almost all of an atom is empty space. Nearly all of its weight is packed into a tiny, dense centre, which we call the nucleus. The electrons are somewhere far out around it. If an atom were the size of a great cathedral, the nucleus would be a small fly, buzzing in the middle.
+
+So people imagined the atom as a tiny solar system. The nucleus like the Sun, the electrons circling around it like planets.
+
+But there was a problem with that picture. A deep one.
+
+According to all the physics of the day, an electron moving in a circle should constantly give off light. And as it gave off light, it would lose energy, and spiral inwards, faster and faster, until it crashed into the nucleus. It should all happen in a tiny fraction of a second. Every atom in the universe should collapse, almost instantly.
+
+But atoms don't collapse. You don't. The chair beneath you doesn't. The world is stable, and quiet, and has been for billions of years.
+
+In the spring of nineteen twelve, a young Danish physicist came to work in Rutherford's laboratory. His name was Niels Bohr. He was twenty-six, and later that year he would marry Margrethe. And he began to wonder whether Planck's staircase might hold the answer.
+
+In nineteen thirteen, he published his idea. And it was bold, almost cheeky.
+
+Suppose, said Bohr, that an electron in an atom can only live on certain steps. Certain fixed orbits, each with its own fixed energy. On those steps, for reasons we don't yet understand, it simply doesn't give off light. It's stable. It rests.
+
+But it can jump. From a higher step down to a lower one. And when it does, it gives off one packet of light. One photon. And the energy of that photon is exactly the height of the drop.
+
+Bohr admitted, in his paper, that this was in obvious contrast to the ordinary ideas of physics. But it seemed necessary, he wrote, in order to account for experimental facts.
+
+And it explained something beautiful, something that had puzzled scientists for decades.
+
+If you heat a gas, like hydrogen, until it glows, and pass its light through a prism, you don't get a smooth rainbow. You get a few sharp, bright lines of colour, with darkness in between. A line of red. A line of blue-green. A couple of violet ones. Every element has its own set of lines, like a fingerprint. Or like a barcode.
+
+Why only those colours?
+
+Bohr's staircase explained it perfectly. Each colour comes from one particular jump, between two particular steps. Only certain jumps are possible, so only certain colours of light can come out. A staircase can only give you certain drops.
+
+There's a lovely detail here. Back in eighteen eighty-five, a schoolteacher in Basel, in Switzerland, named Johann Balmer, who taught mathematics at a school for girls, had found a simple formula that matched the colours of hydrogen's lines almost exactly. It was a riddle, a pattern of numbers, and nobody knew why it worked. For nearly thirty years, it just sat there, correct and unexplained.
+
+Bohr's staircase explained Balmer's riddle.
+
+And there was another small wonder in Bohr's paper. In laboratory tubes on Earth, scientists had only ever seen about twelve lines of hydrogen's pattern. But in the light of some distant stars, astronomers had counted thirty-three. Bohr explained why. The highest steps of his staircase are huge, and the atoms need a great deal of space around them to use them. In a glass tube on Earth, the atoms are too crowded. In the thin gas of the stars, there's room.
+
+You can see Bohr's staircase at work, almost any evening, in any city. A neon sign. When electricity passes through the gas in the tube, it lifts the electrons up to higher steps. When they fall back down, they give off light of one particular colour. True neon glows a warm red-orange. The other colours you see in signs come from other gases, each with its own staircase, and its own colours.
+
+So every glowing sign in a shop window, down there on the night side of the Earth, is a little staircase of atoms, electrons jumping down, step by step, glowing as they go.
+
+Bohr's picture wasn't the final answer. His neat circular orbits would later be replaced by something much stranger. But the steps were real. The staircase stayed.
+
+And Bohr himself would become one of the most important people in our story. Especially in his long, gentle, lifelong argument with Einstein. But that comes later.
+
+First, we need a French prince.

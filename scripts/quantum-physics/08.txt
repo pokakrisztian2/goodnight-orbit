@@ -1,0 +1,53 @@
+Einstein had helped to start quantum physics. His packets of light were one of its first great ideas. But as the new theory grew, he became more and more uneasy about it.
+
+It was the chance that troubled him. The idea that, at the very bottom of nature, things happen for no reason at all. That an electron lands here, rather than there, simply by luck.
+
+In December of nineteen twenty-six, he wrote a letter to his friend Max Born. And it contains a sentence that became famous, though it's usually quoted a little differently. The theory yields a lot, he wrote, but it hardly brings us any closer to the secret of the Old One. In any case, I am convinced that he does not throw dice.
+
+God does not play dice. That's the way people usually remember it.
+
+The following October, in nineteen twenty-seven, the greatest physicists in the world gathered in Brussels, for the fifth Solvay conference. The subject was electrons and photons. They stayed at a hotel called the Hôtel Britannique. And at the end of it, they sat for a photograph, which is perhaps the most famous photograph in the history of science.
+
+Twenty-nine people, in three rows. Dark suits, stiff collars. Planck is there, in the front row. Einstein sits in the middle, in the front. Bohr is there. Heisenberg, Schrödinger, Born, Dirac, de Broglie, Pauli. And Marie Curie, the only woman in the picture, and the only person there with Nobel Prizes in two different sciences. Seventeen of the twenty-nine were, or would become, Nobel Prize winners.
+
+At the conference, Born and Heisenberg made a bold statement. They said that quantum mechanics was now a complete theory. Its basic ideas, they said, were no longer open to change.
+
+Einstein disagreed. And here's the part of the story I find most charming. The famous argument between Einstein and Bohr didn't mostly happen in the lecture hall. In the official record of the meetings, both of them are actually rather quiet. It happened over breakfast.
+
+Heisenberg remembered it later. We generally met already at breakfast in the hotel, he said, and Einstein began to describe an imaginary experiment. Some clever arrangement of boxes and shutters and screens, which he thought would show that quantum mechanics was incomplete. That you could, after all, know more than the uncertainty principle allowed.
+
+Then they'd walk together to the conference, talking. And Bohr would think about it all day. And by dinner, he'd have found the flaw in Einstein's experiment. And he'd explain it over dinner. And the next morning at breakfast, Einstein would arrive with a new one.
+
+Day after day. Breakfast, puzzle. Dinner, answer.
+
+At one point, one of their friends, Paul Ehrenfest, went to the blackboard and wrote a verse from the Bible about the Tower of Babel. The story where people suddenly start speaking different languages, and can no longer understand each other.
+
+Bohr later remembered Einstein teasing them all, asking whether they could really believe that God played dice. And Bohr, in his own gentle words, replied by pointing out that ancient thinkers had already urged great caution in describing what God would or wouldn't do, in everyday language.
+
+Three years later, at the next Solvay conference, in nineteen thirty, Einstein came with his cleverest puzzle of all.
+
+Imagine a box, he said, full of light. On one side of the box, a tiny shutter, controlled by a clock inside. At an exact moment, the shutter opens, and lets out a single photon. Then closes again. So you know exactly when the photon left.
+
+Now weigh the box, before and after. The box is a tiny bit lighter afterwards. And from Einstein's own famous equation, E equals m c squared, the lost weight tells you exactly how much energy the photon carried away.
+
+So you know both the exact time, and the exact energy. And the uncertainty principle says you can't have both.
+
+It's said that Bohr was shaken, and spent the evening going from one person to another, sure it couldn't be right, but unable to say why.
+
+But by the next day, he had the answer. And it's one of the most beautiful answers in the history of physics. Because Bohr used Einstein's own theory against him. To weigh the box, it has to hang on a spring, in gravity. When the photon leaves, the box moves slightly. And as we learned in the relativity night, clocks run at different speeds at different heights in gravity. So the moment the box moves, its clock changes its rate, just a little. Just enough to blur the time. Exactly enough to keep the uncertainty principle safe.
+
+Einstein's relativity had rescued the quantum rule that Einstein was trying to break.
+
+Bohr later wrote that, at the end of the discussion, to which Einstein himself contributed effectively, it became clear that the argument could not be upheld.
+
+But I want you to notice something about all this. It was never bitter. Bohr said a most humorous spirit animated the discussions. When the two men had first met, years before, Einstein reportedly wrote to Bohr that not often in life has a human being caused me such joy by his mere presence as you did. They disagreed about the deepest questions in the universe, for the rest of their lives. And they stayed friends.
+
+Einstein never fully accepted the new theory. He believed there must be a real world out there, independent of anyone looking at it. He thought quantum mechanics was right, as far as it went, but incomplete. That something was missing.
+
+Bohr's view came to be called the Copenhagen interpretation, after the city where he worked. Very roughly, it says we shouldn't ask what an electron is doing when nobody's measuring it. We should just use the rules, which work perfectly, and describe what we actually observe.
+
+Not everyone was satisfied with that, then or now. Other ideas have come along over the years. One says that every possible outcome really happens, each one in its own branching world. Another, which goes back to de Broglie himself, says particles always have real positions, and are guided along by their waves, like little boats on a current.
+
+Physicists still disagree about which picture is right, if any. And for ordinary experiments, the main pictures all predict the same results. So nobody has yet found a way to settle it.
+
+The argument that began over breakfast in Brussels, a hundred years ago, is still going on. Quietly. Politely. At breakfast tables all over the world.

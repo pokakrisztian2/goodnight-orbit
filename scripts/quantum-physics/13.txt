@@ -1,0 +1,69 @@
+In May of nineteen eighty-one, Richard Feynman, the same Feynman who told us to relax and enjoy it, gave a talk about computers.
+
+He'd noticed a problem. Whenever scientists tried to use ordinary computers to calculate what quantum things would do, the work became impossibly large, very quickly. Every extra particle doubled it. And then doubled it again. Even a few dozen particles could be too much for any computer on Earth.
+
+So Feynman suggested something simple, and very bold. If nature is quantum, then build the computer out of quantum things. Let the computer itself be made of parts that obey quantum laws.
+
+And he ended the talk with a line that I think is one of the most cheerful sentences in all of science. Nature isn't classical, dammit, he said, and if you want to make a simulation of nature, you'd better make it quantum mechanical. And by golly, it's a wonderful problem, because it doesn't look so easy. Thank you.
+
+That was the beginning of the quantum computer.
+
+An ordinary computer works with bits. Each bit is a tiny switch, either off or on. Zero or one. A quantum computer works with qubits. Quantum bits. They can be made from all sorts of things. Single atoms. Particles of light. Tiny loops of superconducting metal, like the circuit from the last Nobel Prize.
+
+Now, you'll often hear that a qubit is zero and one at the same time, and so a quantum computer simply tries every answer at once. I'd like to gently set that aside. The physicist Scott Aaronson calls it the most common mistake in explaining quantum computers.
+
+Because if you just set up every possible answer at once, and then look, you get one random answer. Like the electron landing somewhere on the screen. It's no use at all.
+
+The real trick is the one we met at the very beginning, with the double slit. Waves. Adding and cancelling. A good quantum program is arranged so that, for every wrong answer, the waves cancel each other out, like the dark stripes on the screen. And for the right answer, they add up, like the bright stripes. So when you finally look, the right answer is the one most likely to appear.
+
+It's a little like the stripes of light and shadow on that screen. Only now, the bright stripe is the answer to your question.
+
+That's very hard to arrange. And it only works for certain kinds of problems. But for some of them, it could be enormously faster.
+
+In nineteen ninety-four, a mathematician named Peter Shor showed that a quantum computer could break very large numbers into their factors, quickly. That sounds quiet and harmless. But much of the world's online security relies on that being very, very hard. So suddenly, everyone paid attention.
+
+Building one, though, is extraordinarily difficult. Remember the cat, and the dust in the air. Qubits are fragile. The smallest touch from the outside world, a little heat, a stray vibration, and their quantum states wash away. So they're kept in little boxes of silence, colder than deep space, just a whisper above absolute zero.
+
+In twenty nineteen, Google announced that its chip, called Sycamore, with fifty-three working qubits, had done a special calculation in about two hundred seconds. A task, they estimated, that the best ordinary supercomputer would need about ten thousand years to do.
+
+IBM quickly disagreed. With enough cleverness, and enough disk space, they said, their supercomputer could do it in about two and a half days. Physicists still discuss it. But what matters, most of them agreed, is the way the effort grows. For the quantum chip, gently. For ordinary computers, explosively.
+
+And in December of twenty twenty-four, Google announced a newer chip, called Willow. It did two things worth knowing about.
+
+First, and I think most importantly, it showed that as they made their grid of qubits bigger, the errors got smaller. Each time they grew the grid, they cut the error rate roughly in half. For a machine made of fragile, easily disturbed things, that's a very big step.
+
+And second, a new speed test. A benchmark done in under five minutes that, they said, would take one of today's fastest supercomputers ten septillion years. That's a one with twenty-five zeros. But Google itself was honest that this particular test has no known practical use. It's a race on a very special track.
+
+So, real quantum computers, useful ones, doing things we care about, are still being built. Slowly. Carefully. One fragile qubit at a time.
+
+When Alain Aspect won his Nobel Prize, someone asked him whether Einstein had lost the great argument, in the end. And he gave an answer I love. There is not one who wins and the other one who loses, he said. Bohr wins from a certain point of view. But Einstein wins, because he spotted something extraordinary.
+
+Nobody loses. I think that's a good way to end a long argument.
+
+So let's look back, slowly, at everything we've floated past tonight.
+
+A professor, Max Planck, trying to explain the glow of hot metal, found that energy comes in little steps. Einstein said light comes in packets. Bohr built a staircase for the electron. De Broglie said the electron is a wave, and a father and son showed it was both.
+
+One electron at a time went through two slits, and drew stripes. A young man with hay fever found tables of numbers on an island. A man on a ski holiday found waves. And Born said the waves are waves of chance.
+
+Einstein and Bohr argued over breakfast, and stayed friends. A cat sat in an imaginary box. Two particles stayed connected across any distance. A quiet rule keeps atoms apart, and keeps you from sinking through the floor. And a tiny leak through walls helps the Sun to shine.
+
+And all of it is in your lamp, and your phone, and your clock, and the map that finds your way home.
+
+Now. Let's let it all drift away.
+
+You don't need to understand quantum physics tonight. Feynman said nobody does. And that's all right. The world works beautifully anyway. Every atom in your body is keeping its electrons on their steps, all by itself. Every one is following the rules, quietly, without your help. You don't have to hold any of it together.
+
+Your breathing is slow now. Each breath a little longer than the last.
+
+Somewhere in your pillow, and your blanket, and the air in your room, countless tiny particles are touching each other, gently, all night long. And that's what keeps the world soft and steady around you.
+
+Up here, the station hums. The lamps are low. My tea is cold again. I don't mind. It's definitely there. Definitely cold.
+
+Out the window, the night side of the Earth is turning beneath me. Dark oceans. Soft clouds. Scattered lights, each one a little quantum glow. And your light is one of those lights down there. Or maybe it's already off.
+
+You don't need to remember any of this tomorrow. The stripes will still be there. The steps will still be there. Whenever you want them.
+
+Just rest now.
+
+The sun is coming up over the ocean now. My shift is almost over. Sleep well. I'll be up here tomorrow night.

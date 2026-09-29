@@ -1,0 +1,61 @@
+In the spring of nineteen thirty-five, the same year as the cat, Einstein published one more puzzle. He wrote it with two young colleagues at Princeton, Boris Podolsky and Nathan Rosen. So it's known by their three initials. E, P, R.
+
+Its title was a question. Can the quantum description of physical reality be considered complete? And their answer, at the end, was no.
+
+Here's the idea, in the gentlest way I can put it.
+
+Imagine a little machine that throws two balls at once, in opposite directions. One is always black, and the other is always white. But you don't know which is which. You stand at one end, and a friend stands far away at the other. You catch your ball. It's black. And straight away, without asking, you know your friend is holding a white one.
+
+Nothing strange about that. The balls were black and white all along. You just didn't know which was which, until you looked.
+
+Now, quantum physics says that for tiny particles, it's different. It says that, before anyone looks, neither ball has a colour yet. It's as if both are grey. Right up until the moment someone looks at one of them. And then, at that instant, one turns black, and the other, however far away, turns white.
+
+Einstein couldn't accept that. How could looking at one particle here decide something about another particle, far away, instantly, without anything travelling between them? Surely, he thought, each particle must have carried its answer with it, all along. Like a little sealed envelope with instructions inside. And if the theory couldn't see those envelopes, the theory was incomplete.
+
+Those secret instructions came to be called hidden variables.
+
+Einstein wasn't even happy with the way the paper was written. A few weeks later, he wrote to Schrödinger that the essential thing had been, so to speak, smothered by formalism. Too much mathematics. Not enough plain thought.
+
+But Schrödinger read it, and saw something important. When two particles meet, and then separate, he wrote, they can no longer be described separately, the way they were before. And he gave this connection a name. He said the two had become entangled.
+
+He called entanglement not one, but rather the characteristic trait of quantum mechanics.
+
+Einstein, years later, in a letter to Born, gave it a different name. Spooky action at a distance.
+
+For almost thirty years, it seemed like an argument nobody could ever settle. A question for philosophers. Grey balls, or sealed envelopes? How could you ever tell the difference, if every time you look, you see the same thing?
+
+The answer came from Belfast. From a man named John Bell.
+
+Bell was born in nineteen twenty-eight, into a family without much money. His mother was a dressmaker. His father sold horses. A grammar school was too expensive, so he went to a technical school. And afterwards, he worked for a year as a technician, in the physics department at Queen's University, where the staff lent him books and let him sit in on lectures. His mother, it's said, sewed his university gown from old blackout curtains.
+
+He grew up to work at CERN, in Geneva, designing particle accelerators. But quantum puzzles were his side passion. And in nineteen sixty-four, during a year away in America, he wrote a short paper.
+
+He'd found a way to tell the difference.
+
+If the particles really carry hidden instructions, Bell showed, then when you repeat the experiment many, many times, and compare the results on both sides, the way they match up can only reach a certain limit. No higher. But quantum physics predicted that entangled particles would match up more strongly than that. Past the limit.
+
+So it wasn't philosophy anymore. It was a test. Something you could actually do.
+
+Bell sent his paper to a tiny new journal that lasted only four years. Hardly anyone noticed it. For the first six years, it was cited fewer than a dozen times.
+
+But in nineteen sixty-seven, a young American physicist named John Clauser came across it, drawn by the odd name of the journal. And he decided to try.
+
+People told him he was crazy. That he'd ruin his career. He had almost no money. So he and a student, Stuart Freedman, built their equipment at Berkeley, as Clauser put it, by cobbling together old junk and scrap from the physics department. It took two years to build, and about two hundred hours to collect the data.
+
+In nineteen seventy-two, they had their answer. The particles broke Bell's limit. Just as quantum physics said.
+
+Then, in France, near Paris, Alain Aspect made the test even stronger. In nineteen eighty-two, he switched the measuring filters while the particles were already in flight. In a few billionths of a second. Too fast for any message to pass between the two sides, even at the speed of light.
+
+And still, the particles broke the limit.
+
+Later, Anton Zeilinger in Austria pushed it further still. Particles hundreds of metres apart. Settings chosen at random. And once, even using the light of distant galaxies to choose the settings.
+
+Every time, the answer was the same. No sealed envelopes. The grey balls are real.
+
+In twenty twenty-two, Aspect, Clauser and Zeilinger shared the Nobel Prize for it.
+
+John Bell didn't live to see it. He died suddenly, in nineteen ninety, at sixty-two. In Belfast, where roads can't be named after people, there's now a curving road by the water called Bell's Theorem Crescent.
+
+And one last gentle thing, before we move on. Entanglement can't be used to send a message faster than light. Each person, on their own, just sees a random list of results. The pattern only appears later, when the two lists are brought together and compared. And that needs an ordinary signal, travelling no faster than light.
+
+So the universe keeps its speed limit. It just has a very strange way of keeping its secrets.

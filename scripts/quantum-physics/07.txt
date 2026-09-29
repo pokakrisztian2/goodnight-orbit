@@ -1,0 +1,51 @@
+Erwin Schrödinger was an Austrian physicist, working in Zürich, in Switzerland. And in late nineteen twenty-five, after he'd given a talk about de Broglie's electron waves, a colleague, Peter Debye, made a remark that stayed with him. If electrons are waves, Debye said, then you ought to have a wave equation. A proper mathematical rule for how the waves behave.
+
+At Christmas that year, Schrödinger went on holiday to Arosa, a mountain resort in the Swiss Alps. Snow. Pine trees. Clean, cold air. And he later told a colleague that he'd hardly gone skiing at all, because he was busy with a few calculations.
+
+A letter he wrote from Arosa, dated the twenty-seventh of December, shows what those calculations were. He was treating the hydrogen atom as a wave.
+
+The story goes, as a colleague remembered it many years later, that when Schrödinger came back to Zürich, he began his next talk with the words, my colleague Debye suggested that one should have a wave equation. Well, I have found one.
+
+In nineteen twenty-six, he published it, in a series of four papers. And it's one of the most famous equations in all of science. The Schrödinger equation.
+
+Here's the lovely thing about it. Physicists could picture it. After Heisenberg's cold tables of numbers, this felt like coming in from the snow to a warm room. Waves were familiar. Everyone had studied them. Sound waves. Water waves. Vibrating strings.
+
+And here's the image that made it all make sense. Think of a guitar string, fixed at both ends. When you pluck it, it can't vibrate any way it likes. It can only vibrate in certain patterns. The whole string swinging together. Or two halves, swinging opposite ways, with a still point in the middle. Or three sections. Or four. Each pattern makes its own note. And there's nothing in between. No pattern with one and a half sections.
+
+That's the staircase again. Planck's steps. Bohr's steps. Now they had a reason. An electron wave, held inside an atom, is like a string held at both ends. It can only settle into certain patterns. And each pattern has its own energy. That's why the steps exist.
+
+Schrödinger's equation calculated the energy levels of the hydrogen atom exactly. Matching the colours of Balmer's lines, from that school in Basel, perfectly.
+
+Now, Schrödinger didn't much like Heisenberg's version of the theory. He said the tables of numbers left him discouraged, not to say repelled. And Heisenberg, in a private letter to Pauli, was rather less polite about Schrödinger's waves. The more I think about it, he wrote, the more repulsive I find it.
+
+So you might think they'd found two different theories, and one of them must be wrong.
+
+But in nineteen twenty-six, Schrödinger showed something surprising. Both versions give exactly the same answers. Every time. They're the same theory, written in two different languages. Like the same poem, in German and in French. One in tables. One in waves.
+
+But that left a question hanging in the air, like mist over a lake. What exactly is waving?
+
+A water wave is water moving. A sound wave is air moving. But an electron wave? What is it made of? Schrödinger hoped at first that the electron itself was somehow smeared out, spread thin like butter across space. But that didn't work. Remember the double slit. Every electron arrives as one single dot. Never smeared.
+
+The answer came from Max Born. The same Born who'd recognised Heisenberg's matrices.
+
+The wave, Born said, is not the electron. The wave tells you where the electron is likely to be found.
+
+Where the wave is big, you're likely to find the electron. Where the wave is small, you're unlikely to. Where the wave is zero, you'll never find it there at all. The wave is a wave of chance. A map of possibilities.
+
+Born wrote it in a small note, added to his paper at the last minute, in the summer of nineteen twenty-six. It's one of the most important footnotes ever written.
+
+Go back to the double slit, with this in mind. The electron's wave passes through both slits. On the other side, the two parts of the wave overlap, and make stripes. Big in some places, small in others. That's a map of where the electron is likely to land. Then, when it arrives at the screen, the electron appears as one dot, in one place, chosen by chance, according to the map. Each dot is a surprise. But thousands of dots together draw the map exactly.
+
+It's a little like rain falling on a roof at night. You can't say where the next drop will land. But after a long rain, you can see exactly where the gutters overflow, and where the ground stays dry.
+
+This was a profound change. Before, physics had always been a matter of certainty. If you knew exactly how things were now, you could, in principle, predict exactly what would happen next. Like clockwork.
+
+Now, at the very bottom of nature, physics could only tell you the chances. Not what will happen. Only what might.
+
+Born took the idea partly from Einstein, who'd once had a similar thought about light. But, as we're about to see, Einstein did not like where this was going. Not at all.
+
+Born received his Nobel Prize for this idea in nineteen fifty-four, almost thirty years later. Schrödinger received his in nineteen thirty-three, sharing it with a very quiet English physicist named Paul Dirac.
+
+Dirac was famous for saying very little. It's said that his colleagues in Cambridge joked about a unit of speech in his honour, a Dirac, which was about one word per hour. But in nineteen twenty-eight, he wrote an equation that combined quantum waves with Einstein's relativity. And it predicted something nobody had ever seen. A twin of the electron, exactly the same, but with the opposite charge.
+
+A few years later, it was found. The positron. The first hint of antimatter. Discovered, in a way, by a man who hardly spoke, simply by listening very carefully to his mathematics.

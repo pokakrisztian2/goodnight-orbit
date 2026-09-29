@@ -1,0 +1,53 @@
+Here's a question I think about a lot, up here, especially at night, with my feet hooked under a rail so I don't drift away.
+
+Atoms are almost entirely empty. We saw that with Rutherford. A tiny nucleus, and a huge space around it, with just a few electrons in it. So why doesn't everything just pass through everything else? Why don't you sink through your mattress, and through the floor, and keep on going?
+
+The answer is quantum. And it begins with a small, strange property of the electron, called spin.
+
+In February of nineteen twenty-two, in Frankfurt, two physicists, Otto Stern and Walther Gerlach, sent a thin beam of silver atoms through a magnet. By the old rules, the beam should have spread out into a smudge. Instead, it split cleanly in two. Two neat marks, and nothing in between.
+
+There's a lovely story about it. At first, the silver on the plate was so faint they couldn't see it at all. But as they peered at it closely, it slowly appeared. Stern could only afford cheap cigars, full of sulfur. And his breath turned the thin silver black, like developing a photograph.
+
+Gerlach sent a postcard to Bohr, with a picture of the split beam. And he sent Stern a telegram, which said simply, Bohr is right after all.
+
+They didn't know it yet, but they'd seen spin.
+
+In nineteen twenty-five, two young students in Leiden, George Uhlenbeck and Samuel Goudsmit, suggested that every electron behaves a little like a tiny spinning magnet. Uhlenbeck got nervous, and asked their professor, Paul Ehrenfest, not to send the paper in. But Ehrenfest had already posted it. You are both young enough, he told them, to be able to afford a stupidity.
+
+It wasn't a stupidity. It was right.
+
+Now, spin is only a name. The electron isn't really a little ball, turning round and round. It's a purely quantum property, with no everyday twin. But it has one very simple feature. When you measure it, you only ever get one of two answers. Up, or down.
+
+And that brings us to Wolfgang Pauli.
+
+Pauli was brilliant, and famous for being sharp with other people's ideas. There was even a legend, told by physicists with great fondness, that laboratory equipment would break whenever he came near. They called it the Pauli effect. It's only a legend. But they loved it.
+
+In nineteen twenty-five, Pauli found a rule. And it's one of the quietest, most important rules in the whole universe. It's called the exclusion principle.
+
+It says that no two electrons in an atom can be in exactly the same state. Each one needs its own place. Its own step on the staircase, and its own spin. Two electrons can share a step, if one spins up and the other spins down. But then that step is full. The next electron has to go higher.
+
+It's a little like a small hotel, where each room holds two guests at most. So as atoms get bigger, and have more electrons, they have to fill the rooms, floor by floor. And that gives every kind of atom its own shape, its own outer floor, its own character.
+
+That's why there is chemistry. Why carbon is not like gold. Why oxygen is not like neon. Why water is wet, and salt is salty. All of it rests on this one quiet rule.
+
+And it's a big part of why you don't fall through the floor.
+
+In nineteen sixty-seven, two physicists, Freeman Dyson and Andrew Lenard, proved something remarkable. Without Pauli's rule, ordinary matter would not be stable. It would collapse into something far, far denser, giving off enormous energy. The rule is what keeps atoms big, and keeps them apart.
+
+Physicists still say that exactly how much of the push you feel from a floor comes from this rule, and how much from ordinary electric forces, is hard to explain simply. But without the exclusion principle, there would be no floors. And no you to stand on them.
+
+So tonight, as you lie in bed, the thing holding you up, gently, all night long, is a quantum rule, found by a sharp-tongued man, a hundred years ago.
+
+And now, the opposite. Sometimes, in the quantum world, things do go through walls.
+
+It's called tunnelling. A particle meets a barrier it doesn't have enough energy to climb over. By the old rules, it simply bounces back. But its wave doesn't stop dead at the wall. A tiny part of it leaks through. And so, now and then, the particle turns up on the far side.
+
+In nineteen twenty-eight, a young physicist named George Gamow used this to explain a mystery about radioactive atoms. And, in the very same week, two others, Ronald Gurney and Edward Condon, found the same idea on their own. They wrote a line I've always liked. Much has been written of the explosive violence with which the particle is hurled from the nucleus. But one would rather say that it slips away, almost unnoticed.
+
+Slips away, almost unnoticed. Like someone leaving a party quietly.
+
+Tunnelling is working right now, above my window. The Sun. At its centre, it's about fifteen million degrees. And yet, even that isn't quite hot enough for its tiny particles to push past each other and join together. They repel each other too strongly. But thanks to tunnelling, now and then, they slip through anyway. And that is part of why the Sun shines.
+
+Just last year, in twenty twenty-five, the Nobel Prize went to three physicists, John Clarke, Michel Devoret and John Martinis, for showing tunnelling in something much bigger. A whole electric circuit, big enough to hold in your hand, behaving together like one single quantum particle.
+
+That kind of circuit, as we'll see, is now inside some of the world's first quantum computers.

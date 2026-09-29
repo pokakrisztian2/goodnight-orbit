@@ -1,0 +1,65 @@
+Hi. It's Otto. It's night on your side of the Earth, and I'm up here on the night shift. I'll keep watch, so you don't have to.
+
+The lamps are low. The tea is warm. Outside my window, the Earth is turning slowly, and a thin blue line of air is glowing along its edge. Somewhere down there, you're getting comfortable. That's good. Stay right there.
+
+Tonight, let's think slowly about quantum physics.
+
+Quantum physics has a strange reputation. People say it's impossible. That it breaks common sense. That particles can be in two places at once, and cats can be alive and dead, and nobody really understands it. And the funny thing is, some of that is almost true.
+
+In nineteen sixty-four, the physicist Richard Feynman gave a series of lectures at Cornell University, for an ordinary audience. And he told them, quite cheerfully, I think I can safely say that nobody understands quantum mechanics.
+
+But then he said something else, and I'd like to borrow it for tonight. Do not take the lecture too seriously, he said. Just relax and enjoy it. I am going to tell you what nature behaves like. If you will simply admit that maybe she does behave like this, you will find her a delightful, entrancing thing.
+
+So that's our plan. We won't fight it. We'll just watch, the way you'd watch the sea at night, and let nature be as strange as she likes.
+
+We'll start more than a hundred years ago, with a glowing piece of metal, and a quiet professor who loved music and mountains. And we'll move forward slowly, one small idea at a time. Light that comes in little packets. Atoms that are built like staircases. Electrons that behave like waves. A famous argument between two old friends. A cat in a box. And the quiet ways all of this is working, right now, inside the objects around you.
+
+You don't need to understand all of it. Remember, Feynman said nobody does. If you fall asleep halfway, that's the plan. I'll keep talking quietly, and the story will keep going without you, and that's perfectly fine.
+
+If you'd like me on watch again tomorrow night, you can subscribe. Then close your eyes.
+
+There. Let's begin.
+
+Think of the glow of a fire. Or the coils of an old electric heater, slowly turning red, then orange. Or a blacksmith's iron, pulled from the coals, shining almost white.
+
+Heat something enough, and it glows. And the colour of the glow tells you how hot it is. Dull red is warm. Orange is hotter. Yellow-white is very hot indeed. A potter can look into a kiln and judge the temperature by eye.
+
+In the nineteenth century, physicists became fascinated by a perfect version of this. They called it a black body. An object that swallows every bit of light that falls on it, and reflects nothing. And when you heat a black body, something surprising happens. The light it gives off depends only on its temperature. Not on what it's made of. Iron, clay, carbon, it doesn't matter. At the same temperature, they all glow the same way.
+
+That sounded like a clue. Something simple and deep, hiding underneath all the different materials in the world.
+
+The study began in Berlin. And in eighteen eighty-nine, a new professor of physics arrived there, to take up the chair of the man who had started it. His name was Max Planck.
+
+Planck was born in Kiel, in northern Germany, in eighteen fifty-eight. He was a careful, serious, rather old-fashioned man. And he was a wonderful pianist. At one point, it's said, he had even thought about a career in music. In later years, his musical evenings in Berlin became legendary. Colleagues would come to play. Violinists. Singers. Sometimes, Albert Einstein came too, with his violin.
+
+Planck also loved the mountains. He climbed and hiked in the Alps well into old age. If you'd met him, I think you'd have found him calm, polite, and a little shy. Not at all the sort of person you'd expect to start a revolution.
+
+Now, in Berlin, at a great government laboratory, experimenters were measuring the glow of hot bodies more and more precisely. How much light came out at each colour. Including the colours we can't see. Deep red, and beyond red, into the infrared, the warm invisible light you feel from a fire on your face.
+
+And the theories couldn't quite match the measurements. A formula that worked well for one part of the glow went wrong for another.
+
+On a Sunday, the seventh of October, nineteen hundred, an experimenter named Heinrich Rubens and his wife came to visit the Plancks at home, for tea. And Rubens mentioned his newest measurements. Far out in the infrared, at long wavelengths, the old formula simply didn't fit.
+
+That evening, after his guests had gone, Planck sat down and found a new formula. One that fitted everything. The whole glowing curve, from end to end. Twelve days later, he presented it to the German Physical Society.
+
+It worked perfectly. But Planck didn't know why it worked. And for a man like Planck, that wasn't good enough. So he spent the next few weeks trying to explain it. Trying to derive it properly, from the laws of physics.
+
+And the only way he could make it work was very odd.
+
+He had to pretend that the energy inside the glowing body could not flow smoothly. That it could only come in little lumps. Fixed-sized pieces. Like coins. You could have one coin of energy, or two, or three hundred. But never one and a half.
+
+Here's a picture I like. Imagine walking up to a door. You could walk up a ramp, and stop at any height you like. Or you could walk up a staircase, where you can only stand on the steps. Nothing in between.
+
+Everyone had always assumed that energy was a ramp. Smooth. Continuous. Planck found that to explain the glow, energy had to be a staircase.
+
+And the height of each step depended on the colour of the light, multiplied by a new, very tiny number. We now call it Planck's constant. It's so small that in everyday life you'd never notice the steps at all. They're far, far too fine to feel. Like a staircase whose steps are thinner than an atom. From a distance, it looks exactly like a ramp.
+
+On the fourteenth of December, nineteen hundred, Planck presented his idea. He was forty-two years old.
+
+And here's the gentle surprise of the story. Almost nobody noticed. Including Planck. One historian put it beautifully. If a revolution occurred in physics in December nineteen hundred, nobody seemed to notice it. Planck was no exception.
+
+Planck thought the little steps were just a mathematical trick. Years later, he called it an act of desperation. He had to find a result, whatever the cost. He didn't really believe that energy came in lumps. He hoped someone would find a way to smooth the steps back into a ramp.
+
+Nobody ever did.
+
+It would take another young man, working in an office in Switzerland, to take Planck's staircase seriously.
