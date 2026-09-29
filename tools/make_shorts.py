@@ -26,7 +26,7 @@ FONT_DIR = os.path.join(ROOT, "tools", "fonts")
 OFFSET = 2.0          # the long video starts with 2 s of silence (make_loop_video.py START_SILENCE)
 MAX_LEN = 59.0        # Shorts that stay under a minute get the widest reach
 SQUARE_X = 380        # left edge of the 1080 square cut from the 1920-wide station (Otto + window)
-SQUARE_Y = 300        # where the square sits in the 1920-high Short (ends at 1380)
+SQUARE_Y = 260        # where the square sits in the 1920-high Short (ends at 1340)
 
 
 def ts(t):
@@ -131,8 +131,8 @@ WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Hook,{f},68,&H00FFFFFF,&H00FFFFFF,&H00100A06,&H96000000,-1,0,0,0,100,100,2,0,1,5,2,8,80,80,55,1
-Style: Cap,{f},104,&H00C4E2F5,&H00C4E2F5,&H00100A06,&H96000000,-1,0,0,0,100,100,3,0,1,7,3,8,110,110,1410,1
+Style: Hook,{f},64,&H00FFFFFF,&H00FFFFFF,&H00100A06,&H96000000,-1,0,0,0,100,100,2,0,1,5,2,8,80,80,40,1
+Style: Cap,{f},104,&H00C4E2F5,&H00C4E2F5,&H00100A06,&H96000000,-1,0,0,0,100,100,3,0,1,7,3,8,110,110,1275,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
