@@ -1,12 +1,34 @@
 {
-  "name": "relativity",
-  "script": "scripts/relativity.txt",
-  "loop_seconds": 60,
-  "scenes": [
-    {
-      "station": "assets/scenes/station/station-veo-v2-4k.mp4",
-      "space": "assets/space/earth-night-veo-v1.mp4"
-    }
-  ],
-  "captions": true
+ "name": "relativity",
+ "script": "scripts/relativity.txt",
+ "loop_seconds": 60,
+ "scenes": [
+  {
+   "station": "assets/scenes/station/station-veo-v2-4k.mp4",
+   "space": "assets/space/earth-night-veo-v1.mp4"
+  }
+ ],
+ "captions": true,
+ "shorts": [
+  {
+   "hook": "Your head is older than your feet",
+   "from": "Today, clocks are even more precise",
+   "paras": 2
+  },
+  {
+   "hook": "Einstein never actually wrote E = mc squared",
+   "from": "Here's a small surprise",
+   "paras": 2
+  },
+  {
+   "hook": "Astronauts don't float because there's no gravity",
+   "from": "The reason I float",
+   "paras": 2
+  },
+  {
+   "hook": "Particles that should be dead before they reach you",
+   "from": "When cosmic rays",
+   "paras": 3
+  }
+ ]
 }

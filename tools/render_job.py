@@ -2,6 +2,7 @@
 """Make one whole video from a job file. Runs on this Mac or in the cloud (GitHub Actions).
 
     python3 tools/render_job.py videos/relativity.json
+    python3 tools/render_job.py videos/relativity.json --shorts-only   (only cut Shorts, voice must exist)
 
 Job file (videos/<name>.json):
     {
@@ -58,11 +59,24 @@ def upload(path):
         s3("cp", os.path.join(ROOT, path), "s3://%s/%s" % (BUCKET, path))
 
 
+def make_shorts(job, name):
+    if not job.get("shorts"):
+        return
+    for f in ("timings.json", "captions.ass"):
+        if not fetch("assets/audio/%s/%s" % (name, f)):
+            sys.exit("error: missing assets/audio/%s/%s" % (name, f))
+    sh([PY, "tools/make_shorts.py", "--name", name])
+    for f in sorted(os.listdir(os.path.join(ROOT, "renders", "shorts"))):
+        if f.startswith(name + "-") and f.endswith(".mp4") or f == name + ".txt":
+            upload("renders/shorts/" + f)
+
+
 def main():
-    if len(sys.argv) != 2:
+    if len(sys.argv) not in (2, 3):
         sys.exit(__doc__)
     job = json.load(open(os.path.join(ROOT, sys.argv[1])))
     name = job["name"]
+    shorts_only = sys.argv[2:] == ["--shorts-only"]
 
     # 1. pictures and clips
     for sc in job["scenes"]:
@@ -73,6 +87,8 @@ def main():
     # 2. voice (slow, so keep it in R2 and reuse it on the next run)
     narration = "assets/audio/%s/narration.wav" % name
     new_voice = not fetch(narration)
+    if new_voice and shorts_only:
+        sys.exit("error: no voice yet for %s, run the full render first" % name)
     if new_voice:
         if job.get("voice", "gemini") == "kokoro":
             sh([PY, "tools/narrate.py", "--name", name, "--text", job["script"], "--sleep"])
@@ -91,6 +107,10 @@ def main():
             "--seconds", str(job.get("loop_seconds", 60)),
             "--out", "assets/loops/%s/%02d.mp4" % (name, i)])
 
+    if shorts_only:
+        make_shorts(job, name)
+        return
+
     # 4. the long video
     sh([PY, "tools/make_loop_video.py", "--name", name])
 
@@ -100,6 +120,9 @@ def main():
             fetch("assets/audio/%s/captions.ass" % name)   # same voice -> reuse its word times
         sh([PY, "tools/make_captions.py", "--name", name])
         upload("assets/audio/%s/captions.ass" % name)
+
+    # 4c. vertical Shorts cut from the same voice + loop
+    make_shorts(job, name)
 
     # 5. upload + a download link (works 7 days)
     render = "renders/%s.mp4" % name

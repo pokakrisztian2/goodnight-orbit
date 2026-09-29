@@ -9,6 +9,10 @@ on:
         description: "Job name (videos/<job>.json)"
         required: true
         default: test-window
+      shorts_only:
+        description: "Only cut Shorts (the voice must already exist)"
+        type: boolean
+        default: false
 
 jobs:
   render:
@@ -50,4 +54,4 @@ jobs:
           curl -sL -o tools/models/voices-v1.0.bin "$BASE/voices-v1.0.bin"
 
       - name: Make the video
-        run: python tools/render_job.py "videos/${{ inputs.job }}.json"
+        run: python tools/render_job.py "videos/${{ inputs.job }}.json" ${{ inputs.shorts_only && '--shorts-only' || '' }}

@@ -8,5 +8,32 @@
    "space": "assets/space/earth-night-veo-v1.mp4"
   }
  ],
- "captions": true
+ "captions": true,
+ "shorts": [
+  {
+   "hook": "The AI that changed everything was trained in a bedroom",
+   "from": "He used two graphics cards",
+   "paras": 3
+  },
+  {
+   "hook": "The first learning machine turned its own knobs",
+   "from": "And here's the part I love",
+   "paras": 2
+  },
+  {
+   "hook": "The Go move that stunned the world",
+   "from": "In the second game, AlphaGo",
+   "paras": 3
+  },
+  {
+   "hook": "King minus man plus woman equals...",
+   "from": "Here's the most famous example",
+   "paras": 4
+  },
+  {
+   "hook": "Why AI makes things up",
+   "from": "Why does it happen?",
+   "paras": 3
+  }
+ ]
 }
