@@ -6,7 +6,7 @@
 --image = start picture (image-to-video), fetched from R2 if it is not in the repo.
 Needs GEMINI_API_KEY (GitHub secret). Veo 3.1 Lite 1080p = $0.08/s -> $0.64 per clip.
 """
-import argparse, base64, json, os, sys, time, urllib.request
+import argparse, base64, json, os, sys, time, urllib.error, urllib.request
 
 sys.path.insert(0, os.path.dirname(__file__))
 from render_job import ROOT, fetch, upload
@@ -18,8 +18,11 @@ def call(path, body=None):
     req = urllib.request.Request(API + path, data=json.dumps(body).encode() if body else None,
                                  headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"],
                                           "Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=300) as r:
-        return json.loads(r.read())
+    try:
+        with urllib.request.urlopen(req, timeout=300) as r:
+            return json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        sys.exit("error %s: %s" % (e.code, e.read().decode()[:1000]))
 
 
 def main():
@@ -40,6 +43,8 @@ def main():
                          base64.b64encode(open(os.path.join(ROOT, a.image), "rb").read()).decode()}}
     body = {"instances": [inst], "parameters": {"aspectRatio": "16:9", "resolution": a.resolution,
                                                 "durationSeconds": 8}}
+    if a.image:
+        body["parameters"]["personGeneration"] = "allow_adult"   # the only value image-to-video accepts
     op = call("models/%s:predictLongRunning" % a.model, body)
     print("started", op.get("name"), flush=True)
     while not op.get("done"):
