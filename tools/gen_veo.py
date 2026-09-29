@@ -39,8 +39,8 @@ def main():
         if not fetch(a.image):
             sys.exit("error: missing %s" % a.image)
         mime = "image/png" if a.image.lower().endswith(".png") else "image/jpeg"
-        inst["image"] = {"inlineData": {"mimeType": mime, "data":
-                         base64.b64encode(open(os.path.join(ROOT, a.image), "rb").read()).decode()}}
+        inst["image"] = {"mimeType": mime, "bytesBase64Encoded":
+                         base64.b64encode(open(os.path.join(ROOT, a.image), "rb").read()).decode()}
     body = {"instances": [inst], "parameters": {"aspectRatio": "16:9", "resolution": a.resolution,
                                                 "durationSeconds": 8}}
     if a.image:
