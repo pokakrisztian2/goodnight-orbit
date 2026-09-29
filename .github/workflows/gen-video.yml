@@ -1,0 +1,41 @@
+name: Make scene clip (Veo)
+
+# Makes one 8 s clip with Veo and puts it in R2 at the same path.
+on:
+  workflow_dispatch:
+    inputs:
+      prompt:
+        description: "Prompt file in the repo"
+        required: true
+      out:
+        description: "R2 path for the clip, e.g. assets/space/earth-aurora-veo-v1.mp4"
+        required: true
+      image:
+        description: "Start picture in R2 (empty = text only)"
+        default: ""
+      model:
+        default: veo-3.1-lite-generate-preview
+      resolution:
+        default: 1080p
+
+jobs:
+  veo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      R2_BUCKET: goodnight-orbit
+      R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Make the clip
+        run: >
+          python tools/gen_veo.py --prompt "${{ inputs.prompt }}" --out "${{ inputs.out }}"
+          --model "${{ inputs.model }}" --resolution "${{ inputs.resolution }}"
+          ${{ inputs.image && format('--image "{0}"', inputs.image) || '' }}
