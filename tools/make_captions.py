@@ -21,7 +21,6 @@ import os
 import re
 import shutil
 import subprocess
-import textwrap
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONT_DIR = os.path.join(ROOT, "tools", "fonts")
@@ -171,7 +170,7 @@ def main():
             text = " ".join(w.word.strip() for w in g).upper().replace("{", "(").replace("}", ")")
             lines.append("Dialogue: 0,%s,%s,Cap,,0,0,0,,%s" % (ts(start), ts(end), text))
         with open(ass, "w") as fh:
-            fh.write(textwrap.dedent(head) + "\n".join(lines) + "\n")
+            fh.write(head.replace("\n    ", "\n") + "\n".join(lines) + "\n")
         print("%d captions -> %s" % (len(lines), ass), flush=True)
 
     # burn in: re-encode the picture once, keep the sound as it is
