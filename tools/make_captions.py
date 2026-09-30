@@ -113,7 +113,13 @@ def main():
     else:
         from faster_whisper import WhisperModel
         model = WhisperModel(args.model, device="cpu", compute_type="int8")
-        segments, _ = model.transcribe(narration, word_timestamps=True, vad_filter=False,
+        # decode the voice ourselves (16 kHz mono float): faster-whisper's own decoder breaks
+        # whenever a new PyAV comes out
+        import numpy as np
+        pcm = subprocess.run(["ffmpeg", "-v", "error", "-i", narration, "-ac", "1", "-ar", "16000",
+                              "-f", "f32le", "-"], capture_output=True, check=True).stdout
+        audio = np.frombuffer(pcm, np.float32)
+        segments, _ = model.transcribe(audio, word_timestamps=True, vad_filter=False,
                                        condition_on_previous_text=False)
         words = [W(w.word.strip(), w.start, w.end) for seg in segments for w in seg.words]
         print("%d words timed" % len(words), flush=True)

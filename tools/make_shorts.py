@@ -120,7 +120,11 @@ def say_captions(wav):
     """Word times for the spoken hook (faster-whisper), grouped 1-3 words."""
     from faster_whisper import WhisperModel
     model = WhisperModel("base.en", device="cpu", compute_type="int8")
-    segs, _ = model.transcribe(wav, word_timestamps=True, condition_on_previous_text=False)
+    import numpy as np   # decode ourselves: faster-whisper's decoder breaks with new PyAV versions
+    pcm = subprocess.run(["ffmpeg", "-v", "error", "-i", wav, "-ac", "1", "-ar", "16000", "-f", "f32le", "-"],
+                         capture_output=True, check=True).stdout
+    segs, _ = model.transcribe(np.frombuffer(pcm, np.float32), word_timestamps=True,
+                               condition_on_previous_text=False)
     words = [w for s in segs for w in s.words]
     out, cur = [], []
     for w in words:
