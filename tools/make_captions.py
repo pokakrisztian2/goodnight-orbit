@@ -74,6 +74,9 @@ def align(script_text, heard):
         b = out[j].start if j < len(out) else a + 0.4 * (j - i)
         out[i:j] = spread([w.word for w in out[i:j]], a, max(b, a + 0.1))
         i = j
+    for a, b in zip(out, out[1:]):               # keep times in order
+        b.start = max(b.start, a.start)
+        b.end = max(b.end, b.start)
     return out
 
 
