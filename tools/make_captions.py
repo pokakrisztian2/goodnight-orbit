@@ -21,6 +21,7 @@ import os
 import re
 import shutil
 import subprocess
+import textwrap
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONT_DIR = os.path.join(ROOT, "tools", "fonts")
@@ -70,8 +71,10 @@ def align(script_text, heard):
         j = i
         while j < len(out) and out[j].start is None:
             j += 1
-        a = out[i - 1].end if i else 0.0
-        b = out[j].start if j < len(out) else a + 0.4 * (j - i)
+        b = out[j].start if j < len(out) else None
+        a = out[i - 1].end if i else max(0.0, b - 0.4 * (j - i))   # words before the first timed one
+        if b is None:
+            b = a + 0.4 * (j - i)
         out[i:j] = spread([w.word for w in out[i:j]], a, max(b, a + 0.1))
         i = j
     for a, b in zip(out, out[1:]):               # keep times in order
@@ -168,7 +171,7 @@ def main():
             text = " ".join(w.word.strip() for w in g).upper().replace("{", "(").replace("}", ")")
             lines.append("Dialogue: 0,%s,%s,Cap,,0,0,0,,%s" % (ts(start), ts(end), text))
         with open(ass, "w") as fh:
-            fh.write(head + "\n".join(lines) + "\n")
+            fh.write(textwrap.dedent(head) + "\n".join(lines) + "\n")
         print("%d captions -> %s" % (len(lines), ass), flush=True)
 
     # burn in: re-encode the picture once, keep the sound as it is
@@ -177,6 +180,7 @@ def main():
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", video,
                     "-vf", "ass=%s:fontsdir=%s" % (os.path.relpath(ass, ROOT), os.path.relpath(FONT_DIR, ROOT)),
                     "-c:v", "libx264", "-preset", "superfast", "-crf", "24", "-g", "50",
+                    "-maxrate", "3500k", "-bufsize", "7000k",   # busy scenes (aurora) doubled the file size
                     "-c:a", "copy", "-movflags", "+faststart", tmp], check=True, cwd=ROOT)
     shutil.move(tmp, video)
     print("captions burned -> %s" % video)
