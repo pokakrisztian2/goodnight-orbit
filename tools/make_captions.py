@@ -178,8 +178,8 @@ def main():
     # relative paths: the folder name "Youtube Business" has a space, which the filter can't take
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", video,
                     "-vf", "ass=%s:fontsdir=%s" % (os.path.relpath(ass, ROOT), os.path.relpath(FONT_DIR, ROOT)),
-                    "-c:v", "libx264", "-preset", "superfast", "-crf", "24", "-g", "50",
-                    "-maxrate", "3500k", "-bufsize", "7000k",   # busy scenes (aurora) doubled the file size
+                    "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-x264-params", "aq-mode=3", "-g", "50",
+                    "-maxrate", "10M", "-bufsize", "20M",   # keep the stars: quality first, ~6-8 GB per video
                     "-c:a", "copy", "-movflags", "+faststart", tmp], check=True, cwd=ROOT)
     shutil.move(tmp, video)
     print("captions burned -> %s" % video)

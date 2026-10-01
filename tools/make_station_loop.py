@@ -202,7 +202,8 @@ def main():
          "-filter_complex",
          space_f + ";" + room_f + comp,
          "-t", "%.2f" % L, "-r", str(FPS), "-an",
-         "-c:v", "libx264", "-crf", "24", "-preset", "veryfast", "-g", str(FPS * 2), args.out])
+         "-c:v", "libx264", "-crf", "16", "-preset", "medium", "-x264-params", "aq-mode=3",
+         "-g", str(FPS * 2), args.out])   # high quality: tiny stars and letters smear at crf 24
     print("done -> %s (%.0fs loop)" % (args.out, L))
 
 
