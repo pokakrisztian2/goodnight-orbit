@@ -93,7 +93,7 @@ def main():
                     help="space video: how much bigger than the window (1.0 = just covers it)")
     ap.add_argument("--room-saturation", type=float, default=1.0,
                     help="colour strength of the room only (0.7 = calmer); the sky is not touched")
-    ap.add_argument("--space-slow", type=float, default=2.0, help="space video: play this many times slower")
+    ap.add_argument("--space-slow", type=float, default=1.0, help="space video: play this many times slower")
     args = ap.parse_args()
 
     tmp = tempfile.mkdtemp(prefix="station-")
@@ -141,7 +141,7 @@ def main():
 
     space_is_video = args.space.lower().endswith(VIDEO_EXTS)
     if space_is_video:
-        # slow it down (new in-between frames from the motion, not repeats), then forward + backward: the Earth never jumps at the loop point
+        # play at its own speed (Veo skies are calm already; slowing made it jerky), forward + backward: the Earth never jumps at the loop point
         # fit the clip to the window (a bit bigger), not the whole screen:
         # more Earth in view, and a 4K clip shrunk down stays sharp
         win = np.asarray(window_mask(frame)[0]) > 128
@@ -161,7 +161,8 @@ def main():
         sp = os.path.join(tmp, "space-pingpong.mp4")
         run(["ffmpeg", "-y", "-loglevel", "error", "-i", args.space, "-an", "-filter_complex",
              "[0]scale=%d:%d:flags=lanczos,crop=%d:%d:%d:%d,pad=%d:%d:%d:%d:black,setpts=%.2f*PTS,"
-             "minterpolate=fps=%d:mi_mode=mci:mc_mode=aobmc:vsbmc=1,setsar=1,"
+             + ("fps=%d," if args.space_slow == 1 else "minterpolate=fps=%d:mi_mode=blend,")   # blend: fast, smooth
+             + "setsar=1,"
              "split[a][b];[b]reverse[r];[a][r]concat=n=2:v=1"
              % (sw, sh_, cw, ch, cl, ct, W, H, max(0, x0), max(0, y0), args.space_slow, FPS),
              "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", sp])
