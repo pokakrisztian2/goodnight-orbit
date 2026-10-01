@@ -160,10 +160,9 @@ def main():
         print("space clip %dx%d -> %dx%d around the window" % (vw, vh, sw, sh_))
         sp = os.path.join(tmp, "space-pingpong.mp4")
         run(["ffmpeg", "-y", "-loglevel", "error", "-i", args.space, "-an", "-filter_complex",
-             "[0]scale=%d:%d:flags=lanczos,crop=%d:%d:%d:%d,pad=%d:%d:%d:%d:black,setpts=%.2f*PTS,"
-             + ("fps=%d," if args.space_slow == 1 else "minterpolate=fps=%d:mi_mode=blend,")   # blend: fast, smooth
-             + "setsar=1,"
-             "split[a][b];[b]reverse[r];[a][r]concat=n=2:v=1"
+             ("[0]scale=%d:%d:flags=lanczos,crop=%d:%d:%d:%d,pad=%d:%d:%d:%d:black,setpts=%.2f*PTS,"
+              + ("fps=%d," if args.space_slow == 1 else "minterpolate=fps=%d:mi_mode=blend,")   # blend: fast, smooth
+              + "setsar=1,split[a][b];[b]reverse[r];[a][r]concat=n=2:v=1")
              % (sw, sh_, cw, ch, cl, ct, W, H, max(0, x0), max(0, y0), args.space_slow, FPS),
              "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", sp])
         space_in = ["-stream_loop", "-1", "-i", sp]
