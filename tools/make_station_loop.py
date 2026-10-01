@@ -25,7 +25,7 @@ import sys
 import tempfile
 
 import numpy as np
-from PIL import Image, ImageFilter
+from PIL import Image, ImageEnhance, ImageFilter
 
 W, H, FPS = 1920, 1080, 25
 VIDEO_EXTS = (".mp4", ".mov", ".m4v", ".webm", ".mkv")
@@ -91,6 +91,8 @@ def main():
     ap.add_argument("--drift", type=float, default=6, help="space photo drift, pixels per second")
     ap.add_argument("--space-margin", type=float, default=1.02,
                     help="space video: how much bigger than the window (1.0 = just covers it)")
+    ap.add_argument("--room-saturation", type=float, default=1.0,
+                    help="colour strength of the room only (0.7 = calmer); the sky is not touched")
     ap.add_argument("--space-slow", type=float, default=2.0, help="space video: play this many times slower")
     args = ap.parse_args()
 
@@ -117,10 +119,11 @@ def main():
         # forward + backward = seamless, then repeat to fill the loop
         room = os.path.join(tmp, "pingpong.mp4")
         run(["ffmpeg", "-y", "-loglevel", "error", "-i", args.station, "-an",
-             "-filter_complex", "[0]scale=%d:%d,fps=%d,setsar=1,split[a][b];[b]reverse[r];[a][r]concat=n=2:v=1" % (W, H, FPS),
+             "-filter_complex", "[0]scale=%d:%d,fps=%d,setsar=1,eq=saturation=%.2f,split[a][b];[b]reverse[r];[a][r]concat=n=2:v=1"
+             % (W, H, FPS, args.room_saturation),
              "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", room])
         room_in = ["-stream_loop", "-1", "-i", room]
-        a = np.asarray(frame).astype(int)
+        a = np.asarray(ImageEnhance.Color(frame).enhance(args.room_saturation)).astype(int)
         key = np.median(a[np.asarray(mask) > 200], axis=0).astype(int)
         keyhex = "0x%02x%02x%02x" % tuple(key)
         # layer 1: the room with green made see-through on every frame

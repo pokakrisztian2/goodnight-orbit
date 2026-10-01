@@ -111,6 +111,7 @@ def main():
     for i, sc in enumerate(job["scenes"], 1):
         sh([PY, "tools/make_station_loop.py", "--station", sc["station"], "--space", sc["space"],
             "--seconds", str(job.get("loop_seconds", 60)),
+            "--room-saturation", str(sc.get("room_saturation", 1.0)),
             "--out", "assets/loops/%s/%02d.mp4" % (name, i)])
 
     if shorts_only:

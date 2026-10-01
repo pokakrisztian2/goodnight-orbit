@@ -1,0 +1,16 @@
+{
+ "name": "chatgpt",
+ "script": "scripts/chatgpt.txt",
+ "loop_seconds": 60,
+ "scenes": [
+  {
+   "station": "assets/scenes/chatgpt/room-v1.mp4",
+   "space": "assets/space/earth-brain-v1.mp4",
+   "room_saturation": 0.7
+  }
+ ],
+ "captions": true,
+ "shorts": [],
+ "topic": "ChatGPT",
+ "title": "Every Confusing Thing About How ChatGPT Thinks Explained Slowly (For Sleep)"
+}
