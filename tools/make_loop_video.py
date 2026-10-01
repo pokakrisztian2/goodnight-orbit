@@ -27,7 +27,7 @@ import subprocess
 import sys
 import tempfile
 
-FPS = 25
+FPS = 24          # Veo clips are 24 fps: no frame repeats, no judder
 W, H = 1920, 1080
 LOUDNESS = -20          # LUFS. Sleep level: quieter than normal YouTube (-14)
 AMBIENCE_DB = -14.0     # ambience this many dB under the voice

@@ -27,7 +27,7 @@ import tempfile
 import numpy as np
 from PIL import Image, ImageEnhance, ImageFilter
 
-W, H, FPS = 1920, 1080, 25
+W, H, FPS = 1920, 1080, 24   # = Veo, so no frame repeats
 VIDEO_EXTS = (".mp4", ".mov", ".m4v", ".webm", ".mkv")
 
 
@@ -141,7 +141,7 @@ def main():
 
     space_is_video = args.space.lower().endswith(VIDEO_EXTS)
     if space_is_video:
-        # slow it down, then forward + backward: the Earth never jumps at the loop point
+        # slow it down (new in-between frames from the motion, not repeats), then forward + backward: the Earth never jumps at the loop point
         # fit the clip to the window (a bit bigger), not the whole screen:
         # more Earth in view, and a 4K clip shrunk down stays sharp
         win = np.asarray(window_mask(frame)[0]) > 128
@@ -160,7 +160,8 @@ def main():
         print("space clip %dx%d -> %dx%d around the window" % (vw, vh, sw, sh_))
         sp = os.path.join(tmp, "space-pingpong.mp4")
         run(["ffmpeg", "-y", "-loglevel", "error", "-i", args.space, "-an", "-filter_complex",
-             "[0]scale=%d:%d:flags=lanczos,crop=%d:%d:%d:%d,pad=%d:%d:%d:%d:black,setpts=%.2f*PTS,fps=%d,setsar=1,"
+             "[0]scale=%d:%d:flags=lanczos,crop=%d:%d:%d:%d,pad=%d:%d:%d:%d:black,setpts=%.2f*PTS,"
+             "minterpolate=fps=%d:mi_mode=mci:mc_mode=aobmc:vsbmc=1,setsar=1,"
              "split[a][b];[b]reverse[r];[a][r]concat=n=2:v=1"
              % (sw, sh_, cw, ch, cl, ct, W, H, max(0, x0), max(0, y0), args.space_slow, FPS),
              "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", sp])
