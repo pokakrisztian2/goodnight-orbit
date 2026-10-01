@@ -1,0 +1,59 @@
+Before a machine like this can answer anything, it has to read. And the way it reads is very strange, and very simple.
+
+It's given a piece of text, with the end hidden. And it has to guess the next word. Then it's shown what the word really was. If it guessed wrong, all of its numbers are nudged, very slightly, so that next time it would guess a little better. Then the next word. And the next.
+
+That's it. That's the whole of the first lesson. It's called pre-training. Nobody marks anything as true or false. Nobody explains anything. The machine just sees an enormous amount of real writing, and keeps guessing what comes next.
+
+So what did it read?
+
+For GPT-3, OpenAI listed it, carefully, in their paper in twenty twenty. Most of it came from something called Common Crawl. A huge public collection of web pages, gathered month after month by a small non-profit. The part they used covered the years twenty sixteen to twenty nineteen. Before cleaning, it was forty-five terabytes of compressed text. Nearly a trillion words.
+
+They filtered it. They kept the pages that looked most like good writing, and removed copies. What was left was about five hundred and seventy gigabytes.
+
+The rest of the reading came from a collection of web pages that people had shared and liked, and two large collections of books. And Wikipedia. All of English Wikipedia. Which, I was surprised to learn, made up only about three percent of everything it read.
+
+The better sources were read more than once. Two or three times. The great messy web, less than once.
+
+In all, GPT-3 read three hundred billion tokens during its training. If you read for eight hours a day, every day, it would take you several thousand years to get through that much text.
+
+And the reading wasn't quick, even for a machine. GPT-3's training took about three hundred thousand billion billion little calculations. Roughly a three, followed by twenty-three zeros. It was done on special chips, called GPUs, on a large cluster of computers that Microsoft provided.
+
+GPUs were first made for video games. For drawing landscapes and faces and explosions on a screen, very fast. Which turns out to need exactly the same thing as these machines need. Huge numbers of small, simple multiplications, all done at once.
+
+In January twenty twenty, a team at OpenAI noticed something important. They trained many models of different sizes, on different amounts of text, and measured how well each one guessed. And they found that the improvement followed smooth, regular curves. Make the model bigger, or give it more to read, or more time to compute, and it gets better, in a predictable way. Over a range of more than ten million times.
+
+They're called scaling laws. They're a little like the laws of physics we met on earlier nights. Simple rules, that seemed to hold across an enormous range.
+
+And for a while, the lesson people drew was, make the models as big as possible.
+
+Then, in March twenty twenty-two, a team at DeepMind, in London, looked again. They trained more than four hundred models, of many sizes, on many amounts of text. And they came to a surprising conclusion. The big models of the time, they wrote, were significantly undertrained. They were too big for how much they'd read.
+
+Their rule was elegant. For every doubling of the size of the model, double the amount of reading, too.
+
+To show it, they built a model called Chinchilla. It was much smaller than the biggest models of the day, seventy billion parameters, but it read four times as much as a similar model before it. One point four trillion tokens. And it beat models up to seven times its size.
+
+From their numbers, people took a rough rule of thumb. About twenty tokens of reading, for every parameter in the model.
+
+A parameter, by the way, is one of the knobs. One of the numbers inside the machine that gets nudged during training. The strength of one little connection. GPT-3 had a hundred and seventy-five billion of them. By Chinchilla's rule, it should have read about three point seven trillion tokens. It had read three hundred billion. A very large mind, that hadn't quite read enough.
+
+Since then, both have grown. In twenty twenty-four, Meta trained its largest Llama model on fifteen point six trillion tokens, using up to sixteen thousand of the newest GPUs at once.
+
+Their paper is unusually honest about what that's like. In fifty-four days of training, there were four hundred and sixty-six interruptions. Most of them unexpected. Most of those from failing hardware. When tens of thousands of chips paused and started again together, the power they drew could swing by tens of megawatts. Enough, they wrote, to stretch the limits of the power grid.
+
+And there's one detail in that paper I can't stop thinking about. They noticed that training ran one or two percent slower in the middle of the day. Because of the heat. The afternoon warmth was enough to slow the chips down.
+
+So somewhere in a great hall full of humming machines, a mind made of numbers was learning to speak, a little more slowly every afternoon, because the sun was out.
+
+The companies have become more private since then. When GPT-4 came out, in March twenty twenty-three, its technical report said, quite openly, that it contained no details about the model's size, or its hardware, or how much computing it used, or how its data was put together. Because of competition, they said, and safety.
+
+So nobody outside OpenAI knows exactly how big the newest models are. The large numbers you sometimes hear are estimates.
+
+Some companies have been more open. At the end of twenty twenty-four, the Chinese company DeepSeek published the details of a model with six hundred and seventy-one billion parameters, though only about thirty-seven billion of them are used for any one token. It read fourteen point eight trillion tokens. And they said its final training run cost about five and a half million dollars in computer time. Which sounds like a lot. But they were careful to say that this didn't include all the research and experiments that came before. And compared with what many people had assumed such models cost, it was surprisingly small.
+
+But we know the shape of it. A machine that has read a large part of what people have written in public. Billions of web pages. Huge collections of books. Arguments and recipes and love letters and instruction manuals and poems.
+
+And somewhere in all that reading, many, many times, people have written about why the sky is dark at night.
+
+Here on the station, my question is still at the top of those ninety-six floors. Every word has looked at every other. The machine has drawn on everything it absorbed from all that reading.
+
+And now, at last, it's going to choose a word.

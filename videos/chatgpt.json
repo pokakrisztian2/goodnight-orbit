@@ -10,7 +10,38 @@
   }
  ],
  "captions": true,
- "shorts": [],
+ "shorts": [
+  {
+   "hook": "Five words that made AI smarter",
+   "say": "In twenty twenty-two, researchers found five words that made an AI far better at maths.",
+   "from": "A few months later, a team at the University of Tokyo",
+   "paras": 5
+  },
+  {
+   "hook": "The AI that thought it was a bridge",
+   "say": "Scientists found the idea of the Golden Gate Bridge inside an AI. Then they turned it up.",
+   "from": "Then they tried something playful.",
+   "paras": 4
+  },
+  {
+   "hook": "It plans the rhyme first",
+   "say": "Does an AI just guess one word at a time? Researchers looked inside, and found a surprise.",
+   "from": "They asked the model to finish a little rhyming",
+   "paras": 5
+  },
+  {
+   "hook": "Wait, wait. Wait.",
+   "say": "An AI taught itself to stop, and say wait, and check its own work.",
+   "from": "They had trained their model mostly by letting it practise",
+   "paras": 4
+  },
+  {
+   "hook": "Why ChatGPT makes things up",
+   "say": "Why does ChatGPT sometimes make things up, so confidently? The answer is in how we test it.",
+   "from": "Think about a multiple choice test at school.",
+   "paras": 3
+  }
+ ],
  "topic": "ChatGPT",
- "title": "Every Confusing Thing About How ChatGPT Thinks Explained Slowly (For Sleep)"
+ "title": "Every Confusing Thing About ChatGPT Explained Slowly (For Sleep)"
 }

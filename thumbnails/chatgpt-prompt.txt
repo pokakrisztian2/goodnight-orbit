@@ -1,0 +1,17 @@
+YouTube thumbnail, 16:9, 1280x720. Pure black background. Everything is glowing neon line art in ONE colour only: bright emerald green (like an old computer terminal), like chalk made of light, with a soft glow. No other colours.
+
+Centre: huge chunky pixel-art title in one line: "CHATGPT". Under it, smaller clean pixel text between two thin lines: "EXPLAINED SLOWLY". The title is the biggest thing, easy to read on a phone.
+
+Around the title, 8 small glowing green line-art icons, each with a small pixel-text label under it:
+1. Top left: a word cut into three puzzle pieces — label "TOKENS"
+2. Top: a small map with dots joined by lines — label "MAP OF MEANING"
+3. Top: many small dots all connected to each other by thin lines — label "ATTENTION"
+4. Top right: a tall stack of books — label "TRILLIONS OF WORDS"
+5. Right: a single die showing five dots — label "NEXT WORD"
+6. Bottom right: a small notebook with a pencil — label "MEMORY"
+7. Bottom: a speech bubble with a question mark — label "WHY IT MAKES THINGS UP"
+8. Bottom: a magnifying glass over a small brain — label "LOOKING INSIDE"
+
+Bottom left: a small round astronaut (the character from the reference image), drawn in the same glowing green line art, floating cross-legged and holding a cup of tea with steam.
+
+Clean, not cluttered. Small stars scattered in the black. No logos. Spell every word exactly as written.

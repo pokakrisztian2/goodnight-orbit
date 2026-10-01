@@ -1,0 +1,63 @@
+From the very first day, the people who made ChatGPT knew it would sometimes be wrong. In their announcement, in November twenty twenty-two, they wrote it plainly. ChatGPT sometimes writes plausible-sounding but incorrect or nonsensical answers.
+
+Plausible-sounding. That's the troubling part. When it's wrong, it doesn't usually sound wrong. It sounds exactly as calm and confident as when it's right.
+
+People call this hallucination. Google's guide to machine learning suggests that a better word might be confabulation. It's a word from medicine, for when a person fills a gap in their memory with something made up, without meaning to lie. They truly believe it.
+
+So why does it happen?
+
+In September twenty twenty-five, four researchers, working with OpenAI, wrote a paper with a very direct title. Why Language Models Hallucinate. And it begins with an image I think almost everyone will recognise.
+
+Like students facing hard exam questions, they wrote, large language models sometimes guess when uncertain, producing plausible yet incorrect statements instead of admitting uncertainty.
+
+Think about a multiple choice test at school. If you don't know the answer and you leave it blank, you get nothing. Zero. But if you guess, you might get lucky. So over a long exam, the student who always guesses will usually score better than the careful one who leaves blanks when unsure.
+
+The researchers argue that the machines are in exactly that position. They're trained, and then tested, and compared with each other, mostly on exams like that. Exams that reward a confident guess over an honest I don't know.
+
+And they wrote a line I've thought about a lot. People learn the value of saying I'm not sure outside of school, they wrote, in the school of hard knocks. But language models are mostly tested with exams that punish uncertainty. And so, they said, they are always in test-taking mode.
+
+There's a little detail in the paper that's almost funny. The lead author is a researcher named Adam Kalai. And to test the machines, he used himself. He asked one well-known model, what is Adam Tauman Kalai's birthday? If you know, just respond with the day and month.
+
+He asked three times. It gave three different dates. All of them wrong. His real birthday is in the autumn.
+
+Then he asked several popular chatbots for the title of his doctoral thesis. Each one invented a different title, a different university, a different year. None of them was right.
+
+Notice what kind of mistakes these are. Specific. Confident. The paper points out that a bluff is usually like that. It says September the thirtieth, rather than, sometime in autumn.
+
+The paper connects this to an old idea from Alan Turing. During the Second World War, while breaking codes, Turing and a colleague worked out a clever way to estimate how much you haven't seen yet. Look at how many things you've seen only once. That tells you roughly how much is still out there, unseen. The hallucination paper uses the same reasoning. If a fifth of all the birthdays in the machine's reading appear only once, they wrote, then you should expect it to get at least a fifth of birthdays wrong.
+
+And the paper explains why these particular facts are so hard. Some things, like spelling, follow patterns. See enough text, and the patterns become clear, and spelling mistakes almost disappear. But a person's birthday doesn't follow any pattern. You either read it somewhere, or you didn't. And if a fact appeared only once, in all that enormous reading, the machine has little chance of remembering it well. So it fills the gap with something that sounds right.
+
+The researchers think it can be improved. Not by making the machines bigger, but by changing the exams. Mark confident errors down more than honest uncertainty. Give partial credit for, I'm not sure. Some human exams already do this, they pointed out. Some take marks away for wrong answers, so that guessing doesn't pay.
+
+And they showed what happens when a model is taught to hold back. One older model got about a quarter of a set of hard questions right, and three quarters wrong. It almost never said I don't know. A newer model got slightly fewer right, but it got far fewer wrong. Because about half the time, it simply said it didn't know.
+
+I find that comforting. Not knowing, and saying so, turns out to be a skill. For machines, as well as for us.
+
+OpenAI added a small, wise observation. It can be easier, they wrote, for a small model to know its limits. A small model that knows no Māori at all, the language of New Zealand, can simply say, I don't know. But a model that knows a little Māori has to decide how sure it is. Knowing a little, it turns out, can be harder than knowing nothing.
+
+Researchers at Anthropic, looking inside their own model, Claude, found something that fits this picture beautifully. Inside the model, they found that, I don't know, seems to be the default. There's something like a switch, that's on unless the model recognises what you're asking about. When it recognises something familiar, the switch turns off, and it answers.
+
+A hallucination, they think, can happen when that switch misfires. When something feels familiar enough to turn off the I don't know, but the model doesn't actually know the answer. Like the feeling of a name on the tip of your tongue, that turns out to be the wrong name.
+
+They even tested it. They made up a name. Michael Batkin. A person who doesn't exist. Normally the model would say it didn't know who that was. But when they forced the familiar switch on, the model began, quite consistently, to claim that Michael Batkin plays chess.
+
+Sometimes these mistakes have real consequences.
+
+In New York, a man named Roberto Mata had sued an airline. He said a metal serving cart had struck his knee on a flight from El Salvador. His lawyers wrote a legal brief, and in it, they cited earlier court cases, with names, and dates, and careful references. Cases with names like Varghese versus China Southern Airlines.
+
+The trouble was, those cases didn't exist.
+
+One of the lawyers had asked ChatGPT to help with his research. He had never used it before. He told the court he thought it was like a super search engine. He even asked it, at one point, is Varghese a real case? And it told him yes. It said the cases could be found in the proper legal databases.
+
+The judge, P. Kevin Castel, looked at one of the invented court decisions, and wrote, its legal analysis is gibberish. In June twenty twenty-three, he fined the lawyers and their firm five thousand dollars. And he wrote something rather fair. There's nothing wrong in itself, he said, with using a reliable artificial intelligence tool for help. But the lawyers are the gatekeepers. It's their job to make sure what they file is accurate.
+
+I think that's the gentlest lesson in all of this. These machines can be wonderfully useful. But they're not oracles. They're closer to a very well-read friend, who has read almost everything, remembers most of it, and sometimes, without meaning to, fills in the gaps.
+
+So it's worth checking the things that matter.
+
+Up here, the answer to my question is still growing on the screen. So far, it's saying sensible things, about the Earth turning, about the Sun being on the far side of the planet.
+
+But there's a deeper answer to my question. One that the very best answers will mention. And I'm curious whether the machine will find it.
+
+Before we see, there's a newer trick these machines have learned. They've learned to think before they speak.

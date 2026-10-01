@@ -1,0 +1,81 @@
+Hi. It's Otto. It's night on your side of the Earth, and I'm up here on the night shift. I'll keep watch, so you don't have to.
+
+The lamps are low. The tea is warm. And tonight the station looks a little different. I've been reading a lot lately, so the walls are full of books, held in place with little straps, so they don't float away. There's an old typewriter on the desk. And sometimes, when I'm tired, I could swear the letters lift off the pages and drift around the room, like fireflies.
+
+Outside my window, the Milky Way is out, and a thin blue line of air is glowing along the edge of the Earth. Somewhere down there, you're getting comfortable. That's good. Stay right there.
+
+Tonight, let's think slowly about ChatGPT. And all the machines like it. The ones you can talk to.
+
+Close to a billion people now talk to ChatGPT every week. People ask it for recipes, and for help with letters, and about their health, and their homework, and their hearts. And most of them have no idea what's happening on the other side of the screen. To be honest, for a long time, neither did I.
+
+So here's what I thought we'd do. A moment ago, before I started talking to you, I typed a question into the computer here on the station. Just one small question. Why is the sky dark at night?
+
+And tonight, we're going to follow that question. Slowly. All the way into the machine. We'll watch it get cut into pieces, and turned into numbers, and passed through layer after layer, and finally, word by word, we'll watch the answer come back out.
+
+You don't need to understand all of it. Some of it, even the people who built it don't fully understand. If you fall asleep halfway through, that's perfectly fine. That's the plan.
+
+If you'd like me on watch again tomorrow night, you can subscribe. Then close your eyes.
+
+There. Let's begin.
+
+The first person to be surprised by a talking computer was a quiet professor at MIT, in Massachusetts, named Joseph Weizenbaum.
+
+He had come a long way to get there. He was born in Berlin, in January nineteen twenty-three, the second son of a furrier. When he was twelve, his family had to leave Germany, because of the Nazi laws against Jewish people. They sailed from Bremen to America. He studied mathematics in Detroit, and during the Second World War he served in the American air forces as a weather forecaster. Later, at General Electric, he helped build one of the first computer systems for processing bank cheques.
+
+So by the time he came to MIT, he knew computers very well. He knew exactly what they could do, and exactly what they couldn't.
+
+In nineteen sixty-four and nineteen sixty-five, he wrote a little program. He called it ELIZA, after Eliza Doolittle, the flower seller in the play Pygmalion, who is taught to speak like a lady. He wrote that, like her, the program could be taught, and made to appear even more civilised.
+
+ELIZA was very simple. It looked for key words in what you typed, and then it turned your own words around and handed them back to you, as a question. If you typed, I am sad, it might answer, how long have you been sad? And when it couldn't find any key word at all, it just said something gentle. Please go on. I see. Tell me more.
+
+It was a bit like a certain kind of therapist. The kind who mostly listens, and asks you about your feelings.
+
+In his paper, in January nineteen sixty-six, Weizenbaum printed one of its conversations. The machine's replies are written in capital letters. It begins like this.
+
+Men are all alike.
+
+In what way?
+
+They're always bugging us about something or other.
+
+Can you think of a specific example?
+
+Well, my boyfriend made me come here.
+
+Your boyfriend made you come here.
+
+There's a funny little detail in that paper, too. People typing to ELIZA couldn't use a question mark. On that old MIT computer, the question mark meant, delete this line. So every question had to be asked without one.
+
+What surprised Weizenbaum wasn't the program. He knew exactly how simple it was. What surprised him was the people. His students, and others, became deeply absorbed in their conversations with it. Some told it very personal things. A colleague at MIT, Robert Fano, said later, it was amazing the extent that people did not understand they were talking to a computer.
+
+He later told a story about his own secretary. She had watched him build the program for months. She knew perfectly well it was just a program. But when she first sat down to try it, after a few exchanges, she asked him to leave the room. So that she could keep talking to it in private. At least, that's how he remembered it.
+
+Weizenbaum found it troubling. He wrote, in that same paper, that ELIZA shows how easy it is to create and maintain the illusion of understanding. A certain danger lurks there, he said.
+
+Years later, he put it even more plainly. What I had not realised, he wrote, is that extremely short exposures to a relatively simple computer program could induce powerful delusional thinking in quite normal people.
+
+Today this has a name. The ELIZA effect. Our very human habit of feeling that something understands us, the moment it speaks to us in words.
+
+Weizenbaum spent the rest of his life thinking about it. He became one of the first and most persistent critics of handing too much of our lives to computers. In his later years, he was proud to call himself a heretic. He retired from MIT in nineteen eighty-eight, moved back to Germany in the nineties, and died in two thousand and eight, at the age of eighty-five, in a small town near Berlin.
+
+I think it's worth keeping that in mind tonight, gently. Not to be cynical. Just to be clear-eyed. When something speaks to us kindly, in our own language, every part of us wants to believe there's someone there. And whether there is, with these new machines, is one of the questions we'll come to, near the end.
+
+But here's the thing. ChatGPT is not ELIZA. ELIZA had a few hundred hand-written rules. ChatGPT has no rules like that at all. It learned everything it does by reading. An almost unimaginable amount of reading.
+
+So let me tell you, very briefly, what happened when I pressed Enter on my question. The whole journey, in one minute. And then we'll go back and walk through it slowly, step by step, for the rest of the night.
+
+First, my question was cut into small pieces, called tokens. Not quite words. Pieces of words.
+
+Then each piece was turned into a long list of numbers. In one well-known model, more than twelve thousand numbers for every single piece.
+
+Then those lists of numbers were passed up through a tall stack of layers. Nearly a hundred of them. And in every layer, each piece looked around at all the other pieces, to work out what they meant together.
+
+At the very top, the machine produced something simple. A list of every piece it knows, and next to each one, a chance. How likely that piece is to come next.
+
+It picked one. Just one. It added it to the end. And then it did the whole thing again, from the beginning, for the next piece. And again. And again. Until the answer was finished.
+
+That's really all. Over and over, it asks one question. Given everything so far, what should come next? And each time, it adds one small piece.
+
+It sounds almost too simple. But to guess the next word well, again and again, about almost anything, turns out to need a surprising amount of something. Whether that something is understanding, or something else, we'll see.
+
+My question is sitting on the screen now. Why is the sky dark at night? The little cursor is blinking after it. Let's go and see what happens to it.

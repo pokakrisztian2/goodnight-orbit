@@ -1,0 +1,59 @@
+A machine that has only read the internet, and learned to guess the next word, is a strange thing to talk to.
+
+Ask it a question, and it might answer. Or it might continue your question with three more questions, because on the internet, questions often come in lists. Ask it to write a polite letter, and it might write the letter, or it might write a forum post complaining about polite letters. It isn't trying to help you. It's just continuing the text, the way the internet might.
+
+OpenAI said this plainly in a paper in March twenty twenty-two. Making language models bigger, they wrote, does not in itself make them better at following what a person actually wants. Guessing the next word on a web page is simply a different goal from following someone's instructions helpfully and safely.
+
+So, after the great reading, there's a second stage of teaching. A smaller, gentler one. It's a bit like the difference between a child who has read every book in the library, and a child who has also been taught how to listen, and how to answer, and when to say, I'm not sure.
+
+The idea had a curious beginning. In twenty seventeen, researchers at OpenAI and DeepMind wanted to teach a simulated robot to do a backflip. But it's very hard to write down, in rules, what a good backflip is. So instead, they showed people pairs of short video clips of the robot trying. And asked them, simply, which one is better? From those choices, about nine hundred of them, in less than an hour, the robot learned to do a backflip.
+
+Not from rules. From people's preferences.
+
+That's the heart of what came next. In the paper from March twenty twenty-two, OpenAI described a model they called InstructGPT. And they taught it in three steps.
+
+First, they hired a team of forty people, through online work platforms, to write good examples. Here's a request. Here's what a helpful answer looks like. The model studied those.
+
+Second, they had the model write several different answers to the same request, sometimes four, sometimes as many as nine. And the people ranked them. This one's best. This one's second. This one's worst. From thousands of these rankings, they built a separate small machine. A judge. A machine that had learned to predict which answers people would prefer.
+
+Third, they let the main model practise, over and over, with the judge scoring every answer. And slowly, it learned to write answers the judge, and so the people, liked.
+
+It's called reinforcement learning from human feedback. A long name for a simple idea. Learn what people prefer, by asking them.
+
+The results surprised everyone. A small InstructGPT model, with one point three billion parameters, was preferred by people over the full GPT-3, with a hundred and seventy-five billion. A hundred times smaller, and yet people liked its answers better.
+
+It also made things up about half as often. And on a test of truthful answers, it did about twice as well.
+
+The researchers were honest about the limits, too. The forty people often disagreed with each other. They agreed only about seventy-three percent of the time. And the team wrote, quite openly, that they were teaching the model the preferences of their particular labellers, and of the researchers themselves. Not of everyone. Mostly English-speaking people, living in the United States or in Southeast Asia.
+
+There's another group of people in this story who are easy to forget. To teach these machines to recognise harmful and disturbing text, so that they could avoid it, someone had to read that text first, and label it. In twenty twenty-three, the magazine TIME reported that some of this work, for OpenAI, had been done by workers in Nairobi, in Kenya, through an outside company. They were paid, the magazine said, between about one dollar thirty and two dollars an hour. And some of what they had to read was terrible. One of them said simply, that was torture.
+
+I think it's right to remember them. The gentle, helpful voice of these machines was shaped, in part, by people doing very hard work, far from the headlines.
+
+Eight months later, in November twenty twenty-two, ChatGPT was released. OpenAI called it a sibling of InstructGPT. It was trained the same way, but on conversations. People played both sides. The person asking, and the helpful assistant answering.
+
+And OpenAI noticed a funny side effect. ChatGPT was often too wordy. It kept repeating that it was a language model trained by OpenAI. Partly because, they said, the people training it tended to prefer longer answers that looked more complete.
+
+They also wrote something I think is rather touching. Ideally, they said, the model would ask questions when a request was unclear. Instead, it usually just guessed what the person meant.
+
+A month after ChatGPT came out, Anthropic, the company that makes Claude, described a different approach. They called it Constitutional AI.
+
+Instead of asking people to rank every answer, they wrote down a short list of principles. A kind of constitution. Then they had the model write an answer, criticise its own answer against those principles, and rewrite it. And they had another AI compare pairs of answers, using the principles, and that became the judge.
+
+Their first list had sixteen principles. And they admitted, with real honesty, that these had been chosen in a fairly ad hoc way, for research.
+
+Later, Anthropic published a longer constitution. It drew on the United Nations Declaration of Human Rights, and on ideas from other research labs, and on an effort to include non-Western perspectives. One of its principles asks the model to choose the response that most supports freedom, equality, and a sense of brotherhood. Another asks it to choose the response that a wise, ethical, polite and friendly person would be more likely to give.
+
+I rather like that one. It's not a bad rule for any of us.
+
+There's one more quiet piece of teaching, that happens every single time you start a conversation. Before your first word, the company places a hidden note at the very top. It's called a system prompt. It tells the model who it is, and what today's date is, because otherwise it wouldn't know. And sometimes a few words about how to behave.
+
+In twenty twenty-four, Anthropic began publishing these notes for anyone to read. One of them began, the assistant is Claude, created by Anthropic. And it went on to say that Claude is very smart and intellectually curious, and enjoys hearing what humans think.
+
+So when my question arrived, it didn't arrive alone. Above it, invisible to me, there was a little note, saying who the machine is, and what day it is up here.
+
+And the machine had been gently taught, by thousands of people's choices, to read my question as a question. And to try to answer it. Kindly. Clearly. And, ideally, truthfully.
+
+That last part, as we'll see, is the hardest.
+
+But first, a question about memory. When the machine answers me, how much of our conversation can it actually hold in mind?

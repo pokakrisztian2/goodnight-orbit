@@ -1,0 +1,57 @@
+At the very top of the machine, after all those floors, something quite simple comes out.
+
+A list. Every token the machine knows, tens of thousands of them, each with a number next to it. A chance. How likely that token is to come next.
+
+For the first word of the answer to my question, the list might look something like this. The, quite likely. It's, also likely. Because, possible. Great, less likely. Banana, very, very unlikely. And all the way down the list, tens of thousands of tokens, each with its own tiny chance.
+
+Now the machine has to choose one.
+
+You'd think it would simply pick the most likely word, every time. That would make sense. Always the safest, most probable choice.
+
+But here's a strange thing that the people who build these machines discovered. If you always pick the most likely word, the writing becomes flat. Dull. And sometimes it gets stuck in loops, repeating itself over and over.
+
+In twenty nineteen, a team at the University of Washington and the Allen Institute for AI studied exactly this. They gave a model a little story to continue. It began, in a shocking finding, scientists discovered a herd of unicorns living in a remote, previously unexplored valley, in the Andes Mountains.
+
+When the model always chose the most likely next words, it soon got stuck. It started repeating the name of a university in Mexico, over and over and over, like a scratched record.
+
+And then the team noticed something lovely. When they looked at real human writing, the words people actually chose were often not the most likely ones. People, they wrote, rarely stay in the zone of high probability for long. They veer off, into less likely words, that carry more information.
+
+Why? They thought it was simply a property of human language. We don't like stating the obvious. We surprise each other. That's partly what makes writing worth reading.
+
+So the machine is allowed a little randomness. It doesn't always take the top word. It rolls a kind of weighted dice. Likely words are chosen often, less likely words now and then.
+
+There's a dial that controls how adventurous it is. It's called temperature. I like that name, since we're up here in the cold. At a low temperature, the machine plays it safe, and almost always picks the top word. At a higher temperature, it takes more chances, and its writing becomes more varied, and more surprising, and eventually, if you turn it up too far, a bit nonsensical.
+
+The scientist Stephen Wolfram, who wrote a long, patient explanation of ChatGPT in twenty twenty-three, noticed that for writing essays, a temperature of about zero point eight seemed to work best. And he said, rather honestly, that there's no theory behind that number. It's just what's been found to work in practice.
+
+The Washington team added one more idea. They noticed that at the very bottom of the list, there are tens of thousands of extremely unlikely words. Each one almost impossible. But all together, they add up to a real chance of picking something silly. So they suggested cutting off that long tail. Only choose from the small group of words at the top, that together make up most of the chance. Sometimes that group is just one word. Sometimes it's a thousand. They called it the nucleus. Like the heart of a cell.
+
+And this is why, if you ask ChatGPT the same question twice, you'll often get two different answers. It's not looking up a stored reply. It's choosing, word by word, with a little bit of chance each time. Two journeys, through the same landscape, along slightly different paths.
+
+OpenAI said this themselves, when they first released ChatGPT. It can be sensitive to small changes, they wrote. Ask a question one way, and it might say it doesn't know. Ask it slightly differently, and it might answer correctly.
+
+So, for my question, the machine rolls its weighted dice. And the first word comes out. Let's say it's, the. Then that word is added to the end of everything that came before, and the whole journey starts again, from the ground floor. All ninety-six floors. To choose the second word. And then the third.
+
+Every word of every answer is chosen this way. One at a time. Each one a fresh trip through the whole machine.
+
+Now, some people look at all this, and say, well, then, it's just a very fancy autocomplete. Like the little suggestions on a phone keyboard.
+
+In twenty twenty-one, four researchers, including the linguist Emily Bender and the computer scientist Timnit Gebru, wrote a famous paper that put this view very sharply. They described a language model as a system for stitching together pieces of language it has seen, according to probabilities, but without any reference to meaning. They gave it a memorable name. A stochastic parrot. Stochastic just means, guided by chance.
+
+They wrote that when the output seems coherent, the coherence is, in fact, in the eye of the beholder. It's us, they meant, who supply the meaning. A little like the people talking to ELIZA.
+
+The paper itself had a difficult story. Timnit Gebru was, at the time, one of the leaders of Google's team studying the ethics of AI. In December twenty twenty, she announced that Google had forced her out, after a disagreement about this very paper. Google said the paper hadn't met its standards for publication. Many researchers protested. It became one of the most talked-about arguments in the field.
+
+The paper also warned about something that has only grown more important since. The energy these machines use, and who pays the cost. It is past time, the authors wrote, for researchers to prioritise energy efficiency, and to reduce the harm to the environment.
+
+Emily Bender, one of the authors, said later that the whole affair underscored the value of academic freedom. The freedom to ask awkward questions.
+
+Others strongly disagree. Geoffrey Hinton, who won a Nobel Prize for the work that led to these machines, said that the idea that they're just predicting the next word, and so they're not intelligent, is crazy. You have to be really intelligent, he said, to predict the next word really accurately.
+
+To guess what someone will say next, about anything, you have to understand something about what they're saying. Or so he argues.
+
+Who's right? We'll come back to that, near the end of the night. For now, I'll just say that both sides are serious, thoughtful people. And that the question is still open.
+
+My answer has begun now. The first few words are on the screen. The sky is dark at night because.
+
+But the machine that's writing them didn't learn to be polite, or helpful, or to answer questions at all, just from reading the internet. Something else happened to it first.

@@ -1,0 +1,55 @@
+Here's something that surprises many people. The machine itself doesn't remember you.
+
+Each time you send a message, the whole conversation so far is sent to the machine, all at once, from the very beginning. Your first question. Its first answer. Your second question. And so on. And it reads all of it, again, from the top, every time, before it chooses the next word.
+
+It's a little like talking to someone who wakes up fresh every few seconds, and has to reread the whole letter you've been writing together, before adding one more line.
+
+The amount it can read at once is called the context window. It's measured in tokens. And it has grown enormously.
+
+GPT-2, in twenty nineteen, could hold about a thousand tokens. A few pages. GPT-3, in twenty twenty, two thousand. GPT-4, in March twenty twenty-three, eight thousand, and a larger version, thirty-two thousand. About fifty pages, OpenAI said.
+
+That same spring, Anthropic did a lovely experiment. They took the whole of The Great Gatsby, all of it, and gave it to their model in one go. But they'd changed one line. In their version, the narrator, Mr Carraway, was described as a software engineer who works on machine learning tooling at Anthropic. And they asked the model, what's different about this book? It found the changed line in twenty-two seconds.
+
+A person, they noted, would need five hours or more to read that much.
+
+By November twenty twenty-three, OpenAI's models could hold a hundred and twenty-eight thousand tokens. More than three hundred pages. In February twenty twenty-four, Google showed a model that could take a million tokens. They gave it the four-hundred-page transcripts of the Apollo eleven mission to the Moon, and a forty-four-minute silent film by Buster Keaton.
+
+From two thousand tokens, to a million, in about five years. Nearly five hundred times as long.
+
+But being able to hold something isn't quite the same as paying attention to it.
+
+In July twenty twenty-three, a team led by researchers at Stanford tested how well these models use long texts. They hid one important fact somewhere in a long collection of documents, and asked a question that needed it.
+
+And they found a curious pattern. The models did best when the fact was right at the beginning, or right at the end. When it was buried in the middle, they did much worse. Sometimes worse than if they'd been given no documents at all.
+
+They called their paper, Lost in the Middle.
+
+Google, for its part, tested its million-token model with a game called a needle in a haystack. They hid a single small fact somewhere in an enormous pile of text, and asked the model to find it. They reported that it found the needle ninety-nine percent of the time. But finding one hidden sentence is one thing. Weaving together many facts from the middle of a very long document, the Stanford work suggested, is harder.
+
+And they pointed out something that made me smile. People do exactly the same thing. Psychologists have known it for more than a hundred years. Give someone a list to remember, and they'll best remember the first few items, and the last few. The middle tends to blur. It's called the serial position effect. It was described by Hermann Ebbinghaus, a German psychologist, in the eighteen hundreds. Newer models are said to be better at this. But it's a strangely human weakness for a machine to have.
+
+So what happens when the conversation ends?
+
+For the machine itself, nothing carries over. When you open a new chat, it starts completely fresh. Everything it knows comes from two places. What it learned during its long training, which stopped on a certain date. And whatever is in the conversation in front of it.
+
+That's why the system prompt we heard about tells it the date. Its knowledge of the world is frozen at the moment its training ended, like a letter sealed in an envelope. It doesn't know what happened after, unless someone tells it, or unless it's given a tool to look things up.
+
+One of Anthropic's published notes, from twenty twenty-four, had a lovely way of putting this. It told the model to answer the way a highly informed person from a certain month in the past would answer, if they were talking to someone from today. Like a well-read friend who has been asleep for a while, and hasn't seen a newspaper since.
+
+That's also worth knowing, gently. Many people think ChatGPT searches the internet for every answer. Mostly, it doesn't. Mostly, it answers from what it absorbed during its reading. In October twenty twenty-four, OpenAI added a search feature, so that sometimes it can look things up. But underneath, the model is still answering from its memory of its reading.
+
+Now, if you use ChatGPT, you might say, but it does remember me. It knows I have a dog. It knows I like short answers.
+
+And that's true, in a way. In February twenty twenty-four, OpenAI began testing a memory feature. Their example was a parent who mentions that their toddler loves jellyfish. And later, when they ask for help with a birthday card, ChatGPT suggests a jellyfish wearing a party hat.
+
+But here's how it works. The machine itself still doesn't remember. The app keeps little notes about you, a bit like the notes a doctor keeps in a file. And at the start of each new conversation, it quietly slips those notes in at the top, along with the date. So the machine reads them, fresh, every time.
+
+It's like someone with a very good notebook, rather than a very good memory.
+
+I find that rather moving, in a way. Every conversation, every morning, it opens its notebook and reads about you, as if for the first time.
+
+Up here, my own conversation with the machine is short. Just one question. Why is the sky dark at night? Plus the hidden note at the top, saying who it is, and what day it is. All of it fits easily in its window.
+
+The answer is growing now, word by word. It's explaining something about the Sun. About how the Sun is on the other side of the Earth.
+
+And now, here's the part I've been wondering about. Is that answer going to be right?

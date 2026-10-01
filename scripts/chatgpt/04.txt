@@ -1,0 +1,75 @@
+Here's a sentence. The animal didn't cross the street, because it was too tired.
+
+What does it mean, in that sentence? The animal, or the street?
+
+You knew straight away. The animal was tired. Streets don't get tired. You didn't even have to think about it.
+
+Now change one word. The animal didn't cross the street, because it was too wide.
+
+And now, it is the street.
+
+To understand a single small word like it, you have to look at the other words around it. Sometimes words right next to it. Sometimes words far away. And you have to weigh them. Which ones matter here, and which don't.
+
+That's the idea at the heart of these machines. It's called attention. And that very example, about the tired animal, is one Google uses in its own guide to explain it.
+
+In the summer of twenty seventeen, eight researchers, most of them at Google, published a paper with an unusual title. Attention Is All You Need.
+
+The story of that paper is a very human one. It began, as many good ideas do, over lunch. In twenty sixteen, in a café at Google, a researcher named Jakob Uszkoreit was talking with a colleague, Illia Polosukhin. Polosukhin was frustrated. Google's answers to questions had to come back in a fraction of a second, and the language machines of the time were too slow. They read a sentence one word at a time, from left to right, like a finger moving along a line.
+
+Uszkoreit had an idea. What if the machine didn't read in order at all? What if it looked at every word at once?
+
+He chose the name Transformers almost from the first day. Partly, he said later, because as a very young child he'd had two little Transformer toys. The robots that turn into cars. Their early planning document ended with a cartoon of six of them, firing lasers at each other in the mountains.
+
+His own father, a well-known expert on computers and language, doubted the idea at the dinner table. Years later, his father helped start a company building large language models of his own. Using transformers, of course.
+
+The team grew by accident. Another researcher, Noam Shazeer, was walking down a corridor in one of Google's buildings, when he overheard two colleagues, Ashish Vaswani and Niki Parmar, talking excitedly about self-attention. He stopped. He listened. And he joined them.
+
+They worked right up to the deadline. One of the final results, for translating English into French, came in just five minutes before they had to submit the paper. Niki Parmar was sitting in a little kitchen in the office when she got it. They sent the paper off with barely two minutes to spare.
+
+At the conference that December, in California, people crowded around their poster until half past ten at night. Security had to ask them to leave.
+
+All eight of them, in time, left Google. Several started companies of their own.
+
+The title came from one of the eight, Llion Jones. He was thinking of the Beatles song, All You Need Is Love. And he later said it took him about five seconds of thought.
+
+The names on the paper are in random order. They said so, in a little footnote. And in that same footnote, they told the story of who did what. Jakob proposed replacing the old way of doing things with self-attention, and started the effort to test it. Noam proposed several of the key pieces, and, they wrote, became the other person involved in nearly every detail. Lukasz and Aidan spent countless long days building the software.
+
+I love that footnote. A great scientific paper, and tucked away at the bottom of the page, a small thank you between friends.
+
+They called their invention the Transformer. And that's the T in GPT. Generative. Pre-trained. Transformer.
+
+So here's what attention does, as simply as I can put it.
+
+Each word in the sentence sends out a kind of question. A question like, who around here is relevant to me?
+
+And each word also carries a kind of label. A little description of what it is, and what it might offer.
+
+The questions and the labels are compared. Every word with every other word. Where a question and a label match well, the connection is strong. Where they don't, it's weak.
+
+And then each word gathers a little information from the others, more from the strong connections, less from the weak ones. And it moves to a new place on the map of meaning. A place that now reflects not just the word itself, but the words around it.
+
+So in my question, the word dark looks around. It sees sky. It sees night. And it shifts, gently, towards the meaning of darkness that belongs to the sky at night. Away from dark moods. Away from dark chocolate.
+
+The researchers used the language of a library to describe this. A query, a key, and a value. The query is what you're looking for. The key is the label on the spine of the book. The value is what's inside. A word asks its query, checks it against every key on the shelf, and reads a little from the books that match best.
+
+But one look isn't enough. A word might need to look for several different things at once. Who is doing the action. What it refers back to. What the mood of the sentence is. So the Transformer does many kinds of looking at the same time. They're called heads. Each head looks for its own kind of connection.
+
+The paper's own model, in twenty seventeen, had eight heads, in each of six layers. GPT-3, three years later, had ninety-six heads, in each of ninety-six layers.
+
+Ninety-six layers, stacked one on top of another, like floors in a very tall building. My question enters on the ground floor. And on every floor, every word looks at every other word, in ninety-six different ways, and moves a little. Then it all rises to the next floor, and it happens again.
+
+By the time the words reach the top floor, they've been reshaped nearly a hundred times. They're no longer just words. Each one carries a little of the whole sentence inside it.
+
+There's one small problem I've skipped over. If every word looks at every other word all at once, how does the machine know what order they came in? The sky is dark, and is the sky dark, have exactly the same words. But they're not the same.
+
+The answer is rather beautiful. Before anything else happens, each word is given a little mark that says where it sits in the line. In the original paper, these marks were made of waves. Gentle waves of different lengths, some short and quick, some long and slow, like ripples of different sizes on a pond. Each position in the sentence gets its own particular mix of waves. And from that mix, the machine can tell first from second, from third.
+
+There's one more thing about attention that's good to know. Its cost grows quickly. If every word has to look at every other word, then doubling the length of the text means roughly four times as much looking. That's why, for a long time, these machines could only read a few pages at once. We'll come back to that, when we talk about memory.
+
+But for now, my little question has climbed all ninety-six floors. Every word has looked at every other word, ninety-six times, in ninety-six ways.
+
+And at the very top, the machine is ready to do the one thing it was built for. To guess what comes next.
+
+But before we watch it guess, we should ask a different question. How did it learn to guess at all?
+
+For that, we have to go back. To the library it read.

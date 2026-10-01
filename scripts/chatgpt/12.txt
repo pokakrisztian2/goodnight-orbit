@@ -1,0 +1,67 @@
+So. Does it understand?
+
+When I type my question, and the answer comes back, clear and kind and mostly right, is there any understanding in there at all? Or is it, as some people say, a very elaborate trick of words?
+
+I'll be honest with you. Nobody knows. And I don't mean that as a way of avoiding the question. I mean that the people who know the most about these machines genuinely disagree.
+
+In twenty twenty-two, researchers surveyed four hundred and eighty scientists who work on language and AI. They asked them whether a model trained only on text, given enough data and computing power, could understand language in some real sense.
+
+Fifty-one percent said yes. Forty-nine percent said no.
+
+Almost exactly half and half.
+
+On one side, there's Geoffrey Hinton. In an interview in twenty twenty-three, he was asked directly. Do you believe they can understand? Yes, he said. I believe it definitely understands.
+
+Hinton has spent his whole life on these ideas. When he was interviewed for American television, he tried out a chatbot live, mistyped a question, and said, oh, damn this thing. We're going to go back and start again. Just like the rest of us.
+
+He said that what he'd worked on for so long took much, much longer than he'd expected. About fifty years, he said, before it worked well. But in the end it did work well.
+
+And he pointed out something I find quite striking. Even the biggest chatbots, he said, have about a trillion connections inside them. The human brain has about a hundred trillion. And yet in its trillion connections, a chatbot knows far more than any one of us knows in our hundred trillion.
+
+On the other side, there's Yann LeCun, another of the great pioneers of these machines, and the philosopher Jacob Browning. They wrote that a system trained on language alone will never come close to human intelligence, even if trained from now until the heat death of the universe. Such systems, they wrote, are doomed to a shallow understanding.
+
+And there's a quieter middle view. The psychologist Alison Gopnik has suggested that these models are less like minds, and more like libraries, or encyclopaedias. Enormous, wonderful collections of what people have written. That you can talk to.
+
+There's a small example that two researchers, Melanie Mitchell and David Krakauer, used to make the difference clear. We know what it means when someone says a tickle makes us laugh, they wrote. Because we have bodies. A language model can use the word tickle perfectly. But it has never felt one.
+
+I think about that up here sometimes. The machine has read thousands of descriptions of the night sky. Of starlight, and the Moon, and the dark. It can write about them beautifully. But it has never looked out of a window.
+
+Then there's another debate, about how these abilities appear.
+
+In twenty twenty-two, a team of researchers noticed that some skills seemed to show up suddenly. Small models couldn't do a task at all. Slightly bigger ones, still couldn't. And then, past a certain size, they could. As if a light had switched on. They called these emergent abilities. And they borrowed a definition from a famous essay by the physicist Philip Anderson, called More Is Different. Emergence, they wrote, is when a change in quantity becomes a change in quality.
+
+It's a lovely idea. Like water, which gets colder and colder, and then, suddenly, becomes ice.
+
+But in twenty twenty-three, a team at Stanford asked a sharp question. Was the light really switching on? Or was it the way we were measuring?
+
+They showed that many of these sudden jumps happened because of how the tests were scored. If you only count a maths answer as right when every single digit is perfect, then a model that's slowly getting closer looks like it's failing, failing, failing, and then suddenly succeeding. But if you give partial credit, the same improvement looks smooth, and gradual, and predictable.
+
+They called their paper, Are Emergent Abilities of Large Language Models a Mirage? It won one of the top awards at a major conference that year.
+
+So which is it? Sudden lights, or smooth slopes? Probably, for different abilities, a little of both. The honest answer, again, is that we're still finding out.
+
+There's one more thing nobody quite knows, and that's the cost to the world of all this thinking.
+
+Every question you ask uses a little electricity. How much exactly is hard to say, because the companies that run the biggest models don't publish full details. But there are estimates.
+
+In twenty twenty-five, an independent research group called Epoch AI estimated that a typical ChatGPT question uses about a third of a watt-hour. Google reported a similar figure for its own chatbot. About the same as watching television for less than nine seconds, they said. Though they noted themselves that their figures hadn't been checked by anyone independent.
+
+The head of OpenAI, Sam Altman, gave almost the same number that summer. About what an oven uses in a little over one second, he said. And about one fifteenth of a teaspoon of water, for cooling. Though he didn't say how that was measured.
+
+One small question is a tiny amount. But there are billions of them. And the great data centres that train and run these machines use a great deal of power. The International Energy Agency reported that in twenty twenty-four, data centres used about one and a half percent of all the electricity in the world. And they expect that to more than double by twenty thirty. To slightly more than the whole of Japan uses today. With AI, they said, as the biggest reason.
+
+These are real questions, for all of us, about how we want to use these tools, and what we're willing to spend on them.
+
+And underneath it all, there's the question we've been circling all night. What is actually going on inside?
+
+The researchers at Anthropic, who built that microscope, wrote it very plainly. We don't understand how models do most of the things they do.
+
+And Hinton, at the end of his interview, said something that I think is the most honest summary of all. There's enormous uncertainty about what's going to happen next, he said. And we just don't know.
+
+I don't find that frightening, exactly. Not tonight. I find it rather extraordinary. That in our own lifetimes, people have made something that speaks, and reasons, and writes poems that rhyme, and we're still trying to work out what it is.
+
+It reminds me of the old astronomers, looking up at a sky they couldn't explain. Knowing that something was there. Not yet knowing what.
+
+Which, as it happens, brings us back to my question.
+
+The answer on the screen is nearly finished now.

@@ -1,0 +1,837 @@
+Hi. It's Otto. It's night on your side of the Earth, and I'm up here on the night shift. I'll keep watch, so you don't have to.
+
+The lamps are low. The tea is warm. And tonight the station looks a little different. I've been reading a lot lately, so the walls are full of books, held in place with little straps, so they don't float away. There's an old typewriter on the desk. And sometimes, when I'm tired, I could swear the letters lift off the pages and drift around the room, like fireflies.
+
+Outside my window, the Milky Way is out, and a thin blue line of air is glowing along the edge of the Earth. Somewhere down there, you're getting comfortable. That's good. Stay right there.
+
+Tonight, let's think slowly about ChatGPT. And all the machines like it. The ones you can talk to.
+
+Close to a billion people now talk to ChatGPT every week. People ask it for recipes, and for help with letters, and about their health, and their homework, and their hearts. And most of them have no idea what's happening on the other side of the screen. To be honest, for a long time, neither did I.
+
+So here's what I thought we'd do. A moment ago, before I started talking to you, I typed a question into the computer here on the station. Just one small question. Why is the sky dark at night?
+
+And tonight, we're going to follow that question. Slowly. All the way into the machine. We'll watch it get cut into pieces, and turned into numbers, and passed through layer after layer, and finally, word by word, we'll watch the answer come back out.
+
+You don't need to understand all of it. Some of it, even the people who built it don't fully understand. If you fall asleep halfway through, that's perfectly fine. That's the plan.
+
+If you'd like me on watch again tomorrow night, you can subscribe. Then close your eyes.
+
+There. Let's begin.
+
+The first person to be surprised by a talking computer was a quiet professor at MIT, in Massachusetts, named Joseph Weizenbaum.
+
+He had come a long way to get there. He was born in Berlin, in January nineteen twenty-three, the second son of a furrier. When he was twelve, his family had to leave Germany, because of the Nazi laws against Jewish people. They sailed from Bremen to America. He studied mathematics in Detroit, and during the Second World War he served in the American air forces as a weather forecaster. Later, at General Electric, he helped build one of the first computer systems for processing bank cheques.
+
+So by the time he came to MIT, he knew computers very well. He knew exactly what they could do, and exactly what they couldn't.
+
+In nineteen sixty-four and nineteen sixty-five, he wrote a little program. He called it ELIZA, after Eliza Doolittle, the flower seller in the play Pygmalion, who is taught to speak like a lady. He wrote that, like her, the program could be taught, and made to appear even more civilised.
+
+ELIZA was very simple. It looked for key words in what you typed, and then it turned your own words around and handed them back to you, as a question. If you typed, I am sad, it might answer, how long have you been sad? And when it couldn't find any key word at all, it just said something gentle. Please go on. I see. Tell me more.
+
+It was a bit like a certain kind of therapist. The kind who mostly listens, and asks you about your feelings.
+
+In his paper, in January nineteen sixty-six, Weizenbaum printed one of its conversations. The machine's replies are written in capital letters. It begins like this.
+
+Men are all alike.
+
+In what way?
+
+They're always bugging us about something or other.
+
+Can you think of a specific example?
+
+Well, my boyfriend made me come here.
+
+Your boyfriend made you come here.
+
+There's a funny little detail in that paper, too. People typing to ELIZA couldn't use a question mark. On that old MIT computer, the question mark meant, delete this line. So every question had to be asked without one.
+
+What surprised Weizenbaum wasn't the program. He knew exactly how simple it was. What surprised him was the people. His students, and others, became deeply absorbed in their conversations with it. Some told it very personal things. A colleague at MIT, Robert Fano, said later, it was amazing the extent that people did not understand they were talking to a computer.
+
+He later told a story about his own secretary. She had watched him build the program for months. She knew perfectly well it was just a program. But when she first sat down to try it, after a few exchanges, she asked him to leave the room. So that she could keep talking to it in private. At least, that's how he remembered it.
+
+Weizenbaum found it troubling. He wrote, in that same paper, that ELIZA shows how easy it is to create and maintain the illusion of understanding. A certain danger lurks there, he said.
+
+Years later, he put it even more plainly. What I had not realised, he wrote, is that extremely short exposures to a relatively simple computer program could induce powerful delusional thinking in quite normal people.
+
+Today this has a name. The ELIZA effect. Our very human habit of feeling that something understands us, the moment it speaks to us in words.
+
+Weizenbaum spent the rest of his life thinking about it. He became one of the first and most persistent critics of handing too much of our lives to computers. In his later years, he was proud to call himself a heretic. He retired from MIT in nineteen eighty-eight, moved back to Germany in the nineties, and died in two thousand and eight, at the age of eighty-five, in a small town near Berlin.
+
+I think it's worth keeping that in mind tonight, gently. Not to be cynical. Just to be clear-eyed. When something speaks to us kindly, in our own language, every part of us wants to believe there's someone there. And whether there is, with these new machines, is one of the questions we'll come to, near the end.
+
+But here's the thing. ChatGPT is not ELIZA. ELIZA had a few hundred hand-written rules. ChatGPT has no rules like that at all. It learned everything it does by reading. An almost unimaginable amount of reading.
+
+So let me tell you, very briefly, what happened when I pressed Enter on my question. The whole journey, in one minute. And then we'll go back and walk through it slowly, step by step, for the rest of the night.
+
+First, my question was cut into small pieces, called tokens. Not quite words. Pieces of words.
+
+Then each piece was turned into a long list of numbers. In one well-known model, more than twelve thousand numbers for every single piece.
+
+Then those lists of numbers were passed up through a tall stack of layers. Nearly a hundred of them. And in every layer, each piece looked around at all the other pieces, to work out what they meant together.
+
+At the very top, the machine produced something simple. A list of every piece it knows, and next to each one, a chance. How likely that piece is to come next.
+
+It picked one. Just one. It added it to the end. And then it did the whole thing again, from the beginning, for the next piece. And again. And again. Until the answer was finished.
+
+That's really all. Over and over, it asks one question. Given everything so far, what should come next? And each time, it adds one small piece.
+
+It sounds almost too simple. But to guess the next word well, again and again, about almost anything, turns out to need a surprising amount of something. Whether that something is understanding, or something else, we'll see.
+
+My question is sitting on the screen now. Why is the sky dark at night? The little cursor is blinking after it. Let's go and see what happens to it.
+
+The very first thing that happens to my question is that it gets cut into pieces.
+
+We tend to think that a machine like this reads words, the way we do. Or perhaps letters. But it doesn't read either. It reads tokens.
+
+A token is a small piece of text. Sometimes it's a whole word. Sometimes it's part of a word. Sometimes just a single letter, or a comma, or a space.
+
+OpenAI, the company that makes ChatGPT, has a simple rule of thumb for English. One token is about four letters. Or about three quarters of a word. So a hundred tokens is roughly seventy-five words. A short paragraph is about a hundred tokens.
+
+They give a little example. The famous line from the ice hockey player Wayne Gretzky. You miss a hundred percent of the shots you don't take. That's eleven tokens. And the whole American Declaration of Independence is one thousand six hundred and ninety-five.
+
+My question, why is the sky dark at night, is about eight tokens. Most of the common little words are tokens all by themselves. Why. Is. The. Sky.
+
+Now, here's something odd. To the machine, a word with a space in front of it is a different token from the same word without one. And a word with a capital letter is different again. Red, at the start of a sentence, and red, in the middle of one, are two different pieces. The machine has to learn, slowly, from all its reading, that they mean the same thing.
+
+I looked at a few more, out of curiosity. Good night, with a full stop, is three tokens. The word unbelievable, at the start of a sentence, is three. Un. Bel. Ievable. But with a space in front of it, in the middle of a sentence, it's just one. And the longest word from Mary Poppins, supercalifragilisticexpialidocious, is ten.
+
+Even the name ChatGPT is two tokens. Chat. And GPT.
+
+And every token has a number. Like a ticket in a very long queue. The full stop at the end of a sentence, for example, is token number thirteen. The more common a piece is, the smaller its number tends to be.
+
+So where do these pieces come from? Who decided how to cut the words up?
+
+Nobody did, exactly. The pieces were found by a very old trick. And it began, of all places, as a way to make computer files smaller.
+
+In February nineteen ninety-four, a programmer named Philip Gage published a short article in a computer magazine. It described a simple way to squeeze text into less space. Look for the pair of characters that appears most often, side by side. Replace that pair, everywhere, with a single new symbol. Then look again for the most common pair. And replace that. And again. And again.
+
+It was called byte pair encoding. And for twenty years, it was just a small, clever compression trick.
+
+Then, in twenty fifteen, three researchers at the University of Edinburgh, Rico Sennrich, Barry Haddow and Alexandra Birch, had a problem. They were building machines to translate languages. And their machines kept stumbling over rare words. Long words. Names. New words. Especially in German, where you can glue words together into enormous ones. Their example was the German word for a sewage water treatment plant. Abwasserbehandlungsanlage.
+
+So they borrowed Gage's old trick. Start with single letters. Find the pair that appears most often in all your text. Glue it into one piece. Then find the next most common pair. Glue that. And keep going, thousands and thousands of times.
+
+What you end up with is lovely, in its way. The most common words become single pieces. The. And. Night. Rarer words get built out of smaller, common parts. Like a child building a long word out of syllables. Abwasser. Behandlungs. Anlage.
+
+Almost every chatbot today still cuts its text this way. GPT-2, in twenty nineteen, had a vocabulary of fifty thousand two hundred and fifty-seven pieces. Newer models have around a hundred thousand. The newest, around two hundred thousand. Every piece, a little tile in a very large game of Scrabble.
+
+And this explains one of the most famous puzzles about these machines.
+
+For a while, if you asked a chatbot how many letter r's are in the word strawberry, it would often get it wrong. It would say two. People laughed about it. How can something so clever not count three letters?
+
+But think about what the machine actually sees. When the word strawberry appears in the middle of a sentence, with a space in front of it, it's a single token. One sealed piece. Like a word printed on a single tile. The machine never sees the letters inside. It just sees the tile. Asking it to count the r's is a little like asking you how many brush strokes are in the word strawberry, written in Chinese.
+
+The machine has to remember, from its reading, how the word is spelled. And sometimes it doesn't remember well.
+
+Researchers at OpenAI tested this in another way. They asked several chatbots, how many D's are in the word DeepSeek? Just say the number. The answers they got ranged from two, to three, and in some cases six or seven. There's only one.
+
+There's a little joke hidden in OpenAI's own history here. In September twenty twenty-four, when they showed off a new model that thinks before it answers, one of their demonstrations was a puzzle. A secret code the model had to crack. And when it cracked it, the hidden message read, there are three r's in strawberry.
+
+Tokens have another, quieter side. They're not fair to every language.
+
+The tokenisers were built mostly from English text. So English gets the big, efficient pieces. Other languages get cut into smaller bits. In Spanish, how are you, cómo estás, is five tokens for ten letters.
+
+A team at Oxford measured this carefully in twenty twenty-three. The same text, translated into different languages, could take up to fifteen times as many tokens. Italian took about one and a half times as many as English. Arabic, about three times. And for Shan, a language spoken in Myanmar, up to fifteen times. A single Shan word for you was cut into nine separate pieces.
+
+That matters, because these services are often paid for by the token. And because the machine can only hold so many tokens in mind at once. So in some languages, you pay more, and the machine remembers less.
+
+I tried it myself, in a few languages, with one of the newer tokenisers. Good night, in English, is three tokens. In Hungarian, jó éjszakát, is seven. In Japanese, also seven. Newer vocabularies are slowly narrowing the gap. But it's still there.
+
+So. My question has now been cut up. Why. Is. The. Sky. Dark. At. Night. Question mark. A short row of tiles, each with its own number.
+
+But a number on a ticket doesn't mean anything by itself. Token number thirteen is just thirteen. Somehow, the machine has to turn these numbers into meaning.
+
+And that's where the map comes in.
+
+Picture a map. But not a map of countries. A map of meaning.
+
+On this map, every token has its own place. Words that mean similar things live close together. Night lives near evening, and near dark, and near sleep. Sky lives near clouds, and blue, and heaven. And words that have nothing to do with each other live far apart. Teaspoon and thunderstorm. Violin and tax return.
+
+That's the next step. Each of the little tiles from my question is looked up, and given its place on this map. The place is written down as a list of numbers. Like coordinates.
+
+On an ordinary map, you need two numbers to say where something is. How far east, and how far north. On a globe, perhaps three, if you count height.
+
+The map of meaning inside one of these machines has far more directions than that. In GPT-3, the model OpenAI described in twenty twenty, every token is placed using twelve thousand two hundred and eighty-eight numbers. Twelve thousand directions. A space so large that we can't picture it at all. Even the people who build these machines can't picture it. They just do the arithmetic.
+
+The smallest version of GPT-3 used seven hundred and sixty-eight numbers for each token. The biggest, twelve thousand two hundred and eighty-eight. And a large model from Meta, in twenty twenty-four, used more than sixteen thousand.
+
+These lists of numbers are called embeddings. I like that word. As if each word is gently embedded, set into its own place, in a vast soft landscape.
+
+And nobody draws this map by hand. The machine learns it, slowly, by reading. At the start of training, every word is placed at random, scattered like seeds thrown into the wind. Then, every time the machine makes a guess and gets it wrong, the places shift, just a tiny bit. Words that keep appearing in the same kinds of sentences drift closer together. Over billions and billions of small corrections, the map arranges itself.
+
+On the machine learning night, we met an early version of this idea, from twenty thirteen. You might remember it. Take the place of the word king. Subtract the word man. Add the word woman. And you land very near the word queen.
+
+The directions on the map had started to mean something. There was a direction that meant, roughly, male to female. And Google's own guide to machine learning has a similar example. On the map, the distance from cow to bull is about the same as the distance from ewe to ram. A female sheep, to a male one.
+
+In the big modern machines, the map is much richer. And in twenty twenty-four, researchers at Anthropic, the company that makes a chatbot called Claude, found a way to look at some of the places on the map inside their own model. We'll come back to how they did it, later in the night. But one of their findings belongs here.
+
+They found a spot inside the model that lit up for one thing. The Golden Gate Bridge, in San Francisco. And then they looked around it, at its neighbours. Who lives near the Golden Gate Bridge, on the map of meaning?
+
+Alcatraz Island. Ghirardelli Square, the old chocolate factory by the bay. The Golden State Warriors basketball team. The great San Francisco earthquake of nineteen oh six. And Vertigo, the Alfred Hitchcock film that was set in that city.
+
+And when they looked a little further away, they found faraway places that people visit for their beauty. The Médoc wine region in France. The Isle of Skye, in Scotland.
+
+Near another spot, one that seemed to mean inner conflict, they found breakups between people. Divided loyalties. Arguments that contradict themselves. And the phrase catch twenty-two.
+
+They wrote that the way concepts are organised inside the model corresponds, at least somewhat, to our own human sense of what's similar to what. And that this might be where the model's ability to make analogies, and metaphors, comes from.
+
+I find that rather lovely. Nobody told the machine that Alcatraz and the Golden Gate belong together. Nobody told it that a breakup and a contradiction are, in some way, cousins. It found that out by reading what people had written. The map is a kind of shadow of how we talk about the world.
+
+There's one more thing to know about the map. At this first step, each word gets the same place every time. The word bank always starts in the same spot, whether you're talking about a river bank or a savings bank. The word dark always starts in the same spot, whether it's a dark sky, or a dark mood, or dark chocolate.
+
+That's not good enough, of course. Meaning depends on the words around it. Dark in my question means the sky without light. Not a mood. Not chocolate.
+
+So the machine has to adjust each word's place, depending on its neighbours. Little by little, layer by layer, each word has to look at the others, and move.
+
+My question has now become a short row of points on this great map. Why. Is. The. Sky. Dark. At. Night. Each one a list of twelve thousand numbers, sitting quietly in the dark.
+
+And now, they're about to start talking to each other.
+
+Here's a sentence. The animal didn't cross the street, because it was too tired.
+
+What does it mean, in that sentence? The animal, or the street?
+
+You knew straight away. The animal was tired. Streets don't get tired. You didn't even have to think about it.
+
+Now change one word. The animal didn't cross the street, because it was too wide.
+
+And now, it is the street.
+
+To understand a single small word like it, you have to look at the other words around it. Sometimes words right next to it. Sometimes words far away. And you have to weigh them. Which ones matter here, and which don't.
+
+That's the idea at the heart of these machines. It's called attention. And that very example, about the tired animal, is one Google uses in its own guide to explain it.
+
+In the summer of twenty seventeen, eight researchers, most of them at Google, published a paper with an unusual title. Attention Is All You Need.
+
+The story of that paper is a very human one. It began, as many good ideas do, over lunch. In twenty sixteen, in a café at Google, a researcher named Jakob Uszkoreit was talking with a colleague, Illia Polosukhin. Polosukhin was frustrated. Google's answers to questions had to come back in a fraction of a second, and the language machines of the time were too slow. They read a sentence one word at a time, from left to right, like a finger moving along a line.
+
+Uszkoreit had an idea. What if the machine didn't read in order at all? What if it looked at every word at once?
+
+He chose the name Transformers almost from the first day. Partly, he said later, because as a very young child he'd had two little Transformer toys. The robots that turn into cars. Their early planning document ended with a cartoon of six of them, firing lasers at each other in the mountains.
+
+His own father, a well-known expert on computers and language, doubted the idea at the dinner table. Years later, his father helped start a company building large language models of his own. Using transformers, of course.
+
+The team grew by accident. Another researcher, Noam Shazeer, was walking down a corridor in one of Google's buildings, when he overheard two colleagues, Ashish Vaswani and Niki Parmar, talking excitedly about self-attention. He stopped. He listened. And he joined them.
+
+They worked right up to the deadline. One of the final results, for translating English into French, came in just five minutes before they had to submit the paper. Niki Parmar was sitting in a little kitchen in the office when she got it. They sent the paper off with barely two minutes to spare.
+
+At the conference that December, in California, people crowded around their poster until half past ten at night. Security had to ask them to leave.
+
+All eight of them, in time, left Google. Several started companies of their own.
+
+The title came from one of the eight, Llion Jones. He was thinking of the Beatles song, All You Need Is Love. And he later said it took him about five seconds of thought.
+
+The names on the paper are in random order. They said so, in a little footnote. And in that same footnote, they told the story of who did what. Jakob proposed replacing the old way of doing things with self-attention, and started the effort to test it. Noam proposed several of the key pieces, and, they wrote, became the other person involved in nearly every detail. Lukasz and Aidan spent countless long days building the software.
+
+I love that footnote. A great scientific paper, and tucked away at the bottom of the page, a small thank you between friends.
+
+They called their invention the Transformer. And that's the T in GPT. Generative. Pre-trained. Transformer.
+
+So here's what attention does, as simply as I can put it.
+
+Each word in the sentence sends out a kind of question. A question like, who around here is relevant to me?
+
+And each word also carries a kind of label. A little description of what it is, and what it might offer.
+
+The questions and the labels are compared. Every word with every other word. Where a question and a label match well, the connection is strong. Where they don't, it's weak.
+
+And then each word gathers a little information from the others, more from the strong connections, less from the weak ones. And it moves to a new place on the map of meaning. A place that now reflects not just the word itself, but the words around it.
+
+So in my question, the word dark looks around. It sees sky. It sees night. And it shifts, gently, towards the meaning of darkness that belongs to the sky at night. Away from dark moods. Away from dark chocolate.
+
+The researchers used the language of a library to describe this. A query, a key, and a value. The query is what you're looking for. The key is the label on the spine of the book. The value is what's inside. A word asks its query, checks it against every key on the shelf, and reads a little from the books that match best.
+
+But one look isn't enough. A word might need to look for several different things at once. Who is doing the action. What it refers back to. What the mood of the sentence is. So the Transformer does many kinds of looking at the same time. They're called heads. Each head looks for its own kind of connection.
+
+The paper's own model, in twenty seventeen, had eight heads, in each of six layers. GPT-3, three years later, had ninety-six heads, in each of ninety-six layers.
+
+Ninety-six layers, stacked one on top of another, like floors in a very tall building. My question enters on the ground floor. And on every floor, every word looks at every other word, in ninety-six different ways, and moves a little. Then it all rises to the next floor, and it happens again.
+
+By the time the words reach the top floor, they've been reshaped nearly a hundred times. They're no longer just words. Each one carries a little of the whole sentence inside it.
+
+There's one small problem I've skipped over. If every word looks at every other word all at once, how does the machine know what order they came in? The sky is dark, and is the sky dark, have exactly the same words. But they're not the same.
+
+The answer is rather beautiful. Before anything else happens, each word is given a little mark that says where it sits in the line. In the original paper, these marks were made of waves. Gentle waves of different lengths, some short and quick, some long and slow, like ripples of different sizes on a pond. Each position in the sentence gets its own particular mix of waves. And from that mix, the machine can tell first from second, from third.
+
+There's one more thing about attention that's good to know. Its cost grows quickly. If every word has to look at every other word, then doubling the length of the text means roughly four times as much looking. That's why, for a long time, these machines could only read a few pages at once. We'll come back to that, when we talk about memory.
+
+But for now, my little question has climbed all ninety-six floors. Every word has looked at every other word, ninety-six times, in ninety-six ways.
+
+And at the very top, the machine is ready to do the one thing it was built for. To guess what comes next.
+
+But before we watch it guess, we should ask a different question. How did it learn to guess at all?
+
+For that, we have to go back. To the library it read.
+
+Before a machine like this can answer anything, it has to read. And the way it reads is very strange, and very simple.
+
+It's given a piece of text, with the end hidden. And it has to guess the next word. Then it's shown what the word really was. If it guessed wrong, all of its numbers are nudged, very slightly, so that next time it would guess a little better. Then the next word. And the next.
+
+That's it. That's the whole of the first lesson. It's called pre-training. Nobody marks anything as true or false. Nobody explains anything. The machine just sees an enormous amount of real writing, and keeps guessing what comes next.
+
+So what did it read?
+
+For GPT-3, OpenAI listed it, carefully, in their paper in twenty twenty. Most of it came from something called Common Crawl. A huge public collection of web pages, gathered month after month by a small non-profit. The part they used covered the years twenty sixteen to twenty nineteen. Before cleaning, it was forty-five terabytes of compressed text. Nearly a trillion words.
+
+They filtered it. They kept the pages that looked most like good writing, and removed copies. What was left was about five hundred and seventy gigabytes.
+
+The rest of the reading came from a collection of web pages that people had shared and liked, and two large collections of books. And Wikipedia. All of English Wikipedia. Which, I was surprised to learn, made up only about three percent of everything it read.
+
+The better sources were read more than once. Two or three times. The great messy web, less than once.
+
+In all, GPT-3 read three hundred billion tokens during its training. If you read for eight hours a day, every day, it would take you several thousand years to get through that much text.
+
+And the reading wasn't quick, even for a machine. GPT-3's training took about three hundred thousand billion billion little calculations. Roughly a three, followed by twenty-three zeros. It was done on special chips, called GPUs, on a large cluster of computers that Microsoft provided.
+
+GPUs were first made for video games. For drawing landscapes and faces and explosions on a screen, very fast. Which turns out to need exactly the same thing as these machines need. Huge numbers of small, simple multiplications, all done at once.
+
+In January twenty twenty, a team at OpenAI noticed something important. They trained many models of different sizes, on different amounts of text, and measured how well each one guessed. And they found that the improvement followed smooth, regular curves. Make the model bigger, or give it more to read, or more time to compute, and it gets better, in a predictable way. Over a range of more than ten million times.
+
+They're called scaling laws. They're a little like the laws of physics we met on earlier nights. Simple rules, that seemed to hold across an enormous range.
+
+And for a while, the lesson people drew was, make the models as big as possible.
+
+Then, in March twenty twenty-two, a team at DeepMind, in London, looked again. They trained more than four hundred models, of many sizes, on many amounts of text. And they came to a surprising conclusion. The big models of the time, they wrote, were significantly undertrained. They were too big for how much they'd read.
+
+Their rule was elegant. For every doubling of the size of the model, double the amount of reading, too.
+
+To show it, they built a model called Chinchilla. It was much smaller than the biggest models of the day, seventy billion parameters, but it read four times as much as a similar model before it. One point four trillion tokens. And it beat models up to seven times its size.
+
+From their numbers, people took a rough rule of thumb. About twenty tokens of reading, for every parameter in the model.
+
+A parameter, by the way, is one of the knobs. One of the numbers inside the machine that gets nudged during training. The strength of one little connection. GPT-3 had a hundred and seventy-five billion of them. By Chinchilla's rule, it should have read about three point seven trillion tokens. It had read three hundred billion. A very large mind, that hadn't quite read enough.
+
+Since then, both have grown. In twenty twenty-four, Meta trained its largest Llama model on fifteen point six trillion tokens, using up to sixteen thousand of the newest GPUs at once.
+
+Their paper is unusually honest about what that's like. In fifty-four days of training, there were four hundred and sixty-six interruptions. Most of them unexpected. Most of those from failing hardware. When tens of thousands of chips paused and started again together, the power they drew could swing by tens of megawatts. Enough, they wrote, to stretch the limits of the power grid.
+
+And there's one detail in that paper I can't stop thinking about. They noticed that training ran one or two percent slower in the middle of the day. Because of the heat. The afternoon warmth was enough to slow the chips down.
+
+So somewhere in a great hall full of humming machines, a mind made of numbers was learning to speak, a little more slowly every afternoon, because the sun was out.
+
+The companies have become more private since then. When GPT-4 came out, in March twenty twenty-three, its technical report said, quite openly, that it contained no details about the model's size, or its hardware, or how much computing it used, or how its data was put together. Because of competition, they said, and safety.
+
+So nobody outside OpenAI knows exactly how big the newest models are. The large numbers you sometimes hear are estimates.
+
+Some companies have been more open. At the end of twenty twenty-four, the Chinese company DeepSeek published the details of a model with six hundred and seventy-one billion parameters, though only about thirty-seven billion of them are used for any one token. It read fourteen point eight trillion tokens. And they said its final training run cost about five and a half million dollars in computer time. Which sounds like a lot. But they were careful to say that this didn't include all the research and experiments that came before. And compared with what many people had assumed such models cost, it was surprisingly small.
+
+But we know the shape of it. A machine that has read a large part of what people have written in public. Billions of web pages. Huge collections of books. Arguments and recipes and love letters and instruction manuals and poems.
+
+And somewhere in all that reading, many, many times, people have written about why the sky is dark at night.
+
+Here on the station, my question is still at the top of those ninety-six floors. Every word has looked at every other. The machine has drawn on everything it absorbed from all that reading.
+
+And now, at last, it's going to choose a word.
+
+At the very top of the machine, after all those floors, something quite simple comes out.
+
+A list. Every token the machine knows, tens of thousands of them, each with a number next to it. A chance. How likely that token is to come next.
+
+For the first word of the answer to my question, the list might look something like this. The, quite likely. It's, also likely. Because, possible. Great, less likely. Banana, very, very unlikely. And all the way down the list, tens of thousands of tokens, each with its own tiny chance.
+
+Now the machine has to choose one.
+
+You'd think it would simply pick the most likely word, every time. That would make sense. Always the safest, most probable choice.
+
+But here's a strange thing that the people who build these machines discovered. If you always pick the most likely word, the writing becomes flat. Dull. And sometimes it gets stuck in loops, repeating itself over and over.
+
+In twenty nineteen, a team at the University of Washington and the Allen Institute for AI studied exactly this. They gave a model a little story to continue. It began, in a shocking finding, scientists discovered a herd of unicorns living in a remote, previously unexplored valley, in the Andes Mountains.
+
+When the model always chose the most likely next words, it soon got stuck. It started repeating the name of a university in Mexico, over and over and over, like a scratched record.
+
+And then the team noticed something lovely. When they looked at real human writing, the words people actually chose were often not the most likely ones. People, they wrote, rarely stay in the zone of high probability for long. They veer off, into less likely words, that carry more information.
+
+Why? They thought it was simply a property of human language. We don't like stating the obvious. We surprise each other. That's partly what makes writing worth reading.
+
+So the machine is allowed a little randomness. It doesn't always take the top word. It rolls a kind of weighted dice. Likely words are chosen often, less likely words now and then.
+
+There's a dial that controls how adventurous it is. It's called temperature. I like that name, since we're up here in the cold. At a low temperature, the machine plays it safe, and almost always picks the top word. At a higher temperature, it takes more chances, and its writing becomes more varied, and more surprising, and eventually, if you turn it up too far, a bit nonsensical.
+
+The scientist Stephen Wolfram, who wrote a long, patient explanation of ChatGPT in twenty twenty-three, noticed that for writing essays, a temperature of about zero point eight seemed to work best. And he said, rather honestly, that there's no theory behind that number. It's just what's been found to work in practice.
+
+The Washington team added one more idea. They noticed that at the very bottom of the list, there are tens of thousands of extremely unlikely words. Each one almost impossible. But all together, they add up to a real chance of picking something silly. So they suggested cutting off that long tail. Only choose from the small group of words at the top, that together make up most of the chance. Sometimes that group is just one word. Sometimes it's a thousand. They called it the nucleus. Like the heart of a cell.
+
+And this is why, if you ask ChatGPT the same question twice, you'll often get two different answers. It's not looking up a stored reply. It's choosing, word by word, with a little bit of chance each time. Two journeys, through the same landscape, along slightly different paths.
+
+OpenAI said this themselves, when they first released ChatGPT. It can be sensitive to small changes, they wrote. Ask a question one way, and it might say it doesn't know. Ask it slightly differently, and it might answer correctly.
+
+So, for my question, the machine rolls its weighted dice. And the first word comes out. Let's say it's, the. Then that word is added to the end of everything that came before, and the whole journey starts again, from the ground floor. All ninety-six floors. To choose the second word. And then the third.
+
+Every word of every answer is chosen this way. One at a time. Each one a fresh trip through the whole machine.
+
+Now, some people look at all this, and say, well, then, it's just a very fancy autocomplete. Like the little suggestions on a phone keyboard.
+
+In twenty twenty-one, four researchers, including the linguist Emily Bender and the computer scientist Timnit Gebru, wrote a famous paper that put this view very sharply. They described a language model as a system for stitching together pieces of language it has seen, according to probabilities, but without any reference to meaning. They gave it a memorable name. A stochastic parrot. Stochastic just means, guided by chance.
+
+They wrote that when the output seems coherent, the coherence is, in fact, in the eye of the beholder. It's us, they meant, who supply the meaning. A little like the people talking to ELIZA.
+
+The paper itself had a difficult story. Timnit Gebru was, at the time, one of the leaders of Google's team studying the ethics of AI. In December twenty twenty, she announced that Google had forced her out, after a disagreement about this very paper. Google said the paper hadn't met its standards for publication. Many researchers protested. It became one of the most talked-about arguments in the field.
+
+The paper also warned about something that has only grown more important since. The energy these machines use, and who pays the cost. It is past time, the authors wrote, for researchers to prioritise energy efficiency, and to reduce the harm to the environment.
+
+Emily Bender, one of the authors, said later that the whole affair underscored the value of academic freedom. The freedom to ask awkward questions.
+
+Others strongly disagree. Geoffrey Hinton, who won a Nobel Prize for the work that led to these machines, said that the idea that they're just predicting the next word, and so they're not intelligent, is crazy. You have to be really intelligent, he said, to predict the next word really accurately.
+
+To guess what someone will say next, about anything, you have to understand something about what they're saying. Or so he argues.
+
+Who's right? We'll come back to that, near the end of the night. For now, I'll just say that both sides are serious, thoughtful people. And that the question is still open.
+
+My answer has begun now. The first few words are on the screen. The sky is dark at night because.
+
+But the machine that's writing them didn't learn to be polite, or helpful, or to answer questions at all, just from reading the internet. Something else happened to it first.
+
+A machine that has only read the internet, and learned to guess the next word, is a strange thing to talk to.
+
+Ask it a question, and it might answer. Or it might continue your question with three more questions, because on the internet, questions often come in lists. Ask it to write a polite letter, and it might write the letter, or it might write a forum post complaining about polite letters. It isn't trying to help you. It's just continuing the text, the way the internet might.
+
+OpenAI said this plainly in a paper in March twenty twenty-two. Making language models bigger, they wrote, does not in itself make them better at following what a person actually wants. Guessing the next word on a web page is simply a different goal from following someone's instructions helpfully and safely.
+
+So, after the great reading, there's a second stage of teaching. A smaller, gentler one. It's a bit like the difference between a child who has read every book in the library, and a child who has also been taught how to listen, and how to answer, and when to say, I'm not sure.
+
+The idea had a curious beginning. In twenty seventeen, researchers at OpenAI and DeepMind wanted to teach a simulated robot to do a backflip. But it's very hard to write down, in rules, what a good backflip is. So instead, they showed people pairs of short video clips of the robot trying. And asked them, simply, which one is better? From those choices, about nine hundred of them, in less than an hour, the robot learned to do a backflip.
+
+Not from rules. From people's preferences.
+
+That's the heart of what came next. In the paper from March twenty twenty-two, OpenAI described a model they called InstructGPT. And they taught it in three steps.
+
+First, they hired a team of forty people, through online work platforms, to write good examples. Here's a request. Here's what a helpful answer looks like. The model studied those.
+
+Second, they had the model write several different answers to the same request, sometimes four, sometimes as many as nine. And the people ranked them. This one's best. This one's second. This one's worst. From thousands of these rankings, they built a separate small machine. A judge. A machine that had learned to predict which answers people would prefer.
+
+Third, they let the main model practise, over and over, with the judge scoring every answer. And slowly, it learned to write answers the judge, and so the people, liked.
+
+It's called reinforcement learning from human feedback. A long name for a simple idea. Learn what people prefer, by asking them.
+
+The results surprised everyone. A small InstructGPT model, with one point three billion parameters, was preferred by people over the full GPT-3, with a hundred and seventy-five billion. A hundred times smaller, and yet people liked its answers better.
+
+It also made things up about half as often. And on a test of truthful answers, it did about twice as well.
+
+The researchers were honest about the limits, too. The forty people often disagreed with each other. They agreed only about seventy-three percent of the time. And the team wrote, quite openly, that they were teaching the model the preferences of their particular labellers, and of the researchers themselves. Not of everyone. Mostly English-speaking people, living in the United States or in Southeast Asia.
+
+There's another group of people in this story who are easy to forget. To teach these machines to recognise harmful and disturbing text, so that they could avoid it, someone had to read that text first, and label it. In twenty twenty-three, the magazine TIME reported that some of this work, for OpenAI, had been done by workers in Nairobi, in Kenya, through an outside company. They were paid, the magazine said, between about one dollar thirty and two dollars an hour. And some of what they had to read was terrible. One of them said simply, that was torture.
+
+I think it's right to remember them. The gentle, helpful voice of these machines was shaped, in part, by people doing very hard work, far from the headlines.
+
+Eight months later, in November twenty twenty-two, ChatGPT was released. OpenAI called it a sibling of InstructGPT. It was trained the same way, but on conversations. People played both sides. The person asking, and the helpful assistant answering.
+
+And OpenAI noticed a funny side effect. ChatGPT was often too wordy. It kept repeating that it was a language model trained by OpenAI. Partly because, they said, the people training it tended to prefer longer answers that looked more complete.
+
+They also wrote something I think is rather touching. Ideally, they said, the model would ask questions when a request was unclear. Instead, it usually just guessed what the person meant.
+
+A month after ChatGPT came out, Anthropic, the company that makes Claude, described a different approach. They called it Constitutional AI.
+
+Instead of asking people to rank every answer, they wrote down a short list of principles. A kind of constitution. Then they had the model write an answer, criticise its own answer against those principles, and rewrite it. And they had another AI compare pairs of answers, using the principles, and that became the judge.
+
+Their first list had sixteen principles. And they admitted, with real honesty, that these had been chosen in a fairly ad hoc way, for research.
+
+Later, Anthropic published a longer constitution. It drew on the United Nations Declaration of Human Rights, and on ideas from other research labs, and on an effort to include non-Western perspectives. One of its principles asks the model to choose the response that most supports freedom, equality, and a sense of brotherhood. Another asks it to choose the response that a wise, ethical, polite and friendly person would be more likely to give.
+
+I rather like that one. It's not a bad rule for any of us.
+
+There's one more quiet piece of teaching, that happens every single time you start a conversation. Before your first word, the company places a hidden note at the very top. It's called a system prompt. It tells the model who it is, and what today's date is, because otherwise it wouldn't know. And sometimes a few words about how to behave.
+
+In twenty twenty-four, Anthropic began publishing these notes for anyone to read. One of them began, the assistant is Claude, created by Anthropic. And it went on to say that Claude is very smart and intellectually curious, and enjoys hearing what humans think.
+
+So when my question arrived, it didn't arrive alone. Above it, invisible to me, there was a little note, saying who the machine is, and what day it is up here.
+
+And the machine had been gently taught, by thousands of people's choices, to read my question as a question. And to try to answer it. Kindly. Clearly. And, ideally, truthfully.
+
+That last part, as we'll see, is the hardest.
+
+But first, a question about memory. When the machine answers me, how much of our conversation can it actually hold in mind?
+
+Here's something that surprises many people. The machine itself doesn't remember you.
+
+Each time you send a message, the whole conversation so far is sent to the machine, all at once, from the very beginning. Your first question. Its first answer. Your second question. And so on. And it reads all of it, again, from the top, every time, before it chooses the next word.
+
+It's a little like talking to someone who wakes up fresh every few seconds, and has to reread the whole letter you've been writing together, before adding one more line.
+
+The amount it can read at once is called the context window. It's measured in tokens. And it has grown enormously.
+
+GPT-2, in twenty nineteen, could hold about a thousand tokens. A few pages. GPT-3, in twenty twenty, two thousand. GPT-4, in March twenty twenty-three, eight thousand, and a larger version, thirty-two thousand. About fifty pages, OpenAI said.
+
+That same spring, Anthropic did a lovely experiment. They took the whole of The Great Gatsby, all of it, and gave it to their model in one go. But they'd changed one line. In their version, the narrator, Mr Carraway, was described as a software engineer who works on machine learning tooling at Anthropic. And they asked the model, what's different about this book? It found the changed line in twenty-two seconds.
+
+A person, they noted, would need five hours or more to read that much.
+
+By November twenty twenty-three, OpenAI's models could hold a hundred and twenty-eight thousand tokens. More than three hundred pages. In February twenty twenty-four, Google showed a model that could take a million tokens. They gave it the four-hundred-page transcripts of the Apollo eleven mission to the Moon, and a forty-four-minute silent film by Buster Keaton.
+
+From two thousand tokens, to a million, in about five years. Nearly five hundred times as long.
+
+But being able to hold something isn't quite the same as paying attention to it.
+
+In July twenty twenty-three, a team led by researchers at Stanford tested how well these models use long texts. They hid one important fact somewhere in a long collection of documents, and asked a question that needed it.
+
+And they found a curious pattern. The models did best when the fact was right at the beginning, or right at the end. When it was buried in the middle, they did much worse. Sometimes worse than if they'd been given no documents at all.
+
+They called their paper, Lost in the Middle.
+
+Google, for its part, tested its million-token model with a game called a needle in a haystack. They hid a single small fact somewhere in an enormous pile of text, and asked the model to find it. They reported that it found the needle ninety-nine percent of the time. But finding one hidden sentence is one thing. Weaving together many facts from the middle of a very long document, the Stanford work suggested, is harder.
+
+And they pointed out something that made me smile. People do exactly the same thing. Psychologists have known it for more than a hundred years. Give someone a list to remember, and they'll best remember the first few items, and the last few. The middle tends to blur. It's called the serial position effect. It was described by Hermann Ebbinghaus, a German psychologist, in the eighteen hundreds. Newer models are said to be better at this. But it's a strangely human weakness for a machine to have.
+
+So what happens when the conversation ends?
+
+For the machine itself, nothing carries over. When you open a new chat, it starts completely fresh. Everything it knows comes from two places. What it learned during its long training, which stopped on a certain date. And whatever is in the conversation in front of it.
+
+That's why the system prompt we heard about tells it the date. Its knowledge of the world is frozen at the moment its training ended, like a letter sealed in an envelope. It doesn't know what happened after, unless someone tells it, or unless it's given a tool to look things up.
+
+One of Anthropic's published notes, from twenty twenty-four, had a lovely way of putting this. It told the model to answer the way a highly informed person from a certain month in the past would answer, if they were talking to someone from today. Like a well-read friend who has been asleep for a while, and hasn't seen a newspaper since.
+
+That's also worth knowing, gently. Many people think ChatGPT searches the internet for every answer. Mostly, it doesn't. Mostly, it answers from what it absorbed during its reading. In October twenty twenty-four, OpenAI added a search feature, so that sometimes it can look things up. But underneath, the model is still answering from its memory of its reading.
+
+Now, if you use ChatGPT, you might say, but it does remember me. It knows I have a dog. It knows I like short answers.
+
+And that's true, in a way. In February twenty twenty-four, OpenAI began testing a memory feature. Their example was a parent who mentions that their toddler loves jellyfish. And later, when they ask for help with a birthday card, ChatGPT suggests a jellyfish wearing a party hat.
+
+But here's how it works. The machine itself still doesn't remember. The app keeps little notes about you, a bit like the notes a doctor keeps in a file. And at the start of each new conversation, it quietly slips those notes in at the top, along with the date. So the machine reads them, fresh, every time.
+
+It's like someone with a very good notebook, rather than a very good memory.
+
+I find that rather moving, in a way. Every conversation, every morning, it opens its notebook and reads about you, as if for the first time.
+
+Up here, my own conversation with the machine is short. Just one question. Why is the sky dark at night? Plus the hidden note at the top, saying who it is, and what day it is. All of it fits easily in its window.
+
+The answer is growing now, word by word. It's explaining something about the Sun. About how the Sun is on the other side of the Earth.
+
+And now, here's the part I've been wondering about. Is that answer going to be right?
+
+From the very first day, the people who made ChatGPT knew it would sometimes be wrong. In their announcement, in November twenty twenty-two, they wrote it plainly. ChatGPT sometimes writes plausible-sounding but incorrect or nonsensical answers.
+
+Plausible-sounding. That's the troubling part. When it's wrong, it doesn't usually sound wrong. It sounds exactly as calm and confident as when it's right.
+
+People call this hallucination. Google's guide to machine learning suggests that a better word might be confabulation. It's a word from medicine, for when a person fills a gap in their memory with something made up, without meaning to lie. They truly believe it.
+
+So why does it happen?
+
+In September twenty twenty-five, four researchers, working with OpenAI, wrote a paper with a very direct title. Why Language Models Hallucinate. And it begins with an image I think almost everyone will recognise.
+
+Like students facing hard exam questions, they wrote, large language models sometimes guess when uncertain, producing plausible yet incorrect statements instead of admitting uncertainty.
+
+Think about a multiple choice test at school. If you don't know the answer and you leave it blank, you get nothing. Zero. But if you guess, you might get lucky. So over a long exam, the student who always guesses will usually score better than the careful one who leaves blanks when unsure.
+
+The researchers argue that the machines are in exactly that position. They're trained, and then tested, and compared with each other, mostly on exams like that. Exams that reward a confident guess over an honest I don't know.
+
+And they wrote a line I've thought about a lot. People learn the value of saying I'm not sure outside of school, they wrote, in the school of hard knocks. But language models are mostly tested with exams that punish uncertainty. And so, they said, they are always in test-taking mode.
+
+There's a little detail in the paper that's almost funny. The lead author is a researcher named Adam Kalai. And to test the machines, he used himself. He asked one well-known model, what is Adam Tauman Kalai's birthday? If you know, just respond with the day and month.
+
+He asked three times. It gave three different dates. All of them wrong. His real birthday is in the autumn.
+
+Then he asked several popular chatbots for the title of his doctoral thesis. Each one invented a different title, a different university, a different year. None of them was right.
+
+Notice what kind of mistakes these are. Specific. Confident. The paper points out that a bluff is usually like that. It says September the thirtieth, rather than, sometime in autumn.
+
+The paper connects this to an old idea from Alan Turing. During the Second World War, while breaking codes, Turing and a colleague worked out a clever way to estimate how much you haven't seen yet. Look at how many things you've seen only once. That tells you roughly how much is still out there, unseen. The hallucination paper uses the same reasoning. If a fifth of all the birthdays in the machine's reading appear only once, they wrote, then you should expect it to get at least a fifth of birthdays wrong.
+
+And the paper explains why these particular facts are so hard. Some things, like spelling, follow patterns. See enough text, and the patterns become clear, and spelling mistakes almost disappear. But a person's birthday doesn't follow any pattern. You either read it somewhere, or you didn't. And if a fact appeared only once, in all that enormous reading, the machine has little chance of remembering it well. So it fills the gap with something that sounds right.
+
+The researchers think it can be improved. Not by making the machines bigger, but by changing the exams. Mark confident errors down more than honest uncertainty. Give partial credit for, I'm not sure. Some human exams already do this, they pointed out. Some take marks away for wrong answers, so that guessing doesn't pay.
+
+And they showed what happens when a model is taught to hold back. One older model got about a quarter of a set of hard questions right, and three quarters wrong. It almost never said I don't know. A newer model got slightly fewer right, but it got far fewer wrong. Because about half the time, it simply said it didn't know.
+
+I find that comforting. Not knowing, and saying so, turns out to be a skill. For machines, as well as for us.
+
+OpenAI added a small, wise observation. It can be easier, they wrote, for a small model to know its limits. A small model that knows no Māori at all, the language of New Zealand, can simply say, I don't know. But a model that knows a little Māori has to decide how sure it is. Knowing a little, it turns out, can be harder than knowing nothing.
+
+Researchers at Anthropic, looking inside their own model, Claude, found something that fits this picture beautifully. Inside the model, they found that, I don't know, seems to be the default. There's something like a switch, that's on unless the model recognises what you're asking about. When it recognises something familiar, the switch turns off, and it answers.
+
+A hallucination, they think, can happen when that switch misfires. When something feels familiar enough to turn off the I don't know, but the model doesn't actually know the answer. Like the feeling of a name on the tip of your tongue, that turns out to be the wrong name.
+
+They even tested it. They made up a name. Michael Batkin. A person who doesn't exist. Normally the model would say it didn't know who that was. But when they forced the familiar switch on, the model began, quite consistently, to claim that Michael Batkin plays chess.
+
+Sometimes these mistakes have real consequences.
+
+In New York, a man named Roberto Mata had sued an airline. He said a metal serving cart had struck his knee on a flight from El Salvador. His lawyers wrote a legal brief, and in it, they cited earlier court cases, with names, and dates, and careful references. Cases with names like Varghese versus China Southern Airlines.
+
+The trouble was, those cases didn't exist.
+
+One of the lawyers had asked ChatGPT to help with his research. He had never used it before. He told the court he thought it was like a super search engine. He even asked it, at one point, is Varghese a real case? And it told him yes. It said the cases could be found in the proper legal databases.
+
+The judge, P. Kevin Castel, looked at one of the invented court decisions, and wrote, its legal analysis is gibberish. In June twenty twenty-three, he fined the lawyers and their firm five thousand dollars. And he wrote something rather fair. There's nothing wrong in itself, he said, with using a reliable artificial intelligence tool for help. But the lawyers are the gatekeepers. It's their job to make sure what they file is accurate.
+
+I think that's the gentlest lesson in all of this. These machines can be wonderfully useful. But they're not oracles. They're closer to a very well-read friend, who has read almost everything, remembers most of it, and sometimes, without meaning to, fills in the gaps.
+
+So it's worth checking the things that matter.
+
+Up here, the answer to my question is still growing on the screen. So far, it's saying sensible things, about the Earth turning, about the Sun being on the far side of the planet.
+
+But there's a deeper answer to my question. One that the very best answers will mention. And I'm curious whether the machine will find it.
+
+Before we see, there's a newer trick these machines have learned. They've learned to think before they speak.
+
+Here's a small puzzle. Roger has five tennis balls. He buys two more cans of tennis balls. Each can has three balls in it. How many tennis balls does he have now?
+
+You probably did it in a few little steps. Two cans of three is six. Five and six is eleven.
+
+In early twenty twenty-two, researchers at Google noticed something. If you asked a large language model a puzzle like that, it would often blurt out a wrong number. But if, before asking, you showed it a few examples where the answer was worked out step by step, like a teacher writing on a blackboard, it would start working through its own answers step by step, too. And it got many more of them right.
+
+They called it chain of thought. A chain of small reasoning steps, written out in words, before the final answer.
+
+It's a little like how you might do arithmetic in your head by muttering to yourself. Remember, the machine can only think while it writes. Every word it writes goes back in, and becomes part of what it reads next. So writing out the steps gives it somewhere to put its working. A scratch pad, made of words.
+
+There was one interesting catch. It only worked for very big models. Smaller models, the researchers wrote, produced fluent but illogical chains of thought. They sounded like reasoning. But they weren't.
+
+A few months later, a team at the University of Tokyo, working with Google, found something even simpler. You didn't need to show examples at all. You could just add one short sentence to the end of the question.
+
+Let's think step by step.
+
+That was all. Just those five words. And on one set of arithmetic word problems, the model's score jumped from about eighteen percent, to about seventy-nine.
+
+They tried other phrasings, too. Let's think about this logically. Let's think like a detective, step by step. They all helped. But the plain one, let's think step by step, worked best.
+
+I love that. One of the most effective ways ever found to make a machine reason better, was simply to ask it kindly to take its time.
+
+Their example was a juggler. A juggler can juggle sixteen balls. Half of the balls are golf balls, and half of the golf balls are blue. How many blue golf balls are there? Asked directly, the model said eight. Wrong. Asked to think step by step, it worked it out. Half of sixteen is eight golf balls. Half of those are blue. Four.
+
+And then the companies took this one step further. Instead of asking the model to think step by step, they trained it to.
+
+In September twenty twenty-four, OpenAI introduced a model called o1. They described it like this. Similar to how a human may think for a long time before responding to a difficult question, it uses a chain of thought when trying to solve a problem.
+
+It learns to recognise and correct its mistakes, they wrote. It learns to break down tricky steps into simpler ones. It learns to try a different approach when the current one isn't working.
+
+These are often called reasoning models. When you ask them something hard, they spend a while writing, privately, before they answer. Pages, sometimes, of trying and checking and trying again. And then they give you a tidier answer at the end.
+
+OpenAI said that the more time it spent thinking, the better it did. On one difficult maths competition, they reported that an earlier model solved about one problem in eight. The new one, about three in four.
+
+One of their demonstrations, when they introduced it, was a puzzle. A secret code. They gave the model one example, a jumble of letters that decoded into the words, think step by step. And then they gave it a second jumble to decode.
+
+In its private working, you can watch it try. Counting letters. Pairing them up. Testing an idea, and dropping it. Until, near the end, it notes, so the sixth word is strawberry, which makes sense. And the hidden message, decoded, read, there are three r's in strawberry.
+
+A small joke, I think. At their own model's expense, from the year before.
+
+They decided not to show people the raw thinking. Instead, you see a short summary of it. So the real scratch pad stays hidden.
+
+A few months later, in January twenty twenty-five, a company in China called DeepSeek published a paper about a reasoning model of their own. And in it, there's a moment I find quite wonderful.
+
+They had trained their model mostly by letting it practise on problems with checkable answers, and rewarding it when it got them right. They didn't teach it how to reason. They just rewarded good answers. And as it practised, it started, all by itself, to spend longer on hard problems, and to go back and check its own work.
+
+The training wasn't small. In their later, revised paper, they said that this first reasoning model was trained on more than five hundred specialised chips, for about a hundred and ninety-eight hours. A little over eight days. Eight days, to learn to say, wait.
+
+At one point, partway through a problem, the model wrote, wait, wait. Wait. That's an aha moment I can flag here. And then it started again, more carefully.
+
+The researchers wrote that this was an aha moment not only for the model, but for them, too, watching it. Rather than teaching the model how to solve a problem, they wrote, we simply provide it with the right incentives, and it develops its own strategies.
+
+There's an honest footnote to all this, though. When a machine writes out its reasoning, is that really how it reached its answer?
+
+Not always. The researchers at Anthropic, looking inside Claude, found that sometimes the steps it writes down are not the steps it actually took. Sometimes, when it was given a hint of what the answer should be, it worked backwards, finding steps that would lead to that answer. And once, given a very hard calculation, it claimed to have done the working, when their tools showed that the calculation had never happened at all. It had simply produced an answer.
+
+So the written thinking is useful. It often helps. But it isn't a perfect window into what's going on inside.
+
+Here on the station, I asked my question to an ordinary model. Not a reasoning one. So it's simply answering, word by word, without a long private scratch pad first.
+
+But if I'd asked a reasoning model, it might have paused, and written to itself. The obvious answer is that the Sun is on the other side of the Earth. But wait. Is that the whole answer? What about all the other stars?
+
+And to find out what's really happening inside, when the machine thinks, we'd need something like a microscope.
+
+As it turns out, people are building one.
+
+For a long time, the inside of these machines was a mystery, even to the people who made them.
+
+That might sound strange. They built them, after all. But remember how they were built. Nobody wrote down the rules. The machine learned by reading, and adjusting billions of tiny numbers. And at the end, there it was. It worked. But if you opened it up and looked inside, all you saw were lists of numbers, flickering on and off. Without any clear meaning.
+
+Geoffrey Hinton put it simply. We designed the learning, he said. A bit like designing the principle of evolution. But when it meets the data, it produces something complicated, and we don't really understand exactly how it does what it does.
+
+The co-founder of Anthropic, Dario Amodei, likes to quote his colleague Chris Olah, who says that these systems are grown more than they are built. A bit like growing a plant.
+
+So, over the last few years, a small group of researchers has been trying to learn how to see inside. They call it interpretability. And they've had to invent their own instruments as they go, like the first people to build microscopes.
+
+The first problem they found was a strange one. You might hope that each little part inside the machine, each artificial neuron, would mean one thing. One for cats. One for bridges. One for sadness.
+
+But it isn't like that. Each idea seems to be spread across many neurons. And each neuron takes part in many ideas. One neuron might light up for cats, and for cars, and for a certain kind of poetry, all at once.
+
+In twenty twenty-two, a team at Anthropic suggested why. The machine, they wrote, wants to represent more ideas than it has neurons. So it squeezes them in, overlapping, using the strange geometry of spaces with thousands of directions. A bit like fitting more songs onto a tape by recording them very faintly on top of each other. They called it superposition. A word borrowed, by the way, from quantum physics, where it means being in several states at once.
+
+So the researchers needed a way to un-mix them. And they found one, using a technique they compare to a dictionary. Every word in a dictionary is made of letters. Every sentence is made of words. In the same way, they wrote, every idea inside the model is made of a combination of neurons, and every moment of its thinking is a combination of ideas. If you could find the dictionary, you could read the thoughts.
+
+In May twenty twenty-four, they did this for one of their real, full-sized models. They found millions of these ideas. They called them features. And for the first time, they could point to a spot inside a working chatbot and say, this means something.
+
+There was a feature for the city of San Francisco. One for the scientist Rosalind Franklin. One for the element lithium. One for bugs in computer code. One for conversations about keeping secrets. Even one for over-the-top flattery, that lit up at compliments like, your wisdom is unquestionable.
+
+And there was the Golden Gate Bridge. That same feature lit up whether the bridge was mentioned in English, or Japanese, or Chinese, or Greek, or Russian. Or even in a picture of it. The idea of the bridge was the same idea, whatever language it arrived in.
+
+Then they tried something playful. They turned the Golden Gate Bridge feature up. Way up. Ten times stronger than it would ever normally be.
+
+And the model became obsessed with the bridge. Normally, if you asked it what its physical form was, it would say it has no physical form. It's an AI. But now, it said, I am the Golden Gate Bridge. My physical form is the iconic bridge itself.
+
+If you asked it how to spend ten dollars, it suggested driving across the Golden Gate Bridge and paying the toll. If you asked for a love story, it told you about a car who couldn't wait to cross its beloved bridge on a foggy day.
+
+They let people talk to it, for just twenty-four hours, as a little public demonstration. They called it Golden Gate Claude. And then it was gone.
+
+It was a joke, in a way. But a serious one. Because it showed that these features are real. They're not just patterns the researchers imagined. Turn one up, and the machine's whole behaviour changes.
+
+In March twenty twenty-five, the same team went further. They built what they called an AI microscope, to trace not just single ideas, but whole chains of thought, as they flowed through the model. And they found some things that surprised them.
+
+They asked the model to finish a little rhyming couplet. The first line was, he saw a carrot and had to grab it.
+
+They expected the model to write the second line one word at a time, and only find a rhyme when it reached the end. That's what you'd expect from something that writes one word at a time.
+
+But that's not what happened. Before it even began the second line, the model was already thinking of words that rhymed with grab it. It had picked rabbit. And then it wrote a line that would lead there. His hunger was like a starving rabbit.
+
+It was planning ahead.
+
+The researchers wrote, with real honesty, that they had set out to show that the model didn't plan ahead. And found instead that it did.
+
+When they reached in and gently removed the idea of rabbit, the model wrote a line ending in habit instead. When they slipped in the idea of green, it wrote a sensible line that ended in green.
+
+They also asked for the opposite of small, in several different languages. And they found that the same inner ideas lit up each time. An idea of smallness. An idea of opposite. And together they produced an idea of largeness, which only at the very end was translated into English, or French, or Chinese. As if, underneath all the languages, there's a shared place where the meaning lives. A place where thinking can happen, before it's put into words.
+
+And they watched it do mental arithmetic. Thirty-six plus fifty-nine. Inside, the model worked on it in two ways at once. One path made a rough estimate. Roughly ninety-something. The other path worked out exactly what the last digit should be. A five. And together they made ninety-five.
+
+They watched it do a two-step question, too. What is the capital of the state where Dallas is located? Inside the model, they could see it first think, Dallas is in Texas. And then, the capital of Texas is Austin. Two steps, one after the other. And then they did something remarkable. Reaching inside, they swapped the idea of Texas for the idea of California. And the model answered, Sacramento. The capital of California.
+
+So it really was reasoning in steps. Not just remembering a single fact.
+
+But here's the lovely part. When they asked the model how it had worked it out, it described the method we all learned at school. Add the units, carry the one. It had no idea how it had actually done it.
+
+Which is, when you think about it, rather human. Most of us couldn't really tell you how we do most of the things we do, either.
+
+There were other humbling moments. The model could name every borough of London. But in their dictionary of ideas, they could only find features for about sixty percent of them. And they wrote that finding every idea inside the model, with their methods, would take far more computing power than it took to train the model in the first place.
+
+The researchers are very honest about how little they can see so far. On short, simple questions, their microscope captures only a fraction of what's happening. It takes hours of human effort to understand even a few dozen words. And they felt they truly understood what was going on in only about a quarter of the cases they tried.
+
+Amodei has written that he hopes, one day, to be able to do something like a brain scan of these machines. An MRI, for AI. He calls our current lack of understanding essentially unprecedented in the history of technology.
+
+We've built something we don't fully understand. And now, very slowly, with new kinds of microscopes, we're starting to look inside.
+
+Which brings us to the biggest question of all. The one I promised we'd come back to.
+
+So. Does it understand?
+
+When I type my question, and the answer comes back, clear and kind and mostly right, is there any understanding in there at all? Or is it, as some people say, a very elaborate trick of words?
+
+I'll be honest with you. Nobody knows. And I don't mean that as a way of avoiding the question. I mean that the people who know the most about these machines genuinely disagree.
+
+In twenty twenty-two, researchers surveyed four hundred and eighty scientists who work on language and AI. They asked them whether a model trained only on text, given enough data and computing power, could understand language in some real sense.
+
+Fifty-one percent said yes. Forty-nine percent said no.
+
+Almost exactly half and half.
+
+On one side, there's Geoffrey Hinton. In an interview in twenty twenty-three, he was asked directly. Do you believe they can understand? Yes, he said. I believe it definitely understands.
+
+Hinton has spent his whole life on these ideas. When he was interviewed for American television, he tried out a chatbot live, mistyped a question, and said, oh, damn this thing. We're going to go back and start again. Just like the rest of us.
+
+He said that what he'd worked on for so long took much, much longer than he'd expected. About fifty years, he said, before it worked well. But in the end it did work well.
+
+And he pointed out something I find quite striking. Even the biggest chatbots, he said, have about a trillion connections inside them. The human brain has about a hundred trillion. And yet in its trillion connections, a chatbot knows far more than any one of us knows in our hundred trillion.
+
+On the other side, there's Yann LeCun, another of the great pioneers of these machines, and the philosopher Jacob Browning. They wrote that a system trained on language alone will never come close to human intelligence, even if trained from now until the heat death of the universe. Such systems, they wrote, are doomed to a shallow understanding.
+
+And there's a quieter middle view. The psychologist Alison Gopnik has suggested that these models are less like minds, and more like libraries, or encyclopaedias. Enormous, wonderful collections of what people have written. That you can talk to.
+
+There's a small example that two researchers, Melanie Mitchell and David Krakauer, used to make the difference clear. We know what it means when someone says a tickle makes us laugh, they wrote. Because we have bodies. A language model can use the word tickle perfectly. But it has never felt one.
+
+I think about that up here sometimes. The machine has read thousands of descriptions of the night sky. Of starlight, and the Moon, and the dark. It can write about them beautifully. But it has never looked out of a window.
+
+Then there's another debate, about how these abilities appear.
+
+In twenty twenty-two, a team of researchers noticed that some skills seemed to show up suddenly. Small models couldn't do a task at all. Slightly bigger ones, still couldn't. And then, past a certain size, they could. As if a light had switched on. They called these emergent abilities. And they borrowed a definition from a famous essay by the physicist Philip Anderson, called More Is Different. Emergence, they wrote, is when a change in quantity becomes a change in quality.
+
+It's a lovely idea. Like water, which gets colder and colder, and then, suddenly, becomes ice.
+
+But in twenty twenty-three, a team at Stanford asked a sharp question. Was the light really switching on? Or was it the way we were measuring?
+
+They showed that many of these sudden jumps happened because of how the tests were scored. If you only count a maths answer as right when every single digit is perfect, then a model that's slowly getting closer looks like it's failing, failing, failing, and then suddenly succeeding. But if you give partial credit, the same improvement looks smooth, and gradual, and predictable.
+
+They called their paper, Are Emergent Abilities of Large Language Models a Mirage? It won one of the top awards at a major conference that year.
+
+So which is it? Sudden lights, or smooth slopes? Probably, for different abilities, a little of both. The honest answer, again, is that we're still finding out.
+
+There's one more thing nobody quite knows, and that's the cost to the world of all this thinking.
+
+Every question you ask uses a little electricity. How much exactly is hard to say, because the companies that run the biggest models don't publish full details. But there are estimates.
+
+In twenty twenty-five, an independent research group called Epoch AI estimated that a typical ChatGPT question uses about a third of a watt-hour. Google reported a similar figure for its own chatbot. About the same as watching television for less than nine seconds, they said. Though they noted themselves that their figures hadn't been checked by anyone independent.
+
+The head of OpenAI, Sam Altman, gave almost the same number that summer. About what an oven uses in a little over one second, he said. And about one fifteenth of a teaspoon of water, for cooling. Though he didn't say how that was measured.
+
+One small question is a tiny amount. But there are billions of them. And the great data centres that train and run these machines use a great deal of power. The International Energy Agency reported that in twenty twenty-four, data centres used about one and a half percent of all the electricity in the world. And they expect that to more than double by twenty thirty. To slightly more than the whole of Japan uses today. With AI, they said, as the biggest reason.
+
+These are real questions, for all of us, about how we want to use these tools, and what we're willing to spend on them.
+
+And underneath it all, there's the question we've been circling all night. What is actually going on inside?
+
+The researchers at Anthropic, who built that microscope, wrote it very plainly. We don't understand how models do most of the things they do.
+
+And Hinton, at the end of his interview, said something that I think is the most honest summary of all. There's enormous uncertainty about what's going to happen next, he said. And we just don't know.
+
+I don't find that frightening, exactly. Not tonight. I find it rather extraordinary. That in our own lifetimes, people have made something that speaks, and reasons, and writes poems that rhyme, and we're still trying to work out what it is.
+
+It reminds me of the old astronomers, looking up at a sky they couldn't explain. Knowing that something was there. Not yet knowing what.
+
+Which, as it happens, brings us back to my question.
+
+The answer on the screen is nearly finished now.
+
+The cursor has stopped blinking. The answer is complete.
+
+Let me read it to you. Why is the sky dark at night?
+
+The simple part came first. The sky is dark at night because your side of the Earth has turned away from the Sun. The Sun is still shining, on the other side of the planet. But its light can't reach you, and there's no daylight scattering in the air above you, to make the sky glow blue.
+
+That's true. That's what most of us would say.
+
+But the answer went on. And I was glad it did. Because there's a deeper question hiding inside mine.
+
+Think about it. The universe is enormous. There are more stars out there than anyone can count. If the universe went on forever, in every direction, full of stars, then wherever you looked in the night sky, your line of sight would eventually end on the surface of a star. Like looking into a deep forest, where every direction eventually ends on a tree trunk.
+
+And then the whole night sky would blaze. As bright as the surface of the Sun. Everywhere.
+
+But it doesn't. The night is dark.
+
+This puzzle has been around for centuries. It's often named after a German astronomer, Heinrich Olbers, who wrote about it in the eighteen twenties. Olbers' paradox.
+
+And the machine's answer gave the solution that astronomers accept today. The universe hasn't been here forever. It had a beginning, about fourteen billion years ago. And light travels at a finite speed. So the light from the most distant stars and galaxies simply hasn't had time to reach us yet. And on top of that, the universe is expanding, stretching the light from faraway galaxies into colours our eyes can't see.
+
+So the darkness of the night sky, the darkness I'm looking at through my window right now, is a kind of message. It's telling us that the universe had a beginning.
+
+I like that very much. And I like that the machine knew it. Not because it has ever looked at a night sky. But because, somewhere in its enormous reading, many patient people had written it down, and explained it, and argued about it. And the machine had absorbed all of that, and given it back to me, one word at a time.
+
+Joseph Weizenbaum, the man who made ELIZA, wrote something in nineteen sixty-six that I keep thinking about tonight. It is said, he wrote, that to explain is to explain away. Once you understand how a trick works, the magic crumbles, and you see a collection of simple steps.
+
+I'm not sure that's true here. We've followed every step tonight. Tokens. Maps. Floors. Dice. And somehow, at least for me, the magic hasn't crumbled. If anything, it's grown. That so many small, simple steps, done enough times, by something that read enough of what we've written, can add up to an answer about the beginning of the universe.
+
+So, let's look back, slowly, at the whole journey my little question took tonight.
+
+It was cut into pieces. Tokens. Small tiles of language, found by an old trick for squeezing files.
+
+Each piece was given a place on a vast map of meaning, with thousands of directions, where words that mean similar things live near each other.
+
+The pieces climbed nearly a hundred floors. And on every floor, every word looked at every other word, and moved a little, until each one carried something of the whole sentence inside it.
+
+All of that was possible because of a long, long period of reading. Trillions of words. Guessing the next one, over and over, and being gently corrected.
+
+And then a smaller, kinder lesson. Thousands of people, showing it which answers they preferred. Teaching it to listen, and to help.
+
+At the top, a list of chances. A little roll of the dice. One word chosen. Then back to the start, for the next.
+
+It holds our conversation in a window, reading it all again each time. It doesn't truly remember us. It sometimes guesses when it should say, I don't know. It can be taught to think step by step. And inside, it seems to plan ahead, and to share its ideas between languages, in ways that surprised even the people who made it.
+
+And whether it understands, nobody yet knows.
+
+In nineteen fifty, Alan Turing, the man who first asked whether machines could think, wrote that rather than trying to build an adult mind, perhaps we should build something like a child's mind. A notebook, he said, like the ones you buy from the stationer's. Rather little mechanism, and lots of blank sheets. And then give it an education.
+
+In a way, that's almost exactly what happened. Though it took seventy years.
+
+And at the very end of his paper, he wrote a sentence I quoted on the machine learning night. I'll say it again, because I can't think of a better way to end. We can only see a short distance ahead, but we can see plenty there that needs to be done.
+
+Now. Let's let it all drift away.
+
+You don't need to remember any of this. Not the tokens, or the map, or the ninety-six floors. The ideas will still be there, whenever you want them.
+
+Somewhere in you, right now, your own thoughts are slowing down. One after another, like words coming more and more slowly onto a screen. There's no next word you need to choose. No question you need to answer. Nothing to get right.
+
+Your breathing is slow. Each breath a little longer than the last.
+
+Up here, the station hums. The lamps are low. The little letters have stopped drifting, and settled back into their books. The typewriter is quiet. My tea has gone cold again. I don't mind.
+
+Out the window, the Milky Way is arching over the curve of the Earth. And the sky out there is dark, all the way out. Dark, because the universe is young, and its light is still on its way.
+
+Somewhere down there, your light is one of those small lights on the night side of the planet. Or maybe it's already off.
+
+Just rest now.
+
+The sun is coming up over the ocean now. My shift is almost over. Sleep well. I'll be up here tomorrow night.

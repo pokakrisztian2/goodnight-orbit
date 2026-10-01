@@ -1,0 +1,63 @@
+The very first thing that happens to my question is that it gets cut into pieces.
+
+We tend to think that a machine like this reads words, the way we do. Or perhaps letters. But it doesn't read either. It reads tokens.
+
+A token is a small piece of text. Sometimes it's a whole word. Sometimes it's part of a word. Sometimes just a single letter, or a comma, or a space.
+
+OpenAI, the company that makes ChatGPT, has a simple rule of thumb for English. One token is about four letters. Or about three quarters of a word. So a hundred tokens is roughly seventy-five words. A short paragraph is about a hundred tokens.
+
+They give a little example. The famous line from the ice hockey player Wayne Gretzky. You miss a hundred percent of the shots you don't take. That's eleven tokens. And the whole American Declaration of Independence is one thousand six hundred and ninety-five.
+
+My question, why is the sky dark at night, is about eight tokens. Most of the common little words are tokens all by themselves. Why. Is. The. Sky.
+
+Now, here's something odd. To the machine, a word with a space in front of it is a different token from the same word without one. And a word with a capital letter is different again. Red, at the start of a sentence, and red, in the middle of one, are two different pieces. The machine has to learn, slowly, from all its reading, that they mean the same thing.
+
+I looked at a few more, out of curiosity. Good night, with a full stop, is three tokens. The word unbelievable, at the start of a sentence, is three. Un. Bel. Ievable. But with a space in front of it, in the middle of a sentence, it's just one. And the longest word from Mary Poppins, supercalifragilisticexpialidocious, is ten.
+
+Even the name ChatGPT is two tokens. Chat. And GPT.
+
+And every token has a number. Like a ticket in a very long queue. The full stop at the end of a sentence, for example, is token number thirteen. The more common a piece is, the smaller its number tends to be.
+
+So where do these pieces come from? Who decided how to cut the words up?
+
+Nobody did, exactly. The pieces were found by a very old trick. And it began, of all places, as a way to make computer files smaller.
+
+In February nineteen ninety-four, a programmer named Philip Gage published a short article in a computer magazine. It described a simple way to squeeze text into less space. Look for the pair of characters that appears most often, side by side. Replace that pair, everywhere, with a single new symbol. Then look again for the most common pair. And replace that. And again. And again.
+
+It was called byte pair encoding. And for twenty years, it was just a small, clever compression trick.
+
+Then, in twenty fifteen, three researchers at the University of Edinburgh, Rico Sennrich, Barry Haddow and Alexandra Birch, had a problem. They were building machines to translate languages. And their machines kept stumbling over rare words. Long words. Names. New words. Especially in German, where you can glue words together into enormous ones. Their example was the German word for a sewage water treatment plant. Abwasserbehandlungsanlage.
+
+So they borrowed Gage's old trick. Start with single letters. Find the pair that appears most often in all your text. Glue it into one piece. Then find the next most common pair. Glue that. And keep going, thousands and thousands of times.
+
+What you end up with is lovely, in its way. The most common words become single pieces. The. And. Night. Rarer words get built out of smaller, common parts. Like a child building a long word out of syllables. Abwasser. Behandlungs. Anlage.
+
+Almost every chatbot today still cuts its text this way. GPT-2, in twenty nineteen, had a vocabulary of fifty thousand two hundred and fifty-seven pieces. Newer models have around a hundred thousand. The newest, around two hundred thousand. Every piece, a little tile in a very large game of Scrabble.
+
+And this explains one of the most famous puzzles about these machines.
+
+For a while, if you asked a chatbot how many letter r's are in the word strawberry, it would often get it wrong. It would say two. People laughed about it. How can something so clever not count three letters?
+
+But think about what the machine actually sees. When the word strawberry appears in the middle of a sentence, with a space in front of it, it's a single token. One sealed piece. Like a word printed on a single tile. The machine never sees the letters inside. It just sees the tile. Asking it to count the r's is a little like asking you how many brush strokes are in the word strawberry, written in Chinese.
+
+The machine has to remember, from its reading, how the word is spelled. And sometimes it doesn't remember well.
+
+Researchers at OpenAI tested this in another way. They asked several chatbots, how many D's are in the word DeepSeek? Just say the number. The answers they got ranged from two, to three, and in some cases six or seven. There's only one.
+
+There's a little joke hidden in OpenAI's own history here. In September twenty twenty-four, when they showed off a new model that thinks before it answers, one of their demonstrations was a puzzle. A secret code the model had to crack. And when it cracked it, the hidden message read, there are three r's in strawberry.
+
+Tokens have another, quieter side. They're not fair to every language.
+
+The tokenisers were built mostly from English text. So English gets the big, efficient pieces. Other languages get cut into smaller bits. In Spanish, how are you, cómo estás, is five tokens for ten letters.
+
+A team at Oxford measured this carefully in twenty twenty-three. The same text, translated into different languages, could take up to fifteen times as many tokens. Italian took about one and a half times as many as English. Arabic, about three times. And for Shan, a language spoken in Myanmar, up to fifteen times. A single Shan word for you was cut into nine separate pieces.
+
+That matters, because these services are often paid for by the token. And because the machine can only hold so many tokens in mind at once. So in some languages, you pay more, and the machine remembers less.
+
+I tried it myself, in a few languages, with one of the newer tokenisers. Good night, in English, is three tokens. In Hungarian, jó éjszakát, is seven. In Japanese, also seven. Newer vocabularies are slowly narrowing the gap. But it's still there.
+
+So. My question has now been cut up. Why. Is. The. Sky. Dark. At. Night. Question mark. A short row of tiles, each with its own number.
+
+But a number on a ticket doesn't mean anything by itself. Token number thirteen is just thirteen. Somehow, the machine has to turn these numbers into meaning.
+
+And that's where the map comes in.

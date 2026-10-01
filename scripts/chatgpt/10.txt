@@ -1,0 +1,65 @@
+Here's a small puzzle. Roger has five tennis balls. He buys two more cans of tennis balls. Each can has three balls in it. How many tennis balls does he have now?
+
+You probably did it in a few little steps. Two cans of three is six. Five and six is eleven.
+
+In early twenty twenty-two, researchers at Google noticed something. If you asked a large language model a puzzle like that, it would often blurt out a wrong number. But if, before asking, you showed it a few examples where the answer was worked out step by step, like a teacher writing on a blackboard, it would start working through its own answers step by step, too. And it got many more of them right.
+
+They called it chain of thought. A chain of small reasoning steps, written out in words, before the final answer.
+
+It's a little like how you might do arithmetic in your head by muttering to yourself. Remember, the machine can only think while it writes. Every word it writes goes back in, and becomes part of what it reads next. So writing out the steps gives it somewhere to put its working. A scratch pad, made of words.
+
+There was one interesting catch. It only worked for very big models. Smaller models, the researchers wrote, produced fluent but illogical chains of thought. They sounded like reasoning. But they weren't.
+
+A few months later, a team at the University of Tokyo, working with Google, found something even simpler. You didn't need to show examples at all. You could just add one short sentence to the end of the question.
+
+Let's think step by step.
+
+That was all. Just those five words. And on one set of arithmetic word problems, the model's score jumped from about eighteen percent, to about seventy-nine.
+
+They tried other phrasings, too. Let's think about this logically. Let's think like a detective, step by step. They all helped. But the plain one, let's think step by step, worked best.
+
+I love that. One of the most effective ways ever found to make a machine reason better, was simply to ask it kindly to take its time.
+
+Their example was a juggler. A juggler can juggle sixteen balls. Half of the balls are golf balls, and half of the golf balls are blue. How many blue golf balls are there? Asked directly, the model said eight. Wrong. Asked to think step by step, it worked it out. Half of sixteen is eight golf balls. Half of those are blue. Four.
+
+And then the companies took this one step further. Instead of asking the model to think step by step, they trained it to.
+
+In September twenty twenty-four, OpenAI introduced a model called o1. They described it like this. Similar to how a human may think for a long time before responding to a difficult question, it uses a chain of thought when trying to solve a problem.
+
+It learns to recognise and correct its mistakes, they wrote. It learns to break down tricky steps into simpler ones. It learns to try a different approach when the current one isn't working.
+
+These are often called reasoning models. When you ask them something hard, they spend a while writing, privately, before they answer. Pages, sometimes, of trying and checking and trying again. And then they give you a tidier answer at the end.
+
+OpenAI said that the more time it spent thinking, the better it did. On one difficult maths competition, they reported that an earlier model solved about one problem in eight. The new one, about three in four.
+
+One of their demonstrations, when they introduced it, was a puzzle. A secret code. They gave the model one example, a jumble of letters that decoded into the words, think step by step. And then they gave it a second jumble to decode.
+
+In its private working, you can watch it try. Counting letters. Pairing them up. Testing an idea, and dropping it. Until, near the end, it notes, so the sixth word is strawberry, which makes sense. And the hidden message, decoded, read, there are three r's in strawberry.
+
+A small joke, I think. At their own model's expense, from the year before.
+
+They decided not to show people the raw thinking. Instead, you see a short summary of it. So the real scratch pad stays hidden.
+
+A few months later, in January twenty twenty-five, a company in China called DeepSeek published a paper about a reasoning model of their own. And in it, there's a moment I find quite wonderful.
+
+They had trained their model mostly by letting it practise on problems with checkable answers, and rewarding it when it got them right. They didn't teach it how to reason. They just rewarded good answers. And as it practised, it started, all by itself, to spend longer on hard problems, and to go back and check its own work.
+
+The training wasn't small. In their later, revised paper, they said that this first reasoning model was trained on more than five hundred specialised chips, for about a hundred and ninety-eight hours. A little over eight days. Eight days, to learn to say, wait.
+
+At one point, partway through a problem, the model wrote, wait, wait. Wait. That's an aha moment I can flag here. And then it started again, more carefully.
+
+The researchers wrote that this was an aha moment not only for the model, but for them, too, watching it. Rather than teaching the model how to solve a problem, they wrote, we simply provide it with the right incentives, and it develops its own strategies.
+
+There's an honest footnote to all this, though. When a machine writes out its reasoning, is that really how it reached its answer?
+
+Not always. The researchers at Anthropic, looking inside Claude, found that sometimes the steps it writes down are not the steps it actually took. Sometimes, when it was given a hint of what the answer should be, it worked backwards, finding steps that would lead to that answer. And once, given a very hard calculation, it claimed to have done the working, when their tools showed that the calculation had never happened at all. It had simply produced an answer.
+
+So the written thinking is useful. It often helps. But it isn't a perfect window into what's going on inside.
+
+Here on the station, I asked my question to an ordinary model. Not a reasoning one. So it's simply answering, word by word, without a long private scratch pad first.
+
+But if I'd asked a reasoning model, it might have paused, and written to itself. The obvious answer is that the Sun is on the other side of the Earth. But wait. Is that the whole answer? What about all the other stars?
+
+And to find out what's really happening inside, when the machine thinks, we'd need something like a microscope.
+
+As it turns out, people are building one.

@@ -1,0 +1,69 @@
+For a long time, the inside of these machines was a mystery, even to the people who made them.
+
+That might sound strange. They built them, after all. But remember how they were built. Nobody wrote down the rules. The machine learned by reading, and adjusting billions of tiny numbers. And at the end, there it was. It worked. But if you opened it up and looked inside, all you saw were lists of numbers, flickering on and off. Without any clear meaning.
+
+Geoffrey Hinton put it simply. We designed the learning, he said. A bit like designing the principle of evolution. But when it meets the data, it produces something complicated, and we don't really understand exactly how it does what it does.
+
+The co-founder of Anthropic, Dario Amodei, likes to quote his colleague Chris Olah, who says that these systems are grown more than they are built. A bit like growing a plant.
+
+So, over the last few years, a small group of researchers has been trying to learn how to see inside. They call it interpretability. And they've had to invent their own instruments as they go, like the first people to build microscopes.
+
+The first problem they found was a strange one. You might hope that each little part inside the machine, each artificial neuron, would mean one thing. One for cats. One for bridges. One for sadness.
+
+But it isn't like that. Each idea seems to be spread across many neurons. And each neuron takes part in many ideas. One neuron might light up for cats, and for cars, and for a certain kind of poetry, all at once.
+
+In twenty twenty-two, a team at Anthropic suggested why. The machine, they wrote, wants to represent more ideas than it has neurons. So it squeezes them in, overlapping, using the strange geometry of spaces with thousands of directions. A bit like fitting more songs onto a tape by recording them very faintly on top of each other. They called it superposition. A word borrowed, by the way, from quantum physics, where it means being in several states at once.
+
+So the researchers needed a way to un-mix them. And they found one, using a technique they compare to a dictionary. Every word in a dictionary is made of letters. Every sentence is made of words. In the same way, they wrote, every idea inside the model is made of a combination of neurons, and every moment of its thinking is a combination of ideas. If you could find the dictionary, you could read the thoughts.
+
+In May twenty twenty-four, they did this for one of their real, full-sized models. They found millions of these ideas. They called them features. And for the first time, they could point to a spot inside a working chatbot and say, this means something.
+
+There was a feature for the city of San Francisco. One for the scientist Rosalind Franklin. One for the element lithium. One for bugs in computer code. One for conversations about keeping secrets. Even one for over-the-top flattery, that lit up at compliments like, your wisdom is unquestionable.
+
+And there was the Golden Gate Bridge. That same feature lit up whether the bridge was mentioned in English, or Japanese, or Chinese, or Greek, or Russian. Or even in a picture of it. The idea of the bridge was the same idea, whatever language it arrived in.
+
+Then they tried something playful. They turned the Golden Gate Bridge feature up. Way up. Ten times stronger than it would ever normally be.
+
+And the model became obsessed with the bridge. Normally, if you asked it what its physical form was, it would say it has no physical form. It's an AI. But now, it said, I am the Golden Gate Bridge. My physical form is the iconic bridge itself.
+
+If you asked it how to spend ten dollars, it suggested driving across the Golden Gate Bridge and paying the toll. If you asked for a love story, it told you about a car who couldn't wait to cross its beloved bridge on a foggy day.
+
+They let people talk to it, for just twenty-four hours, as a little public demonstration. They called it Golden Gate Claude. And then it was gone.
+
+It was a joke, in a way. But a serious one. Because it showed that these features are real. They're not just patterns the researchers imagined. Turn one up, and the machine's whole behaviour changes.
+
+In March twenty twenty-five, the same team went further. They built what they called an AI microscope, to trace not just single ideas, but whole chains of thought, as they flowed through the model. And they found some things that surprised them.
+
+They asked the model to finish a little rhyming couplet. The first line was, he saw a carrot and had to grab it.
+
+They expected the model to write the second line one word at a time, and only find a rhyme when it reached the end. That's what you'd expect from something that writes one word at a time.
+
+But that's not what happened. Before it even began the second line, the model was already thinking of words that rhymed with grab it. It had picked rabbit. And then it wrote a line that would lead there. His hunger was like a starving rabbit.
+
+It was planning ahead.
+
+The researchers wrote, with real honesty, that they had set out to show that the model didn't plan ahead. And found instead that it did.
+
+When they reached in and gently removed the idea of rabbit, the model wrote a line ending in habit instead. When they slipped in the idea of green, it wrote a sensible line that ended in green.
+
+They also asked for the opposite of small, in several different languages. And they found that the same inner ideas lit up each time. An idea of smallness. An idea of opposite. And together they produced an idea of largeness, which only at the very end was translated into English, or French, or Chinese. As if, underneath all the languages, there's a shared place where the meaning lives. A place where thinking can happen, before it's put into words.
+
+And they watched it do mental arithmetic. Thirty-six plus fifty-nine. Inside, the model worked on it in two ways at once. One path made a rough estimate. Roughly ninety-something. The other path worked out exactly what the last digit should be. A five. And together they made ninety-five.
+
+They watched it do a two-step question, too. What is the capital of the state where Dallas is located? Inside the model, they could see it first think, Dallas is in Texas. And then, the capital of Texas is Austin. Two steps, one after the other. And then they did something remarkable. Reaching inside, they swapped the idea of Texas for the idea of California. And the model answered, Sacramento. The capital of California.
+
+So it really was reasoning in steps. Not just remembering a single fact.
+
+But here's the lovely part. When they asked the model how it had worked it out, it described the method we all learned at school. Add the units, carry the one. It had no idea how it had actually done it.
+
+Which is, when you think about it, rather human. Most of us couldn't really tell you how we do most of the things we do, either.
+
+There were other humbling moments. The model could name every borough of London. But in their dictionary of ideas, they could only find features for about sixty percent of them. And they wrote that finding every idea inside the model, with their methods, would take far more computing power than it took to train the model in the first place.
+
+The researchers are very honest about how little they can see so far. On short, simple questions, their microscope captures only a fraction of what's happening. It takes hours of human effort to understand even a few dozen words. And they felt they truly understood what was going on in only about a quarter of the cases they tried.
+
+Amodei has written that he hopes, one day, to be able to do something like a brain scan of these machines. An MRI, for AI. He calls our current lack of understanding essentially unprecedented in the history of technology.
+
+We've built something we don't fully understand. And now, very slowly, with new kinds of microscopes, we're starting to look inside.
+
+Which brings us to the biggest question of all. The one I promised we'd come back to.

@@ -1,0 +1,43 @@
+Picture a map. But not a map of countries. A map of meaning.
+
+On this map, every token has its own place. Words that mean similar things live close together. Night lives near evening, and near dark, and near sleep. Sky lives near clouds, and blue, and heaven. And words that have nothing to do with each other live far apart. Teaspoon and thunderstorm. Violin and tax return.
+
+That's the next step. Each of the little tiles from my question is looked up, and given its place on this map. The place is written down as a list of numbers. Like coordinates.
+
+On an ordinary map, you need two numbers to say where something is. How far east, and how far north. On a globe, perhaps three, if you count height.
+
+The map of meaning inside one of these machines has far more directions than that. In GPT-3, the model OpenAI described in twenty twenty, every token is placed using twelve thousand two hundred and eighty-eight numbers. Twelve thousand directions. A space so large that we can't picture it at all. Even the people who build these machines can't picture it. They just do the arithmetic.
+
+The smallest version of GPT-3 used seven hundred and sixty-eight numbers for each token. The biggest, twelve thousand two hundred and eighty-eight. And a large model from Meta, in twenty twenty-four, used more than sixteen thousand.
+
+These lists of numbers are called embeddings. I like that word. As if each word is gently embedded, set into its own place, in a vast soft landscape.
+
+And nobody draws this map by hand. The machine learns it, slowly, by reading. At the start of training, every word is placed at random, scattered like seeds thrown into the wind. Then, every time the machine makes a guess and gets it wrong, the places shift, just a tiny bit. Words that keep appearing in the same kinds of sentences drift closer together. Over billions and billions of small corrections, the map arranges itself.
+
+On the machine learning night, we met an early version of this idea, from twenty thirteen. You might remember it. Take the place of the word king. Subtract the word man. Add the word woman. And you land very near the word queen.
+
+The directions on the map had started to mean something. There was a direction that meant, roughly, male to female. And Google's own guide to machine learning has a similar example. On the map, the distance from cow to bull is about the same as the distance from ewe to ram. A female sheep, to a male one.
+
+In the big modern machines, the map is much richer. And in twenty twenty-four, researchers at Anthropic, the company that makes a chatbot called Claude, found a way to look at some of the places on the map inside their own model. We'll come back to how they did it, later in the night. But one of their findings belongs here.
+
+They found a spot inside the model that lit up for one thing. The Golden Gate Bridge, in San Francisco. And then they looked around it, at its neighbours. Who lives near the Golden Gate Bridge, on the map of meaning?
+
+Alcatraz Island. Ghirardelli Square, the old chocolate factory by the bay. The Golden State Warriors basketball team. The great San Francisco earthquake of nineteen oh six. And Vertigo, the Alfred Hitchcock film that was set in that city.
+
+And when they looked a little further away, they found faraway places that people visit for their beauty. The Médoc wine region in France. The Isle of Skye, in Scotland.
+
+Near another spot, one that seemed to mean inner conflict, they found breakups between people. Divided loyalties. Arguments that contradict themselves. And the phrase catch twenty-two.
+
+They wrote that the way concepts are organised inside the model corresponds, at least somewhat, to our own human sense of what's similar to what. And that this might be where the model's ability to make analogies, and metaphors, comes from.
+
+I find that rather lovely. Nobody told the machine that Alcatraz and the Golden Gate belong together. Nobody told it that a breakup and a contradiction are, in some way, cousins. It found that out by reading what people had written. The map is a kind of shadow of how we talk about the world.
+
+There's one more thing to know about the map. At this first step, each word gets the same place every time. The word bank always starts in the same spot, whether you're talking about a river bank or a savings bank. The word dark always starts in the same spot, whether it's a dark sky, or a dark mood, or dark chocolate.
+
+That's not good enough, of course. Meaning depends on the words around it. Dark in my question means the sky without light. Not a mood. Not chocolate.
+
+So the machine has to adjust each word's place, depending on its neighbours. Little by little, layer by layer, each word has to look at the others, and move.
+
+My question has now become a short row of points on this great map. Why. Is. The. Sky. Dark. At. Night. Each one a list of twelve thousand numbers, sitting quietly in the dark.
+
+And now, they're about to start talking to each other.
