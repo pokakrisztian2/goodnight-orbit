@@ -1,0 +1,73 @@
+All those humming lines, and all those quiet boxes on the poles, are not separate things. They join up. Across a whole continent, they make one enormous machine. We call it the grid. And tonight I want to tell you about the strangest thing it has to do. It has to balance. Every single second.
+
+Here's why. Electricity is very hard to store in large amounts. The men and women who studied the great blackout of two thousand and three wrote it very plainly. Electricity flows at close to the speed of light, they said, and is not economically storable in large quantities. Therefore electricity must be produced the instant it is used.
+
+The instant it is used. When you switch on a kettle, somewhere a generator has to give a tiny bit more. When you switch it off, a tiny bit less. All day. All night. Millions of switches, and the grid answering every one.
+
+And how does the grid know? It listens to its own heartbeat.
+
+Remember alternating current, rocking back and forth. In North America, it rocks sixty times every second. In Europe, fifty. That number is called the frequency.
+
+If people are using more power than the generators are making, the frequency drops, just a little, below sixty. If the generators are making more than people are using, it rises, just a little, above. One group of researchers called frequency a measure of the health of the grid. Like a pulse.
+
+Why sixty, in America? That goes back to Tesla's motor. The early machines rocked much faster, about a hundred and thirty-three times a second. For his motor, it had to come down to sixty. And sixty is still the number in North American homes today.
+
+Many of the big generators are huge spinning machines. Heavy wheels, turning and turning. All that spinning weight holds a little stored energy. Engineers call it inertia.
+
+One report explained it with a bicycle. On a bicycle, inertia lets you stop pedalling for a moment and coast, without falling over. In the grid, it gives the people in the control room a few seconds. A few seconds to notice a power plant has stopped, and to do something about it, before anything falls over.
+
+Now, some of the clocks in your home may be listening to this heartbeat too. Not the clock on your phone. But some older electric clocks, on ovens and radios and heating timers, keep time by counting the cycles. Sixty a second, or fifty. So if the grid runs slightly slow for a long time, those clocks run slow too.
+
+And that's exactly what happened in Europe, in twenty eighteen.
+
+From the middle of January, the whole European grid ran a tiny bit slow. Not fifty times a second, but, on average, about forty-nine point nine nine six. You could never feel it. But it went on for weeks.
+
+The cause was a disagreement. Two neighbours in the Balkans, Serbia and Kosovo, couldn't agree about some electricity. And so some power that should have been made, wasn't. The amount that went missing was a hundred and thirteen gigawatt hours. A great deal of energy.
+
+And across the continent, oven clocks quietly fell behind. By March, the people who run the European grid had to announce it. These clocks, they said, show now a delay around six minutes.
+
+Six minutes. All over Europe, people looked at the clock on their oven, and thought, that's odd. And somewhere, a Balkan argument was the reason their dinner was late.
+
+In America, grid people even have a name for putting those clocks right again. Time error correction. I like that. Somewhere there's a job that is partly about making sure your oven knows what time it is.
+
+There's another lovely story about balance. And it's very British.
+
+In Britain, when a big television event pauses, millions of people stand up at the same moment. The grid people put it beautifully. People make a cup of tea, open the fridge and flush the loo at the same time.
+
+All those kettles switching on together make a sudden surge.
+
+The biggest surge ever recorded came in nineteen ninety. England were playing Germany in the semi-final of the football World Cup. It went all the way to penalties. And at the end of the penalty shoot-out, the whole country stood up, and went to the kitchen. The demand jumped by two thousand eight hundred megawatts.
+
+Whoever you were cheering for, I suppose you still had your tea.
+
+Even quieter moments do it. After the Queen spoke to the country in April twenty twenty, the surge was about five or six hundred megawatts. The grid people said that was like three hundred thousand kettles, all boiling at the same time.
+
+So the grid is always listening. And most of the time it works so well that we never think about it at all.
+
+But just occasionally, it doesn't. And the lights go out.
+
+On the ninth of November, nineteen sixty-five, one small protective switch in Ontario opened a single power line. It did exactly what it was set to do. But nobody in the control room knew exactly where it was set. The power flowing on that line moved instantly onto four others. And they tripped too, one after another, in two and a half seconds.
+
+The darkness spread from line to line. About thirty million people. For some of them, it lasted up to thirteen hours.
+
+You may have heard a story that, nine months later, lots of babies were born. People liked to tell that one. But a researcher went and counted the births. And there was no increase at all. A nice story. Just not a true one.
+
+What did come from that night was care. Three years later, a new council was set up, to help the grids work together more safely.
+
+Then, on the fourteenth of August, two thousand and three, it happened again. A summer afternoon. In one control room, the alarm system quietly stopped working, and no one there noticed. Then a few big power lines touched trees that had grown too tall beneath them. And in the final twelve seconds or so, the whole thing cascaded.
+
+About fifty million people, in America and Canada. In some places, power took four days to come back. People helped each other home. Neighbours sat out together in the warm dark. And some people said that, over cities that never see them, the stars came out.
+
+And the long report afterwards said, very simply, that it could have been prevented. So people learned from it, and the grid grew a little wiser.
+
+And then, more recently, on the twenty-eighth of April, twenty twenty-five, just after half past twelve in the afternoon, the whole of mainland Spain and Portugal went dark. All at once.
+
+This one was new. The trouble was the voltage, climbing too high, too fast. Experts called it the first ever of its kind.
+
+And then, slowly, carefully, they brought it all back. Water was let through the hydro dams to start the first generators. And the neighbours helped. Power came in along the links from France, and from Morocco. Portugal was back just after midnight. Spain, by early the next morning.
+
+So even when the great machine stops, people start it again. Piece by piece. Until every kitchen light is on.
+
+I just clicked my lamp, by the way. It came on, as it always does. I don't take it for granted quite so much tonight.
+
+And outside my window, far below, the storm I've been watching all evening is getting brighter.

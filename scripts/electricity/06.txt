@@ -1,0 +1,65 @@
+Every time we talk about electricity, three words keep coming back. Volts. Amps. Ohms. Some of them are printed on the bottom of every charger. And for most of us, they blur together into one word, which roughly means, be careful. So tonight, let's take them one at a time, slowly. Pressure, flow, and friction.
+
+The easiest way in is water. Picture a loop of pipe, full of water, with a small pump somewhere along it. The pump pushes. The water goes round and round. A battery, in this picture, is the pump.
+
+Voltage is how hard the pump pushes. It's the pressure. Physicists put it a little more carefully. Voltage is the energy each bit of charge is given, to carry around the loop. But pressure is a good way to feel it.
+
+Current is how much water goes past each second. Not how fast one drop is moving, but how much flows. That's the amp. And, as we found in the last chapter, one amp is about six and a quarter billion billion electrons, passing by every second.
+
+And resistance is how narrow the pipe is. A wide pipe lets the water through easily. A narrow pinch in the pipe holds it back. A thin wire, or a long one, is like that pinch. The electricity has to work harder to get through, and some of its energy turns into warmth along the way.
+
+Put the three together, and you get a rule so simple it fits on a fingertip. For a given pipe, push twice as hard, and twice as much flows. That's Ohm's law.
+
+Here in the Lightning Workshop, the old Edison bulbs hang at different heights on their twisted cloth cables. Each of those glowing threads inside the glass is a very narrow pipe. The electricity squeezes through, and the thread gets so warm it glows. That's all a bulb like that really is. A pinch in the pipe, glowing with the effort.
+
+A few everyday numbers, just to get a feel. A hair dryer draws about fifteen amps. A bolt of lightning, out there in the storm in my window, can carry a hundred thousand amps or more. But only for a tiny moment. So an average flash carries only about five coulombs of charge in all. A great rush, and then it's over.
+
+Now, I should be honest with you. The water picture is useful, but it isn't true. Even the textbooks that use it say so. All such analogies, one of them says, have their drawbacks.
+
+Here's one drawback. If you think of a battery as a tank full of water, you might imagine you can pour charge out of it, and the tank slowly empties. But that's not quite how it works. The charge that flows out one end has to come back in at the other. It's always a loop. The battery doesn't hold the electricity. It pushes it round.
+
+And here's another. The old name for a battery's push is electromotive force. But it isn't a force at all. It's a misnomer, kept only for historical reasons. Physics is full of little words like that, left over from earlier guesses.
+
+Even Michael Faraday, who we'll meet soon, wasn't convinced that electricity was a fluid, flowing through wires like water through a pipe. Keep that in the back of your mind. He may have been onto something.
+
+The man whose name we use for resistance was Georg Ohm. His father was a locksmith, and an entirely self-taught man. Young Georg, at university, spent a great deal of time dancing, ice skating, and playing billiards. Not, perhaps, the most studious start.
+
+In eighteen twenty-seven, he published a small book, setting out his law about the galvanic circuit.
+
+It did not go well. The book was received very coldly. Some important people in Berlin simply didn't like it. Part of the trouble, a historian says, was Ohm's own writing. He never quite made clear which of his many ways of saying it was the main one. His feelings were hurt. And in March eighteen twenty-eight, he resigned his teaching post in Cologne.
+
+Then, slowly, the world caught up. In eighteen forty-one, the Royal Society in London gave him its Copley Medal. And in eighteen fifty-two, at last, he was given the chair of physics in Munich. Just two years before he died.
+
+Every time someone says, that's ten ohms, they're saying his name. I think he'd like that. A late thank you, said quietly, millions of times a day.
+
+Now. Back to my reading lamp, and the question I asked at the start of the night.
+
+The electrons in a wire move slower than a snail. So why does the lamp come on the instant I touch the switch?
+
+First, let's check the first part. Are they really that slow?
+
+They are. Take an ordinary copper wire, the kind used in the walls of a house, carrying a good strong current of twenty amps. The electrons in it drift along at a little less than half a millimetre each second.
+
+So for one electron to travel just one metre along the wire, it would take roughly thirty-seven minutes. Long enough to make a cup of tea, drink it, and wash the cup.
+
+And that's with a strong current. For a single bedside lamp, the drift is gentler still. Roughly fifteen hours to go one metre. With a small modern LED bulb, roughly four days.
+
+Four days. To go about the length of your arm and a little more.
+
+Now, that doesn't mean the electrons are lazy. Each one is actually darting about very fast. About a million metres every second. But they don't go in a straight line. They keep bumping into the atoms of the metal, and into each other, and bouncing off in new directions. Zig, zag, zig. Like someone trying to cross a very crowded room. Rushing everywhere, and getting almost nowhere.
+
+The drift is just the gentle overall lean of that crowd, slowly shuffling in one direction.
+
+And it gets stranger. In most homes, the electricity doesn't flow in one direction at all. It sways back and forth, again and again, fifty or sixty times every second. So the electrons don't really travel anywhere. They just sway. Forward a tiny step, back a tiny step. Forward, and back.
+
+For a lamp like mine, the sway is only a few hundred atoms wide. The electron that's near the switch tonight will still be near the switch tomorrow morning, gently rocking in its place, like a boat on its mooring.
+
+I sat with that for a while, the first time I read it. Because it makes my question so much harder.
+
+If the electrons near the switch never reach the lamp, then what does? Something must travel from the switch to the bulb, and quickly. When I click it, there's no wait at all. No fifteen hours. No four days. Just light.
+
+So it isn't the electrons racing along the wire. That much is certain now. Whatever reaches my lamp so fast, it's something else.
+
+The puzzle didn't get smaller tonight. It got deeper.
+
+But that's alright. We have a long night ahead of us. And the next clue was found by a professor, in the middle of a lecture, when a compass needle moved just a little. So little that almost nobody saw it.

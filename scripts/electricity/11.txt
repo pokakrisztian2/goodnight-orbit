@@ -1,0 +1,83 @@
+Now we come to a story that's often told as a battle. The War of the Currents. But I'd like to tell it a little more gently tonight. Because underneath, it's really a story about a few people, each of them sure they were right, trying to light the world in their own way.
+
+On one side was Edison's direct current. Steady. Flowing one way, like a river.
+
+On the other was something newer. Alternating current. Electricity that doesn't flow along at all, really. It rocks back and forth, back and forth, many times a second. Like a tide coming in and going out, over and over, very fast.
+
+An early alternating current system, made by two men named Gaulard and Gibbs, was first shown in London in eighteen eighty-one. Across the ocean, a businessman named George Westinghouse heard about it. He bought a set of their machines, and brought them to America.
+
+And a man named William Stanley used them to light a town.
+
+On the twentieth of March, eighteen eighty-six, in a small town in Massachusetts called Great Barrington, Stanley switched on the lights along Main Street. Offices and stores. Twenty businesses in all.
+
+And his wires were fastened to the elm trees that lined the street.
+
+I love that picture. The first lights of a new age, strung through the branches of old elm trees, in a quiet New England town.
+
+His generator made five hundred volts. He raised it up to three thousand to send it down the street, then brought it back down again for the lamps. That raising and lowering was the whole secret. We'll come back to it.
+
+Later that same year, in November eighteen eighty-six, the first commercial alternating current station in the United States opened, in Buffalo, New York.
+
+There was a practical reason people liked it, too. Copper. Copper wire was expensive. When the town of Montpelier, in Vermont, changed over from direct to alternating current in eighteen eighty-seven, the old copper they took down was worth enough to pay for the whole change.
+
+Now, into this story walks a young man from far away.
+
+Nikola Tesla sailed to America in eighteen eighty-four. He arrived in New York with four cents in his pocket, a few of his own poems, and calculations for a flying machine.
+
+Four cents, some poems, and a flying machine. I think I'd have liked him.
+
+He went to work for Edison almost at once. Many years later, in a memoir of his own, Tesla told a story about it. He said he'd once been promised fifty thousand dollars. And that it turned out to be a practical joke. But it's worth knowing that this story comes only from Tesla himself, written long afterwards. And even there, he doesn't blame Edison. He blames someone he calls the Manager.
+
+Tesla had been dreaming about alternating current for years. Back in eighteen eighty-three, in the city of Strasbourg, he'd built his first induction motor, in his spare time, after work. A motor that could run on alternating current.
+
+On the first of May, eighteen eighty-eight, he was given a set of patents for a whole system. Generators, transformers, motors. That same May, he spoke about it to a meeting of electrical engineers in New York. And within a few months, George Westinghouse had bought the rights.
+
+Edison didn't want alternating current. He believed the high voltages it used were simply unsafe. And it's fair to say he also had a great deal of himself, and his money, invested in direct current. So the two sides argued, sometimes quite unkindly, for several years.
+
+But in the end, the arithmetic was on the side of the rocking current. In eighteen ninety-one, Edison's own company made him develop an alternating current system. By then it was too late. In February eighteen ninety-two, his company was merged into a new one, General Electric. And Edison left the industry he'd helped to begin.
+
+I find that a little sad. The man who lit Pearl Street, stepping quietly aside.
+
+The next year, eighteen ninety-three, there was a great world's fair in Chicago. Westinghouse won the contract to light it, by asking about a third of what General Electric had asked. Then he had to make a quarter of a million lamps of his own, in less than a year.
+
+When President Grover Cleveland pressed a button, the fair came alive. People called it the White City. It used more electricity than the whole of Chicago. And more than twenty-five million visitors came to see it.
+
+Then came Niagara Falls. On the twenty-sixth of August, eighteen ninety-five, the Adams power plant at Niagara began sending alternating current to the factories nearby. And on the fifteenth of November, eighteen ninety-six, that power reached the city of Buffalo, twenty-two miles away. At eleven thousand volts. Along a line held up on cedar wood poles.
+
+Niagara chose a rocking rate of twenty-five times a second. They'd tested it, and at that speed the lamps didn't flicker in an annoying way. Buffalo kept some of that old twenty-five rhythm for more than a century, right up to the end of two thousand and seven.
+
+So, alternating current won. Not because of a fight. Because of one small, patient machine.
+
+Let's look at it now.
+
+On almost any street, you'll see it. A grey metal can, sitting quietly up on a wooden pole. It's called a transformer.
+
+And the very first one was made by Michael Faraday, in eighteen thirty-one. You remember his iron ring, wound with wire made for bonnets. That ring was the first transformer ever made.
+
+Here's how it works, as simply as I can say it.
+
+Imagine two coils of wire, wound around the same piece of iron. They don't touch. When the current in the first coil changes, it makes a changing magnetic field in the iron. And that changing field, just as Faraday found, makes a voltage in the second coil.
+
+If the second coil has more turns of wire than the first, you get more voltage. If it has fewer turns, you get less. Up, or down. That's all it does.
+
+But notice one word. Changing. A transformer only works while the current keeps changing. Steady direct current doesn't change, so a transformer can't work on it. Alternating current changes all the time. It's made for transformers.
+
+That's the whole secret of the War of the Currents.
+
+But why would you want high voltage at all?
+
+Because wires get warm. Some of the electricity is lost as heat along the way. And that heat grows with the square of the current. Double the current, and you get about four times the heat.
+
+So here's the trick. If you raise the voltage, you can send the same amount of power with less current. Double the voltage, and you need only half the current. And half the current means only about a quarter of the heat.
+
+So the power stations step the voltage up, very high. Today's long-distance lines carry hundreds of thousands of volts. The power travels across the country with very little lost. Then, near your home, the quiet box on the pole steps it back down again, gently, to something safe for a lamp.
+
+And it works well. In the United States, only about five out of every hundred parts of the electricity are lost between the power station and the people using it.
+
+Behind me, my little Tesla coil is still curling its violet sparks inside its glass dome. It's a kind of transformer too, a very excited one. It takes an ordinary voltage and lifts it so high that the air itself begins to glow.
+
+And when I click my reading lamp on, the power reaching it has probably passed through several of these quiet boxes on its way. Up, and across, and down again.
+
+But there's one thing alternating current needs that Edison's steady current never did. All those generators, all across a country, have to rock together. In step. Every second of every day.
+
+And keeping them in step turns out to be a very delicate thing.

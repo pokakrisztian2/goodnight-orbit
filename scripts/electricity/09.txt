@@ -1,0 +1,61 @@
+Not long after Faraday drew his lines, a younger man began thinking about them very hard. And he couldn't stop.
+
+His name was James Clerk Maxwell. Faraday had drawn the lines in words and in iron filings. Maxwell wanted to draw them in mathematics. His very first paper on the subject, in eighteen fifty-five, had a simple, almost shy title. On Faraday's Lines of Force.
+
+I like that. A brilliant mathematician, and the first thing he does is put an older man's name at the top of the page.
+
+Faraday had a feeling, more than a formula. He felt that the space around a magnet, or around a wire, wasn't empty. That something was there, stretched and waiting, even when nothing seemed to move. Maxwell took that feeling seriously. He built his equations on Faraday's lines, one careful step at a time.
+
+And in eighteen sixty-two, in a long paper called On Physical Lines of Force, something unexpected fell out of the sums.
+
+His equations said that a ripple in these electric and magnetic lines could travel through space. A wave. And the equations told him how fast it should go. So he worked it out, from measurements people had made with magnets and with electric charges. Ordinary laboratory things.
+
+The answer came out at about a hundred and ninety-three thousand miles every second.
+
+Now, a French scientist named Fizeau had already measured the speed of light. Not with magnets at all. With light. And he'd found about a hundred and ninety-five thousand miles every second.
+
+Almost the same number. From two completely different directions.
+
+You can imagine Maxwell looking at those two numbers side by side. Out of electricity and magnets, the speed of light.
+
+He wrote, very carefully, that we can scarcely avoid the inference that light is made of waves in the very same medium that causes electric and magnetic effects.
+
+Scarcely avoid the inference. It's such a quiet way to say something so enormous. He didn't shout. He just set it down, the way you might set down a cup of tea.
+
+Three years later, in eighteen sixty-five, he said it again, a little more boldly. Light itself, he wrote, is an electromagnetic disturbance, in the form of waves, travelling through the field.
+
+So light is electricity too. Or rather, light and electricity and magnetism are three faces of one thing.
+
+I'm looking out of my window as I say that. Down below, over the dark ocean, the storm is still going. Every few seconds a cloud lights up from the inside, soft and white. And the light from that flash is crossing the space to my eyes as a ripple in the very field Maxwell wrote about. The storm is electric, and the light it makes is electric too. It's all one family.
+
+Not everyone understood him at first. Maxwell's first version had twenty equations, and most people of his time found them very hard going. Later, a man named Oliver Heaviside boiled them down into a much shorter, tidier set.
+
+And Maxwell himself seems to have been a gentle sort of person. Near the end of his life he said, I never had a violent shove in all my life. I find that rather lovely. One of the greatest minds of his century, and he remembered his life as calm.
+
+Later scientists were less calm about him. Albert Einstein called Maxwell's change in our picture of the world the most profound and the most fruitful that physics had seen since the time of Newton. And the physicist Richard Feynman once said that, seen from ten thousand years in the future, the most important event of the nineteenth century would surely be Maxwell's laws of electricity and magnetism. Even the great events of that same decade, he said, would seem small beside it.
+
+But for a long time it was only an idea on paper. Outside England, few people accepted it. Nobody had actually made one of these waves on purpose.
+
+That changed in a laboratory in Germany. Between eighteen eighty-five and eighteen eighty-nine, a young professor of physics named Heinrich Hertz, at the Karlsruhe Polytechnic, made electromagnetic waves in his laboratory. Real ones. Sent out on purpose, through nothing but the space in between.
+
+He had made Maxwell's waves. He measured how long they were, and how fast they went. And he showed that electric and magnetic effects don't happen instantly. They take time to travel. A finite speed. The speed of light.
+
+Hertz died young, on the first day of eighteen ninety-four, not yet thirty-seven. Many years later, in nineteen thirty, his name was given to the unit we use for anything that goes round, or back and forth, so many times a second. Hertz.
+
+And now, I think, we have the second piece of tonight's puzzle.
+
+You remember my question. The electrons in a wire move slower than a snail. So why does my lamp come on the instant I touch the switch?
+
+Here it is again, by my elbow. I click it off. The workshop goes a little dimmer, just the violet glow of the coil in its glass dome. I click it on. Light. No waiting at all.
+
+Part of the answer, we've seen, is that the wire is already full of electrons, all the way along. Nothing has to travel from the switch to the bulb. The ones already in the bulb can start moving straight away.
+
+But what tells them to start? What carries the message?
+
+It isn't the electrons. It's a change in the field. When I touch the switch, the electric field in the wire shifts, and that shift races along the wire at most of the speed of light. Exactly the kind of thing Maxwell showed must travel like a wave.
+
+So the message isn't carried by the slow little electrons at all. It's carried by the same thing that carries starlight.
+
+There's still one more piece, and it's the strangest one. It's about where the energy actually goes. But we'll keep that for later in the night.
+
+Because for now, Maxwell's beautiful theory had to come down to earth. Someone still had to make a lamp that would stay lit all evening.

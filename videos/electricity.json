@@ -1,0 +1,47 @@
+{
+ "name": "electricity",
+ "script": "scripts/electricity.txt",
+ "loop_seconds": 60,
+ "scenes": [
+  {
+   "station": "assets/scenes/electricity/room-v1.mp4",
+   "space": "assets/space/storm-sprites-v1.mp4",
+   "room_saturation": 0.7
+  }
+ ],
+ "captions": true,
+ "shorts": [
+  {
+   "hook": "The first spark from a storm",
+   "say": "In seventeen fifty-two, a whole French village ran through the hail, sure an old soldier had been killed by lightning.",
+   "from": "On Wednesday, the tenth of May, seventeen fifty-two",
+   "paras": 6
+  },
+  {
+   "hook": "Franklin's turkey disaster",
+   "say": "Benjamin Franklin tried to cook a Christmas turkey with electricity. It did not go to plan.",
+   "from": "On Christmas Day, seventeen fifty, Franklin wrote",
+   "paras": 6
+  },
+  {
+   "hook": "Electrons are slower than a snail",
+   "say": "The electrons in your lamp wire move slower than a snail. So why does the light come on instantly?",
+   "from": "They are. Take an ordinary copper wire",
+   "paras": 5
+  },
+  {
+   "hook": "Why Europe's oven clocks ran 6 minutes slow",
+   "say": "In twenty eighteen, oven clocks all over Europe fell six minutes behind. The reason was a political argument.",
+   "from": "From the middle of January, the whole European grid",
+   "paras": 4
+  },
+  {
+   "hook": "Horses vs electric eels",
+   "say": "In eighteen hundred, an explorer watched electric eels leap at horses. For two hundred years, nobody believed him.",
+   "from": "In March of eighteen hundred, the explorer",
+   "paras": 4
+  }
+ ],
+ "topic": "Electricity",
+ "title": "Every Confusing Thing About Electricity Explained Slowly (For Sleep)"
+}

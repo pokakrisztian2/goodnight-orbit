@@ -1,0 +1,115 @@
+There's one more place electricity lives, that we haven't visited yet tonight. It's very close. Closer than the storm, closer than my lamp. It's inside you.
+
+Right now, as you lie there, the inside of each of your nerve cells is a little bit negative compared to the outside. About seventy thousandths of a volt. A tiny difference. But the wall of a nerve cell is so thin, only about eight millionths of a millimetre, that across that wall the electric field is enormous.
+
+When a nerve sends a message, that difference flips. For about two thousandths of a second, the inside becomes positive. And then it settles back. Every signal reaches the same height. None is bigger than another. A message in your body is not a louder spark. It's a simple yes, travelling along.
+
+And here's a lovely detail. In your nerves it isn't electrons drifting down a wire. It's charged atoms, of sodium and potassium, slipping in and out through the walls of the cells. So Galvani, with his frog legs, was partly right after all. There really is animal electricity. Just not quite the kind he imagined.
+
+Some nerves are wrapped in insulation, rather like a cable. And on those, the signal leaps from one gap in the wrapping to the next. Up to about a hundred and twenty metres a second.
+
+And your whole nervous system, all of it, runs on roughly twenty watts. About the same as a couple of ordinary LED bulbs.
+
+Your heart has its own little spark too. A small cluster of cells, called the pacemaker of the heart. Left entirely to itself, with no messages from the nerves, it would set off a beat about eighty to a hundred times a minute. And if it ever rests, there's a second little pacemaker, ready to keep the rhythm going.
+
+In nineteen twenty-four, a doctor named Willem Einthoven won a Nobel Prize for his work on recording it. He used a fine wire of silver-coated quartz, to catch the tiny voltages on the skin with every beat. The electrocardiogram. The wavy line you see on a hospital screen. Your heartbeat, written in electricity.
+
+Now. Some animals have turned electricity into something much bigger.
+
+In March of eighteen hundred, the explorer Alexander von Humboldt was crossing the plains of Venezuela. His guides offered to show him how they caught electric eels. They would fish, they said, with horses.
+
+They drove about thirty horses into a muddy pool. And the eels rose up, yellowish and livid, Humboldt wrote, and pressed against the horses. It was a great struggle. Humboldt thought the horses were stunned, more than anything. And by degrees, he wrote, the wearied eels dispersed.
+
+Humboldt himself, rather unwisely, stepped on an eel with both feet. He said it was a worse shock than any Leyden jar he'd ever touched. And his knees ached for the rest of the day.
+
+He also wrote down a local belief. That you could touch the eels safely, as long as you were chewing tobacco. I don't think he tested that one.
+
+For two hundred years, people doubted his story. Eels leaping at horses? It seemed too strange. Then, in twenty sixteen, a scientist named Kenneth Catania reported something. He was moving eels in his lab with a net that had a metal rim. And one of them turned, and leapt up out of the water, and pressed its chin against the metal, and shocked it. The higher it leapt, the stronger the shock. Turning up the volume, he called it.
+
+Humboldt had been right. And in a later test, with a small eel and a human subject's arm, Catania measured exactly how much of the shock got through.
+
+And the electric eel, it turns out, isn't really an eel at all. It's a kind of knifefish, from South America. And there isn't just one kind. In twenty nineteen, scientists found there are three. One of them was measured at eight hundred and sixty volts. The strongest living electric animal ever recorded.
+
+They named it after Volta. Which feels right. Because the eel, and the torpedo fish, had inspired Volta's pile in the first place. He even called it an artificial electric organ.
+
+And here's a little coincidence I enjoy. Humboldt's horses went into that pool in March eighteen hundred. And that very same month, in Italy, Volta was writing his letter about the pile. The living battery and the made one, in the same spring.
+
+Volta's pile has grandchildren everywhere now. In your phone, perhaps, on the table beside you.
+
+They're lithium batteries. And the story of how they were made is gentler than you might think, and a little bit funny. In the nineteen seventies, a chemist named Stanley Whittingham built an early one. It had great potential, as the Nobel committee put it. It also kept catching fire. The fire brigade came so often that they finally threatened to send the lab a bill, for the special chemicals they needed to put the fires out.
+
+Then John Goodenough, who as a boy had found it very hard to learn to read, worked out how to make the battery much stronger. And Akira Yoshino made it safe enough to sell. He tested it by dropping a heavy piece of iron on it. Nothing happened. That, he said, was the moment the lithium-ion battery was born.
+
+The three of them shared the Nobel Prize in twenty nineteen. Goodenough was ninety-seven. The oldest person ever to win one.
+
+And then there's the electricity all around me, up here.
+
+This station runs on sunlight. Its great solar wings stretch wider than the biggest passenger plane in the world. Together they make about a hundred kilowatts. Roughly what fifty-odd houses use. Every ninety minutes, we pass into Earth's shadow for a while, and batteries carry us through the dark. Lithium ones now, from that same Nobel story.
+
+And here's the part that always makes me smile. The station runs on direct current. Edison's kind. He lost the war of the currents down there. But up here, quietly, he won.
+
+There are about eight miles of wire running through this station. And at the end of one of them, there's my little reading lamp.
+
+So let me click it, one last time tonight.
+
+Click. Off. Click. On.
+
+Instantly. Just like at the start of the night. And now, I think, we can finally answer my question. The electrons in a wire move slower than a snail. So why does the lamp come on the instant I touch the switch?
+
+The first part we already know. They really are slow. In an ordinary house wire, an electron might take more than half an hour to drift a single metre. And with alternating current, they hardly travel at all. They just rock gently back and forth, in place, fifty or sixty times a second.
+
+But here's the second part. The wire isn't empty, waiting to be filled. It's already full of electrons, all the way along. Like a tube packed with marbles. Push one in at one end, and another drops out at the other, almost at once. Nobody has to make the whole journey.
+
+And here's the third part, and the deepest. What actually races along the wire isn't the electrons at all. It's a change in the electric field. A ripple, spreading out at nearly the speed of light.
+
+And the fourth part is the one that surprised even the great physicists. The energy that lights the lamp doesn't really travel inside the wire at all. It flows through the space around it. Richard Feynman, one of the great teachers of physics, wrote that the electrons get their energy from the field outside. Flowing inward, all around the wire, from the empty space beside it. It's clear, he wrote, that our ordinary intuitions are quite wrong.
+
+And what is that field? It's the very thing Michael Faraday imagined, the bookbinder, with his invisible lines of force curving through space. And it's the same field James Clerk Maxwell wrote down in his equations, the field whose waves turned out to be light itself.
+
+So when I touch my switch, the energy for my lamp is carried there by light's own cousin. Flowing round the outside of the wire, faster than any electron could ever crawl.
+
+One physics guide puts it so nicely. Your light turns on so quickly that you find it impossible to flip off the light and get into bed before the room goes dark.
+
+I've always loved that. It's true. You never can. However fast you are.
+
+So. Let's look back, slowly, at the whole journey tonight.
+
+A piece of amber, rubbed on wool, pulling at little scraps.
+
+A glass jar that bit the hand of the man who held it.
+
+A kite on a string, in a thunderstorm, and a key that sparked.
+
+Frog legs on a parapet, twitching. And a pile of silver and zinc that could make a current, all by itself.
+
+A compass needle that moved so slightly, nobody in the room noticed.
+
+A poor bookbinder named Faraday, who imagined lines of force in the empty air. And Maxwell, who found that those lines, waving, were light.
+
+Edison's lamps, glowing in the city. The great grid, balancing itself every second. Oven clocks six minutes slow. Kettles all boiling at once.
+
+The storm in my window, with a red sprite above it.
+
+And your own heartbeat. A small electric rhythm, keeping time all night.
+
+At the end of his Christmas lectures, Faraday spoke to the children about a candle. And his last words to them were a wish. He hoped that they might, in their generation, be fit to compare to a candle. That they might, like it, shine as lights to those about them.
+
+I can't think of a better wish. Not tonight.
+
+Now. Let's let it all drift away.
+
+You don't need to remember any of this. Not the volts, or the fields, or the slow electrons. They'll still be there, whenever you want them.
+
+Somewhere in you, right now, your own little currents are slowing down. Your thoughts are coming more slowly, like the last flashes of a storm, far away. There's no switch you need to touch. Nothing you need to answer.
+
+Your breathing is slow. Each breath a little longer than the last.
+
+Up here, the station hums. The little coil under its glass dome has stopped crackling. The plasma ball is dark. The old bulbs hang quietly on their cables, glowing low. My tea has gone cold again. I don't mind.
+
+Out the window, the storm has moved far below and away, and gone quiet. Just a soft glow now and then, deep inside the clouds. And along the coast, a city's lights are shining, gold, like a scatter of tiny lamps.
+
+Somewhere down there, your light is one of those small lights on the night side of the planet. Or maybe it's already off.
+
+Just rest now.
+
+The sun is coming up over the ocean now. My shift is almost over. Sleep well. I'll be up here tomorrow night.

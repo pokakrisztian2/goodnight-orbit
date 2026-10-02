@@ -1,0 +1,67 @@
+Let me tell you about a bookbinder. Michael Faraday was born in September seventeen ninety-one, in Newington, in Surrey. His father was a blacksmith. The family was poor. So poor that, as a boy, he remembered being given one loaf of bread that had to last him a whole week.
+
+He went to school only a little. In his own words, he learned little more than the rudiments of reading, writing and arithmetic. At thirteen, he went to work as an errand boy for a man called George Riebau, who sold newspapers and bound books.
+
+Then he became Riebau's apprentice. A bookbinder. For seven years, from eighteen oh five to eighteen twelve, his job was to stitch pages together, and fold them, and fit them inside leather covers.
+
+But he didn't only bind the books. He read them. One of them was the Encyclopaedia Britannica, and inside it there was an article on electricity. It fascinated him. I like to picture him at the workbench, slowly reading a page he was supposed to be sewing.
+
+From eighteen ten, he paid one shilling a time to hear a series of science lectures, given by a man called John Tatum. He took careful notes, and then, being a bookbinder, he bound them, beautifully.
+
+Those bound notes changed his life. Early in eighteen twelve, Riebau showed them to one of the shop's customers. And that customer gave young Faraday the chance to hear the last four lectures given by the chemist Humphry Davy, at the Royal Institution.
+
+Faraday took notes again. And again he bound them into a book. He sent that book to Davy, with a letter, asking for a job.
+
+There was no opening. Not at first. But then one of Davy's laboratory assistants was dismissed, for brawling. And Davy offered the job to Faraday. In eighteen thirteen, the bookbinder became an assistant in the laboratory of the Royal Institution.
+
+It has been said, with some truth, that Faraday was Davy's greatest discovery.
+
+I keep a little bound notebook here in the Lightning Workshop. Nothing as fine as his. But I think of him whenever I write in it.
+
+Now, remember Ørsted's needle. A current could make a magnet move. In eighteen twenty-one, Faraday took that little nudge much further.
+
+On Monday the third of September, eighteen twenty-one, down in the small basement laboratory of the Royal Institution, lit by candles, he did it. He set up a wire, and a magnet, and a current. And the wire began to go round and round the magnet. Not just a twitch. A steady, continuous turning.
+
+For the first time, electricity had made something move, and keep moving. It was the very first electric motor.
+
+His notebook entry that day is lovely. In this way got the revolution of the wire round the pole of the magnet. And then, a few words later, very satisfactory, but make more sensible apparatus.
+
+I love that. The first electric motor in the world, and his first thought was, good, now let's make it tidier.
+
+He sent small pocket-sized versions to scientists all over the world.
+
+But the bigger question was still waiting. If electricity could make magnetism, could magnetism make electricity?
+
+It took ten more years. On the twenty-ninth of August, eighteen thirty-one, he found it.
+
+He had wound two coils of wire around an iron ring. The wire was the kind made for ladies' bonnets, wrapped in cotton. Winding it took him probably about ten working days. He sent a current through one coil, and a needle on the other coil moved, just for a moment. When he switched the current off, the needle kicked the other way. He was astonished.
+
+The current only came when something changed. Switch on, a kick. Switch off, a kick. In between, nothing. That iron ring was the first electric transformer.
+
+He tried it with a plain bar magnet, too. Push it into a coil of wire, and the needle leapt into action. Move a magnet, and electricity flows.
+
+On my bench there's a hand-crank generator, with copper coils inside it. When I turn the handle, magnets spin past the coils, and a small bulb flickers on. Virtually all the electric power in the world is still made this way, by Faraday's principle. Big turbines instead of my little handle.
+
+And here's the part I most want you to keep.
+
+Faraday had a way of seeing things. He imagined that around every magnet, and every current, there were lines in the space. Curving lines, reaching out through the air. He called them lines of force.
+
+When a wire moves through those lines, cutting across them, a current flows. The more lines it cuts each second, the stronger the current.
+
+You can see them. Sprinkle iron filings on a sheet of paper, over a magnet, and give it a gentle tap. The filings arrange themselves into curving lines, from one end of the magnet to the other. In eighteen fifty-one, Faraday made patterns like this on waxed paper, and warmed the paper gently to fix the filings in place. They're still there today. You can still see his lines.
+
+Remember, he never quite believed that electricity was a fluid, flowing through wires like water in a pipe. And his lines don't live inside the wire. They live in the space around it.
+
+So please remember these lines. Lines reaching out into the space around a wire. They're going to matter for my lamp.
+
+He gave us words, too. Electrode. Cathode. Ion. Words that still sit in every chemistry book.
+
+And he wanted everyone to share in it. In eighteen twenty-five, he started the Christmas Lectures at the Royal Institution. Talks about science for young people, in the holidays. He didn't give the very first series. A man called John Millington did. Faraday gave the second. And in all, he gave nineteen series, more than anyone else, ever. They've happened every year since, stopping only for the Second World War.
+
+One of his series became a little book, edited by his friend William Crookes. The Chemical History of a Candle. All about one ordinary candle, burning on a table.
+
+He was offered the presidency of the Royal Society twice. Both times, he said no, thank you.
+
+Outside my window, the storm flickers inside the clouds. And all around each flash, I imagine Faraday's lines, spreading out over the dark ocean.
+
+A few years later, a young physicist read about those lines. And he did something new with them. He wrote them down in mathematics.

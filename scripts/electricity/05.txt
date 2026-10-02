@@ -1,0 +1,51 @@
+So by the year eighteen hundred, people could make electricity flow. Volta's little tower of metal discs did it all day long, without stopping. And yet nobody could say what was flowing. A fluid? A fire? A kind of invisible vapour? For almost another hundred years, it stayed a mystery.
+
+There's a copy of that pile on my workbench tonight, in the Lightning Workshop. Coins and damp card, stacked up like a tiny chimney. I like to rest my cup of tea beside it. It looks so ordinary. And it took the world a whole century to find out what was moving inside it.
+
+The answer came on a Friday evening. April the thirtieth, eighteen ninety-seven. At the Royal Institution in London, a physicist called J.J. Thomson gave a lecture. And in it, he told his audience something new.
+
+He'd been studying cathode rays. A strange kind of ray that travels inside a glass tube, when electricity is sent through it. What were they, exactly? Thomson measured them, very carefully, again and again.
+
+And he came to a conclusion he couldn't get away from. In his own words, I can see no escape from the conclusion that they are charges of negative electricity, carried by particles of matter.
+
+Particles. Tiny ones. When he worked out how heavy they were for the charge they carried, the number was more than a thousand times smaller than for a charged atom of hydrogen. These were pieces of something smaller than an atom. And they seemed to be the same, whatever they came from.
+
+Here's a small thing I love. In that whole lecture, Thomson never once used the word electron. He called them corpuscles. Little bodies.
+
+The word electron already existed. A physicist called George Johnstone Stoney had coined it, back in eighteen ninety-one. And it was an Irish physicist, George FitzGerald, who suggested that same year, eighteen ninety-seven, that the word should be given to Thomson's corpuscles. In the end, the name stuck. Thomson's corpuscles quietly became electrons.
+
+Not everyone believed him at first. One distinguished man who was there that evening admitted, years later, that he'd thought Thomson was pulling their legs.
+
+But he wasn't. In nineteen oh six, Thomson won the Nobel Prize in Physics, for his work on how electricity travels through gases. Two years later, he was knighted. And in nineteen thirty-seven, his son, George, won a Nobel Prize in Physics too. I like to imagine the two of them at the dinner table, talking about very small things.
+
+So now there was a particle. But how much charge did one of them carry? That question went to a physicist called Robert Millikan.
+
+His idea was beautifully simple. Take tiny droplets, give them a little electric charge, and let them fall between two metal plates. Gravity pulls each droplet down. An electric field between the plates pulls it up. Adjust the field, and you can make a droplet hang in the air, perfectly still, like a speck of dust in a sunbeam. And from that balance, you can work out its charge.
+
+At first, they tried water. But water droplets evaporated too quickly. They'd shrink away while you were still watching them. It was a graduate student, Harvey Fletcher, who found the answer. Oil. Sprayed with a simple perfume atomizer. The kind you might find on a dressing table.
+
+So the charge of the electron was measured, in the end, with a perfume bottle. I think that's lovely.
+
+Millikan won the Nobel Prize in nineteen twenty-three. His lecture began with a line I've always liked. Science walks forward on two feet, namely theory and experiment.
+
+His number was very close. Just a little low, a little over half of one percent, probably because he used a slightly wrong value for how thick and sticky the air is. His notebooks have little notes in the margins, too. Beauty, publish, next to one result. Something wrong, next to another. Some historians have read those notes unkindly. Others see a careful man, striving to get it right. Either way, the number he reached was very nearly true.
+
+And here's where the story comes all the way up to our own time. On May the twentieth, twenty nineteen, the world quietly changed how it measures electricity.
+
+The old ampere, the unit of current, had been defined by the pull between two wires of infinite length. Which is a lovely idea. But nobody can build a wire of infinite length. So the definition, strictly, could never be carried out.
+
+Now, the charge of one electron is fixed exactly, by agreement. And an ampere is simply a count. About six and a quarter billion billion electrons, passing a point, every second. That's one ampere. The unit of electric current is now, at heart, counting little corpuscles going by.
+
+There's one last thing to tidy up, because it confuses almost everyone. If you've ever looked at a drawing of a circuit, the arrows show current flowing from plus to minus. But the electrons in the wire drift the other way. From minus to plus. So who's right?
+
+This one goes back to Benjamin Franklin. In seventeen forty-seven, he decided that rubbed glass gained some electric fire, and he called that plus. The other kind, minus. It was a guess. A fair one. He had no way of knowing what was really moving.
+
+A hundred and fifty years later, Thomson's particles turned out to carry the charge that Franklin had called minus. Franklin had made a coin toss, and lost.
+
+But by then, every book and every drawing used his arrow. So people kept it. They agreed to draw current as if positive charges were the ones moving. Nothing is broken. The circuits all work just the same. It's only a naming accident, a little fossil from seventeen forty-seven, still sitting in every diagram.
+
+I find that rather comforting. Even our mistakes get to stay, if they're useful.
+
+So now we know what it is. Tiny particles, each with the same small charge. But when I reach over and click my reading lamp, what are those particles actually doing? How hard are they pushed? How many go by? And how fast?
+
+That last question, as we'll see, has a very surprising answer.

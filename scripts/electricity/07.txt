@@ -1,0 +1,55 @@
+For a long time, electricity and magnetism were thought of as two separate things. Two strangers. Electricity was the spark from a jar, the crackle of rubbed amber, the flash in the storm. Magnetism was the quiet stone that pulled on iron, and the compass needle that always pointed north. Nobody had seen one do anything to the other.
+
+Then, one spring day, in April of eighteen twenty, the two strangers were introduced. And almost nobody in the room noticed.
+
+The professor was Hans Christian Ørsted. He was giving a lecture, with a battery, a wire, and a compass on the table. While he was setting things up, he switched on a current through the wire. And the compass needle, sitting nearby, moved. It turned a little, away from magnetic north.
+
+Just a little. The needle moved so slightly that the audience didn't even notice. He wrote later that the experiment made no strong impression on them.
+
+I find that rather wonderful. One of the great turning points in the whole story of electricity, and the people watching it probably thought they'd missed nothing at all. Perhaps someone was looking at the clock. Perhaps someone was thinking about supper.
+
+Accounts differ on whether Ørsted was hoping to see it. Some say he'd set up the demonstration on purpose, to look for a link between electricity and magnetism. Others make it sound more like a happy accident. Either way, he saw it. And he didn't let it go.
+
+His battery was not very strong, by our standards. Perhaps fifteen or twenty volts. But it was enough. He found that the effect went straight through things. He put wood in the way, and glass, and the needle still moved. Whatever was reaching out from the wire, it didn't care about wood or glass.
+
+Then, on July the twenty-first, eighteen twenty, he published what he'd found. A short pamphlet, sent privately to physicists and scientific societies.
+
+Ørsted's curiosity went well beyond wires. A few years later he made the first metallic aluminium. And in that same year, eighteen twenty, he also found piperine. That's the thing that gives black pepper its sharp, warm taste. So the next time you sneeze over a pepper pot, you can think of him too.
+
+On my bench tonight, in the Lightning Workshop, there's a little brass galvanometer. It's a cousin of Ørsted's compass. A needle on a pivot, with a coil of wire wound around it. When a current runs through the coil, the needle swings. When the current stops, it settles back.
+
+That's all a galvanometer is. Ørsted's discovery, put in a brass case with a little glass window. For a long time, a small swinging needle like this was how people measured electric current. I turn the crank on my hand generator, just slowly, and watch the needle lean. Stop turning, and it sighs back to zero.
+
+So what was the needle feeling? Here's the gentle version. When a current flows through a wire, the wire becomes, for that moment, a kind of magnet. Not a magnet with a north end and a south end, like a bar. Something stranger. The magnetism seems to wrap around the wire, the way rings spread around a stick standing in a pond. That's why the needle didn't simply jump towards the wire. It turned sideways, as if it were being nudged around it.
+
+It's only a picture, of course. Nothing is really spinning around the wire. But it's a good way to imagine it, and we'll come back to that idea of something wrapped around a wire. It turns out to matter.
+
+And I think of my reading lamp. Every time I switch it on, the wire running to it becomes, very faintly, a magnet. If I held a small compass right beside the cable, the needle might give a tiny twitch. Just like the one that nobody noticed, back in eighteen twenty.
+
+Now, the news travelled. And in Paris, it reached exactly the right person.
+
+Ørsted's discovery was shown to the French Academy of Sciences by the scientist François Arago. And Arago had a friend, a man called André-Marie Ampère.
+
+One encyclopaedia says something rather striking about him. Had Ampère died before eighteen twenty, his name and work would likely have been forgotten. That's how much this one moment changed his life.
+
+Ampère immediately set to work. A current could move a magnet. Could a current move another current?
+
+He set up two wires, side by side, and ran a current through each. And they moved. When the currents flowed the same way, the two wires pulled towards each other. When the currents flowed in opposite directions, they pushed apart.
+
+No magnets at all. Just two wires, and the electricity in them, feeling for each other across the gap.
+
+I love the picture of that. Two wires, like two people walking side by side. Going the same way, they drift closer. Going opposite ways, they lean apart, to let each other pass.
+
+He kept working it all out. In eighteen twenty-seven, he published a great memoir, and in it he gave his new science a name. Electrodynamics. The study of electricity in motion.
+
+And the world did remember him. In eighteen eighty-one, an international agreement set out the standard units of electrical measurement. The ampere, along with the coulomb, the volt, the ohm, and the watt. Every amp on every plug, every fuse, every charger, carries his name.
+
+And remember the old definition of the ampere from earlier tonight, the one with two wires of infinite length, pulling on each other? That was, in a way, Ampère's experiment, turned into a rule. Two wires, side by side, feeling each other across the gap. It held for a long time, until twenty nineteen, when counting electrons took its place.
+
+Outside my window, the storm is still glowing over the ocean. Each flash is a current, and for an instant, there must be magnetism wrapped around it too, spreading out into the dark.
+
+So now we knew something important. Electricity can make magnetism. A current can move a needle, and a wire can pull on another wire.
+
+But that left a beautiful question hanging in the air. If electricity can make magnetism, can magnetism make electricity?
+
+The man who answered it had very little schooling. He had started out binding books.
